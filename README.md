@@ -14,4 +14,7 @@ Ultimately, this poster argues for the power of fictional yet structured data to
 
 ## Location
 
-https://www.openstreetmap.org/node/1716194356
+* https://www.openstreetmap.org/node/1716194356
+* https://de.wikipedia.org/wiki/Felsritzungen_von_Norrfors
+* https://commons.wikimedia.org/wiki/Category:Petroglyphs_in_Norrfors,_V%C3%A4sterbotten?uselang=de
+* https://www.academia.edu/download/40771195/download.pdf#page=179 pp. 167 ff.
