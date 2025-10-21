@@ -11,3 +11,7 @@ The fictional setting serves as a sandbox to demonstrate FAIR (Findable, Accessi
 The poster showcases good practices for cultural heritage data training: creating narrative-driven geodata, applying SPARQL queries in QGIS, transforming vector layers to RDF, and generating FAIR metadata. It encourages the community to contribute datasets via GitHub and develop tutorials under open licences. Using playful but technically valid examples, FAIRyland becomes a collaborative testing ground for learning to use semantic web technologies in archaeology.
 
 Ultimately, this poster argues for the power of fictional yet structured data to teach core skills in geoinformatics and semantic modelling, promoting Open Science and reusable workflows in cultural heritage data management.
+
+## Location
+
+https://www.openstreetmap.org/node/1716194356
