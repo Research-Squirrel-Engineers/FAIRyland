@@ -1,0 +1,204 @@
+<html about="http://www.github.com/sparqlunicorn#29a6f0fb-6abd-4cb6-9276-176575f5d5b9">
+  <head>
+    <script>
+      if (window.location.href.includes("index.html")) {
+        document.write("<title>29a6f0fb-6abd-4cb6-9276-176575f5d5b9 | FAIRyland LOD</title>");
+      } else {
+        document.write(
+          "<title>Index Page for FAIRyland LOD by the Research Squirrel Engineers Network</title>"
+        );
+      }
+    </script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/situx/mini-vowl@master/docs/css/vowl.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.1.1/themes/default/style.min.css" />
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.8.1/proj4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.2.2/d3.v3.min.js"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/situx/mini-vowl@master/docs/js/webVOWLGraphh.js"></script>
+    <script src="../epsgdefs.js"></script>
+    <script src="../vowl_result.js"></script>
+    <script src="../unicorn_search.js"></script>
+    <script src="../unicorn_classtree.js"></script>
+    <script src="../proprelations.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.14/jstree.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/rdflib@2.2.19/dist/rdflib.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <script src="../startscripts.js"></script>
+  </head>
+
+  <div id="mySidenav" class="sidenav" style="overflow: auto">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+      >&times;</a
+    >
+    GeoClasses: <input type="checkbox" id="geoclasses" /><br />
+    Search:<input type="text" id="classsearch" /><br />
+    <div id="jstree"></div>
+  </div>
+  <script>
+    var indexpage=false;
+    var relativedepth=1;
+    var baseurl="http://www.github.com/sparqlunicorn#";
+    var iconprefixx="";
+  </script>
+
+  <body>
+    <div id="headertop">
+      <span class="header_pt1">
+        <b>Squirrel Data</b>&nbsp;|&nbsp;FAIRyland LOD&nbsp;|&nbsp;
+        <i>powered by the Research Squirrel Engineers Network</i>
+      </span>
+      <span class="header_pt2">
+        <b>Nuts?</b>&nbsp;&nbsp;<a href="http://squirrel.link" target="_blank"
+          ><img
+            src="https://raw.githubusercontent.com/Research-Squirrel-Engineers/unicorn-ontdoc-template-squirrels/main/icons/squirrel_icon.png"
+            style="height: 40px !important; margin-right: 10px"
+        /></a>
+      </span>
+    </div>
+    <div id="header">
+      <script>
+        if (window.location.href.includes("index.html")) {
+          document.write(
+            '<h1 id="title"><img src="https://raw.githubusercontent.com/Research-Squirrel-Engineers/croton-geo/main/img/fsl-logo.png" width="25" height="25"/>29a6f0fb-6abd-4cb6-9276-176575f5d5b9<span style="font-size: 16px;font-weight: 300;font-style: italic;">EN</span></h1>'
+          );
+        } else {
+          document.write(
+            '<h1 id="title">Index Page for FAIRyland LOD by the Research Squirrels</h1>'
+          );
+        }
+        if (window.location.href.includes("index.html")) {
+          document.write('<br><span id="titletwo">http://www.github.com/sparqlunicorn#29a6f0fb-6abd-4cb6-9276-176575f5d5b9</span>');
+        } else {
+          console.log(window.location.href);
+        }
+      </script>
+    </div>
+    <div class="page-resource-uri">
+      <script>
+        if (window.location.href.includes("index.html")) {
+          document.write(
+            '<b>The 29a6f0fb-6abd-4cb6-9276-176575f5d5b9</b> resource is powered by Static <a style="color:#007bff;" target="_blank" href="https://github.com/i3mainz/geopubby">GeoPubby</a> generated using the <a style="color:#007bff;" target="_blank" href="https://github.com/sparqlunicorn/sparqlunicornGoesGIS">SPARQLing Unicorn QGIS Plugin</a></div>'
+          );
+        } else {
+          document.write(
+            'Powered by Static <a style="color:#007bff;" target="_blank" href="https://github.com/i3mainz/geopubby">GeoPubby</a> generated using the <a style="color:#007bff;" target="_blank" href="https://github.com/sparqlunicorn/sparqlunicornGoesGIS">SPARQLing Unicorn QGIS Plugin</a></div>'
+          );
+        }
+      </script>
+    </div>
+    <div id="rdficon">
+      <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+        >&#9776;</span
+      >
+    </div>
+    <div class="search">
+      <div class="ui-widget">
+        Search: <input id="search" size="50" />
+        <button id="gotosearch" onclick="followLink()">Go</button>
+        <b>Download Options:</b>&nbsp;Format:<select
+          id="format"
+          onchange="changeDefLink()">
+          <option value="csv">Comma Separated Values (CSV)</option>
+<option value="gdf">Graph Definition Format (GDF)</option>
+<option value="graphml">Graph Markup Language (GraphML)</option>
+<option value="geojson">(Geo)JSON</option>
+<option value="geouri">GeoURI</option>
+<option value="gml">Geography Markup Language (GML)</option>
+<option value="kml">Keyhole Markup Language (KML)</option>
+<option value="latlon">LatLonText</option>
+<option value="tgf">Trivial Graph Format (TGF)</option>
+<option value="ttl" selected>Turtle (TTL)</option>
+<option value="tsv">Tab Separated Values (TSV)</option>
+<option value="wkt">Well-Known-Text (WKT)</option>
+<option value="xyz">XYZ ASCII (XYZ)</option>
+
+        </select>
+        <a id="formatlink" href="#" target="_blank">
+          <svg
+            width="1em"
+            height="1em"
+            viewBox="0 0 16 16"
+            class="bi bi-info-circle-fill"
+            fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              fill-rule="evenodd"
+              d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+          </svg> </a
+        >&nbsp;
+        <button id="downloadButton" onclick="download()">Download</button>
+        <br />
+      </div>
+    </div>
+    <dialog
+      id="classrelationdialog"
+      width="500"
+      height="500"
+      modal="true"></dialog>
+    <dialog
+      id="dataschemadialog"
+      width="500"
+      height="500"
+      modal="true"></dialog>
+    <div class="container-fluid">
+      <div class="row-fluid" id="main-wrapper"></div>
+    </div>
+  </body>
+</html>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><script src="https://unpkg.com/leaflet.markercluster@1.0.6/dist/leaflet.markercluster-src.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster.layersupport@2.0.1/dist/leaflet.markercluster.layersupport.js"></script>
+<script src="https://unpkg.com/leaflet.featuregroup.subgroup@1.0.2/dist/leaflet.featuregroup.subgroup.js"></script>
+<script src="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/dwilhelm89/LeafletSlider@master/dist/leaflet.SliderControl.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.9.0/proj4.min.js"></script><script src="https://cdn.jsdelivr.net/gh/albburtsev/Leaflet.geojsonCSS/leaflet.geojsoncss.min.js"></script>
+<script src="../epsgdefs.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/MarkerCluster.css" rel="stylesheet" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/MarkerCluster.Default.css" rel="stylesheet" />
+<link href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" rel="stylesheet" >
+<link href="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css" rel='stylesheet' />
+<div id="map" style="height:500px;z-index: 0;"></div><script>
+var rangesByAttribute={}
+var overlayMaps={}
+var baselayers={"OpenStreetMap (OSM)": {"url": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", "default": true, "type": "tile"}}
+var featurecolls = [{"type": "Feature", "id": "http://www.github.com/sparqlunicorn#29a6f0fb-6abd-4cb6-9276-176575f5d5b9", "name": "", "dateprops": [], "properties": {"http://rdfs.org/ns/void#inDataset": ["http://www.github.com/sparqlunicorn#FAIRyland_LOD"], "http://www.github.com/sparqlunicorn#Name": ["Street"], "http://www.github.com/sparqlunicorn#Time_Period": ["Minion"], "http://www.github.com/sparqlunicorn#Trench": ["Ikea Land"], "http://www.github.com/sparqlunicorn#fid": ["164"], "http://www.opengis.net/ont/geosparql#hasGeometry": ["http://www.github.com/sparqlunicorn#29a6f0fb-6abd-4cb6-9276-176575f5d5b9_geom"], "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": ["http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385"]}, "geometry": {"type": "Polygon", "coordinates": [[[2229343.7729608715, 9319400.333107209], [2229343.922522001, 9319400.220936362], [2229344.0907782717, 9319400.015289808], [2229344.2777296836, 9319399.977899525], [2229344.3712053895, 9319400.146155797], [2229344.3122130465, 9319400.252342014], [2229345.9549446125, 9319400.006305851], [2229345.848121544, 9319399.996594664], [2229345.8107312615, 9319399.809643252], [2229345.7172555556, 9319399.64138698], [2229345.661170132, 9319399.454435568], [2229345.661170132, 9319399.248789016], [2229345.754645838, 9319399.080532745], [2229345.9976826734, 9319399.024447322], [2229346.147243803, 9319399.136618169], [2229346.278109791, 9319399.398350146], [2229346.352890356, 9319399.603996698], [2229346.334195215, 9319399.809643252], [2229346.26597778, 9319399.959721608], [2229348.729266227, 9319399.590788515], [2229348.7645635684, 9319399.473130712], [2229348.932819839, 9319399.304874443], [2229349.0636858274, 9319399.13661817], [2229349.1571615334, 9319398.949666759], [2229349.213246957, 9319398.687934782], [2229349.2506372393, 9319398.48228823], [2229349.2880275217, 9319398.295336818], [2229349.3628080864, 9319398.108385406], [2229349.512369216, 9319397.958824277], [2229349.6806254867, 9319397.86534857], [2229349.8862720397, 9319397.809263147], [2229350.073223451, 9319397.790568005], [2229350.260174863, 9319397.809263147], [2229350.447126275, 9319397.71578744], [2229350.652772828, 9319397.659702018], [2229350.83972424, 9319397.678397158], [2229351.0079805106, 9319397.771872865], [2229351.15754164, 9319397.884043712], [2229351.325797911, 9319398.0149097], [2229351.4940541815, 9319398.145775689], [2229351.643615311, 9319398.257946536], [2229351.7931764405, 9319398.407507665], [2229351.924042429, 9319398.613154218], [2229351.737091017, 9319398.949666759], [2229351.6810055934, 9319399.13661817], [2229351.5688347463, 9319399.2861793], [2229351.591752149, 9319399.44660112], [2229352.6171301994, 9319399.42892219], [2229356.226992008, 9319398.608499052], [2229356.773940766, 9319396.037839886], [2229355.768978225, 9319396.241376603], [2229355.5882901014, 9319396.313651852], [2229355.438728972, 9319396.481908122], [2229355.270472701, 9319396.612774111], [2229355.0835212893, 9319396.668859534], [2229354.896569878, 9319396.556688687], [2229354.827346609, 9319396.432086803], [2229352.453045572, 9319396.9129579], [2229349.1166581437, 9319397.459906658], [2229347.442264887, 9319397.650178619], [2229347.4932939685, 9319397.715787439], [2229347.437208545, 9319397.996214556], [2229347.530684251, 9319398.183165967], [2229347.437208545, 9319398.388812521], [2229347.231561992, 9319398.35142224], [2229347.0820008623, 9319398.033604838], [2229347.1006960035, 9319397.790568003], [2229347.143260656, 9319397.684156373], [2229346.571295843, 9319397.749152374], [2229346.5211466267, 9319397.827958286], [2229346.334195215, 9319397.865348568], [2229346.236505429, 9319397.787196739], [2229344.3035090663, 9319398.006855417], [2229341.4140380886, 9319396.774014467], [2229341.5108487876, 9319396.911896372], [2229341.529543929, 9319397.098847784], [2229341.54823907, 9319397.304494336], [2229341.454763364, 9319397.491445748], [2229341.1930313874, 9319397.547531173], [2229340.9873848343, 9319397.547531173], [2229340.8004334224, 9319397.547531173], [2229340.5387014463, 9319397.641006878], [2229340.3891403168, 9319397.771872865], [2229340.295664611, 9319397.940129137], [2229340.3704451756, 9319398.164470831], [2229340.407835458, 9319398.351422243], [2229340.3704451756, 9319398.538373655], [2229340.361632736, 9319398.560404753], [2229343.7729608715, 9319400.333107209]], [[2229354.2609350774, 9319396.837115806], [2229354.429191348, 9319396.93059151], [2229354.5787524777, 9319397.042762358], [2229354.335715642, 9319397.3792749], [2229354.1487642303, 9319397.3792749], [2229353.924422536, 9319397.285799194], [2229353.7935565477, 9319397.117542922], [2229353.7748614065, 9319396.93059151], [2229353.8870322537, 9319396.781030381], [2229354.0739836656, 9319396.76233524], [2229354.2609350774, 9319396.837115806]], [[2229353.5692148535, 9319397.921433995], [2229353.737471124, 9319398.033604842], [2229353.83094683, 9319398.220556254], [2229353.700080842, 9319398.594459077], [2229353.51312943, 9319398.6505445], [2229353.326178018, 9319398.6505445], [2229353.1579217473, 9319398.557068795], [2229353.008360618, 9319398.388812523], [2229352.914884912, 9319398.220556254], [2229352.7840189235, 9319398.070995124], [2229352.914884912, 9319397.921433995], [2229353.120531465, 9319397.84665343], [2229353.3822634416, 9319397.86534857], [2229353.5692148535, 9319397.921433995]], [[2229347.82980651, 9319398.575763933], [2229347.9980627806, 9319398.68793478], [2229348.1663190513, 9319398.781410486], [2229348.222404475, 9319398.98705704], [2229347.941977357, 9319399.192703592], [2229347.736330804, 9319399.174008451], [2229347.4932939685, 9319399.080532745], [2229347.36242798, 9319398.930971615], [2229347.325037698, 9319398.744020203], [2229347.455903686, 9319398.594459074], [2229347.642855098, 9319398.575763933], [2229347.82980651, 9319398.575763933]]]}}]
+var ajax=false
+var epsg=""
+var dateatt=""
+var map = L.map('map',{fullscreenControl: true,fullscreenControlOptions: {position: 'topleft'}}).setView([51.505, -0.09], 13);
+var baseMaps = {};
+props={}
+setupLeaflet(baselayers,epsg,baseMaps,overlayMaps,map,featurecolls,dateatt,ajax)
+</script>
+<div style="overflow-x:auto;"><table border=1 width=100% class=description><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody><tr class="odd"><td class="property"><span class="property-name"><a class="uri" target="_blank" href="../Name/index.html">Name</a></span></td><td class="wrapword"><span itemprop="http://www.github.com/sparqlunicorn#Name" property="http://www.github.com/sparqlunicorn#Name" content="Street" datatype="http://www.w3.org/2001/XMLSchema#string">Street <small>(<a style="color: #666;" target="_blank" href="http://www.w3.org/2001/XMLSchema#string">xmls:string</a>)</small></span></td></tr><tr class="even"><td class="property"><span class="property-name"><a class="uri" target="_blank" href="../Time_Period/index.html">Time_Period</a></span></td><td class="wrapword"><span itemprop="http://www.github.com/sparqlunicorn#Time_Period" property="http://www.github.com/sparqlunicorn#Time_Period" content="Minion" datatype="http://www.w3.org/2001/XMLSchema#string">Minion <small>(<a style="color: #666;" target="_blank" href="http://www.w3.org/2001/XMLSchema#string">xmls:string</a>)</small></span></td></tr><tr class="odd"><td class="property"><span class="property-name"><a class="uri" target="_blank" href="../Trench/index.html">Trench</a></span></td><td class="wrapword"><span itemprop="http://www.github.com/sparqlunicorn#Trench" property="http://www.github.com/sparqlunicorn#Trench" content="Ikea Land" datatype="http://www.w3.org/2001/XMLSchema#string">Ikea Land <small>(<a style="color: #666;" target="_blank" href="http://www.w3.org/2001/XMLSchema#string">xmls:string</a>)</small></span></td></tr><tr class="even"><td class="property"><span class="property-name"><a class="uri" target="_blank" href="../fid/index.html">fid</a></span></td><td class="wrapword"><span itemprop="http://www.github.com/sparqlunicorn#fid" property="http://www.github.com/sparqlunicorn#fid" content="164" datatype="http://www.w3.org/2001/XMLSchema#integer">164 <small>(<a style="color: #666;" target="_blank" href="http://www.w3.org/2001/XMLSchema#integer">xmls:integer</a>)</small></span></td></tr><tr class="odd"><td class="property"><span class="property-name"><a class="uri" target="_blank" href="http://www.opengis.net/ont/geosparql#hasGeometry">hasGeometry <span style="color: #666;">(gsp:hasGeometry)</span></a> </span></td><td class="wrapword"><span><a itemprop="http://www.opengis.net/ont/geosparql#hasGeometry" property="http://www.opengis.net/ont/geosparql#hasGeometry" resource="http://www.github.com/sparqlunicorn#29a6f0fb-6abd-4cb6-9276-176575f5d5b9_geom" href="../29a6f0fb-6abd-4cb6-9276-176575f5d5b9_geom/index.html">29a6f0fb-6abd-4cb6-9276-176575f5d5b9_geom <span style="color: #666;">(unicorn:29a6f0fb-6abd-4cb6-9276-176575f5d5b9_geom)</span></a></span></td></tr><tr class="even"><td class="property"><span class="property-name"><a class="uri" target="_blank" href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">type <span style="color: #666;">(rdf:type)</span></a> </span></td><td class="wrapword"><span><a itemprop="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" property="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" resource="http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385" href="../4079945b-30a0-4745-8d5d-fd721a7b6385/index.html">4079945b-30a0-4745-8d5d-fd721a7b6385 <span style="color: #666;">(unicorn:4079945b-30a0-4745-8d5d-fd721a7b6385)</span></a></span></td></tr><tr class="odd"><td class="property">Is <span class="property-name"><a class="uri" target="_blank" href="http://www.w3.org/2000/01/rdf-schema#member">member <span style="color: #666;">(rdfs:member)</span></a> </span> of</td><td class="wrapword"><span><a itemprop="http://www.w3.org/2000/01/rdf-schema#member" itemref="http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385_collection" property="http://www.w3.org/2000/01/rdf-schema#member"  about="http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385_collection" resource="http://www.github.com/sparqlunicorn#29a6f0fb-6abd-4cb6-9276-176575f5d5b9" href="../4079945b-30a0-4745-8d5d-fd721a7b6385_collection/index.html">4079945b-30a0-4745-8d5d-fd721a7b6385 Instances Collection <span style="color: #666;">(unicorn:4079945b-30a0-4745-8d5d-fd721a7b6385_collection)</span></a></span></td></tr></tbody></table></div><h5>Metadata</h5><div style="overflow-x:auto;"><table border=1 width=100% class=description><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody><tr class="odd"><td class="property"><span class="property-name"><a class="uri" target="_blank" href="http://rdfs.org/ns/void#inDataset">inDataset <span style="color: #666;">(void:inDataset)</span></a> </span></td><td class="wrapword"><span><a itemprop="http://rdfs.org/ns/void#inDataset" property="http://rdfs.org/ns/void#inDataset" resource="http://www.github.com/sparqlunicorn#FAIRyland_LOD" href="../FAIRyland_LOD/index.html">FAIRyland_LOD <span style="color: #666;">(unicorn:FAIRyland_LOD)</span></a> <span style="font-weight:bold">[354 <a href="http://www.opengis.net/ont/sf#Polygon" target="_blank">sf:Polygon</a>]</span></span></td></tr></tbody></table></div><div id="footer">
+    <center style="padding-top:30px;font-size:11px;"><b>published under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a> by Research Squirrel Engineers Network (2024)</b><br><a href="https://fthiery.de/legal-notice/">Impressum / Legal Notice</a>
+        | <a href="https://fthiery.de/legal-notice/">Datenschutz / Privacy Policy</a></center>
+</div>
+
+<script>$(document).ready(function(){setSVGDimensions()})</script>
+
+</body></html>

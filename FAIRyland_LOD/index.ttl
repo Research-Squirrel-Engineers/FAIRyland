@@ -1,0 +1,149 @@
+@prefix brick: <https://brickschema.org/schema/Brick#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcam: <http://purl.org/dc/dcam/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://ldf.fi/void-ext#> .
+@prefix odrl: <http://www.w3.org/ns/odrl/2/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prof: <http://www.w3.org/ns/dx/prof/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix ssn: <http://www.w3.org/ns/ssn/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix wgs: <https://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD> a void:Dataset,
+        <http://www.w3.org/ns/adms#Asset>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "FAIRyland_LOD"@en ;
+    ns1:averageLiteralLength 197 ;
+    ns1:averageObjectIRILength 61 ;
+    ns1:averagePropertyIRILength 42 ;
+    ns1:averageSubjectIRILength 73 ;
+    ns1:datatypes 3 ;
+    ns1:distinctBlankNodes 0 ;
+    ns1:distinctIRIReferences 964 ;
+    ns1:distinctLiterals 364 ;
+    ns1:distinctRDFNodes 1328 ;
+    ns1:languages 1 ;
+    ns1:propertyClasses 0 ;
+    dc:language <http://www.lexvo.org/page/iso639-1/en> ;
+    dcterms:modified "2025-10-24T21:06:44"^^xsd:dateTime ;
+    dcterms:subject <http://dbpedia.org/resource/Location>,
+        <http://dbpedia.org/resource/OGC_GeoSPARQL>,
+        <http://dbpedia.org/resource/Time>,
+        <http://www.wikidata.org/entity/Q121810372>,
+        foaf:Person ;
+    dcterms:title "FAIRyland_LOD"@en ;
+    vann:preferredNamespacePrefix "unicorn"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.github.com/sparqlunicorn#"^^xsd:anyURI ;
+    void:classPartition <http://www.github.com/sparqlunicorn#FAIRyland_LOD_4079945b-30a0-4745-8d5d-fd721a7b6385>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_AxisDirection>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_CartesianCoordinateSystem>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Collection>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_CoordinateSystemAxis>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Entity>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Feature>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_FeatureCollection>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Geometry>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_GeometryCollection>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_PlanarCoordinateSystem>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Polygon>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_ProjectedCRS>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_SpatialObject>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_SpatialObjectCollection>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_SpatialReferenceSystem> ;
+    void:classes 16 ;
+    void:dataDump <https://Research-Squirrel-Engineers.github.io/FAIRyland//index.ttl> ;
+    void:distinctObjects 570 ;
+    void:distinctSubjects 369 ;
+    void:entities 354 ;
+    void:feature <http://www.w3.org/ns/formats/RDFa>,
+        <http://www.w3.org/ns/formats/Turtle> ;
+    void:properties 25 ;
+    void:propertyPartition <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Condition>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Name>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Time_Period>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Trench>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_abbreviation>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_asProj>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_asProjJSON>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_asWKT>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_axis>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_coordinateSystem>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_direction>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_domain>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_fid>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_hasGeometry>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_isApplicableTo>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_isBound>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_label>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_range>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_subClassOf>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_type>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_unit>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_unit_auth_code>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_unit_code>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_unit_conversion_factor> ;
+    void:triples 2188 ;
+    void:uriSpace "http://www.github.com/sparqlunicorn#"^^xsd:string ;
+    void:vocabulary ns1:,
+        dcam:,
+        dcmitype:,
+        dc:,
+        dcterms:,
+        qb:,
+        vann:,
+        <http://purl.org/vocommons/voaf#>,
+        void:,
+        doap:,
+        geo:,
+        rdf:,
+        rdfs:,
+        xsd:,
+        owl:,
+        skos:,
+        time:,
+        xml:,
+        <http://www.w3.org/ns/adms#>,
+        csvw:,
+        dcat:,
+        prof:,
+        odrl:,
+        org:,
+        prov:,
+        sh:,
+        sosa:,
+        ssn:,
+        foaf:,
+        brick:,
+        schema:,
+        wgs: ;
+    dcat:distribution <http://www.github.com/sparqlunicorn#FAIRyland_LOD_dist_ttl> ;
+    dcat:keyword "Location"@en,
+        "OGC GeoSPARQL"@en,
+        "Person"@en,
+        "Q121810372"@en,
+        "Time"@en ;
+    dcat:landingPage <https://Research-Squirrel-Engineers.github.io/FAIRyland/> ;
+    foaf:homepage <https://Research-Squirrel-Engineers.github.io/FAIRyland/> ;
+    foaf:page <https://Research-Squirrel-Engineers.github.io/FAIRyland//index.html> .
+

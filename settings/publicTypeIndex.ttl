@@ -1,0 +1,1504 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://www.w3.org/ns/solid/terms#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl> a <http://www.w3.org/ns/ldp#RDFResource>,
+        ns1:ListedDocument,
+        ns1:TypeIndex ;
+    rdfs:label "Public Type Index"@en ;
+    rdfs:comment "This Document contains a list of links to other Documents, along with the type of data that is to be included in those Documents"@en ;
+    rdfs:member <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#0018e852-2fc4-48b3-b8c8-2d047b177a5d>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#0018e852-2fc4-48b3-b8c8-2d047b177a5d_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#014d6d09-41a7-465e-8083-fb217fd2db82>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#014d6d09-41a7-465e-8083-fb217fd2db82_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#024d0992-d296-4aef-8edf-060d746fd8aa>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#024d0992-d296-4aef-8edf-060d746fd8aa_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#07dc872f-aee1-4da9-9872-cfc1df632156>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#07dc872f-aee1-4da9-9872-cfc1df632156_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#0a8809c1-a85d-49c5-a32a-376491d8a597>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#0a8809c1-a85d-49c5-a32a-376491d8a597_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#0c5880ef-bc25-42b2-9cbd-4c08304f9230>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#0c5880ef-bc25-42b2-9cbd-4c08304f9230_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#0e631ac8-38a6-4076-b134-10dab0b5fa32>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#0e631ac8-38a6-4076-b134-10dab0b5fa32_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#133775fa-9a0d-42f6-b30a-40a487295c53>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#133775fa-9a0d-42f6-b30a-40a487295c53_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#13ab8b41-ad86-4775-9088-4f8611e31bee>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#13ab8b41-ad86-4775-9088-4f8611e31bee_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#165ee4ab-3f55-4b70-a168-de084caafc90>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#165ee4ab-3f55-4b70-a168-de084caafc90_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#1676f39b-48c6-4018-b8ab-14840f2bae45>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#1676f39b-48c6-4018-b8ab-14840f2bae45_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#178e74b8-80c4-48a5-9d57-d3a78eff3430>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#178e74b8-80c4-48a5-9d57-d3a78eff3430_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#179dda33-7227-40d4-ac30-cddd36d27a2b>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#179dda33-7227-40d4-ac30-cddd36d27a2b_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#1948e821-7386-4d56-9c0c-ca125448a55c>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#1948e821-7386-4d56-9c0c-ca125448a55c_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#1a4e1a29-2048-47e6-872c-7af8f13a3c89>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#1a4e1a29-2048-47e6-872c-7af8f13a3c89_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#1b2cceb7-0376-4bf4-ad6a-3bfc4677fb96>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#1b2cceb7-0376-4bf4-ad6a-3bfc4677fb96_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#1f4a2ef4-90fd-4ad3-a998-64f25c76d976>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#1f4a2ef4-90fd-4ad3-a998-64f25c76d976_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#1f9d49ae-6a61-450a-afa2-4107f8fd9db1>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#1f9d49ae-6a61-450a-afa2-4107f8fd9db1_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#20b4d32e-bb67-42be-8652-114674d35ec8>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#20b4d32e-bb67-42be-8652-114674d35ec8_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#20c67436-1e42-417f-b2b3-21bb506cf3d2>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#20c67436-1e42-417f-b2b3-21bb506cf3d2_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#230441f5-0672-41ac-b429-88b10fca3a8a>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#230441f5-0672-41ac-b429-88b10fca3a8a_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#23b88d7b-a2ff-48b4-9838-4fd9a4eff6c1>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#23b88d7b-a2ff-48b4-9838-4fd9a4eff6c1_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#257f35b7-95f5-464b-9f8d-6b92d76fd37d>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#257f35b7-95f5-464b-9f8d-6b92d76fd37d_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#25b534ff-5490-441b-bdf5-c5f599021abb>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#25b534ff-5490-441b-bdf5-c5f599021abb_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#271698ce-f6b4-482c-bee0-87ea3725591a>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#271698ce-f6b4-482c-bee0-87ea3725591a_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#279663b7-20f4-4dd6-b8a5-73065d4abe70>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#279663b7-20f4-4dd6-b8a5-73065d4abe70_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#29a6f0fb-6abd-4cb6-9276-176575f5d5b9>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#29a6f0fb-6abd-4cb6-9276-176575f5d5b9_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#2c7e1417-240f-4c67-952e-42cb2e8a9ccc>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#2c7e1417-240f-4c67-952e-42cb2e8a9ccc_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#2cc4235a-396c-4497-836b-e1575bc5bfec>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#2cc4235a-396c-4497-836b-e1575bc5bfec_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#2cf428ea-3913-498d-aa1e-7428a7623158>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#2cf428ea-3913-498d-aa1e-7428a7623158_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#2cf93cf2-e29e-4760-988d-e7120783cc06>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#2cf93cf2-e29e-4760-988d-e7120783cc06_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#2d7f14d9-42ce-42f0-acbb-ede3e4c25ca5>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#2d7f14d9-42ce-42f0-acbb-ede3e4c25ca5_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#2eb2f0af-3fa6-4921-b561-1c56b41647d9>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#2eb2f0af-3fa6-4921-b561-1c56b41647d9_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#3039e699-ceee-4f56-947b-917ce68e2661>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#3039e699-ceee-4f56-947b-917ce68e2661_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#32614a46-ede5-42e9-a750-d43ca2d14429>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#32614a46-ede5-42e9-a750-d43ca2d14429_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#344cb8f6-53f8-404e-85d6-105e353f266d>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#344cb8f6-53f8-404e-85d6-105e353f266d_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#35ee6e89-2b6f-4988-bd51-4a28ce2af587>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#35ee6e89-2b6f-4988-bd51-4a28ce2af587_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#3857_cs_suniv0_>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#3857_cs_suniv1_>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#3857_suniv0_>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#3857_suniv1_>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#39b58cc0-f944-44de-946c-68f906f744e6>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#39b58cc0-f944-44de-946c-68f906f744e6_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#3b206300-5089-4737-9308-2ccd2a165426>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#3b206300-5089-4737-9308-2ccd2a165426_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#3c249887-f514-4c74-ac3c-15fc0cd9f30c>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#3c249887-f514-4c74-ac3c-15fc0cd9f30c_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#3c4d8f49-3a4a-489d-9609-88290df30507>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#3c4d8f49-3a4a-489d-9609-88290df30507_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#4035d34b-be9b-405f-a089-b617f0a71051>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#4035d34b-be9b-405f-a089-b617f0a71051_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#4079945b-30a0-4745-8d5d-fd721a7b6385>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#4079945b-30a0-4745-8d5d-fd721a7b6385_collection>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#408bdf95-7a98-4c3d-b8eb-816df3be5ddb>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#408bdf95-7a98-4c3d-b8eb-816df3be5ddb_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#4112b83e-ba2d-4ddd-afba-800f35bdce88>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#4112b83e-ba2d-4ddd-afba-800f35bdce88_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#43078fd2-bf54-4279-87bb-e4fd43efbdd1>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#43078fd2-bf54-4279-87bb-e4fd43efbdd1_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#44c82a08-1569-4294-8a37-52bafb453e6c>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#44c82a08-1569-4294-8a37-52bafb453e6c_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#49487235-049d-47d3-922b-2b1e62fa2ca1>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#49487235-049d-47d3-922b-2b1e62fa2ca1_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#4b5ce964-80b0-4786-bfcb-2c07e8d6fb46>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#4b5ce964-80b0-4786-bfcb-2c07e8d6fb46_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#4bf3bb14-cef3-4374-a864-e10c4e056eb2>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#4bf3bb14-cef3-4374-a864-e10c4e056eb2_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#4c751f65-e90a-4ef4-823f-d820ca4bbaba>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#4c751f65-e90a-4ef4-823f-d820ca4bbaba_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#51fb49b9-2e2e-4186-9289-11b7a541e4f7>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#51fb49b9-2e2e-4186-9289-11b7a541e4f7_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#54720fe3-b05d-4cdc-90e1-aaea5f9ab532>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#54720fe3-b05d-4cdc-90e1-aaea5f9ab532_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#547373e8-e050-477b-afae-125cf175fd1e>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#547373e8-e050-477b-afae-125cf175fd1e_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#599d98d5-dd01-4ef3-8d38-4e31977c88f0>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#599d98d5-dd01-4ef3-8d38-4e31977c88f0_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#5a86e1e1-4ea0-4feb-9db8-52aca4b6db35>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#5a86e1e1-4ea0-4feb-9db8-52aca4b6db35_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#5b08dae3-0f5a-4590-9ba9-c035b6535b09>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#5b08dae3-0f5a-4590-9ba9-c035b6535b09_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#5c0e2cb6-5f19-4b83-8c2c-ab895670be5f>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#5c0e2cb6-5f19-4b83-8c2c-ab895670be5f_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#5f8c730a-43dd-4324-bb37-f78bb55b0b4e>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#5f8c730a-43dd-4324-bb37-f78bb55b0b4e_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#60d246dd-ef8d-4316-a3a6-e85207029ae7>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#60d246dd-ef8d-4316-a3a6-e85207029ae7_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#627b7d57-4436-4952-8844-753ba7d6e589>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#627b7d57-4436-4952-8844-753ba7d6e589_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#62f35871-8283-4e7f-95bf-68ede5721006>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#62f35871-8283-4e7f-95bf-68ede5721006_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#638fe05a-6b87-4e31-8a44-59fe3228decc>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#638fe05a-6b87-4e31-8a44-59fe3228decc_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#639d4c6e-5b07-438d-b35a-b953ec449f3d>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#639d4c6e-5b07-438d-b35a-b953ec449f3d_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#63f5c00b-43e9-4220-8437-05f078bb1f15>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#63f5c00b-43e9-4220-8437-05f078bb1f15_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#699dc0b3-f3ce-441c-a2d5-f1ab7209001b>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#699dc0b3-f3ce-441c-a2d5-f1ab7209001b_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#6a4e928a-f295-449a-94b1-243d1041b51c>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#6a4e928a-f295-449a-94b1-243d1041b51c_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#6c61100f-6985-4ba5-b901-bd620f98cced>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#6c61100f-6985-4ba5-b901-bd620f98cced_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#6cc2aaff-d57b-4d5d-8116-aabdaba5ae63>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#6cc2aaff-d57b-4d5d-8116-aabdaba5ae63_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#6d45d2ab-6abe-4d54-8d7a-8e8de7de502e>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#6d45d2ab-6abe-4d54-8d7a-8e8de7de502e_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#6d51a14b-08d0-43e1-8856-e2b917b5044a>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#6d51a14b-08d0-43e1-8856-e2b917b5044a_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#6d973d29-f61f-4219-90b6-cf6161afcb61>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#6d973d29-f61f-4219-90b6-cf6161afcb61_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#7195a7ff-562d-4c4d-9c03-609c4c825c93>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#7195a7ff-562d-4c4d-9c03-609c4c825c93_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#71f022ca-886e-4c81-b468-05179ab7811b>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#71f022ca-886e-4c81-b468-05179ab7811b_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#73063dd4-e94f-4fe7-8fbb-4473c8b27ed6>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#73063dd4-e94f-4fe7-8fbb-4473c8b27ed6_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#7332d191-5e57-4fef-9cc9-dc6d9f50da57>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#7332d191-5e57-4fef-9cc9-dc6d9f50da57_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#735ae668-69a4-4198-80e5-bc6be41412c6>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#735ae668-69a4-4198-80e5-bc6be41412c6_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#7445a399-6543-4985-bed0-4ee99ead4f7c>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#7445a399-6543-4985-bed0-4ee99ead4f7c_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#7481c380-5e9e-4b44-bfc3-86b9edb41a6f>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#7481c380-5e9e-4b44-bfc3-86b9edb41a6f_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#7500cda7-9e28-4afb-9b9a-4a4745c67d71>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#7500cda7-9e28-4afb-9b9a-4a4745c67d71_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#7691ef92-fe8e-414b-9d23-23af9f698ed6>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#7691ef92-fe8e-414b-9d23-23af9f698ed6_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#789a276a-93b0-40dc-acee-8b449e863dfb>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#789a276a-93b0-40dc-acee-8b449e863dfb_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#7ff1cf11-86e0-4178-b227-6c4de8f38db8>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#7ff1cf11-86e0-4178-b227-6c4de8f38db8_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#80d205d4-13c6-4da6-b21d-4332c7682dca>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#80d205d4-13c6-4da6-b21d-4332c7682dca_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#80dd4578-5665-434c-9a51-e9f2a825921b>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#80dd4578-5665-434c-9a51-e9f2a825921b_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#828ed469-244f-4056-97ca-a31a7117cf99>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#828ed469-244f-4056-97ca-a31a7117cf99_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#837dfd1f-0d29-4dc9-8aa5-5d9c698d46ef>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#837dfd1f-0d29-4dc9-8aa5-5d9c698d46ef_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#83c45778-cbf8-4dab-883a-33b319f77475>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#83c45778-cbf8-4dab-883a-33b319f77475_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#8498ba56-d642-49be-a577-a7b38a6aaf43>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#8498ba56-d642-49be-a577-a7b38a6aaf43_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#84c4c5c2-4533-43a6-aa61-c226877f018d>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#84c4c5c2-4533-43a6-aa61-c226877f018d_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#8600a75b-e85d-4125-a97d-80141a804cfd>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#8600a75b-e85d-4125-a97d-80141a804cfd_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#86969b9e-db75-4987-b394-3ccdfbfdab8c>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#86969b9e-db75-4987-b394-3ccdfbfdab8c_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#86fde422-8dc4-4534-b411-daea2b97f5ff>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#86fde422-8dc4-4534-b411-daea2b97f5ff_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#87340202-c938-460b-ab79-311efa343a39>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#87340202-c938-460b-ab79-311efa343a39_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#897bd2e1-1eab-4b50-9c04-bd1981593f92>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#897bd2e1-1eab-4b50-9c04-bd1981593f92_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#8a219398-7964-4768-989d-f96110e15c27>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#8a219398-7964-4768-989d-f96110e15c27_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#8add1774-6adb-41b4-bb8f-7d20661eb39f>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#8add1774-6adb-41b4-bb8f-7d20661eb39f_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#8df7224b-15d7-44f2-b585-02ca1b11e56a>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#8df7224b-15d7-44f2-b585-02ca1b11e56a_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#8e58b52e-04d3-4876-828e-e495c4ac4ba0>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#8e58b52e-04d3-4876-828e-e495c4ac4ba0_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#94a68945-9901-4902-8fc3-c9485c5787d5>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#94a68945-9901-4902-8fc3-c9485c5787d5_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#96abac97-0650-4c1c-b57a-2c7e58b8785f>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#96abac97-0650-4c1c-b57a-2c7e58b8785f_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#98a0f1f1-3df0-4883-8a97-25dd49a9b703>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#98a0f1f1-3df0-4883-8a97-25dd49a9b703_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#99c5016f-8c2c-46de-9ee0-29d0baaa1168>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#99c5016f-8c2c-46de-9ee0-29d0baaa1168_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#99c5aad3-7c11-478d-974e-fd32553878ab>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#99c5aad3-7c11-478d-974e-fd32553878ab_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#99ca928c-394d-474d-8dd1-efcff6c48f4a>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#99ca928c-394d-474d-8dd1-efcff6c48f4a_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#9a80b5a6-3dc7-42ea-ad16-fa7b257be895>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#9a80b5a6-3dc7-42ea-ad16-fa7b257be895_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#9cb0f2df-7136-4be3-912b-1f251afe1f97>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#9cb0f2df-7136-4be3-912b-1f251afe1f97_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#9f44fd00-49be-4296-acf7-f99c76e003fa>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#9f44fd00-49be-4296-acf7-f99c76e003fa_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#AxisDirection>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#CartesianCoordinateSystem>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#Class_collection>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#Collection>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#CoordinateSystemAxis>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#DatatypeProperty_collection>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#EPSG:3857>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#Easting_metre_east>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#Entity>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#FeatureCollection>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#Geometry>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#GeometryCollection>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#Northing_metre_north>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#PlanarCoordinateSystem>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#Polygon>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#Polygon_collection>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ProjectedCRS>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#SpatialObject>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#SpatialObjectCollection>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#SpatialReferenceSystem>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a0bce53b-eae6-4442-bbb9-1f3c85bcf45d>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a0bce53b-eae6-4442-bbb9-1f3c85bcf45d_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a149c495-04a3-47f7-b409-634dda7e8c66>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a149c495-04a3-47f7-b409-634dda7e8c66_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a28e35eb-9a4c-4a74-bae3-b917840fdc86>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a28e35eb-9a4c-4a74-bae3-b917840fdc86_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a4336227-30ed-4370-a2be-6aa94395d2ae>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a4336227-30ed-4370-a2be-6aa94395d2ae_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a5d2ea4f-fd6d-4762-a746-73705e1a1a61>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a5d2ea4f-fd6d-4762-a746-73705e1a1a61_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a7e50a52-928e-4e3e-8e8d-9d19da0d148f>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a7e50a52-928e-4e3e-8e8d-9d19da0d148f_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a91dfde3-a763-4da3-b841-ac03641656d9>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a91dfde3-a763-4da3-b841-ac03641656d9_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a9a3d44e-d16e-498a-840c-a60dbbc71fca>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a9a3d44e-d16e-498a-840c-a60dbbc71fca_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#aa3e9d0b-0a1a-48dd-92b8-879aec02d6ea>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#aa3e9d0b-0a1a-48dd-92b8-879aec02d6ea_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#aa6cd152-fc63-41d2-a723-d9899aced7d3>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#aa6cd152-fc63-41d2-a723-d9899aced7d3_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ab2ab9ac-74f8-4af2-863d-1b02431b4bd7>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ab2ab9ac-74f8-4af2-863d-1b02431b4bd7_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ac204ffd-24e1-461d-8040-f80c8aa3f461>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ac204ffd-24e1-461d-8040-f80c8aa3f461_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#aca02723-f0f3-4385-9614-1391745ce7ec>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#aca02723-f0f3-4385-9614-1391745ce7ec_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ae509dab-43e6-4c24-9639-f86b2d548582>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ae509dab-43e6-4c24-9639-f86b2d548582_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#aeb4e619-6b0c-4c06-89c5-e7788e6f0c9d>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#aeb4e619-6b0c-4c06-89c5-e7788e6f0c9d_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#aec7574e-9a39-402c-84c5-6fd9964f213f>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#aec7574e-9a39-402c-84c5-6fd9964f213f_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#aff4c27c-fb0f-4d45-8615-0a0f53daf8c2>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#aff4c27c-fb0f-4d45-8615-0a0f53daf8c2_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#b20172d3-5ed5-4977-affe-2c2b94f9a0ca>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#b20172d3-5ed5-4977-affe-2c2b94f9a0ca_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#b39a2753-ee9e-41ce-96c7-947e5db8e238>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#b39a2753-ee9e-41ce-96c7-947e5db8e238_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#b659308d-91f4-42b9-8955-4b6d47809b3d>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#b659308d-91f4-42b9-8955-4b6d47809b3d_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#b84b27f9-285d-4015-9f97-183a9e78011b>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#b84b27f9-285d-4015-9f97-183a9e78011b_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#b87908b4-2d59-4848-b530-ea693fc629a3>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#b87908b4-2d59-4848-b530-ea693fc629a3_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#bbda5e0f-4227-41b9-8f29-ef7be574a547>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#bbda5e0f-4227-41b9-8f29-ef7be574a547_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#bc09e6bb-5be2-48e5-a502-748ab37f1023>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#bc09e6bb-5be2-48e5-a502-748ab37f1023_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#bd5a3fed-9204-4f72-bbee-c990a88b04e5>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#bd5a3fed-9204-4f72-bbee-c990a88b04e5_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#bd83c205-4987-4ef5-b044-7790811e5022>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#bd83c205-4987-4ef5-b044-7790811e5022_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#c4050b26-3836-4276-a306-3561a81a4597>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#c4050b26-3836-4276-a306-3561a81a4597_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#c4303613-a41e-4ea4-88ae-56dcb63bb6d5>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#c4303613-a41e-4ea4-88ae-56dcb63bb6d5_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#c6c677ab-1fec-4736-95ca-b5587037804b>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#c6c677ab-1fec-4736-95ca-b5587037804b_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#c6c78f97-ce4c-4c4f-bed0-9637e4b3842f>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#c6c78f97-ce4c-4c4f-bed0-9637e4b3842f_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#c6e02980-9da4-4d8e-8e2f-41dad54e0083>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#c6e02980-9da4-4d8e-8e2f-41dad54e0083_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#c718a2c4-9705-4b73-be3a-3d056c701228>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#c718a2c4-9705-4b73-be3a-3d056c701228_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#c7326504-8392-4d17-828d-c349b3b87a55>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#c7326504-8392-4d17-828d-c349b3b87a55_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ca75742f-c33e-4cc2-8381-5264fe050258>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ca75742f-c33e-4cc2-8381-5264fe050258_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#cb43532f-095c-45f0-a6e8-a4157bac8f94>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#cb43532f-095c-45f0-a6e8-a4157bac8f94_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#cb64e6a7-a00a-47fa-bdb3-40a7725638f9>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#cb64e6a7-a00a-47fa-bdb3-40a7725638f9_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#cbe35da2-63cd-4e6f-9cc6-425f196813d9>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#cbe35da2-63cd-4e6f-9cc6-425f196813d9_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#d10283bc-4275-440e-bde9-a3995e064669>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#d10283bc-4275-440e-bde9-a3995e064669_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#d1aa5a44-e797-437a-8eef-1277c005c7e9>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#d1aa5a44-e797-437a-8eef-1277c005c7e9_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#d319a364-d3dc-4e57-9473-e41f670692c9>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#d319a364-d3dc-4e57-9473-e41f670692c9_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#d490efb2-f7c1-48d8-8c97-073a5d147acb>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#d490efb2-f7c1-48d8-8c97-073a5d147acb_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#d72e30a2-bd6b-4d01-9d6d-61bdf33648b3>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#d72e30a2-bd6b-4d01-9d6d-61bdf33648b3_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#d8d13cbf-8fbb-4cad-aa83-18db432ac6d7>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#d8d13cbf-8fbb-4cad-aa83-18db432ac6d7_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#d9b2652b-c89f-401d-a3d9-1d28b56ee7d5>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#d9b2652b-c89f-401d-a3d9-1d28b56ee7d5_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#dc00d8d5-b888-44a9-b9dd-634043d9deb4>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#dc00d8d5-b888-44a9-b9dd-634043d9deb4_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#e088cf43-b316-4a2d-ba7f-68f729b94149>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#e088cf43-b316-4a2d-ba7f-68f729b94149_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#e3bb9caf-4018-4610-87e7-b322ee4bdfd8>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#e3bb9caf-4018-4610-87e7-b322ee4bdfd8_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#e3e64d92-c689-42a0-b772-77c8310aca1d>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#e3e64d92-c689-42a0-b772-77c8310aca1d_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#e51df454-6e77-4d68-bd53-1171cd92fc4d>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#e51df454-6e77-4d68-bd53-1171cd92fc4d_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#e56e518e-bf99-4e97-b663-c240bcfc9dcf>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#e56e518e-bf99-4e97-b663-c240bcfc9dcf_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#eaaa11dd-823b-4dd3-995f-1062bc036de0>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#eaaa11dd-823b-4dd3-995f-1062bc036de0_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#east>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#eb1b6356-faf0-4542-94bf-48fc9709e6d4>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#eb1b6356-faf0-4542-94bf-48fc9709e6d4_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#eb89dc3f-c6f5-4cab-8c7d-bb4a21c82d3f>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#eb89dc3f-c6f5-4cab-8c7d-bb4a21c82d3f_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ec10ccbf-8565-4dc0-bee3-c89c899293ca>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ec10ccbf-8565-4dc0-bee3-c89c899293ca_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ecf7173f-3be2-452f-8ff4-b69c8e505180>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ecf7173f-3be2-452f-8ff4-b69c8e505180_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ed43b997-482c-44cb-9fdc-b804ca7ac333>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ed43b997-482c-44cb-9fdc-b804ca7ac333_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ee71e9c9-694b-49a1-9777-e3ca47249a57>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ee71e9c9-694b-49a1-9777-e3ca47249a57_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ef88ac31-03f8-409a-b1d6-83ef6e3e191a>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ef88ac31-03f8-409a-b1d6-83ef6e3e191a_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#f02adae4-9ce2-4bd0-8819-93453290f253>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#f02adae4-9ce2-4bd0-8819-93453290f253_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#f1f6fddf-5a9a-4ee8-94c8-dc29709e2f44>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#f1f6fddf-5a9a-4ee8-94c8-dc29709e2f44_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#f3b3d262-5aba-4266-be03-a88172cf0aa2>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#f3b3d262-5aba-4266-be03-a88172cf0aa2_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#f4fa327f-84aa-4436-ba6a-97d0a99c95e3>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#f4fa327f-84aa-4436-ba6a-97d0a99c95e3_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#f716d24e-9fe1-4da6-8694-c7f7e9858e40>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#f716d24e-9fe1-4da6-8694-c7f7e9858e40_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#f7a49aa7-f6cb-46bc-a308-325fc351f6b7>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#f7a49aa7-f6cb-46bc-a308-325fc351f6b7_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#fb864ab4-4531-4334-a3f1-c4252053911f>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#fb864ab4-4531-4334-a3f1-c4252053911f_geom>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#nonns_Feature.html>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#north> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#0018e852-2fc4-48b3-b8c8-2d047b177a5d> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//0018e852-2fc4-48b3-b8c8-2d047b177a5d> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#0018e852-2fc4-48b3-b8c8-2d047b177a5d_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//0018e852-2fc4-48b3-b8c8-2d047b177a5d_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#014d6d09-41a7-465e-8083-fb217fd2db82> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//014d6d09-41a7-465e-8083-fb217fd2db82> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#014d6d09-41a7-465e-8083-fb217fd2db82_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//014d6d09-41a7-465e-8083-fb217fd2db82_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#024d0992-d296-4aef-8edf-060d746fd8aa> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//024d0992-d296-4aef-8edf-060d746fd8aa> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#024d0992-d296-4aef-8edf-060d746fd8aa_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//024d0992-d296-4aef-8edf-060d746fd8aa_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#07dc872f-aee1-4da9-9872-cfc1df632156> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//07dc872f-aee1-4da9-9872-cfc1df632156> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#07dc872f-aee1-4da9-9872-cfc1df632156_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//07dc872f-aee1-4da9-9872-cfc1df632156_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#0a8809c1-a85d-49c5-a32a-376491d8a597> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//0a8809c1-a85d-49c5-a32a-376491d8a597> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#0a8809c1-a85d-49c5-a32a-376491d8a597_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//0a8809c1-a85d-49c5-a32a-376491d8a597_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#0c5880ef-bc25-42b2-9cbd-4c08304f9230> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//0c5880ef-bc25-42b2-9cbd-4c08304f9230> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#0c5880ef-bc25-42b2-9cbd-4c08304f9230_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//0c5880ef-bc25-42b2-9cbd-4c08304f9230_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#0e631ac8-38a6-4076-b134-10dab0b5fa32> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//0e631ac8-38a6-4076-b134-10dab0b5fa32> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#0e631ac8-38a6-4076-b134-10dab0b5fa32_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//0e631ac8-38a6-4076-b134-10dab0b5fa32_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#133775fa-9a0d-42f6-b30a-40a487295c53> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//133775fa-9a0d-42f6-b30a-40a487295c53> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#133775fa-9a0d-42f6-b30a-40a487295c53_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//133775fa-9a0d-42f6-b30a-40a487295c53_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#13ab8b41-ad86-4775-9088-4f8611e31bee> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//13ab8b41-ad86-4775-9088-4f8611e31bee> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#13ab8b41-ad86-4775-9088-4f8611e31bee_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//13ab8b41-ad86-4775-9088-4f8611e31bee_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#165ee4ab-3f55-4b70-a168-de084caafc90> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//165ee4ab-3f55-4b70-a168-de084caafc90> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#165ee4ab-3f55-4b70-a168-de084caafc90_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//165ee4ab-3f55-4b70-a168-de084caafc90_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#1676f39b-48c6-4018-b8ab-14840f2bae45> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//1676f39b-48c6-4018-b8ab-14840f2bae45> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#1676f39b-48c6-4018-b8ab-14840f2bae45_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//1676f39b-48c6-4018-b8ab-14840f2bae45_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#178e74b8-80c4-48a5-9d57-d3a78eff3430> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//178e74b8-80c4-48a5-9d57-d3a78eff3430> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#178e74b8-80c4-48a5-9d57-d3a78eff3430_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//178e74b8-80c4-48a5-9d57-d3a78eff3430_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#179dda33-7227-40d4-ac30-cddd36d27a2b> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//179dda33-7227-40d4-ac30-cddd36d27a2b> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#179dda33-7227-40d4-ac30-cddd36d27a2b_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//179dda33-7227-40d4-ac30-cddd36d27a2b_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#1948e821-7386-4d56-9c0c-ca125448a55c> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//1948e821-7386-4d56-9c0c-ca125448a55c> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#1948e821-7386-4d56-9c0c-ca125448a55c_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//1948e821-7386-4d56-9c0c-ca125448a55c_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#1a4e1a29-2048-47e6-872c-7af8f13a3c89> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//1a4e1a29-2048-47e6-872c-7af8f13a3c89> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#1a4e1a29-2048-47e6-872c-7af8f13a3c89_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//1a4e1a29-2048-47e6-872c-7af8f13a3c89_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#1b2cceb7-0376-4bf4-ad6a-3bfc4677fb96> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//1b2cceb7-0376-4bf4-ad6a-3bfc4677fb96> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#1b2cceb7-0376-4bf4-ad6a-3bfc4677fb96_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//1b2cceb7-0376-4bf4-ad6a-3bfc4677fb96_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#1f4a2ef4-90fd-4ad3-a998-64f25c76d976> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//1f4a2ef4-90fd-4ad3-a998-64f25c76d976> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#1f4a2ef4-90fd-4ad3-a998-64f25c76d976_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//1f4a2ef4-90fd-4ad3-a998-64f25c76d976_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#1f9d49ae-6a61-450a-afa2-4107f8fd9db1> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//1f9d49ae-6a61-450a-afa2-4107f8fd9db1> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#1f9d49ae-6a61-450a-afa2-4107f8fd9db1_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//1f9d49ae-6a61-450a-afa2-4107f8fd9db1_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#20b4d32e-bb67-42be-8652-114674d35ec8> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//20b4d32e-bb67-42be-8652-114674d35ec8> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#20b4d32e-bb67-42be-8652-114674d35ec8_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//20b4d32e-bb67-42be-8652-114674d35ec8_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#20c67436-1e42-417f-b2b3-21bb506cf3d2> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//20c67436-1e42-417f-b2b3-21bb506cf3d2> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#20c67436-1e42-417f-b2b3-21bb506cf3d2_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//20c67436-1e42-417f-b2b3-21bb506cf3d2_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#230441f5-0672-41ac-b429-88b10fca3a8a> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//230441f5-0672-41ac-b429-88b10fca3a8a> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#230441f5-0672-41ac-b429-88b10fca3a8a_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//230441f5-0672-41ac-b429-88b10fca3a8a_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#23b88d7b-a2ff-48b4-9838-4fd9a4eff6c1> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//23b88d7b-a2ff-48b4-9838-4fd9a4eff6c1> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#23b88d7b-a2ff-48b4-9838-4fd9a4eff6c1_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//23b88d7b-a2ff-48b4-9838-4fd9a4eff6c1_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#257f35b7-95f5-464b-9f8d-6b92d76fd37d> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//257f35b7-95f5-464b-9f8d-6b92d76fd37d> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#257f35b7-95f5-464b-9f8d-6b92d76fd37d_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//257f35b7-95f5-464b-9f8d-6b92d76fd37d_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#25b534ff-5490-441b-bdf5-c5f599021abb> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//25b534ff-5490-441b-bdf5-c5f599021abb> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#25b534ff-5490-441b-bdf5-c5f599021abb_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//25b534ff-5490-441b-bdf5-c5f599021abb_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#271698ce-f6b4-482c-bee0-87ea3725591a> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//271698ce-f6b4-482c-bee0-87ea3725591a> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#271698ce-f6b4-482c-bee0-87ea3725591a_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//271698ce-f6b4-482c-bee0-87ea3725591a_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#279663b7-20f4-4dd6-b8a5-73065d4abe70> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//279663b7-20f4-4dd6-b8a5-73065d4abe70> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#279663b7-20f4-4dd6-b8a5-73065d4abe70_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//279663b7-20f4-4dd6-b8a5-73065d4abe70_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#29a6f0fb-6abd-4cb6-9276-176575f5d5b9> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//29a6f0fb-6abd-4cb6-9276-176575f5d5b9> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#29a6f0fb-6abd-4cb6-9276-176575f5d5b9_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//29a6f0fb-6abd-4cb6-9276-176575f5d5b9_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#2c7e1417-240f-4c67-952e-42cb2e8a9ccc> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//2c7e1417-240f-4c67-952e-42cb2e8a9ccc> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#2c7e1417-240f-4c67-952e-42cb2e8a9ccc_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//2c7e1417-240f-4c67-952e-42cb2e8a9ccc_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#2cc4235a-396c-4497-836b-e1575bc5bfec> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//2cc4235a-396c-4497-836b-e1575bc5bfec> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#2cc4235a-396c-4497-836b-e1575bc5bfec_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//2cc4235a-396c-4497-836b-e1575bc5bfec_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#2cf428ea-3913-498d-aa1e-7428a7623158> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//2cf428ea-3913-498d-aa1e-7428a7623158> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#2cf428ea-3913-498d-aa1e-7428a7623158_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//2cf428ea-3913-498d-aa1e-7428a7623158_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#2cf93cf2-e29e-4760-988d-e7120783cc06> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//2cf93cf2-e29e-4760-988d-e7120783cc06> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#2cf93cf2-e29e-4760-988d-e7120783cc06_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//2cf93cf2-e29e-4760-988d-e7120783cc06_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#2d7f14d9-42ce-42f0-acbb-ede3e4c25ca5> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//2d7f14d9-42ce-42f0-acbb-ede3e4c25ca5> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#2d7f14d9-42ce-42f0-acbb-ede3e4c25ca5_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//2d7f14d9-42ce-42f0-acbb-ede3e4c25ca5_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#2eb2f0af-3fa6-4921-b561-1c56b41647d9> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//2eb2f0af-3fa6-4921-b561-1c56b41647d9> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#2eb2f0af-3fa6-4921-b561-1c56b41647d9_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//2eb2f0af-3fa6-4921-b561-1c56b41647d9_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#3039e699-ceee-4f56-947b-917ce68e2661> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//3039e699-ceee-4f56-947b-917ce68e2661> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#3039e699-ceee-4f56-947b-917ce68e2661_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//3039e699-ceee-4f56-947b-917ce68e2661_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#32614a46-ede5-42e9-a750-d43ca2d14429> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//32614a46-ede5-42e9-a750-d43ca2d14429> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#32614a46-ede5-42e9-a750-d43ca2d14429_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//32614a46-ede5-42e9-a750-d43ca2d14429_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#344cb8f6-53f8-404e-85d6-105e353f266d> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//344cb8f6-53f8-404e-85d6-105e353f266d> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#344cb8f6-53f8-404e-85d6-105e353f266d_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//344cb8f6-53f8-404e-85d6-105e353f266d_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#35ee6e89-2b6f-4988-bd51-4a28ce2af587> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//35ee6e89-2b6f-4988-bd51-4a28ce2af587> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#35ee6e89-2b6f-4988-bd51-4a28ce2af587_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//35ee6e89-2b6f-4988-bd51-4a28ce2af587_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#3857_cs_suniv0_> ns1:forClass <http://www.opengis.net/ont/crs/CartesianCoordinateSystem> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//3857_cs_suniv0_> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#3857_cs_suniv1_> ns1:forClass <http://www.opengis.net/ont/crs/PlanarCoordinateSystem> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//3857_cs_suniv1_> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#3857_suniv0_> ns1:forClass <http://www.opengis.net/ont/crs/ProjectedCRS> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//3857_suniv0_> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#3857_suniv1_> ns1:forClass prov:Entity ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//3857_suniv1_> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#39b58cc0-f944-44de-946c-68f906f744e6> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//39b58cc0-f944-44de-946c-68f906f744e6> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#39b58cc0-f944-44de-946c-68f906f744e6_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//39b58cc0-f944-44de-946c-68f906f744e6_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#3b206300-5089-4737-9308-2ccd2a165426> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//3b206300-5089-4737-9308-2ccd2a165426> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#3b206300-5089-4737-9308-2ccd2a165426_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//3b206300-5089-4737-9308-2ccd2a165426_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#3c249887-f514-4c74-ac3c-15fc0cd9f30c> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//3c249887-f514-4c74-ac3c-15fc0cd9f30c> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#3c249887-f514-4c74-ac3c-15fc0cd9f30c_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//3c249887-f514-4c74-ac3c-15fc0cd9f30c_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#3c4d8f49-3a4a-489d-9609-88290df30507> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//3c4d8f49-3a4a-489d-9609-88290df30507> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#3c4d8f49-3a4a-489d-9609-88290df30507_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//3c4d8f49-3a4a-489d-9609-88290df30507_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#4035d34b-be9b-405f-a089-b617f0a71051> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//4035d34b-be9b-405f-a089-b617f0a71051> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#4035d34b-be9b-405f-a089-b617f0a71051_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//4035d34b-be9b-405f-a089-b617f0a71051_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#4079945b-30a0-4745-8d5d-fd721a7b6385> ns1:forClass geo:Feature ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//4079945b-30a0-4745-8d5d-fd721a7b6385> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#4079945b-30a0-4745-8d5d-fd721a7b6385_collection> ns1:forClass geo:FeatureCollection ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//4079945b-30a0-4745-8d5d-fd721a7b6385_collection> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#408bdf95-7a98-4c3d-b8eb-816df3be5ddb> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//408bdf95-7a98-4c3d-b8eb-816df3be5ddb> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#408bdf95-7a98-4c3d-b8eb-816df3be5ddb_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//408bdf95-7a98-4c3d-b8eb-816df3be5ddb_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#4112b83e-ba2d-4ddd-afba-800f35bdce88> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//4112b83e-ba2d-4ddd-afba-800f35bdce88> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#4112b83e-ba2d-4ddd-afba-800f35bdce88_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//4112b83e-ba2d-4ddd-afba-800f35bdce88_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#43078fd2-bf54-4279-87bb-e4fd43efbdd1> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//43078fd2-bf54-4279-87bb-e4fd43efbdd1> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#43078fd2-bf54-4279-87bb-e4fd43efbdd1_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//43078fd2-bf54-4279-87bb-e4fd43efbdd1_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#44c82a08-1569-4294-8a37-52bafb453e6c> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//44c82a08-1569-4294-8a37-52bafb453e6c> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#44c82a08-1569-4294-8a37-52bafb453e6c_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//44c82a08-1569-4294-8a37-52bafb453e6c_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#49487235-049d-47d3-922b-2b1e62fa2ca1> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//49487235-049d-47d3-922b-2b1e62fa2ca1> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#49487235-049d-47d3-922b-2b1e62fa2ca1_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//49487235-049d-47d3-922b-2b1e62fa2ca1_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#4b5ce964-80b0-4786-bfcb-2c07e8d6fb46> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//4b5ce964-80b0-4786-bfcb-2c07e8d6fb46> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#4b5ce964-80b0-4786-bfcb-2c07e8d6fb46_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//4b5ce964-80b0-4786-bfcb-2c07e8d6fb46_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#4bf3bb14-cef3-4374-a864-e10c4e056eb2> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//4bf3bb14-cef3-4374-a864-e10c4e056eb2> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#4bf3bb14-cef3-4374-a864-e10c4e056eb2_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//4bf3bb14-cef3-4374-a864-e10c4e056eb2_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#4c751f65-e90a-4ef4-823f-d820ca4bbaba> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//4c751f65-e90a-4ef4-823f-d820ca4bbaba> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#4c751f65-e90a-4ef4-823f-d820ca4bbaba_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//4c751f65-e90a-4ef4-823f-d820ca4bbaba_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#51fb49b9-2e2e-4186-9289-11b7a541e4f7> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//51fb49b9-2e2e-4186-9289-11b7a541e4f7> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#51fb49b9-2e2e-4186-9289-11b7a541e4f7_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//51fb49b9-2e2e-4186-9289-11b7a541e4f7_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#54720fe3-b05d-4cdc-90e1-aaea5f9ab532> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//54720fe3-b05d-4cdc-90e1-aaea5f9ab532> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#54720fe3-b05d-4cdc-90e1-aaea5f9ab532_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//54720fe3-b05d-4cdc-90e1-aaea5f9ab532_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#547373e8-e050-477b-afae-125cf175fd1e> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//547373e8-e050-477b-afae-125cf175fd1e> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#547373e8-e050-477b-afae-125cf175fd1e_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//547373e8-e050-477b-afae-125cf175fd1e_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#599d98d5-dd01-4ef3-8d38-4e31977c88f0> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//599d98d5-dd01-4ef3-8d38-4e31977c88f0> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#599d98d5-dd01-4ef3-8d38-4e31977c88f0_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//599d98d5-dd01-4ef3-8d38-4e31977c88f0_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#5a86e1e1-4ea0-4feb-9db8-52aca4b6db35> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//5a86e1e1-4ea0-4feb-9db8-52aca4b6db35> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#5a86e1e1-4ea0-4feb-9db8-52aca4b6db35_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//5a86e1e1-4ea0-4feb-9db8-52aca4b6db35_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#5b08dae3-0f5a-4590-9ba9-c035b6535b09> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//5b08dae3-0f5a-4590-9ba9-c035b6535b09> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#5b08dae3-0f5a-4590-9ba9-c035b6535b09_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//5b08dae3-0f5a-4590-9ba9-c035b6535b09_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#5c0e2cb6-5f19-4b83-8c2c-ab895670be5f> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//5c0e2cb6-5f19-4b83-8c2c-ab895670be5f> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#5c0e2cb6-5f19-4b83-8c2c-ab895670be5f_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//5c0e2cb6-5f19-4b83-8c2c-ab895670be5f_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#5f8c730a-43dd-4324-bb37-f78bb55b0b4e> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//5f8c730a-43dd-4324-bb37-f78bb55b0b4e> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#5f8c730a-43dd-4324-bb37-f78bb55b0b4e_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//5f8c730a-43dd-4324-bb37-f78bb55b0b4e_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#60d246dd-ef8d-4316-a3a6-e85207029ae7> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//60d246dd-ef8d-4316-a3a6-e85207029ae7> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#60d246dd-ef8d-4316-a3a6-e85207029ae7_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//60d246dd-ef8d-4316-a3a6-e85207029ae7_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#627b7d57-4436-4952-8844-753ba7d6e589> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//627b7d57-4436-4952-8844-753ba7d6e589> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#627b7d57-4436-4952-8844-753ba7d6e589_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//627b7d57-4436-4952-8844-753ba7d6e589_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#62f35871-8283-4e7f-95bf-68ede5721006> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//62f35871-8283-4e7f-95bf-68ede5721006> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#62f35871-8283-4e7f-95bf-68ede5721006_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//62f35871-8283-4e7f-95bf-68ede5721006_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#638fe05a-6b87-4e31-8a44-59fe3228decc> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//638fe05a-6b87-4e31-8a44-59fe3228decc> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#638fe05a-6b87-4e31-8a44-59fe3228decc_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//638fe05a-6b87-4e31-8a44-59fe3228decc_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#639d4c6e-5b07-438d-b35a-b953ec449f3d> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//639d4c6e-5b07-438d-b35a-b953ec449f3d> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#639d4c6e-5b07-438d-b35a-b953ec449f3d_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//639d4c6e-5b07-438d-b35a-b953ec449f3d_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#63f5c00b-43e9-4220-8437-05f078bb1f15> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//63f5c00b-43e9-4220-8437-05f078bb1f15> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#63f5c00b-43e9-4220-8437-05f078bb1f15_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//63f5c00b-43e9-4220-8437-05f078bb1f15_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#699dc0b3-f3ce-441c-a2d5-f1ab7209001b> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//699dc0b3-f3ce-441c-a2d5-f1ab7209001b> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#699dc0b3-f3ce-441c-a2d5-f1ab7209001b_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//699dc0b3-f3ce-441c-a2d5-f1ab7209001b_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#6a4e928a-f295-449a-94b1-243d1041b51c> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//6a4e928a-f295-449a-94b1-243d1041b51c> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#6a4e928a-f295-449a-94b1-243d1041b51c_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//6a4e928a-f295-449a-94b1-243d1041b51c_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#6c61100f-6985-4ba5-b901-bd620f98cced> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//6c61100f-6985-4ba5-b901-bd620f98cced> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#6c61100f-6985-4ba5-b901-bd620f98cced_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//6c61100f-6985-4ba5-b901-bd620f98cced_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#6cc2aaff-d57b-4d5d-8116-aabdaba5ae63> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//6cc2aaff-d57b-4d5d-8116-aabdaba5ae63> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#6cc2aaff-d57b-4d5d-8116-aabdaba5ae63_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//6cc2aaff-d57b-4d5d-8116-aabdaba5ae63_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#6d45d2ab-6abe-4d54-8d7a-8e8de7de502e> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//6d45d2ab-6abe-4d54-8d7a-8e8de7de502e> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#6d45d2ab-6abe-4d54-8d7a-8e8de7de502e_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//6d45d2ab-6abe-4d54-8d7a-8e8de7de502e_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#6d51a14b-08d0-43e1-8856-e2b917b5044a> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//6d51a14b-08d0-43e1-8856-e2b917b5044a> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#6d51a14b-08d0-43e1-8856-e2b917b5044a_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//6d51a14b-08d0-43e1-8856-e2b917b5044a_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#6d973d29-f61f-4219-90b6-cf6161afcb61> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//6d973d29-f61f-4219-90b6-cf6161afcb61> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#6d973d29-f61f-4219-90b6-cf6161afcb61_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//6d973d29-f61f-4219-90b6-cf6161afcb61_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#7195a7ff-562d-4c4d-9c03-609c4c825c93> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//7195a7ff-562d-4c4d-9c03-609c4c825c93> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#7195a7ff-562d-4c4d-9c03-609c4c825c93_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//7195a7ff-562d-4c4d-9c03-609c4c825c93_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#71f022ca-886e-4c81-b468-05179ab7811b> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//71f022ca-886e-4c81-b468-05179ab7811b> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#71f022ca-886e-4c81-b468-05179ab7811b_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//71f022ca-886e-4c81-b468-05179ab7811b_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#73063dd4-e94f-4fe7-8fbb-4473c8b27ed6> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//73063dd4-e94f-4fe7-8fbb-4473c8b27ed6> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#73063dd4-e94f-4fe7-8fbb-4473c8b27ed6_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//73063dd4-e94f-4fe7-8fbb-4473c8b27ed6_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#7332d191-5e57-4fef-9cc9-dc6d9f50da57> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//7332d191-5e57-4fef-9cc9-dc6d9f50da57> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#7332d191-5e57-4fef-9cc9-dc6d9f50da57_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//7332d191-5e57-4fef-9cc9-dc6d9f50da57_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#735ae668-69a4-4198-80e5-bc6be41412c6> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//735ae668-69a4-4198-80e5-bc6be41412c6> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#735ae668-69a4-4198-80e5-bc6be41412c6_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//735ae668-69a4-4198-80e5-bc6be41412c6_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#7445a399-6543-4985-bed0-4ee99ead4f7c> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//7445a399-6543-4985-bed0-4ee99ead4f7c> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#7445a399-6543-4985-bed0-4ee99ead4f7c_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//7445a399-6543-4985-bed0-4ee99ead4f7c_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#7481c380-5e9e-4b44-bfc3-86b9edb41a6f> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//7481c380-5e9e-4b44-bfc3-86b9edb41a6f> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#7481c380-5e9e-4b44-bfc3-86b9edb41a6f_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//7481c380-5e9e-4b44-bfc3-86b9edb41a6f_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#7500cda7-9e28-4afb-9b9a-4a4745c67d71> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//7500cda7-9e28-4afb-9b9a-4a4745c67d71> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#7500cda7-9e28-4afb-9b9a-4a4745c67d71_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//7500cda7-9e28-4afb-9b9a-4a4745c67d71_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#7691ef92-fe8e-414b-9d23-23af9f698ed6> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//7691ef92-fe8e-414b-9d23-23af9f698ed6> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#7691ef92-fe8e-414b-9d23-23af9f698ed6_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//7691ef92-fe8e-414b-9d23-23af9f698ed6_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#789a276a-93b0-40dc-acee-8b449e863dfb> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//789a276a-93b0-40dc-acee-8b449e863dfb> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#789a276a-93b0-40dc-acee-8b449e863dfb_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//789a276a-93b0-40dc-acee-8b449e863dfb_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#7ff1cf11-86e0-4178-b227-6c4de8f38db8> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//7ff1cf11-86e0-4178-b227-6c4de8f38db8> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#7ff1cf11-86e0-4178-b227-6c4de8f38db8_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//7ff1cf11-86e0-4178-b227-6c4de8f38db8_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#80d205d4-13c6-4da6-b21d-4332c7682dca> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//80d205d4-13c6-4da6-b21d-4332c7682dca> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#80d205d4-13c6-4da6-b21d-4332c7682dca_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//80d205d4-13c6-4da6-b21d-4332c7682dca_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#80dd4578-5665-434c-9a51-e9f2a825921b> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//80dd4578-5665-434c-9a51-e9f2a825921b> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#80dd4578-5665-434c-9a51-e9f2a825921b_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//80dd4578-5665-434c-9a51-e9f2a825921b_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#828ed469-244f-4056-97ca-a31a7117cf99> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//828ed469-244f-4056-97ca-a31a7117cf99> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#828ed469-244f-4056-97ca-a31a7117cf99_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//828ed469-244f-4056-97ca-a31a7117cf99_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#837dfd1f-0d29-4dc9-8aa5-5d9c698d46ef> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//837dfd1f-0d29-4dc9-8aa5-5d9c698d46ef> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#837dfd1f-0d29-4dc9-8aa5-5d9c698d46ef_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//837dfd1f-0d29-4dc9-8aa5-5d9c698d46ef_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#83c45778-cbf8-4dab-883a-33b319f77475> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//83c45778-cbf8-4dab-883a-33b319f77475> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#83c45778-cbf8-4dab-883a-33b319f77475_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//83c45778-cbf8-4dab-883a-33b319f77475_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#8498ba56-d642-49be-a577-a7b38a6aaf43> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//8498ba56-d642-49be-a577-a7b38a6aaf43> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#8498ba56-d642-49be-a577-a7b38a6aaf43_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//8498ba56-d642-49be-a577-a7b38a6aaf43_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#84c4c5c2-4533-43a6-aa61-c226877f018d> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//84c4c5c2-4533-43a6-aa61-c226877f018d> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#84c4c5c2-4533-43a6-aa61-c226877f018d_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//84c4c5c2-4533-43a6-aa61-c226877f018d_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#8600a75b-e85d-4125-a97d-80141a804cfd> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//8600a75b-e85d-4125-a97d-80141a804cfd> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#8600a75b-e85d-4125-a97d-80141a804cfd_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//8600a75b-e85d-4125-a97d-80141a804cfd_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#86969b9e-db75-4987-b394-3ccdfbfdab8c> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//86969b9e-db75-4987-b394-3ccdfbfdab8c> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#86969b9e-db75-4987-b394-3ccdfbfdab8c_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//86969b9e-db75-4987-b394-3ccdfbfdab8c_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#86fde422-8dc4-4534-b411-daea2b97f5ff> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//86fde422-8dc4-4534-b411-daea2b97f5ff> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#86fde422-8dc4-4534-b411-daea2b97f5ff_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//86fde422-8dc4-4534-b411-daea2b97f5ff_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#87340202-c938-460b-ab79-311efa343a39> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//87340202-c938-460b-ab79-311efa343a39> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#87340202-c938-460b-ab79-311efa343a39_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//87340202-c938-460b-ab79-311efa343a39_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#897bd2e1-1eab-4b50-9c04-bd1981593f92> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//897bd2e1-1eab-4b50-9c04-bd1981593f92> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#897bd2e1-1eab-4b50-9c04-bd1981593f92_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//897bd2e1-1eab-4b50-9c04-bd1981593f92_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#8a219398-7964-4768-989d-f96110e15c27> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//8a219398-7964-4768-989d-f96110e15c27> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#8a219398-7964-4768-989d-f96110e15c27_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//8a219398-7964-4768-989d-f96110e15c27_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#8add1774-6adb-41b4-bb8f-7d20661eb39f> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//8add1774-6adb-41b4-bb8f-7d20661eb39f> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#8add1774-6adb-41b4-bb8f-7d20661eb39f_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//8add1774-6adb-41b4-bb8f-7d20661eb39f_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#8df7224b-15d7-44f2-b585-02ca1b11e56a> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//8df7224b-15d7-44f2-b585-02ca1b11e56a> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#8df7224b-15d7-44f2-b585-02ca1b11e56a_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//8df7224b-15d7-44f2-b585-02ca1b11e56a_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#8e58b52e-04d3-4876-828e-e495c4ac4ba0> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//8e58b52e-04d3-4876-828e-e495c4ac4ba0> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#8e58b52e-04d3-4876-828e-e495c4ac4ba0_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//8e58b52e-04d3-4876-828e-e495c4ac4ba0_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#94a68945-9901-4902-8fc3-c9485c5787d5> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//94a68945-9901-4902-8fc3-c9485c5787d5> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#94a68945-9901-4902-8fc3-c9485c5787d5_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//94a68945-9901-4902-8fc3-c9485c5787d5_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#96abac97-0650-4c1c-b57a-2c7e58b8785f> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//96abac97-0650-4c1c-b57a-2c7e58b8785f> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#96abac97-0650-4c1c-b57a-2c7e58b8785f_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//96abac97-0650-4c1c-b57a-2c7e58b8785f_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#98a0f1f1-3df0-4883-8a97-25dd49a9b703> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//98a0f1f1-3df0-4883-8a97-25dd49a9b703> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#98a0f1f1-3df0-4883-8a97-25dd49a9b703_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//98a0f1f1-3df0-4883-8a97-25dd49a9b703_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#99c5016f-8c2c-46de-9ee0-29d0baaa1168> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//99c5016f-8c2c-46de-9ee0-29d0baaa1168> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#99c5016f-8c2c-46de-9ee0-29d0baaa1168_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//99c5016f-8c2c-46de-9ee0-29d0baaa1168_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#99c5aad3-7c11-478d-974e-fd32553878ab> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//99c5aad3-7c11-478d-974e-fd32553878ab> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#99c5aad3-7c11-478d-974e-fd32553878ab_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//99c5aad3-7c11-478d-974e-fd32553878ab_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#99ca928c-394d-474d-8dd1-efcff6c48f4a> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//99ca928c-394d-474d-8dd1-efcff6c48f4a> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#99ca928c-394d-474d-8dd1-efcff6c48f4a_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//99ca928c-394d-474d-8dd1-efcff6c48f4a_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#9a80b5a6-3dc7-42ea-ad16-fa7b257be895> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//9a80b5a6-3dc7-42ea-ad16-fa7b257be895> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#9a80b5a6-3dc7-42ea-ad16-fa7b257be895_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//9a80b5a6-3dc7-42ea-ad16-fa7b257be895_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#9cb0f2df-7136-4be3-912b-1f251afe1f97> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//9cb0f2df-7136-4be3-912b-1f251afe1f97> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#9cb0f2df-7136-4be3-912b-1f251afe1f97_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//9cb0f2df-7136-4be3-912b-1f251afe1f97_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#9f44fd00-49be-4296-acf7-f99c76e003fa> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//9f44fd00-49be-4296-acf7-f99c76e003fa> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#9f44fd00-49be-4296-acf7-f99c76e003fa_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//9f44fd00-49be-4296-acf7-f99c76e003fa_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#AxisDirection> ns1:forClass <#> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//AxisDirection> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#CartesianCoordinateSystem> ns1:forClass <#> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//CartesianCoordinateSystem> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#Class_collection> ns1:forClass skos:Collection ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//Class_collection> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#Collection> ns1:forClass <#> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//Collection> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#CoordinateSystemAxis> ns1:forClass <#> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//CoordinateSystemAxis> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#DatatypeProperty_collection> ns1:forClass skos:Collection ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//DatatypeProperty_collection> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#EPSG:3857> ns1:forClass <http://www.opengis.net/ont/crs/SpatialReferenceSystem> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//EPSG:3857> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#Easting_metre_east> ns1:forClass <http://www.opengis.net/ont/crs/CoordinateSystemAxis> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//Easting_metre_east> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#Entity> ns1:forClass <#> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//Entity> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#FeatureCollection> ns1:forClass geo:SpatialObjectCollection ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//FeatureCollection> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#Geometry> ns1:forClass geo:SpatialObject ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//Geometry> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#GeometryCollection> ns1:forClass geo:SpatialObjectCollection ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//GeometryCollection> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#Northing_metre_north> ns1:forClass <http://www.opengis.net/ont/crs/CoordinateSystemAxis> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//Northing_metre_north> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#PlanarCoordinateSystem> ns1:forClass <#> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//PlanarCoordinateSystem> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#Polygon> ns1:forClass geo:Geometry ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//Polygon> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#Polygon_collection> ns1:forClass geo:GeometryCollection ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//Polygon_collection> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ProjectedCRS> ns1:forClass <#> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//ProjectedCRS> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#SpatialObject> ns1:forClass <#> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//SpatialObject> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#SpatialObjectCollection> ns1:forClass <#> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//SpatialObjectCollection> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#SpatialReferenceSystem> ns1:forClass <#> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//SpatialReferenceSystem> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a0bce53b-eae6-4442-bbb9-1f3c85bcf45d> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//a0bce53b-eae6-4442-bbb9-1f3c85bcf45d> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a0bce53b-eae6-4442-bbb9-1f3c85bcf45d_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//a0bce53b-eae6-4442-bbb9-1f3c85bcf45d_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a149c495-04a3-47f7-b409-634dda7e8c66> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//a149c495-04a3-47f7-b409-634dda7e8c66> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a149c495-04a3-47f7-b409-634dda7e8c66_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//a149c495-04a3-47f7-b409-634dda7e8c66_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a28e35eb-9a4c-4a74-bae3-b917840fdc86> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//a28e35eb-9a4c-4a74-bae3-b917840fdc86> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a28e35eb-9a4c-4a74-bae3-b917840fdc86_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//a28e35eb-9a4c-4a74-bae3-b917840fdc86_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a4336227-30ed-4370-a2be-6aa94395d2ae> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//a4336227-30ed-4370-a2be-6aa94395d2ae> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a4336227-30ed-4370-a2be-6aa94395d2ae_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//a4336227-30ed-4370-a2be-6aa94395d2ae_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a5d2ea4f-fd6d-4762-a746-73705e1a1a61> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//a5d2ea4f-fd6d-4762-a746-73705e1a1a61> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a5d2ea4f-fd6d-4762-a746-73705e1a1a61_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//a5d2ea4f-fd6d-4762-a746-73705e1a1a61_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a7e50a52-928e-4e3e-8e8d-9d19da0d148f> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//a7e50a52-928e-4e3e-8e8d-9d19da0d148f> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a7e50a52-928e-4e3e-8e8d-9d19da0d148f_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//a7e50a52-928e-4e3e-8e8d-9d19da0d148f_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a91dfde3-a763-4da3-b841-ac03641656d9> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//a91dfde3-a763-4da3-b841-ac03641656d9> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a91dfde3-a763-4da3-b841-ac03641656d9_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//a91dfde3-a763-4da3-b841-ac03641656d9_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a9a3d44e-d16e-498a-840c-a60dbbc71fca> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//a9a3d44e-d16e-498a-840c-a60dbbc71fca> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a9a3d44e-d16e-498a-840c-a60dbbc71fca_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//a9a3d44e-d16e-498a-840c-a60dbbc71fca_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#aa3e9d0b-0a1a-48dd-92b8-879aec02d6ea> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//aa3e9d0b-0a1a-48dd-92b8-879aec02d6ea> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#aa3e9d0b-0a1a-48dd-92b8-879aec02d6ea_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//aa3e9d0b-0a1a-48dd-92b8-879aec02d6ea_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#aa6cd152-fc63-41d2-a723-d9899aced7d3> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//aa6cd152-fc63-41d2-a723-d9899aced7d3> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#aa6cd152-fc63-41d2-a723-d9899aced7d3_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//aa6cd152-fc63-41d2-a723-d9899aced7d3_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ab2ab9ac-74f8-4af2-863d-1b02431b4bd7> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//ab2ab9ac-74f8-4af2-863d-1b02431b4bd7> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ab2ab9ac-74f8-4af2-863d-1b02431b4bd7_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//ab2ab9ac-74f8-4af2-863d-1b02431b4bd7_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ac204ffd-24e1-461d-8040-f80c8aa3f461> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//ac204ffd-24e1-461d-8040-f80c8aa3f461> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ac204ffd-24e1-461d-8040-f80c8aa3f461_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//ac204ffd-24e1-461d-8040-f80c8aa3f461_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#aca02723-f0f3-4385-9614-1391745ce7ec> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//aca02723-f0f3-4385-9614-1391745ce7ec> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#aca02723-f0f3-4385-9614-1391745ce7ec_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//aca02723-f0f3-4385-9614-1391745ce7ec_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ae509dab-43e6-4c24-9639-f86b2d548582> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//ae509dab-43e6-4c24-9639-f86b2d548582> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ae509dab-43e6-4c24-9639-f86b2d548582_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//ae509dab-43e6-4c24-9639-f86b2d548582_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#aeb4e619-6b0c-4c06-89c5-e7788e6f0c9d> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//aeb4e619-6b0c-4c06-89c5-e7788e6f0c9d> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#aeb4e619-6b0c-4c06-89c5-e7788e6f0c9d_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//aeb4e619-6b0c-4c06-89c5-e7788e6f0c9d_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#aec7574e-9a39-402c-84c5-6fd9964f213f> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//aec7574e-9a39-402c-84c5-6fd9964f213f> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#aec7574e-9a39-402c-84c5-6fd9964f213f_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//aec7574e-9a39-402c-84c5-6fd9964f213f_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#aff4c27c-fb0f-4d45-8615-0a0f53daf8c2> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//aff4c27c-fb0f-4d45-8615-0a0f53daf8c2> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#aff4c27c-fb0f-4d45-8615-0a0f53daf8c2_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//aff4c27c-fb0f-4d45-8615-0a0f53daf8c2_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#b20172d3-5ed5-4977-affe-2c2b94f9a0ca> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//b20172d3-5ed5-4977-affe-2c2b94f9a0ca> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#b20172d3-5ed5-4977-affe-2c2b94f9a0ca_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//b20172d3-5ed5-4977-affe-2c2b94f9a0ca_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#b39a2753-ee9e-41ce-96c7-947e5db8e238> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//b39a2753-ee9e-41ce-96c7-947e5db8e238> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#b39a2753-ee9e-41ce-96c7-947e5db8e238_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//b39a2753-ee9e-41ce-96c7-947e5db8e238_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#b659308d-91f4-42b9-8955-4b6d47809b3d> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//b659308d-91f4-42b9-8955-4b6d47809b3d> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#b659308d-91f4-42b9-8955-4b6d47809b3d_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//b659308d-91f4-42b9-8955-4b6d47809b3d_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#b84b27f9-285d-4015-9f97-183a9e78011b> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//b84b27f9-285d-4015-9f97-183a9e78011b> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#b84b27f9-285d-4015-9f97-183a9e78011b_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//b84b27f9-285d-4015-9f97-183a9e78011b_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#b87908b4-2d59-4848-b530-ea693fc629a3> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//b87908b4-2d59-4848-b530-ea693fc629a3> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#b87908b4-2d59-4848-b530-ea693fc629a3_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//b87908b4-2d59-4848-b530-ea693fc629a3_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#bbda5e0f-4227-41b9-8f29-ef7be574a547> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//bbda5e0f-4227-41b9-8f29-ef7be574a547> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#bbda5e0f-4227-41b9-8f29-ef7be574a547_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//bbda5e0f-4227-41b9-8f29-ef7be574a547_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#bc09e6bb-5be2-48e5-a502-748ab37f1023> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//bc09e6bb-5be2-48e5-a502-748ab37f1023> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#bc09e6bb-5be2-48e5-a502-748ab37f1023_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//bc09e6bb-5be2-48e5-a502-748ab37f1023_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#bd5a3fed-9204-4f72-bbee-c990a88b04e5> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//bd5a3fed-9204-4f72-bbee-c990a88b04e5> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#bd5a3fed-9204-4f72-bbee-c990a88b04e5_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//bd5a3fed-9204-4f72-bbee-c990a88b04e5_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#bd83c205-4987-4ef5-b044-7790811e5022> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//bd83c205-4987-4ef5-b044-7790811e5022> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#bd83c205-4987-4ef5-b044-7790811e5022_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//bd83c205-4987-4ef5-b044-7790811e5022_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#c4050b26-3836-4276-a306-3561a81a4597> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//c4050b26-3836-4276-a306-3561a81a4597> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#c4050b26-3836-4276-a306-3561a81a4597_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//c4050b26-3836-4276-a306-3561a81a4597_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#c4303613-a41e-4ea4-88ae-56dcb63bb6d5> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//c4303613-a41e-4ea4-88ae-56dcb63bb6d5> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#c4303613-a41e-4ea4-88ae-56dcb63bb6d5_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//c4303613-a41e-4ea4-88ae-56dcb63bb6d5_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#c6c677ab-1fec-4736-95ca-b5587037804b> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//c6c677ab-1fec-4736-95ca-b5587037804b> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#c6c677ab-1fec-4736-95ca-b5587037804b_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//c6c677ab-1fec-4736-95ca-b5587037804b_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#c6c78f97-ce4c-4c4f-bed0-9637e4b3842f> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//c6c78f97-ce4c-4c4f-bed0-9637e4b3842f> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#c6c78f97-ce4c-4c4f-bed0-9637e4b3842f_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//c6c78f97-ce4c-4c4f-bed0-9637e4b3842f_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#c6e02980-9da4-4d8e-8e2f-41dad54e0083> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//c6e02980-9da4-4d8e-8e2f-41dad54e0083> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#c6e02980-9da4-4d8e-8e2f-41dad54e0083_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//c6e02980-9da4-4d8e-8e2f-41dad54e0083_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#c718a2c4-9705-4b73-be3a-3d056c701228> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//c718a2c4-9705-4b73-be3a-3d056c701228> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#c718a2c4-9705-4b73-be3a-3d056c701228_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//c718a2c4-9705-4b73-be3a-3d056c701228_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#c7326504-8392-4d17-828d-c349b3b87a55> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//c7326504-8392-4d17-828d-c349b3b87a55> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#c7326504-8392-4d17-828d-c349b3b87a55_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//c7326504-8392-4d17-828d-c349b3b87a55_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ca75742f-c33e-4cc2-8381-5264fe050258> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//ca75742f-c33e-4cc2-8381-5264fe050258> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ca75742f-c33e-4cc2-8381-5264fe050258_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//ca75742f-c33e-4cc2-8381-5264fe050258_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#cb43532f-095c-45f0-a6e8-a4157bac8f94> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//cb43532f-095c-45f0-a6e8-a4157bac8f94> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#cb43532f-095c-45f0-a6e8-a4157bac8f94_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//cb43532f-095c-45f0-a6e8-a4157bac8f94_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#cb64e6a7-a00a-47fa-bdb3-40a7725638f9> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//cb64e6a7-a00a-47fa-bdb3-40a7725638f9> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#cb64e6a7-a00a-47fa-bdb3-40a7725638f9_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//cb64e6a7-a00a-47fa-bdb3-40a7725638f9_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#cbe35da2-63cd-4e6f-9cc6-425f196813d9> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//cbe35da2-63cd-4e6f-9cc6-425f196813d9> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#cbe35da2-63cd-4e6f-9cc6-425f196813d9_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//cbe35da2-63cd-4e6f-9cc6-425f196813d9_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#d10283bc-4275-440e-bde9-a3995e064669> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//d10283bc-4275-440e-bde9-a3995e064669> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#d10283bc-4275-440e-bde9-a3995e064669_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//d10283bc-4275-440e-bde9-a3995e064669_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#d1aa5a44-e797-437a-8eef-1277c005c7e9> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//d1aa5a44-e797-437a-8eef-1277c005c7e9> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#d1aa5a44-e797-437a-8eef-1277c005c7e9_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//d1aa5a44-e797-437a-8eef-1277c005c7e9_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#d319a364-d3dc-4e57-9473-e41f670692c9> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//d319a364-d3dc-4e57-9473-e41f670692c9> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#d319a364-d3dc-4e57-9473-e41f670692c9_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//d319a364-d3dc-4e57-9473-e41f670692c9_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#d490efb2-f7c1-48d8-8c97-073a5d147acb> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//d490efb2-f7c1-48d8-8c97-073a5d147acb> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#d490efb2-f7c1-48d8-8c97-073a5d147acb_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//d490efb2-f7c1-48d8-8c97-073a5d147acb_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#d72e30a2-bd6b-4d01-9d6d-61bdf33648b3> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//d72e30a2-bd6b-4d01-9d6d-61bdf33648b3> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#d72e30a2-bd6b-4d01-9d6d-61bdf33648b3_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//d72e30a2-bd6b-4d01-9d6d-61bdf33648b3_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#d8d13cbf-8fbb-4cad-aa83-18db432ac6d7> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//d8d13cbf-8fbb-4cad-aa83-18db432ac6d7> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#d8d13cbf-8fbb-4cad-aa83-18db432ac6d7_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//d8d13cbf-8fbb-4cad-aa83-18db432ac6d7_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#d9b2652b-c89f-401d-a3d9-1d28b56ee7d5> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//d9b2652b-c89f-401d-a3d9-1d28b56ee7d5> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#d9b2652b-c89f-401d-a3d9-1d28b56ee7d5_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//d9b2652b-c89f-401d-a3d9-1d28b56ee7d5_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#dc00d8d5-b888-44a9-b9dd-634043d9deb4> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//dc00d8d5-b888-44a9-b9dd-634043d9deb4> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#dc00d8d5-b888-44a9-b9dd-634043d9deb4_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//dc00d8d5-b888-44a9-b9dd-634043d9deb4_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#e088cf43-b316-4a2d-ba7f-68f729b94149> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//e088cf43-b316-4a2d-ba7f-68f729b94149> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#e088cf43-b316-4a2d-ba7f-68f729b94149_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//e088cf43-b316-4a2d-ba7f-68f729b94149_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#e3bb9caf-4018-4610-87e7-b322ee4bdfd8> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//e3bb9caf-4018-4610-87e7-b322ee4bdfd8> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#e3bb9caf-4018-4610-87e7-b322ee4bdfd8_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//e3bb9caf-4018-4610-87e7-b322ee4bdfd8_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#e3e64d92-c689-42a0-b772-77c8310aca1d> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//e3e64d92-c689-42a0-b772-77c8310aca1d> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#e3e64d92-c689-42a0-b772-77c8310aca1d_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//e3e64d92-c689-42a0-b772-77c8310aca1d_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#e51df454-6e77-4d68-bd53-1171cd92fc4d> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//e51df454-6e77-4d68-bd53-1171cd92fc4d> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#e51df454-6e77-4d68-bd53-1171cd92fc4d_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//e51df454-6e77-4d68-bd53-1171cd92fc4d_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#e56e518e-bf99-4e97-b663-c240bcfc9dcf> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//e56e518e-bf99-4e97-b663-c240bcfc9dcf> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#e56e518e-bf99-4e97-b663-c240bcfc9dcf_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//e56e518e-bf99-4e97-b663-c240bcfc9dcf_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#eaaa11dd-823b-4dd3-995f-1062bc036de0> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//eaaa11dd-823b-4dd3-995f-1062bc036de0> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#eaaa11dd-823b-4dd3-995f-1062bc036de0_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//eaaa11dd-823b-4dd3-995f-1062bc036de0_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#east> ns1:forClass <http://www.opengis.net/ont/crs/AxisDirection> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//east> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#eb1b6356-faf0-4542-94bf-48fc9709e6d4> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//eb1b6356-faf0-4542-94bf-48fc9709e6d4> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#eb1b6356-faf0-4542-94bf-48fc9709e6d4_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//eb1b6356-faf0-4542-94bf-48fc9709e6d4_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#eb89dc3f-c6f5-4cab-8c7d-bb4a21c82d3f> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//eb89dc3f-c6f5-4cab-8c7d-bb4a21c82d3f> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#eb89dc3f-c6f5-4cab-8c7d-bb4a21c82d3f_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//eb89dc3f-c6f5-4cab-8c7d-bb4a21c82d3f_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ec10ccbf-8565-4dc0-bee3-c89c899293ca> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//ec10ccbf-8565-4dc0-bee3-c89c899293ca> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ec10ccbf-8565-4dc0-bee3-c89c899293ca_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//ec10ccbf-8565-4dc0-bee3-c89c899293ca_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ecf7173f-3be2-452f-8ff4-b69c8e505180> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//ecf7173f-3be2-452f-8ff4-b69c8e505180> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ecf7173f-3be2-452f-8ff4-b69c8e505180_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//ecf7173f-3be2-452f-8ff4-b69c8e505180_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ed43b997-482c-44cb-9fdc-b804ca7ac333> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//ed43b997-482c-44cb-9fdc-b804ca7ac333> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ed43b997-482c-44cb-9fdc-b804ca7ac333_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//ed43b997-482c-44cb-9fdc-b804ca7ac333_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ee71e9c9-694b-49a1-9777-e3ca47249a57> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//ee71e9c9-694b-49a1-9777-e3ca47249a57> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ee71e9c9-694b-49a1-9777-e3ca47249a57_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//ee71e9c9-694b-49a1-9777-e3ca47249a57_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ef88ac31-03f8-409a-b1d6-83ef6e3e191a> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//ef88ac31-03f8-409a-b1d6-83ef6e3e191a> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ef88ac31-03f8-409a-b1d6-83ef6e3e191a_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//ef88ac31-03f8-409a-b1d6-83ef6e3e191a_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#f02adae4-9ce2-4bd0-8819-93453290f253> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//f02adae4-9ce2-4bd0-8819-93453290f253> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#f02adae4-9ce2-4bd0-8819-93453290f253_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//f02adae4-9ce2-4bd0-8819-93453290f253_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#f1f6fddf-5a9a-4ee8-94c8-dc29709e2f44> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//f1f6fddf-5a9a-4ee8-94c8-dc29709e2f44> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#f1f6fddf-5a9a-4ee8-94c8-dc29709e2f44_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//f1f6fddf-5a9a-4ee8-94c8-dc29709e2f44_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#f3b3d262-5aba-4266-be03-a88172cf0aa2> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//f3b3d262-5aba-4266-be03-a88172cf0aa2> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#f3b3d262-5aba-4266-be03-a88172cf0aa2_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//f3b3d262-5aba-4266-be03-a88172cf0aa2_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#f4fa327f-84aa-4436-ba6a-97d0a99c95e3> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//f4fa327f-84aa-4436-ba6a-97d0a99c95e3> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#f4fa327f-84aa-4436-ba6a-97d0a99c95e3_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//f4fa327f-84aa-4436-ba6a-97d0a99c95e3_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#f716d24e-9fe1-4da6-8694-c7f7e9858e40> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//f716d24e-9fe1-4da6-8694-c7f7e9858e40> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#f716d24e-9fe1-4da6-8694-c7f7e9858e40_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//f716d24e-9fe1-4da6-8694-c7f7e9858e40_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#f7a49aa7-f6cb-46bc-a308-325fc351f6b7> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//f7a49aa7-f6cb-46bc-a308-325fc351f6b7> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#f7a49aa7-f6cb-46bc-a308-325fc351f6b7_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//f7a49aa7-f6cb-46bc-a308-325fc351f6b7_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#fb864ab4-4531-4334-a3f1-c4252053911f> ns1:forClass <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//fb864ab4-4531-4334-a3f1-c4252053911f> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#fb864ab4-4531-4334-a3f1-c4252053911f_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//fb864ab4-4531-4334-a3f1-c4252053911f_geom> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#nonns_Feature.html> ns1:forClass geo:SpatialObject ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//nonns_Feature.html> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#north> ns1:forClass <http://www.opengis.net/ont/crs/AxisDirection> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//north> .
+
