@@ -80,28 +80,7 @@ var minivowlresult={
    "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
-   "source": 3,
-   "target": 9,
-   "valueTo": "coordinateSystem",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/crs/coordinateSystem"
-  },
-  {
-   "source": 3,
-   "target": 10,
-   "valueTo": "coordinateSystem",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/crs/coordinateSystem"
-  },
-  {
-   "source": 4,
-   "target": 9,
-   "valueTo": "coordinateSystem",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/crs/coordinateSystem"
-  },
-  {
-   "source": 4,
+   "source": 2,
    "target": 10,
    "valueTo": "coordinateSystem",
    "propertyTo": "class",
@@ -115,21 +94,42 @@ var minivowlresult={
    "uriTo": "http://www.opengis.net/ont/crs/coordinateSystem"
   },
   {
-   "source": 2,
+   "source": 4,
    "target": 10,
    "valueTo": "coordinateSystem",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/crs/coordinateSystem"
   },
   {
-   "source": 9,
+   "source": 4,
+   "target": 9,
+   "valueTo": "coordinateSystem",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/crs/coordinateSystem"
+  },
+  {
+   "source": 3,
+   "target": 10,
+   "valueTo": "coordinateSystem",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/crs/coordinateSystem"
+  },
+  {
+   "source": 3,
+   "target": 9,
+   "valueTo": "coordinateSystem",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/crs/coordinateSystem"
+  },
+  {
+   "source": 10,
    "target": 11,
    "valueTo": "axis",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/crs/axis"
   },
   {
-   "source": 10,
+   "source": 9,
    "target": 11,
    "valueTo": "axis",
    "propertyTo": "class",
