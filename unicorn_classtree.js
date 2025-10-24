@@ -44,1213 +44,1128 @@ var tree={
     "data": [
       {
         "id": "http://www.github.com/sparqlunicorn#0194d590-c58c-4c97-98f8-303ea8ffe32a",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "0194d590-c58c-4c97-98f8-303ea8ffe32a (suni:0194d590-c58c-4c97-98f8-303ea8ffe32a)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#038d7342-a29b-4fb4-848a-38956486b324",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "038d7342-a29b-4fb4-848a-38956486b324 (suni:038d7342-a29b-4fb4-848a-38956486b324)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#03bf5218-bda5-4791-b190-b302c4d8d6ce",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "03bf5218-bda5-4791-b190-b302c4d8d6ce (suni:03bf5218-bda5-4791-b190-b302c4d8d6ce)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#047d2aa4-c98d-4c8e-bba6-c5bc935b626a",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "047d2aa4-c98d-4c8e-bba6-c5bc935b626a (suni:047d2aa4-c98d-4c8e-bba6-c5bc935b626a)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#069e7a2d-631d-4338-adf9-5fd2f9bd2155",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "069e7a2d-631d-4338-adf9-5fd2f9bd2155 (suni:069e7a2d-631d-4338-adf9-5fd2f9bd2155)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#0800c7da-7e10-4ba2-a020-7db1bc018572",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "0800c7da-7e10-4ba2-a020-7db1bc018572 (suni:0800c7da-7e10-4ba2-a020-7db1bc018572)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#09625e57-e1e3-4819-baac-8154feac0fe6",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "09625e57-e1e3-4819-baac-8154feac0fe6 (suni:09625e57-e1e3-4819-baac-8154feac0fe6)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
-        "type": "geoinstance",
-        "text": "09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb (suni:09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb)",
-        "data": {}
-      },
-      {
-        "id": "http://www.github.com/sparqlunicorn#0b12b1c6-4f43-4635-9437-2eccad89860a",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
-        "type": "geoinstance",
-        "text": "0b12b1c6-4f43-4635-9437-2eccad89860a (suni:0b12b1c6-4f43-4635-9437-2eccad89860a)",
-        "data": {}
-      },
-      {
         "id": "http://www.github.com/sparqlunicorn#0b959b96-55fd-4550-b4de-68e2c4f9625f",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "0b959b96-55fd-4550-b4de-68e2c4f9625f (suni:0b959b96-55fd-4550-b4de-68e2c4f9625f)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#0cc84bdb-a46b-47fc-851f-925f22e3fd77",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "0cc84bdb-a46b-47fc-851f-925f22e3fd77 (suni:0cc84bdb-a46b-47fc-851f-925f22e3fd77)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#0cde71e0-701f-44cd-a025-5cac1d1c7d70",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "0cde71e0-701f-44cd-a025-5cac1d1c7d70 (suni:0cde71e0-701f-44cd-a025-5cac1d1c7d70)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#0d9d574e-754a-4f9c-93b7-47fc15d4f2d3",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
-        "type": "geoinstance",
-        "text": "0d9d574e-754a-4f9c-93b7-47fc15d4f2d3 (suni:0d9d574e-754a-4f9c-93b7-47fc15d4f2d3)",
-        "data": {}
-      },
-      {
         "id": "http://www.github.com/sparqlunicorn#1073f60f-73b2-4193-8bd7-951995224dbb",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "1073f60f-73b2-4193-8bd7-951995224dbb (suni:1073f60f-73b2-4193-8bd7-951995224dbb)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#10d1a1c2-f56c-485c-a5cc-4d4e48c8e675",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "10d1a1c2-f56c-485c-a5cc-4d4e48c8e675 (suni:10d1a1c2-f56c-485c-a5cc-4d4e48c8e675)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#12ce69a0-6b49-4159-8ff6-b468f44d33b5",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "12ce69a0-6b49-4159-8ff6-b468f44d33b5 (suni:12ce69a0-6b49-4159-8ff6-b468f44d33b5)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#12d61444-88ae-43b3-95d4-15e5fecd4180",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "12d61444-88ae-43b3-95d4-15e5fecd4180 (suni:12d61444-88ae-43b3-95d4-15e5fecd4180)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#180a5320-3833-4133-aa46-aab7f0d80d84",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "180a5320-3833-4133-aa46-aab7f0d80d84 (suni:180a5320-3833-4133-aa46-aab7f0d80d84)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#18d49631-5a11-48f6-acb7-62cfaf8de742",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
-        "type": "geoinstance",
-        "text": "18d49631-5a11-48f6-acb7-62cfaf8de742 (suni:18d49631-5a11-48f6-acb7-62cfaf8de742)",
-        "data": {}
-      },
-      {
         "id": "http://www.github.com/sparqlunicorn#19793c7f-6cc9-462c-99da-e3e33ff97461",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "19793c7f-6cc9-462c-99da-e3e33ff97461 (suni:19793c7f-6cc9-462c-99da-e3e33ff97461)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#1a2be1c9-acaf-4659-839d-0146401472f2",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "1a2be1c9-acaf-4659-839d-0146401472f2 (suni:1a2be1c9-acaf-4659-839d-0146401472f2)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#1ac53fc4-aeb3-4256-ac8e-47160f4d642a",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
-        "type": "geoinstance",
-        "text": "1ac53fc4-aeb3-4256-ac8e-47160f4d642a (suni:1ac53fc4-aeb3-4256-ac8e-47160f4d642a)",
-        "data": {}
-      },
-      {
-        "id": "http://www.github.com/sparqlunicorn#1d935768-ea8d-4be8-884b-a4dff9825021",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
-        "type": "geoinstance",
-        "text": "1d935768-ea8d-4be8-884b-a4dff9825021 (suni:1d935768-ea8d-4be8-884b-a4dff9825021)",
-        "data": {}
-      },
-      {
         "id": "http://www.github.com/sparqlunicorn#1fcfa357-13f8-4cb5-8e28-f98280989898",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "1fcfa357-13f8-4cb5-8e28-f98280989898 (suni:1fcfa357-13f8-4cb5-8e28-f98280989898)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#25d0c170-da08-47ed-8bf8-78f36d0f558e",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "25d0c170-da08-47ed-8bf8-78f36d0f558e (suni:25d0c170-da08-47ed-8bf8-78f36d0f558e)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#264aceda-0df9-48de-9c9a-bfac46e9d790",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "264aceda-0df9-48de-9c9a-bfac46e9d790 (suni:264aceda-0df9-48de-9c9a-bfac46e9d790)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#275a5b7f-e28a-41ec-b6b5-9bc82b47f1a0",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "275a5b7f-e28a-41ec-b6b5-9bc82b47f1a0 (suni:275a5b7f-e28a-41ec-b6b5-9bc82b47f1a0)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#28ec2dbf-6806-4a32-a35d-78764bfda459",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "28ec2dbf-6806-4a32-a35d-78764bfda459 (suni:28ec2dbf-6806-4a32-a35d-78764bfda459)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#2abb9a90-732f-4e75-b764-6b3df7dfa173",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "2abb9a90-732f-4e75-b764-6b3df7dfa173 (suni:2abb9a90-732f-4e75-b764-6b3df7dfa173)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#2d3d304e-4ac7-4f2f-93a6-251105f7ace4",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "2d3d304e-4ac7-4f2f-93a6-251105f7ace4 (suni:2d3d304e-4ac7-4f2f-93a6-251105f7ace4)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#2e711592-9068-438a-80b9-0c7725e1d6bb",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "2e711592-9068-438a-80b9-0c7725e1d6bb (suni:2e711592-9068-438a-80b9-0c7725e1d6bb)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#3018eba9-3c11-41e8-901e-7377167b58e4",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "3018eba9-3c11-41e8-901e-7377167b58e4 (suni:3018eba9-3c11-41e8-901e-7377167b58e4)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#31615fc1-a7de-48af-80a2-777dd77760b2",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "31615fc1-a7de-48af-80a2-777dd77760b2 (suni:31615fc1-a7de-48af-80a2-777dd77760b2)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#32126fde-7a0e-46ab-b512-ad9f20ea10ea",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "32126fde-7a0e-46ab-b512-ad9f20ea10ea (suni:32126fde-7a0e-46ab-b512-ad9f20ea10ea)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#327283ae-3a31-4397-ae77-2566e4d146b6",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "327283ae-3a31-4397-ae77-2566e4d146b6 (suni:327283ae-3a31-4397-ae77-2566e4d146b6)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#3280d786-1bb7-4913-9be9-9041f65ef4b6",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "3280d786-1bb7-4913-9be9-9041f65ef4b6 (suni:3280d786-1bb7-4913-9be9-9041f65ef4b6)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#3672902d-7362-4069-9769-21296706d028",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "3672902d-7362-4069-9769-21296706d028 (suni:3672902d-7362-4069-9769-21296706d028)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#37993191-20c4-49a4-b3bc-2a28960f323d",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
-        "type": "geoinstance",
-        "text": "37993191-20c4-49a4-b3bc-2a28960f323d (suni:37993191-20c4-49a4-b3bc-2a28960f323d)",
-        "data": {}
-      },
-      {
         "id": "http://www.github.com/sparqlunicorn#389c5712-618e-4532-84fd-4eb084e6c0aa",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "389c5712-618e-4532-84fd-4eb084e6c0aa (suni:389c5712-618e-4532-84fd-4eb084e6c0aa)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#3a55458f-5c2f-4368-9a03-384f6377e301",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
-        "type": "geoinstance",
-        "text": "3a55458f-5c2f-4368-9a03-384f6377e301 (suni:3a55458f-5c2f-4368-9a03-384f6377e301)",
-        "data": {}
-      },
-      {
         "id": "http://www.github.com/sparqlunicorn#3cd74fe7-9b31-4361-ad28-08afb3097edc",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "3cd74fe7-9b31-4361-ad28-08afb3097edc (suni:3cd74fe7-9b31-4361-ad28-08afb3097edc)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#3d393a7a-ea8c-45d2-aca7-1453da500bb5",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
-        "type": "geoinstance",
-        "text": "3d393a7a-ea8c-45d2-aca7-1453da500bb5 (suni:3d393a7a-ea8c-45d2-aca7-1453da500bb5)",
-        "data": {}
-      },
-      {
-        "id": "http://www.github.com/sparqlunicorn#3e67e756-dad2-4514-a9af-511fd2db0e91",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
-        "type": "geoinstance",
-        "text": "3e67e756-dad2-4514-a9af-511fd2db0e91 (suni:3e67e756-dad2-4514-a9af-511fd2db0e91)",
-        "data": {}
-      },
-      {
         "id": "http://www.github.com/sparqlunicorn#3e78afb0-3e1c-4814-a038-dfde669dc4c1",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "3e78afb0-3e1c-4814-a038-dfde669dc4c1 (suni:3e78afb0-3e1c-4814-a038-dfde669dc4c1)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#41bc9d9f-999b-4c03-868d-e3823fc03184",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "41bc9d9f-999b-4c03-868d-e3823fc03184 (suni:41bc9d9f-999b-4c03-868d-e3823fc03184)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#43445b66-c4c5-4668-8fb7-00186131c6ff",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
-        "type": "geoinstance",
-        "text": "43445b66-c4c5-4668-8fb7-00186131c6ff (suni:43445b66-c4c5-4668-8fb7-00186131c6ff)",
-        "data": {}
-      },
-      {
         "id": "http://www.github.com/sparqlunicorn#435bca7b-b840-4894-9bff-df7c45b2c20c",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "435bca7b-b840-4894-9bff-df7c45b2c20c (suni:435bca7b-b840-4894-9bff-df7c45b2c20c)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#45d241e5-c948-4ae3-860b-668b54894e58",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "45d241e5-c948-4ae3-860b-668b54894e58 (suni:45d241e5-c948-4ae3-860b-668b54894e58)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#464f2805-ec4f-4d89-858e-f56a4378062d",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "464f2805-ec4f-4d89-858e-f56a4378062d (suni:464f2805-ec4f-4d89-858e-f56a4378062d)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#467872e1-4482-4e05-ba2e-2ac81b40dcf7",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "467872e1-4482-4e05-ba2e-2ac81b40dcf7 (suni:467872e1-4482-4e05-ba2e-2ac81b40dcf7)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#4692f53e-797d-4457-bbc3-55273889566f",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "4692f53e-797d-4457-bbc3-55273889566f (suni:4692f53e-797d-4457-bbc3-55273889566f)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#4960c3ef-c969-4930-8f87-3e9250c5b716",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "4960c3ef-c969-4930-8f87-3e9250c5b716 (suni:4960c3ef-c969-4930-8f87-3e9250c5b716)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#49ca3504-ffe4-4ec4-bd95-72123b14e48e",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "49ca3504-ffe4-4ec4-bd95-72123b14e48e (suni:49ca3504-ffe4-4ec4-bd95-72123b14e48e)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#4a4c2cd5-02ce-415c-b812-ec9fd13d73c6",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "4a4c2cd5-02ce-415c-b812-ec9fd13d73c6 (suni:4a4c2cd5-02ce-415c-b812-ec9fd13d73c6)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#4bb458df-e06c-4d79-bcdb-663a09168b93",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "4bb458df-e06c-4d79-bcdb-663a09168b93 (suni:4bb458df-e06c-4d79-bcdb-663a09168b93)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#4ccf2904-a68a-4c88-81de-8d549bc421e9",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "4ccf2904-a68a-4c88-81de-8d549bc421e9 (suni:4ccf2904-a68a-4c88-81de-8d549bc421e9)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#4db030c2-2331-4dad-b17c-da023bceff9f",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
-        "type": "geoinstance",
-        "text": "4db030c2-2331-4dad-b17c-da023bceff9f (suni:4db030c2-2331-4dad-b17c-da023bceff9f)",
-        "data": {}
-      },
-      {
-        "id": "http://www.github.com/sparqlunicorn#4e1bbd40-75c2-4134-abdf-71a85b238394",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
-        "type": "geoinstance",
-        "text": "4e1bbd40-75c2-4134-abdf-71a85b238394 (suni:4e1bbd40-75c2-4134-abdf-71a85b238394)",
-        "data": {}
-      },
-      {
         "id": "http://www.github.com/sparqlunicorn#4f25cbc8-6f89-434b-8988-0e3e965f2aa7",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "4f25cbc8-6f89-434b-8988-0e3e965f2aa7 (suni:4f25cbc8-6f89-434b-8988-0e3e965f2aa7)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#521dd20c-2456-40a9-8b2b-0064396ccb07",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "521dd20c-2456-40a9-8b2b-0064396ccb07 (suni:521dd20c-2456-40a9-8b2b-0064396ccb07)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#526eb9a7-2805-4a93-b49c-df9a922b279c",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "526eb9a7-2805-4a93-b49c-df9a922b279c (suni:526eb9a7-2805-4a93-b49c-df9a922b279c)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#52f8f607-2c6b-4b25-90f8-861ed744e1ca",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "52f8f607-2c6b-4b25-90f8-861ed744e1ca (suni:52f8f607-2c6b-4b25-90f8-861ed744e1ca)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#53bf2db7-7718-4835-bc3c-2baf3068207f",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "53bf2db7-7718-4835-bc3c-2baf3068207f (suni:53bf2db7-7718-4835-bc3c-2baf3068207f)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#53ed429c-06e1-419a-9002-12d7bcf18ba0",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "53ed429c-06e1-419a-9002-12d7bcf18ba0 (suni:53ed429c-06e1-419a-9002-12d7bcf18ba0)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#54e13ec0-7b5a-4f4a-892f-615ab97d9000",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "54e13ec0-7b5a-4f4a-892f-615ab97d9000 (suni:54e13ec0-7b5a-4f4a-892f-615ab97d9000)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#55eee8ec-2c4a-4924-8d2e-89b0d57b2d74",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "55eee8ec-2c4a-4924-8d2e-89b0d57b2d74 (suni:55eee8ec-2c4a-4924-8d2e-89b0d57b2d74)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#569674c9-3895-4cb5-8f2c-38e608cab577",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "569674c9-3895-4cb5-8f2c-38e608cab577 (suni:569674c9-3895-4cb5-8f2c-38e608cab577)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#5bcc0471-f0ba-417c-bae1-abb3223cd352",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "5bcc0471-f0ba-417c-bae1-abb3223cd352 (suni:5bcc0471-f0ba-417c-bae1-abb3223cd352)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#5c6ce17c-cdde-459e-a423-ad5d827e5d4e",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "5c6ce17c-cdde-459e-a423-ad5d827e5d4e (suni:5c6ce17c-cdde-459e-a423-ad5d827e5d4e)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#5f5d079d-712c-4ad0-842c-c04d0d0763e5",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "5f5d079d-712c-4ad0-842c-c04d0d0763e5 (suni:5f5d079d-712c-4ad0-842c-c04d0d0763e5)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#622ce224-fab0-4fbd-8a79-d8ecc9b26a49",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
-        "type": "geoinstance",
-        "text": "622ce224-fab0-4fbd-8a79-d8ecc9b26a49 (suni:622ce224-fab0-4fbd-8a79-d8ecc9b26a49)",
-        "data": {}
-      },
-      {
-        "id": "http://www.github.com/sparqlunicorn#6247dd7d-45da-4805-9922-ad78d30ddc00",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
-        "type": "geoinstance",
-        "text": "6247dd7d-45da-4805-9922-ad78d30ddc00 (suni:6247dd7d-45da-4805-9922-ad78d30ddc00)",
-        "data": {}
-      },
-      {
-        "id": "http://www.github.com/sparqlunicorn#62c65c41-af9e-4af8-af61-97602598da5c",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
-        "type": "geoinstance",
-        "text": "62c65c41-af9e-4af8-af61-97602598da5c (suni:62c65c41-af9e-4af8-af61-97602598da5c)",
-        "data": {}
-      },
-      {
         "id": "http://www.github.com/sparqlunicorn#64586be1-1d82-4160-a5fb-5af067a6276b",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "64586be1-1d82-4160-a5fb-5af067a6276b (suni:64586be1-1d82-4160-a5fb-5af067a6276b)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#646cf01d-f91f-454d-96f3-69f122d90cf1",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "646cf01d-f91f-454d-96f3-69f122d90cf1 (suni:646cf01d-f91f-454d-96f3-69f122d90cf1)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#65f7355b-9621-4b7e-a716-8fa0a4f07a0e",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "65f7355b-9621-4b7e-a716-8fa0a4f07a0e (suni:65f7355b-9621-4b7e-a716-8fa0a4f07a0e)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#66424eb1-6ec0-4f2a-9003-e2143babe975",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "66424eb1-6ec0-4f2a-9003-e2143babe975 (suni:66424eb1-6ec0-4f2a-9003-e2143babe975)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#6839545f-3c21-456c-8e65-a34518a8bf7c",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "6839545f-3c21-456c-8e65-a34518a8bf7c (suni:6839545f-3c21-456c-8e65-a34518a8bf7c)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#69195ab5-0241-4995-8079-fee9d5509376",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "69195ab5-0241-4995-8079-fee9d5509376 (suni:69195ab5-0241-4995-8079-fee9d5509376)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#6939e3db-546a-4041-a823-e729a2d4b694",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "6939e3db-546a-4041-a823-e729a2d4b694 (suni:6939e3db-546a-4041-a823-e729a2d4b694)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#6a176aee-0f30-4da3-bd88-b48f61a6a5ca",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
-        "type": "geoinstance",
-        "text": "6a176aee-0f30-4da3-bd88-b48f61a6a5ca (suni:6a176aee-0f30-4da3-bd88-b48f61a6a5ca)",
-        "data": {}
-      },
-      {
-        "id": "http://www.github.com/sparqlunicorn#6daab534-65db-49f5-9b1b-5842930184c6",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
-        "type": "geoinstance",
-        "text": "6daab534-65db-49f5-9b1b-5842930184c6 (suni:6daab534-65db-49f5-9b1b-5842930184c6)",
-        "data": {}
-      },
-      {
         "id": "http://www.github.com/sparqlunicorn#6f14de57-897a-4758-a984-262ca18baf75",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "6f14de57-897a-4758-a984-262ca18baf75 (suni:6f14de57-897a-4758-a984-262ca18baf75)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#6fa013cb-f86c-4978-ac06-999760a58991",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "6fa013cb-f86c-4978-ac06-999760a58991 (suni:6fa013cb-f86c-4978-ac06-999760a58991)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#72d83c05-1969-4b24-a507-eb1450bffea4",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
-        "type": "geoinstance",
-        "text": "72d83c05-1969-4b24-a507-eb1450bffea4 (suni:72d83c05-1969-4b24-a507-eb1450bffea4)",
-        "data": {}
-      },
-      {
         "id": "http://www.github.com/sparqlunicorn#7a2b1560-c346-41b6-915b-a10547cd3440",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "7a2b1560-c346-41b6-915b-a10547cd3440 (suni:7a2b1560-c346-41b6-915b-a10547cd3440)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#7abeb59f-2759-4736-897c-69d50f0cdb27",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "7abeb59f-2759-4736-897c-69d50f0cdb27 (suni:7abeb59f-2759-4736-897c-69d50f0cdb27)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#7c93771e-f108-4c1a-8ede-799d87629036",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "7c93771e-f108-4c1a-8ede-799d87629036 (suni:7c93771e-f108-4c1a-8ede-799d87629036)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#7ee2bf5f-4059-4b49-af4f-173eb49582c7",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
-        "type": "geoinstance",
-        "text": "7ee2bf5f-4059-4b49-af4f-173eb49582c7 (suni:7ee2bf5f-4059-4b49-af4f-173eb49582c7)",
-        "data": {}
-      },
-      {
         "id": "http://www.github.com/sparqlunicorn#7effe8a8-89ea-40c7-b095-ac70c7f9c030",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "7effe8a8-89ea-40c7-b095-ac70c7f9c030 (suni:7effe8a8-89ea-40c7-b095-ac70c7f9c030)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#81a150a3-f5f9-4f03-84d7-b5e043f9d371",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "81a150a3-f5f9-4f03-84d7-b5e043f9d371 (suni:81a150a3-f5f9-4f03-84d7-b5e043f9d371)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#8522a6f2-b165-4529-9dd6-30bc0da88476",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
-        "type": "geoinstance",
-        "text": "8522a6f2-b165-4529-9dd6-30bc0da88476 (suni:8522a6f2-b165-4529-9dd6-30bc0da88476)",
-        "data": {}
-      },
-      {
         "id": "http://www.github.com/sparqlunicorn#866cbf6d-496f-4aff-acce-5f47e32fdcd9",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "866cbf6d-496f-4aff-acce-5f47e32fdcd9 (suni:866cbf6d-496f-4aff-acce-5f47e32fdcd9)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#86997e8b-4662-4c0f-a2d1-b17edc36ac8a",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "86997e8b-4662-4c0f-a2d1-b17edc36ac8a (suni:86997e8b-4662-4c0f-a2d1-b17edc36ac8a)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#86f8a06e-51c7-41be-935b-e70bfcaa67b7",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
-        "type": "geoinstance",
-        "text": "86f8a06e-51c7-41be-935b-e70bfcaa67b7 (suni:86f8a06e-51c7-41be-935b-e70bfcaa67b7)",
-        "data": {}
-      },
-      {
         "id": "http://www.github.com/sparqlunicorn#89b07983-8e6c-4b79-a97f-618a913945ee",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "89b07983-8e6c-4b79-a97f-618a913945ee (suni:89b07983-8e6c-4b79-a97f-618a913945ee)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#8a40c3de-b0fb-4dc0-84d4-2000b15d6f60",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
-        "type": "geoinstance",
-        "text": "8a40c3de-b0fb-4dc0-84d4-2000b15d6f60 (suni:8a40c3de-b0fb-4dc0-84d4-2000b15d6f60)",
-        "data": {}
-      },
-      {
         "id": "http://www.github.com/sparqlunicorn#8a782006-277b-43df-b476-622e770433ba",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "8a782006-277b-43df-b476-622e770433ba (suni:8a782006-277b-43df-b476-622e770433ba)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#8e91ce6c-6177-45e0-80f4-477fd6e14587",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
-        "type": "geoinstance",
-        "text": "8e91ce6c-6177-45e0-80f4-477fd6e14587 (suni:8e91ce6c-6177-45e0-80f4-477fd6e14587)",
-        "data": {}
-      },
-      {
         "id": "http://www.github.com/sparqlunicorn#8fc69a50-3bd3-43ef-9f74-2e52360f520c",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "8fc69a50-3bd3-43ef-9f74-2e52360f520c (suni:8fc69a50-3bd3-43ef-9f74-2e52360f520c)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#90d8c5f4-021b-414b-8219-47f4e39bbff6",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "90d8c5f4-021b-414b-8219-47f4e39bbff6 (suni:90d8c5f4-021b-414b-8219-47f4e39bbff6)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#91417e18-f9c7-49d7-80b2-ec408b898147",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "91417e18-f9c7-49d7-80b2-ec408b898147 (suni:91417e18-f9c7-49d7-80b2-ec408b898147)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#92bc7954-d3e5-456e-a3f9-15ed633ca086",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "92bc7954-d3e5-456e-a3f9-15ed633ca086 (suni:92bc7954-d3e5-456e-a3f9-15ed633ca086)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#9460842b-7734-4665-82a2-0085a33ce453",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "9460842b-7734-4665-82a2-0085a33ce453 (suni:9460842b-7734-4665-82a2-0085a33ce453)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#97e0311e-f072-4b6c-8619-4c8b81cb2232",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
-        "type": "geoinstance",
-        "text": "97e0311e-f072-4b6c-8619-4c8b81cb2232 (suni:97e0311e-f072-4b6c-8619-4c8b81cb2232)",
-        "data": {}
-      },
-      {
         "id": "http://www.github.com/sparqlunicorn#9a404584-fd22-42a3-ba09-2382a8cc7596",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "9a404584-fd22-42a3-ba09-2382a8cc7596 (suni:9a404584-fd22-42a3-ba09-2382a8cc7596)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#9d5f5c58-94c9-426a-862c-0bce70aa017e",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "9d5f5c58-94c9-426a-862c-0bce70aa017e (suni:9d5f5c58-94c9-426a-862c-0bce70aa017e)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#9e80e441-dc60-4514-8477-702e7d8ea321",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "9e80e441-dc60-4514-8477-702e7d8ea321 (suni:9e80e441-dc60-4514-8477-702e7d8ea321)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#a0108469-2166-4732-8aff-f6429f29a82f",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "a0108469-2166-4732-8aff-f6429f29a82f (suni:a0108469-2166-4732-8aff-f6429f29a82f)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#a09111ca-c359-48cc-9a96-e79673caa0b8",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "a09111ca-c359-48cc-9a96-e79673caa0b8 (suni:a09111ca-c359-48cc-9a96-e79673caa0b8)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#a3006e8d-46d6-4db0-81aa-23238514e5eb",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
-        "type": "geoinstance",
-        "text": "a3006e8d-46d6-4db0-81aa-23238514e5eb (suni:a3006e8d-46d6-4db0-81aa-23238514e5eb)",
-        "data": {}
-      },
-      {
         "id": "http://www.github.com/sparqlunicorn#a3228d61-d64a-4b1f-be73-130b222b1c11",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "a3228d61-d64a-4b1f-be73-130b222b1c11 (suni:a3228d61-d64a-4b1f-be73-130b222b1c11)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#a7f106af-5755-44ed-9ba2-86b1110e21f7",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "a7f106af-5755-44ed-9ba2-86b1110e21f7 (suni:a7f106af-5755-44ed-9ba2-86b1110e21f7)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#a9d036a7-9001-47c8-89db-54c0fe8d6829",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
-        "type": "geoinstance",
-        "text": "a9d036a7-9001-47c8-89db-54c0fe8d6829 (suni:a9d036a7-9001-47c8-89db-54c0fe8d6829)",
-        "data": {}
-      },
-      {
-        "id": "http://www.github.com/sparqlunicorn#ab7a69ca-6c8f-4d13-893b-3702231a60b7",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
-        "type": "geoinstance",
-        "text": "ab7a69ca-6c8f-4d13-893b-3702231a60b7 (suni:ab7a69ca-6c8f-4d13-893b-3702231a60b7)",
-        "data": {}
-      },
-      {
         "id": "http://www.github.com/sparqlunicorn#abb845a6-5386-459e-938f-5100e0af1f72",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "abb845a6-5386-459e-938f-5100e0af1f72 (suni:abb845a6-5386-459e-938f-5100e0af1f72)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#b1984fb3-ca88-4453-8fa3-b782d735052c",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "b1984fb3-ca88-4453-8fa3-b782d735052c (suni:b1984fb3-ca88-4453-8fa3-b782d735052c)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#b3a42fde-e5a1-4a7f-912f-ef0fe1019b2b",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "b3a42fde-e5a1-4a7f-912f-ef0fe1019b2b (suni:b3a42fde-e5a1-4a7f-912f-ef0fe1019b2b)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#b6233e40-079e-447d-b960-2f59a90dcd6e",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "b6233e40-079e-447d-b960-2f59a90dcd6e (suni:b6233e40-079e-447d-b960-2f59a90dcd6e)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#b70a68c4-e63b-445d-8f0f-ec2384dc1363",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "b70a68c4-e63b-445d-8f0f-ec2384dc1363 (suni:b70a68c4-e63b-445d-8f0f-ec2384dc1363)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#b7b8283e-fd64-4b1f-b6e3-81a71091b63a",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "b7b8283e-fd64-4b1f-b6e3-81a71091b63a (suni:b7b8283e-fd64-4b1f-b6e3-81a71091b63a)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#b7ee573a-bf90-4f57-b159-39e1fc2822a8",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
-        "type": "geoinstance",
-        "text": "b7ee573a-bf90-4f57-b159-39e1fc2822a8 (suni:b7ee573a-bf90-4f57-b159-39e1fc2822a8)",
-        "data": {}
-      },
-      {
         "id": "http://www.github.com/sparqlunicorn#b8b8a52d-9851-4436-9d74-90cc18bdc8e1",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "b8b8a52d-9851-4436-9d74-90cc18bdc8e1 (suni:b8b8a52d-9851-4436-9d74-90cc18bdc8e1)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#b8ca6de4-79fe-49d2-b786-e5a01b2dc2a0",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "b8ca6de4-79fe-49d2-b786-e5a01b2dc2a0 (suni:b8ca6de4-79fe-49d2-b786-e5a01b2dc2a0)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#b9b8ed23-6d56-4374-b098-d5fe1a84c94f",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "b9b8ed23-6d56-4374-b098-d5fe1a84c94f (suni:b9b8ed23-6d56-4374-b098-d5fe1a84c94f)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#ba37ba09-e4e5-4785-886e-bf6e84dbfb8a",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "ba37ba09-e4e5-4785-886e-bf6e84dbfb8a (suni:ba37ba09-e4e5-4785-886e-bf6e84dbfb8a)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#ba7170d7-475e-4502-9cbd-054d5d326a7d",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
-        "type": "geoinstance",
-        "text": "ba7170d7-475e-4502-9cbd-054d5d326a7d (suni:ba7170d7-475e-4502-9cbd-054d5d326a7d)",
-        "data": {}
-      },
-      {
         "id": "http://www.github.com/sparqlunicorn#bb2e25bb-08ac-43b7-bdd0-c0fb04835eb8",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "bb2e25bb-08ac-43b7-bdd0-c0fb04835eb8 (suni:bb2e25bb-08ac-43b7-bdd0-c0fb04835eb8)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#bd4e5cb6-b4bc-4d65-921d-21dec34dda1b",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "bd4e5cb6-b4bc-4d65-921d-21dec34dda1b (suni:bd4e5cb6-b4bc-4d65-921d-21dec34dda1b)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#c08f3cf1-e573-4914-b15f-b249261d9fab",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "c08f3cf1-e573-4914-b15f-b249261d9fab (suni:c08f3cf1-e573-4914-b15f-b249261d9fab)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#c2174141-51b4-4932-b3b3-4526eb6245d5",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "c2174141-51b4-4932-b3b3-4526eb6245d5 (suni:c2174141-51b4-4932-b3b3-4526eb6245d5)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#c2efc23f-47bb-47cc-9786-739739a84f3b",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "c2efc23f-47bb-47cc-9786-739739a84f3b (suni:c2efc23f-47bb-47cc-9786-739739a84f3b)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#c3bb016c-19bf-454f-8530-ffe68ec1da1a",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "c3bb016c-19bf-454f-8530-ffe68ec1da1a (suni:c3bb016c-19bf-454f-8530-ffe68ec1da1a)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#c5f35a70-8ad6-4cd8-8b0d-519a9ce95b94",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "c5f35a70-8ad6-4cd8-8b0d-519a9ce95b94 (suni:c5f35a70-8ad6-4cd8-8b0d-519a9ce95b94)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#c62d6ed4-30ab-402b-ba2e-c432aaa0d53b",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
-        "type": "geoinstance",
-        "text": "c62d6ed4-30ab-402b-ba2e-c432aaa0d53b (suni:c62d6ed4-30ab-402b-ba2e-c432aaa0d53b)",
-        "data": {}
-      },
-      {
-        "id": "http://www.github.com/sparqlunicorn#c7c46dd9-6977-4662-86fa-7bd465591b65",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
-        "type": "geoinstance",
-        "text": "c7c46dd9-6977-4662-86fa-7bd465591b65 (suni:c7c46dd9-6977-4662-86fa-7bd465591b65)",
-        "data": {}
-      },
-      {
         "id": "http://www.github.com/sparqlunicorn#cbe5d6de-a929-4641-9d9b-9b9b2498eeb3",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "cbe5d6de-a929-4641-9d9b-9b9b2498eeb3 (suni:cbe5d6de-a929-4641-9d9b-9b9b2498eeb3)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#cc01dfc5-6d56-472f-9045-d22f22b2ca3a",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "cc01dfc5-6d56-472f-9045-d22f22b2ca3a (suni:cc01dfc5-6d56-472f-9045-d22f22b2ca3a)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#cc774e18-df41-45a3-976b-bbbbc25ecff1",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "cc774e18-df41-45a3-976b-bbbbc25ecff1 (suni:cc774e18-df41-45a3-976b-bbbbc25ecff1)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#cdab6a0b-7238-4f14-894e-b5fe7bb763d9",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "cdab6a0b-7238-4f14-894e-b5fe7bb763d9 (suni:cdab6a0b-7238-4f14-894e-b5fe7bb763d9)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#ce36306d-ab71-49f0-aed2-6cea0b2cf1d7",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "ce36306d-ab71-49f0-aed2-6cea0b2cf1d7 (suni:ce36306d-ab71-49f0-aed2-6cea0b2cf1d7)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#cfd8197a-ab1b-41e3-9c44-30bb2d1827ac",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "cfd8197a-ab1b-41e3-9c44-30bb2d1827ac (suni:cfd8197a-ab1b-41e3-9c44-30bb2d1827ac)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#d04e1b9c-9c7e-4e90-86a1-9c1e367de3e4",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "d04e1b9c-9c7e-4e90-86a1-9c1e367de3e4 (suni:d04e1b9c-9c7e-4e90-86a1-9c1e367de3e4)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#d1248c32-d156-418a-a10f-104d770ca6fd",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "d1248c32-d156-418a-a10f-104d770ca6fd (suni:d1248c32-d156-418a-a10f-104d770ca6fd)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#d2e36d44-1ea1-4205-8920-c97cdab3b3aa",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
-        "type": "geoinstance",
-        "text": "d2e36d44-1ea1-4205-8920-c97cdab3b3aa (suni:d2e36d44-1ea1-4205-8920-c97cdab3b3aa)",
-        "data": {}
-      },
-      {
         "id": "http://www.github.com/sparqlunicorn#d39b0a02-169d-40a8-897d-7c7a5eee497d",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "d39b0a02-169d-40a8-897d-7c7a5eee497d (suni:d39b0a02-169d-40a8-897d-7c7a5eee497d)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#d46e1360-2fe2-43a6-80fc-892d3d2881c1",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "d46e1360-2fe2-43a6-80fc-892d3d2881c1 (suni:d46e1360-2fe2-43a6-80fc-892d3d2881c1)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#d5710f70-63c7-4107-ac87-3fad0dca5830",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "d5710f70-63c7-4107-ac87-3fad0dca5830 (suni:d5710f70-63c7-4107-ac87-3fad0dca5830)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#dc5ba2e0-7975-466e-930f-a5469030df40",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "dc5ba2e0-7975-466e-930f-a5469030df40 (suni:dc5ba2e0-7975-466e-930f-a5469030df40)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#dca0e312-48bb-4ff0-9316-fa71cdda0c9c",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "dca0e312-48bb-4ff0-9316-fa71cdda0c9c (suni:dca0e312-48bb-4ff0-9316-fa71cdda0c9c)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#ddc25136-83aa-463c-9460-c718847292e0",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "ddc25136-83aa-463c-9460-c718847292e0 (suni:ddc25136-83aa-463c-9460-c718847292e0)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#de109b58-0791-4eb7-9fff-d536f15297af",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "de109b58-0791-4eb7-9fff-d536f15297af (suni:de109b58-0791-4eb7-9fff-d536f15297af)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#e1a4e1ed-5021-4210-80a0-248b4c59ba2b",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "e1a4e1ed-5021-4210-80a0-248b4c59ba2b (suni:e1a4e1ed-5021-4210-80a0-248b4c59ba2b)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#e2bb5213-40ec-467b-ab58-dfd191d67b15",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "e2bb5213-40ec-467b-ab58-dfd191d67b15 (suni:e2bb5213-40ec-467b-ab58-dfd191d67b15)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#e46dfffe-e0b5-4b6b-8545-7f7133231fcd",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "e46dfffe-e0b5-4b6b-8545-7f7133231fcd (suni:e46dfffe-e0b5-4b6b-8545-7f7133231fcd)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#e4f0d99c-176b-4354-872f-84ea358ac1d1",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "e4f0d99c-176b-4354-872f-84ea358ac1d1 (suni:e4f0d99c-176b-4354-872f-84ea358ac1d1)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#e537eb8d-e10d-4cfa-88d8-f7e4e74e5a66",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "e537eb8d-e10d-4cfa-88d8-f7e4e74e5a66 (suni:e537eb8d-e10d-4cfa-88d8-f7e4e74e5a66)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#e6b91a0a-28db-4f3c-bbe7-3191b69ece51",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "e6b91a0a-28db-4f3c-bbe7-3191b69ece51 (suni:e6b91a0a-28db-4f3c-bbe7-3191b69ece51)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#e80677e6-20b7-4e3b-85f3-26eabae3fe58",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "e80677e6-20b7-4e3b-85f3-26eabae3fe58 (suni:e80677e6-20b7-4e3b-85f3-26eabae3fe58)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#e9b6f78c-acb3-44a8-a83d-5230ac8adfb8",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "e9b6f78c-acb3-44a8-a83d-5230ac8adfb8 (suni:e9b6f78c-acb3-44a8-a83d-5230ac8adfb8)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#ea530a2d-219a-4b12-a8b4-4cf7ca09b6b1",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "ea530a2d-219a-4b12-a8b4-4cf7ca09b6b1 (suni:ea530a2d-219a-4b12-a8b4-4cf7ca09b6b1)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#ebd26bae-6b1e-419b-ab53-a52e011f6c81",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "ebd26bae-6b1e-419b-ab53-a52e011f6c81 (suni:ebd26bae-6b1e-419b-ab53-a52e011f6c81)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#ec69643d-e636-443f-95a0-bb55b9614841",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "ec69643d-e636-443f-95a0-bb55b9614841 (suni:ec69643d-e636-443f-95a0-bb55b9614841)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#eec807e9-47d0-4801-a3f8-017c818a99e7",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "eec807e9-47d0-4801-a3f8-017c818a99e7 (suni:eec807e9-47d0-4801-a3f8-017c818a99e7)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#f148606b-a850-4d16-a627-606fb8ee5577",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "f148606b-a850-4d16-a627-606fb8ee5577 (suni:f148606b-a850-4d16-a627-606fb8ee5577)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#f4c616a4-3188-45f4-ad66-878498003c20",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
-        "type": "geoinstance",
-        "text": "f4c616a4-3188-45f4-ad66-878498003c20 (suni:f4c616a4-3188-45f4-ad66-878498003c20)",
-        "data": {}
-      },
-      {
         "id": "http://www.github.com/sparqlunicorn#f533c183-22fb-43cf-9bd1-265caaa661a0",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "f533c183-22fb-43cf-9bd1-265caaa661a0 (suni:f533c183-22fb-43cf-9bd1-265caaa661a0)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#fab26445-cb25-492a-8d8a-47f31706a753",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "fab26445-cb25-492a-8d8a-47f31706a753 (suni:fab26445-cb25-492a-8d8a-47f31706a753)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#fd82485d-f6e8-4413-9120-c739f0cc1e82",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
         "type": "geoinstance",
         "text": "fd82485d-f6e8-4413-9120-c739f0cc1e82 (suni:fd82485d-f6e8-4413-9120-c739f0cc1e82)",
         "data": {}
       },
       {
+        "id": "http://www.github.com/sparqlunicorn#fec6c570-b8d5-49be-aa15-8be41afd1aa3",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
+        "type": "geoinstance",
+        "text": "fec6c570-b8d5-49be-aa15-8be41afd1aa3 (suni:fec6c570-b8d5-49be-aa15-8be41afd1aa3)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
+        "parent": "#",
+        "type": "geoclass",
+        "text": "Koetbullar (fairyland:Koetbullar) [136]",
+        "data": {
+          "to": {
+            "http://rdfs.org/ns/void#inDataset": {
+              "instancecount": 1,
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://rdfs.org/ns/void#Dataset": 1
+            },
+            "http://www.github.com/sparqlunicorn#Name": {
+              "instancecount": 1
+            },
+            "http://www.github.com/sparqlunicorn#Time_Period": {
+              "instancecount": 1
+            },
+            "http://www.github.com/sparqlunicorn#Trench": {
+              "instancecount": 1
+            },
+            "http://www.github.com/sparqlunicorn#fid": {
+              "instancecount": 1
+            },
+            "http://www.opengis.net/ont/geosparql#hasGeometry": {
+              "instancecount": 1,
+              "http://www.opengis.net/ont/sf#Polygon": 1
+            },
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+              "instancecount": 1
+            }
+          },
+          "from": {
+            "http://www.w3.org/2000/01/rdf-schema#member": {
+              "instancecount": 0,
+              "http://www.opengis.net/ont/geosparql#FeatureCollection": 1
+            }
+          }
+        },
+        "instancecount": 7
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion",
+        "type": "geoinstance",
+        "text": "09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb (suni:09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#0d9d574e-754a-4f9c-93b7-47fc15d4f2d3",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion",
+        "type": "geoinstance",
+        "text": "0d9d574e-754a-4f9c-93b7-47fc15d4f2d3 (suni:0d9d574e-754a-4f9c-93b7-47fc15d4f2d3)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#18d49631-5a11-48f6-acb7-62cfaf8de742",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion",
+        "type": "geoinstance",
+        "text": "18d49631-5a11-48f6-acb7-62cfaf8de742 (suni:18d49631-5a11-48f6-acb7-62cfaf8de742)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#1d935768-ea8d-4be8-884b-a4dff9825021",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion",
+        "type": "geoinstance",
+        "text": "1d935768-ea8d-4be8-884b-a4dff9825021 (suni:1d935768-ea8d-4be8-884b-a4dff9825021)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#37993191-20c4-49a4-b3bc-2a28960f323d",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion",
+        "type": "geoinstance",
+        "text": "37993191-20c4-49a4-b3bc-2a28960f323d (suni:37993191-20c4-49a4-b3bc-2a28960f323d)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#3d393a7a-ea8c-45d2-aca7-1453da500bb5",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion",
+        "type": "geoinstance",
+        "text": "3d393a7a-ea8c-45d2-aca7-1453da500bb5 (suni:3d393a7a-ea8c-45d2-aca7-1453da500bb5)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#4e1bbd40-75c2-4134-abdf-71a85b238394",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion",
+        "type": "geoinstance",
+        "text": "4e1bbd40-75c2-4134-abdf-71a85b238394 (suni:4e1bbd40-75c2-4134-abdf-71a85b238394)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#6247dd7d-45da-4805-9922-ad78d30ddc00",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion",
+        "type": "geoinstance",
+        "text": "6247dd7d-45da-4805-9922-ad78d30ddc00 (suni:6247dd7d-45da-4805-9922-ad78d30ddc00)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#62c65c41-af9e-4af8-af61-97602598da5c",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion",
+        "type": "geoinstance",
+        "text": "62c65c41-af9e-4af8-af61-97602598da5c (suni:62c65c41-af9e-4af8-af61-97602598da5c)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#6a176aee-0f30-4da3-bd88-b48f61a6a5ca",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion",
+        "type": "geoinstance",
+        "text": "6a176aee-0f30-4da3-bd88-b48f61a6a5ca (suni:6a176aee-0f30-4da3-bd88-b48f61a6a5ca)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#8a40c3de-b0fb-4dc0-84d4-2000b15d6f60",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion",
+        "type": "geoinstance",
+        "text": "8a40c3de-b0fb-4dc0-84d4-2000b15d6f60 (suni:8a40c3de-b0fb-4dc0-84d4-2000b15d6f60)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#a3006e8d-46d6-4db0-81aa-23238514e5eb",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion",
+        "type": "geoinstance",
+        "text": "a3006e8d-46d6-4db0-81aa-23238514e5eb (suni:a3006e8d-46d6-4db0-81aa-23238514e5eb)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#a9d036a7-9001-47c8-89db-54c0fe8d6829",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion",
+        "type": "geoinstance",
+        "text": "a9d036a7-9001-47c8-89db-54c0fe8d6829 (suni:a9d036a7-9001-47c8-89db-54c0fe8d6829)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#ab7a69ca-6c8f-4d13-893b-3702231a60b7",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion",
+        "type": "geoinstance",
+        "text": "ab7a69ca-6c8f-4d13-893b-3702231a60b7 (suni:ab7a69ca-6c8f-4d13-893b-3702231a60b7)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#ba7170d7-475e-4502-9cbd-054d5d326a7d",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion",
+        "type": "geoinstance",
+        "text": "ba7170d7-475e-4502-9cbd-054d5d326a7d (suni:ba7170d7-475e-4502-9cbd-054d5d326a7d)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#f4c616a4-3188-45f4-ad66-878498003c20",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion",
+        "type": "geoinstance",
+        "text": "f4c616a4-3188-45f4-ad66-878498003c20 (suni:f4c616a4-3188-45f4-ad66-878498003c20)",
+        "data": {}
+      },
+      {
         "id": "http://www.github.com/sparqlunicorn#fd8fe6ba-e13a-4ef3-9047-626fc45be9e2",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion",
         "type": "geoinstance",
         "text": "fd8fe6ba-e13a-4ef3-9047-626fc45be9e2 (suni:fd8fe6ba-e13a-4ef3-9047-626fc45be9e2)",
         "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#fdf099f7-869f-499e-80c3-00c91f0a4d35",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion",
         "type": "geoinstance",
         "text": "fdf099f7-869f-499e-80c3-00c91f0a4d35 (suni:fdf099f7-869f-499e-80c3-00c91f0a4d35)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#fec6c570-b8d5-49be-aa15-8be41afd1aa3",
-        "parent": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
-        "type": "geoinstance",
-        "text": "fec6c570-b8d5-49be-aa15-8be41afd1aa3 (suni:fec6c570-b8d5-49be-aa15-8be41afd1aa3)",
-        "data": {}
-      },
-      {
-        "id": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
-        "parent": "http://www.opengis.net/ont/geosparql#Feature",
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion",
+        "parent": "#",
         "type": "geoclass",
-        "text": "29555707-7201-41b5-8ef4-1c59caac6f59 (suni:29555707-7201-41b5-8ef4-1c59caac6f59) [172]",
+        "text": "Minion (fairyland:Minion) [18]",
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
@@ -1278,8 +1193,7 @@ var tree={
               "http://www.opengis.net/ont/sf#Polygon": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 1,
-              "http://www.w3.org/2002/07/owl#Class": 1
+              "instancecount": 1
             }
           },
           "from": {
@@ -1292,10 +1206,38 @@ var tree={
         "instancecount": 8
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#nonns_Feature.html",
-        "parent": "http://www.opengis.net/ont/geosparql#SpatialObject",
-        "type": "class",
-        "text": "Feature (gsp:Feature)",
+        "id": "http://www.github.com/sparqlunicorn#0b12b1c6-4f43-4635-9437-2eccad89860a",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Stone",
+        "type": "geoinstance",
+        "text": "0b12b1c6-4f43-4635-9437-2eccad89860a (suni:0b12b1c6-4f43-4635-9437-2eccad89860a)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#43445b66-c4c5-4668-8fb7-00186131c6ff",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Stone",
+        "type": "geoinstance",
+        "text": "43445b66-c4c5-4668-8fb7-00186131c6ff (suni:43445b66-c4c5-4668-8fb7-00186131c6ff)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#b7ee573a-bf90-4f57-b159-39e1fc2822a8",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Stone",
+        "type": "geoinstance",
+        "text": "b7ee573a-bf90-4f57-b159-39e1fc2822a8 (suni:b7ee573a-bf90-4f57-b159-39e1fc2822a8)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#c7c46dd9-6977-4662-86fa-7bd465591b65",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Stone",
+        "type": "geoinstance",
+        "text": "c7c46dd9-6977-4662-86fa-7bd465591b65 (suni:c7c46dd9-6977-4662-86fa-7bd465591b65)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Stone",
+        "parent": "#",
+        "type": "geoclass",
+        "text": "Stone (fairyland:Stone) [4]",
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
@@ -1303,34 +1245,299 @@ var tree={
               "http://www.w3.org/ns/adms#Asset": 1,
               "http://rdfs.org/ns/void#Dataset": 1
             },
-            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+            "http://www.github.com/sparqlunicorn#Name": {
               "instancecount": 1
             },
-            "http://www.w3.org/2000/01/rdf-schema#subClassOf": {
+            "http://www.github.com/sparqlunicorn#Time_Period": {
+              "instancecount": 1
+            },
+            "http://www.github.com/sparqlunicorn#Trench": {
+              "instancecount": 1
+            },
+            "http://www.github.com/sparqlunicorn#fid": {
+              "instancecount": 1
+            },
+            "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 1,
-              "http://www.w3.org/2002/07/owl#Class": 1
+              "http://www.opengis.net/ont/sf#Polygon": 1
+            },
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+              "instancecount": 1
             }
           },
           "from": {
-            "http://rdfs.org/ns/void#class": {
-              "instancecount": 0,
-              "http://rdfs.org/ns/void#Dataset": 1
-            },
-            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 0,
-              "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59": 172
-            },
-            "http://www.w3.org/2000/01/rdf-schema#domain": {
-              "instancecount": 0,
-              "http://www.w3.org/2002/07/owl#DatatypeProperty": 4
-            },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
-              "http://www.w3.org/2004/02/skos/core#Collection": 1
+              "http://www.opengis.net/ont/geosparql#FeatureCollection": 1
             }
           }
         },
-        "instancecount": 3
+        "instancecount": 7
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#1ac53fc4-aeb3-4256-ac8e-47160f4d642a",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Street",
+        "type": "geoinstance",
+        "text": "1ac53fc4-aeb3-4256-ac8e-47160f4d642a (suni:1ac53fc4-aeb3-4256-ac8e-47160f4d642a)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#3e67e756-dad2-4514-a9af-511fd2db0e91",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Street",
+        "type": "geoinstance",
+        "text": "3e67e756-dad2-4514-a9af-511fd2db0e91 (suni:3e67e756-dad2-4514-a9af-511fd2db0e91)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#72d83c05-1969-4b24-a507-eb1450bffea4",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Street",
+        "type": "geoinstance",
+        "text": "72d83c05-1969-4b24-a507-eb1450bffea4 (suni:72d83c05-1969-4b24-a507-eb1450bffea4)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#7ee2bf5f-4059-4b49-af4f-173eb49582c7",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Street",
+        "type": "geoinstance",
+        "text": "7ee2bf5f-4059-4b49-af4f-173eb49582c7 (suni:7ee2bf5f-4059-4b49-af4f-173eb49582c7)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#8e91ce6c-6177-45e0-80f4-477fd6e14587",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Street",
+        "type": "geoinstance",
+        "text": "8e91ce6c-6177-45e0-80f4-477fd6e14587 (suni:8e91ce6c-6177-45e0-80f4-477fd6e14587)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#c62d6ed4-30ab-402b-ba2e-c432aaa0d53b",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Street",
+        "type": "geoinstance",
+        "text": "c62d6ed4-30ab-402b-ba2e-c432aaa0d53b (suni:c62d6ed4-30ab-402b-ba2e-c432aaa0d53b)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#d2e36d44-1ea1-4205-8920-c97cdab3b3aa",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Street",
+        "type": "geoinstance",
+        "text": "d2e36d44-1ea1-4205-8920-c97cdab3b3aa (suni:d2e36d44-1ea1-4205-8920-c97cdab3b3aa)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Street",
+        "parent": "#",
+        "type": "geoclass",
+        "text": "Street (fairyland:Street) [7]",
+        "data": {
+          "to": {
+            "http://rdfs.org/ns/void#inDataset": {
+              "instancecount": 1,
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://rdfs.org/ns/void#Dataset": 1
+            },
+            "http://www.github.com/sparqlunicorn#Name": {
+              "instancecount": 1
+            },
+            "http://www.github.com/sparqlunicorn#Time_Period": {
+              "instancecount": 1
+            },
+            "http://www.github.com/sparqlunicorn#Trench": {
+              "instancecount": 1
+            },
+            "http://www.github.com/sparqlunicorn#fid": {
+              "instancecount": 1
+            },
+            "http://www.opengis.net/ont/geosparql#hasGeometry": {
+              "instancecount": 1,
+              "http://www.opengis.net/ont/sf#MultiPolygon": 1
+            },
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+              "instancecount": 1
+            }
+          },
+          "from": {
+            "http://www.w3.org/2000/01/rdf-schema#member": {
+              "instancecount": 0,
+              "http://www.opengis.net/ont/geosparql#FeatureCollection": 1
+            }
+          }
+        },
+        "instancecount": 7
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#3a55458f-5c2f-4368-9a03-384f6377e301",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Kangaroo",
+        "type": "geoinstance",
+        "text": "3a55458f-5c2f-4368-9a03-384f6377e301 (suni:3a55458f-5c2f-4368-9a03-384f6377e301)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#622ce224-fab0-4fbd-8a79-d8ecc9b26a49",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Kangaroo",
+        "type": "geoinstance",
+        "text": "622ce224-fab0-4fbd-8a79-d8ecc9b26a49 (suni:622ce224-fab0-4fbd-8a79-d8ecc9b26a49)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#6daab534-65db-49f5-9b1b-5842930184c6",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Kangaroo",
+        "type": "geoinstance",
+        "text": "6daab534-65db-49f5-9b1b-5842930184c6 (suni:6daab534-65db-49f5-9b1b-5842930184c6)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#8522a6f2-b165-4529-9dd6-30bc0da88476",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Kangaroo",
+        "type": "geoinstance",
+        "text": "8522a6f2-b165-4529-9dd6-30bc0da88476 (suni:8522a6f2-b165-4529-9dd6-30bc0da88476)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Kangaroo",
+        "parent": "#",
+        "type": "geoclass",
+        "text": "Kangaroo (fairyland:Kangaroo) [4]",
+        "data": {
+          "to": {
+            "http://rdfs.org/ns/void#inDataset": {
+              "instancecount": 1,
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://rdfs.org/ns/void#Dataset": 1
+            },
+            "http://www.github.com/sparqlunicorn#Condition": {
+              "instancecount": 1
+            },
+            "http://www.github.com/sparqlunicorn#Name": {
+              "instancecount": 1
+            },
+            "http://www.github.com/sparqlunicorn#Time_Period": {
+              "instancecount": 1
+            },
+            "http://www.github.com/sparqlunicorn#Trench": {
+              "instancecount": 1
+            },
+            "http://www.github.com/sparqlunicorn#fid": {
+              "instancecount": 1
+            },
+            "http://www.opengis.net/ont/geosparql#hasGeometry": {
+              "instancecount": 1,
+              "http://www.opengis.net/ont/sf#Polygon": 1
+            },
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+              "instancecount": 1
+            }
+          },
+          "from": {
+            "http://www.w3.org/2000/01/rdf-schema#member": {
+              "instancecount": 0,
+              "http://www.opengis.net/ont/geosparql#FeatureCollection": 1
+            }
+          }
+        },
+        "instancecount": 8
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#4db030c2-2331-4dad-b17c-da023bceff9f",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Crater",
+        "type": "geoinstance",
+        "text": "4db030c2-2331-4dad-b17c-da023bceff9f (suni:4db030c2-2331-4dad-b17c-da023bceff9f)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#97e0311e-f072-4b6c-8619-4c8b81cb2232",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Crater",
+        "type": "geoinstance",
+        "text": "97e0311e-f072-4b6c-8619-4c8b81cb2232 (suni:97e0311e-f072-4b6c-8619-4c8b81cb2232)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Crater",
+        "parent": "#",
+        "type": "geoclass",
+        "text": "Crater (fairyland:Crater) [2]",
+        "data": {
+          "to": {
+            "http://rdfs.org/ns/void#inDataset": {
+              "instancecount": 1,
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://rdfs.org/ns/void#Dataset": 1
+            },
+            "http://www.github.com/sparqlunicorn#Name": {
+              "instancecount": 1
+            },
+            "http://www.github.com/sparqlunicorn#Time_Period": {
+              "instancecount": 1
+            },
+            "http://www.github.com/sparqlunicorn#Trench": {
+              "instancecount": 1
+            },
+            "http://www.github.com/sparqlunicorn#fid": {
+              "instancecount": 1
+            },
+            "http://www.opengis.net/ont/geosparql#hasGeometry": {
+              "instancecount": 1,
+              "http://www.opengis.net/ont/sf#Polygon": 1
+            },
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+              "instancecount": 1
+            }
+          },
+          "from": {
+            "http://www.w3.org/2000/01/rdf-schema#member": {
+              "instancecount": 0,
+              "http://www.opengis.net/ont/geosparql#FeatureCollection": 1
+            }
+          }
+        },
+        "instancecount": 7
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#86f8a06e-51c7-41be-935b-e70bfcaa67b7",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/AllenKey",
+        "type": "geoinstance",
+        "text": "86f8a06e-51c7-41be-935b-e70bfcaa67b7 (suni:86f8a06e-51c7-41be-935b-e70bfcaa67b7)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/AllenKey",
+        "parent": "#",
+        "type": "geoclass",
+        "text": "AllenKey (fairyland:AllenKey) [1]",
+        "data": {
+          "to": {
+            "http://rdfs.org/ns/void#inDataset": {
+              "instancecount": 1,
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://rdfs.org/ns/void#Dataset": 1
+            },
+            "http://www.github.com/sparqlunicorn#Name": {
+              "instancecount": 1
+            },
+            "http://www.github.com/sparqlunicorn#Time_Period": {
+              "instancecount": 1
+            },
+            "http://www.github.com/sparqlunicorn#Trench": {
+              "instancecount": 1
+            },
+            "http://www.github.com/sparqlunicorn#fid": {
+              "instancecount": 1
+            },
+            "http://www.opengis.net/ont/geosparql#hasGeometry": {
+              "instancecount": 1,
+              "http://www.opengis.net/ont/sf#Polygon": 1
+            },
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+              "instancecount": 1
+            }
+          },
+          "from": {
+            "http://www.w3.org/2000/01/rdf-schema#member": {
+              "instancecount": 0,
+              "http://www.opengis.net/ont/geosparql#FeatureCollection": 1
+            }
+          }
+        },
+        "instancecount": 7
       },
       {
         "id": "http://www.opengis.net/def/crs/EPSG/0/4326_suniv0_",
@@ -2622,7 +2829,7 @@ var tree={
           "from": {
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 0,
-              "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59": 1
+              "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
@@ -2676,7 +2883,7 @@ var tree={
           "from": {
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 0,
-              "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59": 1
+              "https://github.com/Research-Squirrel-Engineers/FAIRyland/Street": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
@@ -2736,17 +2943,59 @@ var tree={
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59_collection",
+        "id": "http://www.github.com/sparqlunicorn#Koetbullar_collection",
         "parent": "http://www.opengis.net/ont/geosparql#FeatureCollection",
         "type": "featurecollection",
-        "text": "29555707-7201-41b5-8ef4-1c59caac6f59 Instances Collection (suni:29555707-7201-41b5-8ef4-1c59caac6f59_collection)",
+        "text": "Koetbullar Instances Collection (suni:Koetbullar_collection)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#Minion_collection",
+        "parent": "http://www.opengis.net/ont/geosparql#FeatureCollection",
+        "type": "featurecollection",
+        "text": "Minion Instances Collection (suni:Minion_collection)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#Stone_collection",
+        "parent": "http://www.opengis.net/ont/geosparql#FeatureCollection",
+        "type": "featurecollection",
+        "text": "Stone Instances Collection (suni:Stone_collection)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#Street_collection",
+        "parent": "http://www.opengis.net/ont/geosparql#FeatureCollection",
+        "type": "featurecollection",
+        "text": "Street Instances Collection (suni:Street_collection)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#Kangaroo_collection",
+        "parent": "http://www.opengis.net/ont/geosparql#FeatureCollection",
+        "type": "featurecollection",
+        "text": "Kangaroo Instances Collection (suni:Kangaroo_collection)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#Crater_collection",
+        "parent": "http://www.opengis.net/ont/geosparql#FeatureCollection",
+        "type": "featurecollection",
+        "text": "Crater Instances Collection (suni:Crater_collection)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#AllenKey_collection",
+        "parent": "http://www.opengis.net/ont/geosparql#FeatureCollection",
+        "type": "featurecollection",
+        "text": "AllenKey Instances Collection (suni:AllenKey_collection)",
         "data": {}
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#FeatureCollection",
         "parent": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
         "type": "collectionclass",
-        "text": "FeatureCollection (gsp:FeatureCollection) [1]",
+        "text": "FeatureCollection (gsp:FeatureCollection) [7]",
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
@@ -2761,13 +3010,13 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 172,
-              "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59": 172
+              "instancecount": 4,
+              "https://github.com/Research-Squirrel-Engineers/FAIRyland/Kangaroo": 4
             }
           },
           "from": {}
         },
-        "instancecount": 176
+        "instancecount": 8
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
@@ -2850,19 +3099,63 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 170,
-              "http://www.opengis.net/ont/sf#Polygon": 170
+              "instancecount": 2,
+              "http://www.opengis.net/ont/sf#MultiPolygon": 2
             }
           },
           "from": {}
         },
-        "instancecount": 174
+        "instancecount": 6
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#nonns_Feature.html",
+        "parent": "http://www.opengis.net/ont/geosparql#SpatialObject",
+        "type": "class",
+        "text": "Feature (gsp:Feature)",
+        "data": {
+          "to": {
+            "http://rdfs.org/ns/void#inDataset": {
+              "instancecount": 1,
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://rdfs.org/ns/void#Dataset": 1
+            },
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#subClassOf": {
+              "instancecount": 1,
+              "http://www.w3.org/2002/07/owl#Class": 1
+            }
+          },
+          "from": {
+            "http://rdfs.org/ns/void#class": {
+              "instancecount": 0,
+              "http://rdfs.org/ns/void#Dataset": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#domain": {
+              "instancecount": 0,
+              "http://www.w3.org/2002/07/owl#DatatypeProperty": 4
+            },
+            "http://www.w3.org/2000/01/rdf-schema#member": {
+              "instancecount": 0,
+              "http://www.w3.org/2004/02/skos/core#Collection": 1
+            }
+          }
+        },
+        "instancecount": 3
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#SpatialObject",
         "parent": "#",
         "type": "class",
         "text": "SpatialObject (gsp:SpatialObject)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
+        "parent": "http://www.opengis.net/ont/geosparql#Feature",
+        "type": "class",
+        "text": "29555707-7201-41b5-8ef4-1c59caac6f59 (suni:29555707-7201-41b5-8ef4-1c59caac6f59)",
         "data": {}
       }
     ]

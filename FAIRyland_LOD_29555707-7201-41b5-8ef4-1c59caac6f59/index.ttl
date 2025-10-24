@@ -1,11 +1,9 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix void: <http://rdfs.org/ns/void#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_29555707-7201-41b5-8ef4-1c59caac6f59> a void:Dataset,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Class Partition: 29555707-7201-41b5-8ef4-1c59caac6f59"@en ;
-    void:class <http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59> ;
-    void:entities 172 .
+    void:class <http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59> .
 

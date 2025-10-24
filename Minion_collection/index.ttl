@@ -1,0 +1,28 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://www.github.com/sparqlunicorn#Minion_collection> a geo:FeatureCollection,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Minion Instances Collection"@en ;
+    void:inDataset <http://www.github.com/sparqlunicorn#FAIRyland_LOD> ;
+    rdfs:member <http://www.github.com/sparqlunicorn#09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb>,
+        <http://www.github.com/sparqlunicorn#0d9d574e-754a-4f9c-93b7-47fc15d4f2d3>,
+        <http://www.github.com/sparqlunicorn#18d49631-5a11-48f6-acb7-62cfaf8de742>,
+        <http://www.github.com/sparqlunicorn#1d935768-ea8d-4be8-884b-a4dff9825021>,
+        <http://www.github.com/sparqlunicorn#37993191-20c4-49a4-b3bc-2a28960f323d>,
+        <http://www.github.com/sparqlunicorn#3d393a7a-ea8c-45d2-aca7-1453da500bb5>,
+        <http://www.github.com/sparqlunicorn#4e1bbd40-75c2-4134-abdf-71a85b238394>,
+        <http://www.github.com/sparqlunicorn#6247dd7d-45da-4805-9922-ad78d30ddc00>,
+        <http://www.github.com/sparqlunicorn#62c65c41-af9e-4af8-af61-97602598da5c>,
+        <http://www.github.com/sparqlunicorn#6a176aee-0f30-4da3-bd88-b48f61a6a5ca>,
+        <http://www.github.com/sparqlunicorn#8a40c3de-b0fb-4dc0-84d4-2000b15d6f60>,
+        <http://www.github.com/sparqlunicorn#a3006e8d-46d6-4db0-81aa-23238514e5eb>,
+        <http://www.github.com/sparqlunicorn#a9d036a7-9001-47c8-89db-54c0fe8d6829>,
+        <http://www.github.com/sparqlunicorn#ab7a69ca-6c8f-4d13-893b-3702231a60b7>,
+        <http://www.github.com/sparqlunicorn#ba7170d7-475e-4502-9cbd-054d5d326a7d>,
+        <http://www.github.com/sparqlunicorn#f4c616a4-3188-45f4-ad66-878498003c20>,
+        <http://www.github.com/sparqlunicorn#fd8fe6ba-e13a-4ef3-9047-626fc45be9e2>,
+        <http://www.github.com/sparqlunicorn#fdf099f7-869f-499e-80c3-00c91f0a4d35> .
+

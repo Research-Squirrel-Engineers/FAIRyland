@@ -31,6 +31,7 @@ var vowlresult={
    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
    "xsd": "http://www.w3.org/2001/XMLSchema#",
    "xml": "http://www.w3.org/XML/1998/namespace",
+   "fairyland": "https://github.com/Research-Squirrel-Engineers/FAIRyland/",
    "ns1": "http://www.opengis.net/ont/crs/",
    "suni": "http://www.github.com/sparqlunicorn#"
   },
@@ -64,6 +65,7 @@ var vowlresult={
    "http://www.w3.org/2000/01/rdf-schema#",
    "http://www.w3.org/2001/XMLSchema#",
    "http://www.w3.org/XML/1998/namespace",
+   "https://github.com/Research-Squirrel-Engineers/FAIRyland/",
    "http://www.opengis.net/ont/crs/",
    "http://www.github.com/sparqlunicorn#"
   ],
@@ -116,7 +118,7 @@ var vowlresult={
    "annotations": {},
    "subClasses": [
     "364",
-    "365"
+    "366"
    ],
    "superClasses": [
     "363"
@@ -162,30 +164,30 @@ var vowlresult={
    "annotations": {},
    "subClasses": [],
    "superClasses": [
-    "362"
-   ]
-  },
-  {
-   "id": 365,
-   "iri": "http://www.opengis.net/ont/sf#Polygon",
-   "baseIRI": "http://www.opengis.net/ont/sf",
-   "instances": 0,
-   "label": {
-    "IRI-based": "Polygon"
-   },
-   "annotations": {},
-   "subClasses": [],
-   "superClasses": [
     "361"
    ]
   },
   {
-   "id": 366,
+   "id": 365,
    "iri": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "29555707-7201-41b5-8ef4-1c59caac6f59"
+   },
+   "annotations": {},
+   "subClasses": [],
+   "superClasses": [
+    "362"
+   ]
+  },
+  {
+   "id": 366,
+   "iri": "http://www.opengis.net/ont/sf#Polygon",
+   "baseIRI": "http://www.opengis.net/ont/sf",
+   "instances": 0,
+   "label": {
+    "IRI-based": "Polygon"
    },
    "annotations": {},
    "subClasses": [],
@@ -213,7 +215,7 @@ var vowlresult={
    },
    "annotations": {},
    "subClasses": [
-    "366"
+    "365"
    ],
    "superClasses": [
     "363"
@@ -223,691 +225,691 @@ var vowlresult={
  "property": [
   {
    "id": 0,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 1,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 2,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 3,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 4,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 5,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 6,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 7,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 8,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 9,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 10,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 11,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 12,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 13,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 14,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 15,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 16,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 17,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 18,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 19,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 20,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 21,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 22,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 23,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 24,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 25,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 26,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 27,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 28,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 29,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 30,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 31,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 32,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 33,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 34,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 35,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 36,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 37,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 38,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 39,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 40,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 41,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 42,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 43,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 44,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 45,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 46,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 47,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 48,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 49,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 50,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 51,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 52,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 53,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 54,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 55,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 56,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 57,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 58,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 59,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 60,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 61,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 62,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 63,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 64,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 65,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 66,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 67,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 68,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 69,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 70,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 71,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 72,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 73,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 74,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 75,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 76,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 77,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 78,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 79,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 80,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 81,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 82,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 83,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 84,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 85,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 86,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 87,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 88,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 89,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 90,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 91,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 92,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 93,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 94,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 95,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 96,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 97,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 98,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 99,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 100,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 101,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 102,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 103,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 104,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 105,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 106,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 107,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 108,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 109,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 110,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 111,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 112,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 113,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 114,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 115,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 116,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 117,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 118,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 119,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 120,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 121,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 122,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 123,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 124,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 125,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 126,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 127,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 128,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 129,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 130,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 131,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 132,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 133,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 134,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 135,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
   },
   {
    "id": 136,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion"
   },
   {
    "id": 137,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion"
   },
   {
    "id": 138,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion"
   },
   {
    "id": 139,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion"
   },
   {
    "id": 140,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion"
   },
   {
    "id": 141,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion"
   },
   {
    "id": 142,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion"
   },
   {
    "id": 143,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion"
   },
   {
    "id": 144,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion"
   },
   {
    "id": 145,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion"
   },
   {
    "id": 146,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion"
   },
   {
    "id": 147,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion"
   },
   {
    "id": 148,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion"
   },
   {
    "id": 149,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion"
   },
   {
    "id": 150,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion"
   },
   {
    "id": 151,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion"
   },
   {
    "id": 152,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion"
   },
   {
    "id": 153,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion"
   },
   {
    "id": 154,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Stone"
   },
   {
    "id": 155,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Stone"
   },
   {
    "id": 156,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Stone"
   },
   {
    "id": 157,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Stone"
   },
   {
    "id": 158,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Street"
   },
   {
    "id": 159,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Street"
   },
   {
    "id": 160,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Street"
   },
   {
    "id": 161,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Street"
   },
   {
    "id": 162,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Street"
   },
   {
    "id": 163,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Street"
   },
   {
    "id": 164,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Street"
   },
   {
    "id": 165,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Kangaroo"
   },
   {
    "id": 166,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Kangaroo"
   },
   {
    "id": 167,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Kangaroo"
   },
   {
    "id": 168,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Kangaroo"
   },
   {
    "id": 169,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Crater"
   },
   {
    "id": 170,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Crater"
   },
   {
    "id": 171,
-   "type": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/AllenKey"
   },
   {
    "id": 172,
@@ -2014,124 +2016,6 @@ var vowlresult={
     "IRI-based": "09625e57-e1e3-4819-baac-8154feac0fe6"
    },
    "annotations": {
-    "http://www.github.com/sparqlunicorn#Condition": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Condition",
-      "language": "undefined",
-      "value": "flatten",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Name": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Name",
-      "language": "undefined",
-      "value": "Minions",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Time_Period": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
-      "language": "undefined",
-      "value": "Minion",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Trench": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Trench",
-      "language": "undefined",
-      "value": "Ikea Land",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#fid": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#fid",
-      "language": "undefined",
-      "value": "46",
-      "type": "label"
-     }
-    ],
-    "http://www.opengis.net/ont/geosparql#hasGeometry": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
-      "language": "undefined",
-      "value": "http://www.github.com/sparqlunicorn#09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb_geom",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 7,
-   "iri": "http://www.github.com/sparqlunicorn#09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb"
-   },
-   "annotations": {
-    "http://www.github.com/sparqlunicorn#Name": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Name",
-      "language": "undefined",
-      "value": "Stone",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Time_Period": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
-      "language": "undefined",
-      "value": "Minion",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Trench": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Trench",
-      "language": "undefined",
-      "value": "Ikea Land",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#fid": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#fid",
-      "language": "undefined",
-      "value": "33",
-      "type": "label"
-     }
-    ],
-    "http://www.opengis.net/ont/geosparql#hasGeometry": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
-      "language": "undefined",
-      "value": "http://www.github.com/sparqlunicorn#0b12b1c6-4f43-4635-9437-2eccad89860a_geom",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 8,
-   "iri": "http://www.github.com/sparqlunicorn#0b12b1c6-4f43-4635-9437-2eccad89860a",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "0b12b1c6-4f43-4635-9437-2eccad89860a"
-   },
-   "annotations": {
     "http://www.github.com/sparqlunicorn#Name": [
      {
       "identifier": "http://www.github.com/sparqlunicorn#Name",
@@ -2179,7 +2063,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 9,
+   "id": 7,
    "iri": "http://www.github.com/sparqlunicorn#0b959b96-55fd-4550-b4de-68e2c4f9625f",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -2234,7 +2118,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 10,
+   "id": 8,
    "iri": "http://www.github.com/sparqlunicorn#0cc84bdb-a46b-47fc-851f-925f22e3fd77",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -2289,75 +2173,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 11,
+   "id": 9,
    "iri": "http://www.github.com/sparqlunicorn#0cde71e0-701f-44cd-a025-5cac1d1c7d70",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "0cde71e0-701f-44cd-a025-5cac1d1c7d70"
-   },
-   "annotations": {
-    "http://www.github.com/sparqlunicorn#Condition": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Condition",
-      "language": "undefined",
-      "value": "flatten",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Name": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Name",
-      "language": "undefined",
-      "value": "Minions",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Time_Period": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
-      "language": "undefined",
-      "value": "Minion",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Trench": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Trench",
-      "language": "undefined",
-      "value": "Ikea Land",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#fid": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#fid",
-      "language": "undefined",
-      "value": "43",
-      "type": "label"
-     }
-    ],
-    "http://www.opengis.net/ont/geosparql#hasGeometry": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
-      "language": "undefined",
-      "value": "http://www.github.com/sparqlunicorn#0d9d574e-754a-4f9c-93b7-47fc15d4f2d3_geom",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 12,
-   "iri": "http://www.github.com/sparqlunicorn#0d9d574e-754a-4f9c-93b7-47fc15d4f2d3",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "0d9d574e-754a-4f9c-93b7-47fc15d4f2d3"
    },
    "annotations": {
     "http://www.github.com/sparqlunicorn#Name": [
@@ -2407,7 +2228,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 13,
+   "id": 10,
    "iri": "http://www.github.com/sparqlunicorn#1073f60f-73b2-4193-8bd7-951995224dbb",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -2462,7 +2283,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 14,
+   "id": 11,
    "iri": "http://www.github.com/sparqlunicorn#10d1a1c2-f56c-485c-a5cc-4d4e48c8e675",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -2517,7 +2338,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 15,
+   "id": 12,
    "iri": "http://www.github.com/sparqlunicorn#12ce69a0-6b49-4159-8ff6-b468f44d33b5",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -2572,7 +2393,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 16,
+   "id": 13,
    "iri": "http://www.github.com/sparqlunicorn#12d61444-88ae-43b3-95d4-15e5fecd4180",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -2635,75 +2456,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 17,
+   "id": 14,
    "iri": "http://www.github.com/sparqlunicorn#180a5320-3833-4133-aa46-aab7f0d80d84",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "180a5320-3833-4133-aa46-aab7f0d80d84"
-   },
-   "annotations": {
-    "http://www.github.com/sparqlunicorn#Condition": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Condition",
-      "language": "undefined",
-      "value": "flatten",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Name": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Name",
-      "language": "undefined",
-      "value": "Minions",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Time_Period": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
-      "language": "undefined",
-      "value": "Minion",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Trench": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Trench",
-      "language": "undefined",
-      "value": "Ikea Land",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#fid": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#fid",
-      "language": "undefined",
-      "value": "42",
-      "type": "label"
-     }
-    ],
-    "http://www.opengis.net/ont/geosparql#hasGeometry": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
-      "language": "undefined",
-      "value": "http://www.github.com/sparqlunicorn#18d49631-5a11-48f6-acb7-62cfaf8de742_geom",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 18,
-   "iri": "http://www.github.com/sparqlunicorn#18d49631-5a11-48f6-acb7-62cfaf8de742",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "18d49631-5a11-48f6-acb7-62cfaf8de742"
    },
    "annotations": {
     "http://www.github.com/sparqlunicorn#Name": [
@@ -2753,7 +2511,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 19,
+   "id": 15,
    "iri": "http://www.github.com/sparqlunicorn#19793c7f-6cc9-462c-99da-e3e33ff97461",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -2808,130 +2566,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 20,
+   "id": 16,
    "iri": "http://www.github.com/sparqlunicorn#1a2be1c9-acaf-4659-839d-0146401472f2",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "1a2be1c9-acaf-4659-839d-0146401472f2"
-   },
-   "annotations": {
-    "http://www.github.com/sparqlunicorn#Name": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Name",
-      "language": "undefined",
-      "value": "Street",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Time_Period": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
-      "language": "undefined",
-      "value": "Minion",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Trench": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Trench",
-      "language": "undefined",
-      "value": "Ikea Land",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#fid": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#fid",
-      "language": "undefined",
-      "value": "161",
-      "type": "label"
-     }
-    ],
-    "http://www.opengis.net/ont/geosparql#hasGeometry": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
-      "language": "undefined",
-      "value": "http://www.github.com/sparqlunicorn#1ac53fc4-aeb3-4256-ac8e-47160f4d642a_geom",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 21,
-   "iri": "http://www.github.com/sparqlunicorn#1ac53fc4-aeb3-4256-ac8e-47160f4d642a",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "1ac53fc4-aeb3-4256-ac8e-47160f4d642a"
-   },
-   "annotations": {
-    "http://www.github.com/sparqlunicorn#Condition": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Condition",
-      "language": "undefined",
-      "value": "flatten",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Name": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Name",
-      "language": "undefined",
-      "value": "Minions",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Time_Period": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
-      "language": "undefined",
-      "value": "Minion",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Trench": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Trench",
-      "language": "undefined",
-      "value": "Ikea Land",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#fid": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#fid",
-      "language": "undefined",
-      "value": "35",
-      "type": "label"
-     }
-    ],
-    "http://www.opengis.net/ont/geosparql#hasGeometry": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
-      "language": "undefined",
-      "value": "http://www.github.com/sparqlunicorn#1d935768-ea8d-4be8-884b-a4dff9825021_geom",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 22,
-   "iri": "http://www.github.com/sparqlunicorn#1d935768-ea8d-4be8-884b-a4dff9825021",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "1d935768-ea8d-4be8-884b-a4dff9825021"
    },
    "annotations": {
     "http://www.github.com/sparqlunicorn#Name": [
@@ -2981,7 +2621,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 23,
+   "id": 17,
    "iri": "http://www.github.com/sparqlunicorn#1fcfa357-13f8-4cb5-8e28-f98280989898",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -3036,7 +2676,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 24,
+   "id": 18,
    "iri": "http://www.github.com/sparqlunicorn#25d0c170-da08-47ed-8bf8-78f36d0f558e",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -3091,7 +2731,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 25,
+   "id": 19,
    "iri": "http://www.github.com/sparqlunicorn#264aceda-0df9-48de-9c9a-bfac46e9d790",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -3146,7 +2786,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 26,
+   "id": 20,
    "iri": "http://www.github.com/sparqlunicorn#275a5b7f-e28a-41ec-b6b5-9bc82b47f1a0",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -3201,7 +2841,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 27,
+   "id": 21,
    "iri": "http://www.github.com/sparqlunicorn#28ec2dbf-6806-4a32-a35d-78764bfda459",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -3256,7 +2896,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 28,
+   "id": 22,
    "iri": "http://www.github.com/sparqlunicorn#2abb9a90-732f-4e75-b764-6b3df7dfa173",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -3311,7 +2951,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 29,
+   "id": 23,
    "iri": "http://www.github.com/sparqlunicorn#2d3d304e-4ac7-4f2f-93a6-251105f7ace4",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -3366,7 +3006,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 30,
+   "id": 24,
    "iri": "http://www.github.com/sparqlunicorn#2e711592-9068-438a-80b9-0c7725e1d6bb",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -3421,7 +3061,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 31,
+   "id": 25,
    "iri": "http://www.github.com/sparqlunicorn#3018eba9-3c11-41e8-901e-7377167b58e4",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -3476,7 +3116,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 32,
+   "id": 26,
    "iri": "http://www.github.com/sparqlunicorn#31615fc1-a7de-48af-80a2-777dd77760b2",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -3531,7 +3171,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 33,
+   "id": 27,
    "iri": "http://www.github.com/sparqlunicorn#32126fde-7a0e-46ab-b512-ad9f20ea10ea",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -3586,7 +3226,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 34,
+   "id": 28,
    "iri": "http://www.github.com/sparqlunicorn#327283ae-3a31-4397-ae77-2566e4d146b6",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -3641,7 +3281,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 35,
+   "id": 29,
    "iri": "http://www.github.com/sparqlunicorn#3280d786-1bb7-4913-9be9-9041f65ef4b6",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -3696,75 +3336,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 36,
+   "id": 30,
    "iri": "http://www.github.com/sparqlunicorn#3672902d-7362-4069-9769-21296706d028",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "3672902d-7362-4069-9769-21296706d028"
-   },
-   "annotations": {
-    "http://www.github.com/sparqlunicorn#Condition": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Condition",
-      "language": "undefined",
-      "value": "flatten",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Name": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Name",
-      "language": "undefined",
-      "value": "Minions",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Time_Period": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
-      "language": "undefined",
-      "value": "Minion",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Trench": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Trench",
-      "language": "undefined",
-      "value": "Ikea Land",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#fid": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#fid",
-      "language": "undefined",
-      "value": "58",
-      "type": "label"
-     }
-    ],
-    "http://www.opengis.net/ont/geosparql#hasGeometry": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
-      "language": "undefined",
-      "value": "http://www.github.com/sparqlunicorn#37993191-20c4-49a4-b3bc-2a28960f323d_geom",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 37,
-   "iri": "http://www.github.com/sparqlunicorn#37993191-20c4-49a4-b3bc-2a28960f323d",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "37993191-20c4-49a4-b3bc-2a28960f323d"
    },
    "annotations": {
     "http://www.github.com/sparqlunicorn#Name": [
@@ -3814,75 +3391,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 38,
+   "id": 31,
    "iri": "http://www.github.com/sparqlunicorn#389c5712-618e-4532-84fd-4eb084e6c0aa",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "389c5712-618e-4532-84fd-4eb084e6c0aa"
-   },
-   "annotations": {
-    "http://www.github.com/sparqlunicorn#Condition": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Condition",
-      "language": "undefined",
-      "value": "flatten",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Name": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Name",
-      "language": "undefined",
-      "value": "Kangaroo",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Time_Period": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
-      "language": "undefined",
-      "value": "Minion",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Trench": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Trench",
-      "language": "undefined",
-      "value": "Ikea Land",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#fid": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#fid",
-      "language": "undefined",
-      "value": "67",
-      "type": "label"
-     }
-    ],
-    "http://www.opengis.net/ont/geosparql#hasGeometry": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
-      "language": "undefined",
-      "value": "http://www.github.com/sparqlunicorn#3a55458f-5c2f-4368-9a03-384f6377e301_geom",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 39,
-   "iri": "http://www.github.com/sparqlunicorn#3a55458f-5c2f-4368-9a03-384f6377e301",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "3a55458f-5c2f-4368-9a03-384f6377e301"
    },
    "annotations": {
     "http://www.github.com/sparqlunicorn#Condition": [
@@ -3940,130 +3454,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 40,
+   "id": 32,
    "iri": "http://www.github.com/sparqlunicorn#3cd74fe7-9b31-4361-ad28-08afb3097edc",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "3cd74fe7-9b31-4361-ad28-08afb3097edc"
-   },
-   "annotations": {
-    "http://www.github.com/sparqlunicorn#Condition": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Condition",
-      "language": "undefined",
-      "value": "flatten",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Name": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Name",
-      "language": "undefined",
-      "value": "Minions",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Time_Period": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
-      "language": "undefined",
-      "value": "Minion",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Trench": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Trench",
-      "language": "undefined",
-      "value": "Ikea Land",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#fid": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#fid",
-      "language": "undefined",
-      "value": "55",
-      "type": "label"
-     }
-    ],
-    "http://www.opengis.net/ont/geosparql#hasGeometry": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
-      "language": "undefined",
-      "value": "http://www.github.com/sparqlunicorn#3d393a7a-ea8c-45d2-aca7-1453da500bb5_geom",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 41,
-   "iri": "http://www.github.com/sparqlunicorn#3d393a7a-ea8c-45d2-aca7-1453da500bb5",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "3d393a7a-ea8c-45d2-aca7-1453da500bb5"
-   },
-   "annotations": {
-    "http://www.github.com/sparqlunicorn#Name": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Name",
-      "language": "undefined",
-      "value": "Street",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Time_Period": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
-      "language": "undefined",
-      "value": "Minion IIa",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Trench": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Trench",
-      "language": "undefined",
-      "value": "Norrfors",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#fid": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#fid",
-      "language": "undefined",
-      "value": "162",
-      "type": "label"
-     }
-    ],
-    "http://www.opengis.net/ont/geosparql#hasGeometry": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
-      "language": "undefined",
-      "value": "http://www.github.com/sparqlunicorn#3e67e756-dad2-4514-a9af-511fd2db0e91_geom",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 42,
-   "iri": "http://www.github.com/sparqlunicorn#3e67e756-dad2-4514-a9af-511fd2db0e91",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "3e67e756-dad2-4514-a9af-511fd2db0e91"
    },
    "annotations": {
     "http://www.github.com/sparqlunicorn#Name": [
@@ -4113,7 +3509,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 43,
+   "id": 33,
    "iri": "http://www.github.com/sparqlunicorn#3e78afb0-3e1c-4814-a038-dfde669dc4c1",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -4168,67 +3564,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 44,
+   "id": 34,
    "iri": "http://www.github.com/sparqlunicorn#41bc9d9f-999b-4c03-868d-e3823fc03184",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "41bc9d9f-999b-4c03-868d-e3823fc03184"
-   },
-   "annotations": {
-    "http://www.github.com/sparqlunicorn#Name": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Name",
-      "language": "undefined",
-      "value": "Stone",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Time_Period": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
-      "language": "undefined",
-      "value": "Minion",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Trench": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Trench",
-      "language": "undefined",
-      "value": "Ikea Land",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#fid": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#fid",
-      "language": "undefined",
-      "value": "31",
-      "type": "label"
-     }
-    ],
-    "http://www.opengis.net/ont/geosparql#hasGeometry": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
-      "language": "undefined",
-      "value": "http://www.github.com/sparqlunicorn#43445b66-c4c5-4668-8fb7-00186131c6ff_geom",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 45,
-   "iri": "http://www.github.com/sparqlunicorn#43445b66-c4c5-4668-8fb7-00186131c6ff",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "43445b66-c4c5-4668-8fb7-00186131c6ff"
    },
    "annotations": {
     "http://www.github.com/sparqlunicorn#Name": [
@@ -4278,7 +3619,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 46,
+   "id": 35,
    "iri": "http://www.github.com/sparqlunicorn#435bca7b-b840-4894-9bff-df7c45b2c20c",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -4333,7 +3674,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 47,
+   "id": 36,
    "iri": "http://www.github.com/sparqlunicorn#45d241e5-c948-4ae3-860b-668b54894e58",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -4388,7 +3729,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 48,
+   "id": 37,
    "iri": "http://www.github.com/sparqlunicorn#464f2805-ec4f-4d89-858e-f56a4378062d",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -4443,7 +3784,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 49,
+   "id": 38,
    "iri": "http://www.github.com/sparqlunicorn#467872e1-4482-4e05-ba2e-2ac81b40dcf7",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -4498,7 +3839,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 50,
+   "id": 39,
    "iri": "http://www.github.com/sparqlunicorn#4692f53e-797d-4457-bbc3-55273889566f",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -4553,7 +3894,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 51,
+   "id": 40,
    "iri": "http://www.github.com/sparqlunicorn#4960c3ef-c969-4930-8f87-3e9250c5b716",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -4608,7 +3949,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 52,
+   "id": 41,
    "iri": "http://www.github.com/sparqlunicorn#49ca3504-ffe4-4ec4-bd95-72123b14e48e",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -4663,7 +4004,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 53,
+   "id": 42,
    "iri": "http://www.github.com/sparqlunicorn#4a4c2cd5-02ce-415c-b812-ec9fd13d73c6",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -4718,7 +4059,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 54,
+   "id": 43,
    "iri": "http://www.github.com/sparqlunicorn#4bb458df-e06c-4d79-bcdb-663a09168b93",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -4773,138 +4114,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 55,
+   "id": 44,
    "iri": "http://www.github.com/sparqlunicorn#4ccf2904-a68a-4c88-81de-8d549bc421e9",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "4ccf2904-a68a-4c88-81de-8d549bc421e9"
-   },
-   "annotations": {
-    "http://www.github.com/sparqlunicorn#Condition": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Condition",
-      "language": "undefined",
-      "value": "dry",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Name": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Name",
-      "language": "undefined",
-      "value": "Crater",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Time_Period": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
-      "language": "undefined",
-      "value": "Minion IIa",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Trench": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Trench",
-      "language": "undefined",
-      "value": "Norrfors",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#fid": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#fid",
-      "language": "undefined",
-      "value": "160",
-      "type": "label"
-     }
-    ],
-    "http://www.opengis.net/ont/geosparql#hasGeometry": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
-      "language": "undefined",
-      "value": "http://www.github.com/sparqlunicorn#4db030c2-2331-4dad-b17c-da023bceff9f_geom",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 56,
-   "iri": "http://www.github.com/sparqlunicorn#4db030c2-2331-4dad-b17c-da023bceff9f",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "4db030c2-2331-4dad-b17c-da023bceff9f"
-   },
-   "annotations": {
-    "http://www.github.com/sparqlunicorn#Condition": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Condition",
-      "language": "undefined",
-      "value": "flatten",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Name": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Name",
-      "language": "undefined",
-      "value": "Minions",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Time_Period": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
-      "language": "undefined",
-      "value": "Minion",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Trench": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Trench",
-      "language": "undefined",
-      "value": "Ikea Land",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#fid": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#fid",
-      "language": "undefined",
-      "value": "57",
-      "type": "label"
-     }
-    ],
-    "http://www.opengis.net/ont/geosparql#hasGeometry": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
-      "language": "undefined",
-      "value": "http://www.github.com/sparqlunicorn#4e1bbd40-75c2-4134-abdf-71a85b238394_geom",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 57,
-   "iri": "http://www.github.com/sparqlunicorn#4e1bbd40-75c2-4134-abdf-71a85b238394",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "4e1bbd40-75c2-4134-abdf-71a85b238394"
    },
    "annotations": {
     "http://www.github.com/sparqlunicorn#Name": [
@@ -4954,7 +4169,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 58,
+   "id": 45,
    "iri": "http://www.github.com/sparqlunicorn#4f25cbc8-6f89-434b-8988-0e3e965f2aa7",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -5009,7 +4224,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 59,
+   "id": 46,
    "iri": "http://www.github.com/sparqlunicorn#521dd20c-2456-40a9-8b2b-0064396ccb07",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -5064,7 +4279,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 60,
+   "id": 47,
    "iri": "http://www.github.com/sparqlunicorn#526eb9a7-2805-4a93-b49c-df9a922b279c",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -5127,7 +4342,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 61,
+   "id": 48,
    "iri": "http://www.github.com/sparqlunicorn#52f8f607-2c6b-4b25-90f8-861ed744e1ca",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -5190,7 +4405,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 62,
+   "id": 49,
    "iri": "http://www.github.com/sparqlunicorn#53bf2db7-7718-4835-bc3c-2baf3068207f",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -5245,7 +4460,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 63,
+   "id": 50,
    "iri": "http://www.github.com/sparqlunicorn#53ed429c-06e1-419a-9002-12d7bcf18ba0",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -5300,7 +4515,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 64,
+   "id": 51,
    "iri": "http://www.github.com/sparqlunicorn#54e13ec0-7b5a-4f4a-892f-615ab97d9000",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -5355,7 +4570,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 65,
+   "id": 52,
    "iri": "http://www.github.com/sparqlunicorn#55eee8ec-2c4a-4924-8d2e-89b0d57b2d74",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -5410,7 +4625,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 66,
+   "id": 53,
    "iri": "http://www.github.com/sparqlunicorn#569674c9-3895-4cb5-8f2c-38e608cab577",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -5465,7 +4680,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 67,
+   "id": 54,
    "iri": "http://www.github.com/sparqlunicorn#5bcc0471-f0ba-417c-bae1-abb3223cd352",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -5520,7 +4735,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 68,
+   "id": 55,
    "iri": "http://www.github.com/sparqlunicorn#5c6ce17c-cdde-459e-a423-ad5d827e5d4e",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -5575,201 +4790,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 69,
+   "id": 56,
    "iri": "http://www.github.com/sparqlunicorn#5f5d079d-712c-4ad0-842c-c04d0d0763e5",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "5f5d079d-712c-4ad0-842c-c04d0d0763e5"
-   },
-   "annotations": {
-    "http://www.github.com/sparqlunicorn#Condition": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Condition",
-      "language": "undefined",
-      "value": "flatten",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Name": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Name",
-      "language": "undefined",
-      "value": "Kangaroo",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Time_Period": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
-      "language": "undefined",
-      "value": "Minion I",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Trench": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Trench",
-      "language": "undefined",
-      "value": "Norrfors",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#fid": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#fid",
-      "language": "undefined",
-      "value": "172",
-      "type": "label"
-     }
-    ],
-    "http://www.opengis.net/ont/geosparql#hasGeometry": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
-      "language": "undefined",
-      "value": "http://www.github.com/sparqlunicorn#622ce224-fab0-4fbd-8a79-d8ecc9b26a49_geom",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 70,
-   "iri": "http://www.github.com/sparqlunicorn#622ce224-fab0-4fbd-8a79-d8ecc9b26a49",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "622ce224-fab0-4fbd-8a79-d8ecc9b26a49"
-   },
-   "annotations": {
-    "http://www.github.com/sparqlunicorn#Condition": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Condition",
-      "language": "undefined",
-      "value": "flatten",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Name": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Name",
-      "language": "undefined",
-      "value": "Minions",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Time_Period": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
-      "language": "undefined",
-      "value": "Minion",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Trench": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Trench",
-      "language": "undefined",
-      "value": "Ikea Land",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#fid": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#fid",
-      "language": "undefined",
-      "value": "59",
-      "type": "label"
-     }
-    ],
-    "http://www.opengis.net/ont/geosparql#hasGeometry": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
-      "language": "undefined",
-      "value": "http://www.github.com/sparqlunicorn#6247dd7d-45da-4805-9922-ad78d30ddc00_geom",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 71,
-   "iri": "http://www.github.com/sparqlunicorn#6247dd7d-45da-4805-9922-ad78d30ddc00",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "6247dd7d-45da-4805-9922-ad78d30ddc00"
-   },
-   "annotations": {
-    "http://www.github.com/sparqlunicorn#Condition": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Condition",
-      "language": "undefined",
-      "value": "flatten",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Name": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Name",
-      "language": "undefined",
-      "value": "Minions",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Time_Period": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
-      "language": "undefined",
-      "value": "Minion IIa",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Trench": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Trench",
-      "language": "undefined",
-      "value": "Norrfors",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#fid": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#fid",
-      "language": "undefined",
-      "value": "169",
-      "type": "label"
-     }
-    ],
-    "http://www.opengis.net/ont/geosparql#hasGeometry": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
-      "language": "undefined",
-      "value": "http://www.github.com/sparqlunicorn#62c65c41-af9e-4af8-af61-97602598da5c_geom",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 72,
-   "iri": "http://www.github.com/sparqlunicorn#62c65c41-af9e-4af8-af61-97602598da5c",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "62c65c41-af9e-4af8-af61-97602598da5c"
    },
    "annotations": {
     "http://www.github.com/sparqlunicorn#Name": [
@@ -5819,7 +4845,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 73,
+   "id": 57,
    "iri": "http://www.github.com/sparqlunicorn#64586be1-1d82-4160-a5fb-5af067a6276b",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -5874,7 +4900,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 74,
+   "id": 58,
    "iri": "http://www.github.com/sparqlunicorn#646cf01d-f91f-454d-96f3-69f122d90cf1",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -5929,7 +4955,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 75,
+   "id": 59,
    "iri": "http://www.github.com/sparqlunicorn#65f7355b-9621-4b7e-a716-8fa0a4f07a0e",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -5984,7 +5010,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 76,
+   "id": 60,
    "iri": "http://www.github.com/sparqlunicorn#66424eb1-6ec0-4f2a-9003-e2143babe975",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -6039,7 +5065,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 77,
+   "id": 61,
    "iri": "http://www.github.com/sparqlunicorn#6839545f-3c21-456c-8e65-a34518a8bf7c",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -6094,7 +5120,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 78,
+   "id": 62,
    "iri": "http://www.github.com/sparqlunicorn#69195ab5-0241-4995-8079-fee9d5509376",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -6149,138 +5175,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 79,
+   "id": 63,
    "iri": "http://www.github.com/sparqlunicorn#6939e3db-546a-4041-a823-e729a2d4b694",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "6939e3db-546a-4041-a823-e729a2d4b694"
-   },
-   "annotations": {
-    "http://www.github.com/sparqlunicorn#Condition": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Condition",
-      "language": "undefined",
-      "value": "flatten",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Name": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Name",
-      "language": "undefined",
-      "value": "Minions",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Time_Period": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
-      "language": "undefined",
-      "value": "Minion",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Trench": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Trench",
-      "language": "undefined",
-      "value": "Ikea Land",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#fid": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#fid",
-      "language": "undefined",
-      "value": "38",
-      "type": "label"
-     }
-    ],
-    "http://www.opengis.net/ont/geosparql#hasGeometry": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
-      "language": "undefined",
-      "value": "http://www.github.com/sparqlunicorn#6a176aee-0f30-4da3-bd88-b48f61a6a5ca_geom",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 80,
-   "iri": "http://www.github.com/sparqlunicorn#6a176aee-0f30-4da3-bd88-b48f61a6a5ca",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "6a176aee-0f30-4da3-bd88-b48f61a6a5ca"
-   },
-   "annotations": {
-    "http://www.github.com/sparqlunicorn#Condition": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Condition",
-      "language": "undefined",
-      "value": "flatten",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Name": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Name",
-      "language": "undefined",
-      "value": "Kangaroo",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Time_Period": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
-      "language": "undefined",
-      "value": "Minion",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Trench": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Trench",
-      "language": "undefined",
-      "value": "Ikea Land",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#fid": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#fid",
-      "language": "undefined",
-      "value": "70",
-      "type": "label"
-     }
-    ],
-    "http://www.opengis.net/ont/geosparql#hasGeometry": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
-      "language": "undefined",
-      "value": "http://www.github.com/sparqlunicorn#6daab534-65db-49f5-9b1b-5842930184c6_geom",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 81,
-   "iri": "http://www.github.com/sparqlunicorn#6daab534-65db-49f5-9b1b-5842930184c6",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "6daab534-65db-49f5-9b1b-5842930184c6"
    },
    "annotations": {
     "http://www.github.com/sparqlunicorn#Name": [
@@ -6330,7 +5230,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 82,
+   "id": 64,
    "iri": "http://www.github.com/sparqlunicorn#6f14de57-897a-4758-a984-262ca18baf75",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -6385,67 +5285,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 83,
+   "id": 65,
    "iri": "http://www.github.com/sparqlunicorn#6fa013cb-f86c-4978-ac06-999760a58991",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "6fa013cb-f86c-4978-ac06-999760a58991"
-   },
-   "annotations": {
-    "http://www.github.com/sparqlunicorn#Name": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Name",
-      "language": "undefined",
-      "value": "Street",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Time_Period": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
-      "language": "undefined",
-      "value": "Minion",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Trench": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Trench",
-      "language": "undefined",
-      "value": "Ikea Land",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#fid": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#fid",
-      "language": "undefined",
-      "value": "163",
-      "type": "label"
-     }
-    ],
-    "http://www.opengis.net/ont/geosparql#hasGeometry": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
-      "language": "undefined",
-      "value": "http://www.github.com/sparqlunicorn#72d83c05-1969-4b24-a507-eb1450bffea4_geom",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 84,
-   "iri": "http://www.github.com/sparqlunicorn#72d83c05-1969-4b24-a507-eb1450bffea4",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "72d83c05-1969-4b24-a507-eb1450bffea4"
    },
    "annotations": {
     "http://www.github.com/sparqlunicorn#Condition": [
@@ -6503,7 +5348,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 85,
+   "id": 66,
    "iri": "http://www.github.com/sparqlunicorn#7a2b1560-c346-41b6-915b-a10547cd3440",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -6558,7 +5403,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 86,
+   "id": 67,
    "iri": "http://www.github.com/sparqlunicorn#7abeb59f-2759-4736-897c-69d50f0cdb27",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -6613,67 +5458,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 87,
+   "id": 68,
    "iri": "http://www.github.com/sparqlunicorn#7c93771e-f108-4c1a-8ede-799d87629036",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "7c93771e-f108-4c1a-8ede-799d87629036"
-   },
-   "annotations": {
-    "http://www.github.com/sparqlunicorn#Name": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Name",
-      "language": "undefined",
-      "value": "Street",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Time_Period": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
-      "language": "undefined",
-      "value": "Minion IIa",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Trench": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Trench",
-      "language": "undefined",
-      "value": "Norrfors",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#fid": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#fid",
-      "language": "undefined",
-      "value": "167",
-      "type": "label"
-     }
-    ],
-    "http://www.opengis.net/ont/geosparql#hasGeometry": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
-      "language": "undefined",
-      "value": "http://www.github.com/sparqlunicorn#7ee2bf5f-4059-4b49-af4f-173eb49582c7_geom",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 88,
-   "iri": "http://www.github.com/sparqlunicorn#7ee2bf5f-4059-4b49-af4f-173eb49582c7",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "7ee2bf5f-4059-4b49-af4f-173eb49582c7"
    },
    "annotations": {
     "http://www.github.com/sparqlunicorn#Name": [
@@ -6723,7 +5513,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 89,
+   "id": 69,
    "iri": "http://www.github.com/sparqlunicorn#7effe8a8-89ea-40c7-b095-ac70c7f9c030",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -6778,75 +5568,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 90,
+   "id": 70,
    "iri": "http://www.github.com/sparqlunicorn#81a150a3-f5f9-4f03-84d7-b5e043f9d371",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "81a150a3-f5f9-4f03-84d7-b5e043f9d371"
-   },
-   "annotations": {
-    "http://www.github.com/sparqlunicorn#Condition": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Condition",
-      "language": "undefined",
-      "value": "flatten",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Name": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Name",
-      "language": "undefined",
-      "value": "Kangaroo",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Time_Period": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
-      "language": "undefined",
-      "value": "Minion",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Trench": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Trench",
-      "language": "undefined",
-      "value": "Ikea Land",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#fid": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#fid",
-      "language": "undefined",
-      "value": "71",
-      "type": "label"
-     }
-    ],
-    "http://www.opengis.net/ont/geosparql#hasGeometry": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
-      "language": "undefined",
-      "value": "http://www.github.com/sparqlunicorn#8522a6f2-b165-4529-9dd6-30bc0da88476_geom",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 91,
-   "iri": "http://www.github.com/sparqlunicorn#8522a6f2-b165-4529-9dd6-30bc0da88476",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "8522a6f2-b165-4529-9dd6-30bc0da88476"
    },
    "annotations": {
     "http://www.github.com/sparqlunicorn#Name": [
@@ -6896,7 +5623,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 92,
+   "id": 71,
    "iri": "http://www.github.com/sparqlunicorn#866cbf6d-496f-4aff-acce-5f47e32fdcd9",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -6951,67 +5678,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 93,
+   "id": 72,
    "iri": "http://www.github.com/sparqlunicorn#86997e8b-4662-4c0f-a2d1-b17edc36ac8a",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "86997e8b-4662-4c0f-a2d1-b17edc36ac8a"
-   },
-   "annotations": {
-    "http://www.github.com/sparqlunicorn#Name": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Name",
-      "language": "undefined",
-      "value": "Allen key (Inbusschl\u00fcssel)",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Time_Period": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
-      "language": "undefined",
-      "value": "Minion",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Trench": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Trench",
-      "language": "undefined",
-      "value": "Ikea Land",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#fid": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#fid",
-      "language": "undefined",
-      "value": "68",
-      "type": "label"
-     }
-    ],
-    "http://www.opengis.net/ont/geosparql#hasGeometry": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
-      "language": "undefined",
-      "value": "http://www.github.com/sparqlunicorn#86f8a06e-51c7-41be-935b-e70bfcaa67b7_geom",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 94,
-   "iri": "http://www.github.com/sparqlunicorn#86f8a06e-51c7-41be-935b-e70bfcaa67b7",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "86f8a06e-51c7-41be-935b-e70bfcaa67b7"
    },
    "annotations": {
     "http://www.github.com/sparqlunicorn#Name": [
@@ -7061,75 +5733,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 95,
+   "id": 73,
    "iri": "http://www.github.com/sparqlunicorn#89b07983-8e6c-4b79-a97f-618a913945ee",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "89b07983-8e6c-4b79-a97f-618a913945ee"
-   },
-   "annotations": {
-    "http://www.github.com/sparqlunicorn#Condition": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Condition",
-      "language": "undefined",
-      "value": "flatten",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Name": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Name",
-      "language": "undefined",
-      "value": "Minions",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Time_Period": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
-      "language": "undefined",
-      "value": "Minion",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Trench": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Trench",
-      "language": "undefined",
-      "value": "Ikea Land",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#fid": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#fid",
-      "language": "undefined",
-      "value": "56",
-      "type": "label"
-     }
-    ],
-    "http://www.opengis.net/ont/geosparql#hasGeometry": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
-      "language": "undefined",
-      "value": "http://www.github.com/sparqlunicorn#8a40c3de-b0fb-4dc0-84d4-2000b15d6f60_geom",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 96,
-   "iri": "http://www.github.com/sparqlunicorn#8a40c3de-b0fb-4dc0-84d4-2000b15d6f60",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "8a40c3de-b0fb-4dc0-84d4-2000b15d6f60"
    },
    "annotations": {
     "http://www.github.com/sparqlunicorn#Name": [
@@ -7179,67 +5788,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 97,
+   "id": 74,
    "iri": "http://www.github.com/sparqlunicorn#8a782006-277b-43df-b476-622e770433ba",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "8a782006-277b-43df-b476-622e770433ba"
-   },
-   "annotations": {
-    "http://www.github.com/sparqlunicorn#Name": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Name",
-      "language": "undefined",
-      "value": "Street",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Time_Period": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
-      "language": "undefined",
-      "value": "Minion",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Trench": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Trench",
-      "language": "undefined",
-      "value": "Ikea Land",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#fid": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#fid",
-      "language": "undefined",
-      "value": "165",
-      "type": "label"
-     }
-    ],
-    "http://www.opengis.net/ont/geosparql#hasGeometry": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
-      "language": "undefined",
-      "value": "http://www.github.com/sparqlunicorn#8e91ce6c-6177-45e0-80f4-477fd6e14587_geom",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 98,
-   "iri": "http://www.github.com/sparqlunicorn#8e91ce6c-6177-45e0-80f4-477fd6e14587",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "8e91ce6c-6177-45e0-80f4-477fd6e14587"
    },
    "annotations": {
     "http://www.github.com/sparqlunicorn#Name": [
@@ -7289,7 +5843,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 99,
+   "id": 75,
    "iri": "http://www.github.com/sparqlunicorn#8fc69a50-3bd3-43ef-9f74-2e52360f520c",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -7352,7 +5906,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 100,
+   "id": 76,
    "iri": "http://www.github.com/sparqlunicorn#90d8c5f4-021b-414b-8219-47f4e39bbff6",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -7407,7 +5961,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 101,
+   "id": 77,
    "iri": "http://www.github.com/sparqlunicorn#91417e18-f9c7-49d7-80b2-ec408b898147",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -7462,7 +6016,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 102,
+   "id": 78,
    "iri": "http://www.github.com/sparqlunicorn#92bc7954-d3e5-456e-a3f9-15ed633ca086",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -7517,67 +6071,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 103,
+   "id": 79,
    "iri": "http://www.github.com/sparqlunicorn#9460842b-7734-4665-82a2-0085a33ce453",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "9460842b-7734-4665-82a2-0085a33ce453"
-   },
-   "annotations": {
-    "http://www.github.com/sparqlunicorn#Name": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Name",
-      "language": "undefined",
-      "value": "Crater",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Time_Period": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
-      "language": "undefined",
-      "value": "Minion",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Trench": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Trench",
-      "language": "undefined",
-      "value": "Ikea Land",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#fid": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#fid",
-      "language": "undefined",
-      "value": "47",
-      "type": "label"
-     }
-    ],
-    "http://www.opengis.net/ont/geosparql#hasGeometry": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
-      "language": "undefined",
-      "value": "http://www.github.com/sparqlunicorn#97e0311e-f072-4b6c-8619-4c8b81cb2232_geom",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 104,
-   "iri": "http://www.github.com/sparqlunicorn#97e0311e-f072-4b6c-8619-4c8b81cb2232",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "97e0311e-f072-4b6c-8619-4c8b81cb2232"
    },
    "annotations": {
     "http://www.github.com/sparqlunicorn#Name": [
@@ -7627,7 +6126,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 105,
+   "id": 80,
    "iri": "http://www.github.com/sparqlunicorn#9a404584-fd22-42a3-ba09-2382a8cc7596",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -7682,7 +6181,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 106,
+   "id": 81,
    "iri": "http://www.github.com/sparqlunicorn#9d5f5c58-94c9-426a-862c-0bce70aa017e",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -7737,7 +6236,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 107,
+   "id": 82,
    "iri": "http://www.github.com/sparqlunicorn#9e80e441-dc60-4514-8477-702e7d8ea321",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -7800,7 +6299,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 108,
+   "id": 83,
    "iri": "http://www.github.com/sparqlunicorn#a0108469-2166-4732-8aff-f6429f29a82f",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -7855,75 +6354,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 109,
+   "id": 84,
    "iri": "http://www.github.com/sparqlunicorn#a09111ca-c359-48cc-9a96-e79673caa0b8",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "a09111ca-c359-48cc-9a96-e79673caa0b8"
-   },
-   "annotations": {
-    "http://www.github.com/sparqlunicorn#Condition": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Condition",
-      "language": "undefined",
-      "value": "flatten",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Name": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Name",
-      "language": "undefined",
-      "value": "Minions",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Time_Period": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
-      "language": "undefined",
-      "value": "Minion",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Trench": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Trench",
-      "language": "undefined",
-      "value": "Ikea Land",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#fid": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#fid",
-      "language": "undefined",
-      "value": "41",
-      "type": "label"
-     }
-    ],
-    "http://www.opengis.net/ont/geosparql#hasGeometry": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
-      "language": "undefined",
-      "value": "http://www.github.com/sparqlunicorn#a3006e8d-46d6-4db0-81aa-23238514e5eb_geom",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 110,
-   "iri": "http://www.github.com/sparqlunicorn#a3006e8d-46d6-4db0-81aa-23238514e5eb",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "a3006e8d-46d6-4db0-81aa-23238514e5eb"
    },
    "annotations": {
     "http://www.github.com/sparqlunicorn#Name": [
@@ -7973,7 +6409,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 111,
+   "id": 85,
    "iri": "http://www.github.com/sparqlunicorn#a3228d61-d64a-4b1f-be73-130b222b1c11",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -8028,138 +6464,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 112,
+   "id": 86,
    "iri": "http://www.github.com/sparqlunicorn#a7f106af-5755-44ed-9ba2-86b1110e21f7",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "a7f106af-5755-44ed-9ba2-86b1110e21f7"
-   },
-   "annotations": {
-    "http://www.github.com/sparqlunicorn#Condition": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Condition",
-      "language": "undefined",
-      "value": "flatten",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Name": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Name",
-      "language": "undefined",
-      "value": "Minions",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Time_Period": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
-      "language": "undefined",
-      "value": "Minion",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Trench": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Trench",
-      "language": "undefined",
-      "value": "Ikea Land",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#fid": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#fid",
-      "language": "undefined",
-      "value": "37",
-      "type": "label"
-     }
-    ],
-    "http://www.opengis.net/ont/geosparql#hasGeometry": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
-      "language": "undefined",
-      "value": "http://www.github.com/sparqlunicorn#a9d036a7-9001-47c8-89db-54c0fe8d6829_geom",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 113,
-   "iri": "http://www.github.com/sparqlunicorn#a9d036a7-9001-47c8-89db-54c0fe8d6829",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "a9d036a7-9001-47c8-89db-54c0fe8d6829"
-   },
-   "annotations": {
-    "http://www.github.com/sparqlunicorn#Condition": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Condition",
-      "language": "undefined",
-      "value": "flatten",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Name": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Name",
-      "language": "undefined",
-      "value": "Minions",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Time_Period": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
-      "language": "undefined",
-      "value": "Minion IIa",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Trench": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Trench",
-      "language": "undefined",
-      "value": "Norrfors",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#fid": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#fid",
-      "language": "undefined",
-      "value": "168",
-      "type": "label"
-     }
-    ],
-    "http://www.opengis.net/ont/geosparql#hasGeometry": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
-      "language": "undefined",
-      "value": "http://www.github.com/sparqlunicorn#ab7a69ca-6c8f-4d13-893b-3702231a60b7_geom",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 114,
-   "iri": "http://www.github.com/sparqlunicorn#ab7a69ca-6c8f-4d13-893b-3702231a60b7",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "ab7a69ca-6c8f-4d13-893b-3702231a60b7"
    },
    "annotations": {
     "http://www.github.com/sparqlunicorn#Name": [
@@ -8209,7 +6519,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 115,
+   "id": 87,
    "iri": "http://www.github.com/sparqlunicorn#abb845a6-5386-459e-938f-5100e0af1f72",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -8264,7 +6574,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 116,
+   "id": 88,
    "iri": "http://www.github.com/sparqlunicorn#b1984fb3-ca88-4453-8fa3-b782d735052c",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -8327,7 +6637,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 117,
+   "id": 89,
    "iri": "http://www.github.com/sparqlunicorn#b3a42fde-e5a1-4a7f-912f-ef0fe1019b2b",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -8382,7 +6692,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 118,
+   "id": 90,
    "iri": "http://www.github.com/sparqlunicorn#b6233e40-079e-447d-b960-2f59a90dcd6e",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -8437,7 +6747,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 119,
+   "id": 91,
    "iri": "http://www.github.com/sparqlunicorn#b70a68c4-e63b-445d-8f0f-ec2384dc1363",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -8492,67 +6802,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 120,
+   "id": 92,
    "iri": "http://www.github.com/sparqlunicorn#b7b8283e-fd64-4b1f-b6e3-81a71091b63a",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "b7b8283e-fd64-4b1f-b6e3-81a71091b63a"
-   },
-   "annotations": {
-    "http://www.github.com/sparqlunicorn#Name": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Name",
-      "language": "undefined",
-      "value": "Stone",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Time_Period": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
-      "language": "undefined",
-      "value": "Minion",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Trench": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Trench",
-      "language": "undefined",
-      "value": "Ikea Land",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#fid": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#fid",
-      "language": "undefined",
-      "value": "44",
-      "type": "label"
-     }
-    ],
-    "http://www.opengis.net/ont/geosparql#hasGeometry": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
-      "language": "undefined",
-      "value": "http://www.github.com/sparqlunicorn#b7ee573a-bf90-4f57-b159-39e1fc2822a8_geom",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 121,
-   "iri": "http://www.github.com/sparqlunicorn#b7ee573a-bf90-4f57-b159-39e1fc2822a8",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "b7ee573a-bf90-4f57-b159-39e1fc2822a8"
    },
    "annotations": {
     "http://www.github.com/sparqlunicorn#Name": [
@@ -8602,7 +6857,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 122,
+   "id": 93,
    "iri": "http://www.github.com/sparqlunicorn#b8b8a52d-9851-4436-9d74-90cc18bdc8e1",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -8665,7 +6920,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 123,
+   "id": 94,
    "iri": "http://www.github.com/sparqlunicorn#b8ca6de4-79fe-49d2-b786-e5a01b2dc2a0",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -8720,7 +6975,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 124,
+   "id": 95,
    "iri": "http://www.github.com/sparqlunicorn#b9b8ed23-6d56-4374-b098-d5fe1a84c94f",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -8775,75 +7030,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 125,
+   "id": 96,
    "iri": "http://www.github.com/sparqlunicorn#ba37ba09-e4e5-4785-886e-bf6e84dbfb8a",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "ba37ba09-e4e5-4785-886e-bf6e84dbfb8a"
-   },
-   "annotations": {
-    "http://www.github.com/sparqlunicorn#Condition": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Condition",
-      "language": "undefined",
-      "value": "flatten",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Name": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Name",
-      "language": "undefined",
-      "value": "Minions",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Time_Period": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
-      "language": "undefined",
-      "value": "Minion IIb",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Trench": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Trench",
-      "language": "undefined",
-      "value": "Norrfors",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#fid": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#fid",
-      "language": "undefined",
-      "value": "171",
-      "type": "label"
-     }
-    ],
-    "http://www.opengis.net/ont/geosparql#hasGeometry": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
-      "language": "undefined",
-      "value": "http://www.github.com/sparqlunicorn#ba7170d7-475e-4502-9cbd-054d5d326a7d_geom",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 126,
-   "iri": "http://www.github.com/sparqlunicorn#ba7170d7-475e-4502-9cbd-054d5d326a7d",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "ba7170d7-475e-4502-9cbd-054d5d326a7d"
    },
    "annotations": {
     "http://www.github.com/sparqlunicorn#Name": [
@@ -8893,7 +7085,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 127,
+   "id": 97,
    "iri": "http://www.github.com/sparqlunicorn#bb2e25bb-08ac-43b7-bdd0-c0fb04835eb8",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -8948,7 +7140,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 128,
+   "id": 98,
    "iri": "http://www.github.com/sparqlunicorn#bd4e5cb6-b4bc-4d65-921d-21dec34dda1b",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -9003,7 +7195,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 129,
+   "id": 99,
    "iri": "http://www.github.com/sparqlunicorn#c08f3cf1-e573-4914-b15f-b249261d9fab",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -9058,7 +7250,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 130,
+   "id": 100,
    "iri": "http://www.github.com/sparqlunicorn#c2174141-51b4-4932-b3b3-4526eb6245d5",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -9113,7 +7305,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 131,
+   "id": 101,
    "iri": "http://www.github.com/sparqlunicorn#c2efc23f-47bb-47cc-9786-739739a84f3b",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -9168,7 +7360,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 132,
+   "id": 102,
    "iri": "http://www.github.com/sparqlunicorn#c3bb016c-19bf-454f-8530-ffe68ec1da1a",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -9223,122 +7415,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 133,
+   "id": 103,
    "iri": "http://www.github.com/sparqlunicorn#c5f35a70-8ad6-4cd8-8b0d-519a9ce95b94",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "c5f35a70-8ad6-4cd8-8b0d-519a9ce95b94"
-   },
-   "annotations": {
-    "http://www.github.com/sparqlunicorn#Name": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Name",
-      "language": "undefined",
-      "value": "Street",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Time_Period": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
-      "language": "undefined",
-      "value": "Minion",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Trench": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Trench",
-      "language": "undefined",
-      "value": "Ikea Land",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#fid": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#fid",
-      "language": "undefined",
-      "value": "166",
-      "type": "label"
-     }
-    ],
-    "http://www.opengis.net/ont/geosparql#hasGeometry": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
-      "language": "undefined",
-      "value": "http://www.github.com/sparqlunicorn#c62d6ed4-30ab-402b-ba2e-c432aaa0d53b_geom",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 134,
-   "iri": "http://www.github.com/sparqlunicorn#c62d6ed4-30ab-402b-ba2e-c432aaa0d53b",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "c62d6ed4-30ab-402b-ba2e-c432aaa0d53b"
-   },
-   "annotations": {
-    "http://www.github.com/sparqlunicorn#Name": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Name",
-      "language": "undefined",
-      "value": "Stone",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Time_Period": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
-      "language": "undefined",
-      "value": "Minion",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Trench": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Trench",
-      "language": "undefined",
-      "value": "Ikea Land",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#fid": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#fid",
-      "language": "undefined",
-      "value": "45",
-      "type": "label"
-     }
-    ],
-    "http://www.opengis.net/ont/geosparql#hasGeometry": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
-      "language": "undefined",
-      "value": "http://www.github.com/sparqlunicorn#c7c46dd9-6977-4662-86fa-7bd465591b65_geom",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 135,
-   "iri": "http://www.github.com/sparqlunicorn#c7c46dd9-6977-4662-86fa-7bd465591b65",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "c7c46dd9-6977-4662-86fa-7bd465591b65"
    },
    "annotations": {
     "http://www.github.com/sparqlunicorn#Condition": [
@@ -9396,7 +7478,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 136,
+   "id": 104,
    "iri": "http://www.github.com/sparqlunicorn#cbe5d6de-a929-4641-9d9b-9b9b2498eeb3",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -9451,7 +7533,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 137,
+   "id": 105,
    "iri": "http://www.github.com/sparqlunicorn#cc01dfc5-6d56-472f-9045-d22f22b2ca3a",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -9514,7 +7596,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 138,
+   "id": 106,
    "iri": "http://www.github.com/sparqlunicorn#cc774e18-df41-45a3-976b-bbbbc25ecff1",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -9569,7 +7651,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 139,
+   "id": 107,
    "iri": "http://www.github.com/sparqlunicorn#cdab6a0b-7238-4f14-894e-b5fe7bb763d9",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -9632,7 +7714,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 140,
+   "id": 108,
    "iri": "http://www.github.com/sparqlunicorn#ce36306d-ab71-49f0-aed2-6cea0b2cf1d7",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -9687,7 +7769,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 141,
+   "id": 109,
    "iri": "http://www.github.com/sparqlunicorn#cfd8197a-ab1b-41e3-9c44-30bb2d1827ac",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -9742,7 +7824,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 142,
+   "id": 110,
    "iri": "http://www.github.com/sparqlunicorn#d04e1b9c-9c7e-4e90-86a1-9c1e367de3e4",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -9797,67 +7879,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 143,
+   "id": 111,
    "iri": "http://www.github.com/sparqlunicorn#d1248c32-d156-418a-a10f-104d770ca6fd",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "d1248c32-d156-418a-a10f-104d770ca6fd"
-   },
-   "annotations": {
-    "http://www.github.com/sparqlunicorn#Name": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Name",
-      "language": "undefined",
-      "value": "Street",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Time_Period": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
-      "language": "undefined",
-      "value": "Minion",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Trench": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Trench",
-      "language": "undefined",
-      "value": "Ikea Land",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#fid": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#fid",
-      "language": "undefined",
-      "value": "164",
-      "type": "label"
-     }
-    ],
-    "http://www.opengis.net/ont/geosparql#hasGeometry": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
-      "language": "undefined",
-      "value": "http://www.github.com/sparqlunicorn#d2e36d44-1ea1-4205-8920-c97cdab3b3aa_geom",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 144,
-   "iri": "http://www.github.com/sparqlunicorn#d2e36d44-1ea1-4205-8920-c97cdab3b3aa",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "d2e36d44-1ea1-4205-8920-c97cdab3b3aa"
    },
    "annotations": {
     "http://www.github.com/sparqlunicorn#Name": [
@@ -9907,7 +7934,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 145,
+   "id": 112,
    "iri": "http://www.github.com/sparqlunicorn#d39b0a02-169d-40a8-897d-7c7a5eee497d",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -9962,7 +7989,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 146,
+   "id": 113,
    "iri": "http://www.github.com/sparqlunicorn#d46e1360-2fe2-43a6-80fc-892d3d2881c1",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -10017,7 +8044,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 147,
+   "id": 114,
    "iri": "http://www.github.com/sparqlunicorn#d5710f70-63c7-4107-ac87-3fad0dca5830",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -10072,7 +8099,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 148,
+   "id": 115,
    "iri": "http://www.github.com/sparqlunicorn#dc5ba2e0-7975-466e-930f-a5469030df40",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -10127,7 +8154,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 149,
+   "id": 116,
    "iri": "http://www.github.com/sparqlunicorn#dca0e312-48bb-4ff0-9316-fa71cdda0c9c",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -10182,7 +8209,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 150,
+   "id": 117,
    "iri": "http://www.github.com/sparqlunicorn#ddc25136-83aa-463c-9460-c718847292e0",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -10237,7 +8264,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 151,
+   "id": 118,
    "iri": "http://www.github.com/sparqlunicorn#de109b58-0791-4eb7-9fff-d536f15297af",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -10300,7 +8327,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 152,
+   "id": 119,
    "iri": "http://www.github.com/sparqlunicorn#e1a4e1ed-5021-4210-80a0-248b4c59ba2b",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -10355,7 +8382,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 153,
+   "id": 120,
    "iri": "http://www.github.com/sparqlunicorn#e2bb5213-40ec-467b-ab58-dfd191d67b15",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -10410,7 +8437,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 154,
+   "id": 121,
    "iri": "http://www.github.com/sparqlunicorn#e46dfffe-e0b5-4b6b-8545-7f7133231fcd",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -10465,7 +8492,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 155,
+   "id": 122,
    "iri": "http://www.github.com/sparqlunicorn#e4f0d99c-176b-4354-872f-84ea358ac1d1",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -10520,7 +8547,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 156,
+   "id": 123,
    "iri": "http://www.github.com/sparqlunicorn#e537eb8d-e10d-4cfa-88d8-f7e4e74e5a66",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -10575,7 +8602,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 157,
+   "id": 124,
    "iri": "http://www.github.com/sparqlunicorn#e6b91a0a-28db-4f3c-bbe7-3191b69ece51",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -10630,7 +8657,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 158,
+   "id": 125,
    "iri": "http://www.github.com/sparqlunicorn#e80677e6-20b7-4e3b-85f3-26eabae3fe58",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -10693,7 +8720,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 159,
+   "id": 126,
    "iri": "http://www.github.com/sparqlunicorn#e9b6f78c-acb3-44a8-a83d-5230ac8adfb8",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -10748,7 +8775,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 160,
+   "id": 127,
    "iri": "http://www.github.com/sparqlunicorn#ea530a2d-219a-4b12-a8b4-4cf7ca09b6b1",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -10811,7 +8838,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 161,
+   "id": 128,
    "iri": "http://www.github.com/sparqlunicorn#ebd26bae-6b1e-419b-ab53-a52e011f6c81",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -10866,7 +8893,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 162,
+   "id": 129,
    "iri": "http://www.github.com/sparqlunicorn#ec69643d-e636-443f-95a0-bb55b9614841",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -10921,7 +8948,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 163,
+   "id": 130,
    "iri": "http://www.github.com/sparqlunicorn#eec807e9-47d0-4801-a3f8-017c818a99e7",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -10976,75 +9003,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 164,
+   "id": 131,
    "iri": "http://www.github.com/sparqlunicorn#f148606b-a850-4d16-a627-606fb8ee5577",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "f148606b-a850-4d16-a627-606fb8ee5577"
-   },
-   "annotations": {
-    "http://www.github.com/sparqlunicorn#Condition": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Condition",
-      "language": "undefined",
-      "value": "flatten",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Name": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Name",
-      "language": "undefined",
-      "value": "Minions",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Time_Period": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
-      "language": "undefined",
-      "value": "Minion",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#Trench": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Trench",
-      "language": "undefined",
-      "value": "Ikea Land",
-      "type": "label"
-     }
-    ],
-    "http://www.github.com/sparqlunicorn#fid": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#fid",
-      "language": "undefined",
-      "value": "34",
-      "type": "label"
-     }
-    ],
-    "http://www.opengis.net/ont/geosparql#hasGeometry": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
-      "language": "undefined",
-      "value": "http://www.github.com/sparqlunicorn#f4c616a4-3188-45f4-ad66-878498003c20_geom",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 165,
-   "iri": "http://www.github.com/sparqlunicorn#f4c616a4-3188-45f4-ad66-878498003c20",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "f4c616a4-3188-45f4-ad66-878498003c20"
    },
    "annotations": {
     "http://www.github.com/sparqlunicorn#Name": [
@@ -11094,7 +9058,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 166,
+   "id": 132,
    "iri": "http://www.github.com/sparqlunicorn#f533c183-22fb-43cf-9bd1-265caaa661a0",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -11149,7 +9113,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 167,
+   "id": 133,
    "iri": "http://www.github.com/sparqlunicorn#fab26445-cb25-492a-8d8a-47f31706a753",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -11212,12 +9176,1083 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 168,
+   "id": 134,
    "iri": "http://www.github.com/sparqlunicorn#fd82485d-f6e8-4413-9120-c739f0cc1e82",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "fd82485d-f6e8-4413-9120-c739f0cc1e82"
+   },
+   "annotations": {
+    "http://www.github.com/sparqlunicorn#Condition": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Condition",
+      "language": "undefined",
+      "value": "smashed",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Name": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Name",
+      "language": "undefined",
+      "value": "K\u00f6tbullar",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Time_Period": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
+      "language": "undefined",
+      "value": "Minion",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Trench": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Trench",
+      "language": "undefined",
+      "value": "Ikea Land",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#fid": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#fid",
+      "language": "undefined",
+      "value": "54",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#fec6c570-b8d5-49be-aa15-8be41afd1aa3_geom",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 135,
+   "iri": "http://www.github.com/sparqlunicorn#fec6c570-b8d5-49be-aa15-8be41afd1aa3",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "fec6c570-b8d5-49be-aa15-8be41afd1aa3"
+   },
+   "annotations": {
+    "http://www.github.com/sparqlunicorn#Condition": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Condition",
+      "language": "undefined",
+      "value": "flatten",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Name": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Name",
+      "language": "undefined",
+      "value": "Minions",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Time_Period": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
+      "language": "undefined",
+      "value": "Minion",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Trench": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Trench",
+      "language": "undefined",
+      "value": "Ikea Land",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#fid": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#fid",
+      "language": "undefined",
+      "value": "46",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb_geom",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 136,
+   "iri": "http://www.github.com/sparqlunicorn#09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb"
+   },
+   "annotations": {
+    "http://www.github.com/sparqlunicorn#Condition": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Condition",
+      "language": "undefined",
+      "value": "flatten",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Name": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Name",
+      "language": "undefined",
+      "value": "Minions",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Time_Period": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
+      "language": "undefined",
+      "value": "Minion",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Trench": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Trench",
+      "language": "undefined",
+      "value": "Ikea Land",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#fid": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#fid",
+      "language": "undefined",
+      "value": "43",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#0d9d574e-754a-4f9c-93b7-47fc15d4f2d3_geom",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 137,
+   "iri": "http://www.github.com/sparqlunicorn#0d9d574e-754a-4f9c-93b7-47fc15d4f2d3",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "0d9d574e-754a-4f9c-93b7-47fc15d4f2d3"
+   },
+   "annotations": {
+    "http://www.github.com/sparqlunicorn#Condition": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Condition",
+      "language": "undefined",
+      "value": "flatten",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Name": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Name",
+      "language": "undefined",
+      "value": "Minions",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Time_Period": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
+      "language": "undefined",
+      "value": "Minion",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Trench": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Trench",
+      "language": "undefined",
+      "value": "Ikea Land",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#fid": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#fid",
+      "language": "undefined",
+      "value": "42",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#18d49631-5a11-48f6-acb7-62cfaf8de742_geom",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 138,
+   "iri": "http://www.github.com/sparqlunicorn#18d49631-5a11-48f6-acb7-62cfaf8de742",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "18d49631-5a11-48f6-acb7-62cfaf8de742"
+   },
+   "annotations": {
+    "http://www.github.com/sparqlunicorn#Condition": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Condition",
+      "language": "undefined",
+      "value": "flatten",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Name": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Name",
+      "language": "undefined",
+      "value": "Minions",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Time_Period": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
+      "language": "undefined",
+      "value": "Minion",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Trench": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Trench",
+      "language": "undefined",
+      "value": "Ikea Land",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#fid": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#fid",
+      "language": "undefined",
+      "value": "35",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#1d935768-ea8d-4be8-884b-a4dff9825021_geom",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 139,
+   "iri": "http://www.github.com/sparqlunicorn#1d935768-ea8d-4be8-884b-a4dff9825021",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "1d935768-ea8d-4be8-884b-a4dff9825021"
+   },
+   "annotations": {
+    "http://www.github.com/sparqlunicorn#Condition": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Condition",
+      "language": "undefined",
+      "value": "flatten",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Name": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Name",
+      "language": "undefined",
+      "value": "Minions",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Time_Period": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
+      "language": "undefined",
+      "value": "Minion",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Trench": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Trench",
+      "language": "undefined",
+      "value": "Ikea Land",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#fid": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#fid",
+      "language": "undefined",
+      "value": "58",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#37993191-20c4-49a4-b3bc-2a28960f323d_geom",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 140,
+   "iri": "http://www.github.com/sparqlunicorn#37993191-20c4-49a4-b3bc-2a28960f323d",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "37993191-20c4-49a4-b3bc-2a28960f323d"
+   },
+   "annotations": {
+    "http://www.github.com/sparqlunicorn#Condition": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Condition",
+      "language": "undefined",
+      "value": "flatten",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Name": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Name",
+      "language": "undefined",
+      "value": "Minions",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Time_Period": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
+      "language": "undefined",
+      "value": "Minion",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Trench": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Trench",
+      "language": "undefined",
+      "value": "Ikea Land",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#fid": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#fid",
+      "language": "undefined",
+      "value": "55",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#3d393a7a-ea8c-45d2-aca7-1453da500bb5_geom",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 141,
+   "iri": "http://www.github.com/sparqlunicorn#3d393a7a-ea8c-45d2-aca7-1453da500bb5",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "3d393a7a-ea8c-45d2-aca7-1453da500bb5"
+   },
+   "annotations": {
+    "http://www.github.com/sparqlunicorn#Condition": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Condition",
+      "language": "undefined",
+      "value": "flatten",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Name": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Name",
+      "language": "undefined",
+      "value": "Minions",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Time_Period": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
+      "language": "undefined",
+      "value": "Minion",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Trench": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Trench",
+      "language": "undefined",
+      "value": "Ikea Land",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#fid": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#fid",
+      "language": "undefined",
+      "value": "57",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#4e1bbd40-75c2-4134-abdf-71a85b238394_geom",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 142,
+   "iri": "http://www.github.com/sparqlunicorn#4e1bbd40-75c2-4134-abdf-71a85b238394",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "4e1bbd40-75c2-4134-abdf-71a85b238394"
+   },
+   "annotations": {
+    "http://www.github.com/sparqlunicorn#Condition": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Condition",
+      "language": "undefined",
+      "value": "flatten",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Name": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Name",
+      "language": "undefined",
+      "value": "Minions",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Time_Period": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
+      "language": "undefined",
+      "value": "Minion",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Trench": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Trench",
+      "language": "undefined",
+      "value": "Ikea Land",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#fid": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#fid",
+      "language": "undefined",
+      "value": "59",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#6247dd7d-45da-4805-9922-ad78d30ddc00_geom",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 143,
+   "iri": "http://www.github.com/sparqlunicorn#6247dd7d-45da-4805-9922-ad78d30ddc00",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "6247dd7d-45da-4805-9922-ad78d30ddc00"
+   },
+   "annotations": {
+    "http://www.github.com/sparqlunicorn#Condition": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Condition",
+      "language": "undefined",
+      "value": "flatten",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Name": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Name",
+      "language": "undefined",
+      "value": "Minions",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Time_Period": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
+      "language": "undefined",
+      "value": "Minion IIa",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Trench": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Trench",
+      "language": "undefined",
+      "value": "Norrfors",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#fid": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#fid",
+      "language": "undefined",
+      "value": "169",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#62c65c41-af9e-4af8-af61-97602598da5c_geom",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 144,
+   "iri": "http://www.github.com/sparqlunicorn#62c65c41-af9e-4af8-af61-97602598da5c",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "62c65c41-af9e-4af8-af61-97602598da5c"
+   },
+   "annotations": {
+    "http://www.github.com/sparqlunicorn#Condition": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Condition",
+      "language": "undefined",
+      "value": "flatten",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Name": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Name",
+      "language": "undefined",
+      "value": "Minions",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Time_Period": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
+      "language": "undefined",
+      "value": "Minion",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Trench": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Trench",
+      "language": "undefined",
+      "value": "Ikea Land",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#fid": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#fid",
+      "language": "undefined",
+      "value": "38",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#6a176aee-0f30-4da3-bd88-b48f61a6a5ca_geom",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 145,
+   "iri": "http://www.github.com/sparqlunicorn#6a176aee-0f30-4da3-bd88-b48f61a6a5ca",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "6a176aee-0f30-4da3-bd88-b48f61a6a5ca"
+   },
+   "annotations": {
+    "http://www.github.com/sparqlunicorn#Condition": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Condition",
+      "language": "undefined",
+      "value": "flatten",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Name": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Name",
+      "language": "undefined",
+      "value": "Minions",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Time_Period": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
+      "language": "undefined",
+      "value": "Minion",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Trench": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Trench",
+      "language": "undefined",
+      "value": "Ikea Land",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#fid": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#fid",
+      "language": "undefined",
+      "value": "56",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#8a40c3de-b0fb-4dc0-84d4-2000b15d6f60_geom",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 146,
+   "iri": "http://www.github.com/sparqlunicorn#8a40c3de-b0fb-4dc0-84d4-2000b15d6f60",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "8a40c3de-b0fb-4dc0-84d4-2000b15d6f60"
+   },
+   "annotations": {
+    "http://www.github.com/sparqlunicorn#Condition": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Condition",
+      "language": "undefined",
+      "value": "flatten",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Name": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Name",
+      "language": "undefined",
+      "value": "Minions",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Time_Period": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
+      "language": "undefined",
+      "value": "Minion",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Trench": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Trench",
+      "language": "undefined",
+      "value": "Ikea Land",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#fid": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#fid",
+      "language": "undefined",
+      "value": "41",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#a3006e8d-46d6-4db0-81aa-23238514e5eb_geom",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 147,
+   "iri": "http://www.github.com/sparqlunicorn#a3006e8d-46d6-4db0-81aa-23238514e5eb",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "a3006e8d-46d6-4db0-81aa-23238514e5eb"
+   },
+   "annotations": {
+    "http://www.github.com/sparqlunicorn#Condition": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Condition",
+      "language": "undefined",
+      "value": "flatten",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Name": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Name",
+      "language": "undefined",
+      "value": "Minions",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Time_Period": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
+      "language": "undefined",
+      "value": "Minion",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Trench": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Trench",
+      "language": "undefined",
+      "value": "Ikea Land",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#fid": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#fid",
+      "language": "undefined",
+      "value": "37",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#a9d036a7-9001-47c8-89db-54c0fe8d6829_geom",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 148,
+   "iri": "http://www.github.com/sparqlunicorn#a9d036a7-9001-47c8-89db-54c0fe8d6829",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "a9d036a7-9001-47c8-89db-54c0fe8d6829"
+   },
+   "annotations": {
+    "http://www.github.com/sparqlunicorn#Condition": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Condition",
+      "language": "undefined",
+      "value": "flatten",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Name": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Name",
+      "language": "undefined",
+      "value": "Minions",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Time_Period": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
+      "language": "undefined",
+      "value": "Minion IIa",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Trench": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Trench",
+      "language": "undefined",
+      "value": "Norrfors",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#fid": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#fid",
+      "language": "undefined",
+      "value": "168",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#ab7a69ca-6c8f-4d13-893b-3702231a60b7_geom",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 149,
+   "iri": "http://www.github.com/sparqlunicorn#ab7a69ca-6c8f-4d13-893b-3702231a60b7",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "ab7a69ca-6c8f-4d13-893b-3702231a60b7"
+   },
+   "annotations": {
+    "http://www.github.com/sparqlunicorn#Condition": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Condition",
+      "language": "undefined",
+      "value": "flatten",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Name": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Name",
+      "language": "undefined",
+      "value": "Minions",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Time_Period": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
+      "language": "undefined",
+      "value": "Minion IIb",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Trench": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Trench",
+      "language": "undefined",
+      "value": "Norrfors",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#fid": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#fid",
+      "language": "undefined",
+      "value": "171",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#ba7170d7-475e-4502-9cbd-054d5d326a7d_geom",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 150,
+   "iri": "http://www.github.com/sparqlunicorn#ba7170d7-475e-4502-9cbd-054d5d326a7d",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "ba7170d7-475e-4502-9cbd-054d5d326a7d"
+   },
+   "annotations": {
+    "http://www.github.com/sparqlunicorn#Condition": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Condition",
+      "language": "undefined",
+      "value": "flatten",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Name": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Name",
+      "language": "undefined",
+      "value": "Minions",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Time_Period": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
+      "language": "undefined",
+      "value": "Minion",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Trench": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Trench",
+      "language": "undefined",
+      "value": "Ikea Land",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#fid": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#fid",
+      "language": "undefined",
+      "value": "34",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#f4c616a4-3188-45f4-ad66-878498003c20_geom",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 151,
+   "iri": "http://www.github.com/sparqlunicorn#f4c616a4-3188-45f4-ad66-878498003c20",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "f4c616a4-3188-45f4-ad66-878498003c20"
    },
    "annotations": {
     "http://www.github.com/sparqlunicorn#Condition": [
@@ -11275,7 +10310,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 169,
+   "id": 152,
    "iri": "http://www.github.com/sparqlunicorn#fd8fe6ba-e13a-4ef3-9047-626fc45be9e2",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -11338,7 +10373,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 170,
+   "id": 153,
    "iri": "http://www.github.com/sparqlunicorn#fdf099f7-869f-499e-80c3-00c91f0a4d35",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -11346,19 +10381,11 @@ var vowlresult={
     "IRI-based": "fdf099f7-869f-499e-80c3-00c91f0a4d35"
    },
    "annotations": {
-    "http://www.github.com/sparqlunicorn#Condition": [
-     {
-      "identifier": "http://www.github.com/sparqlunicorn#Condition",
-      "language": "undefined",
-      "value": "smashed",
-      "type": "label"
-     }
-    ],
     "http://www.github.com/sparqlunicorn#Name": [
      {
       "identifier": "http://www.github.com/sparqlunicorn#Name",
       "language": "undefined",
-      "value": "K\u00f6tbullar",
+      "value": "Stone",
       "type": "label"
      }
     ],
@@ -11382,7 +10409,7 @@ var vowlresult={
      {
       "identifier": "http://www.github.com/sparqlunicorn#fid",
       "language": "undefined",
-      "value": "54",
+      "value": "33",
       "type": "label"
      }
     ],
@@ -11390,7 +10417,982 @@ var vowlresult={
      {
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
-      "value": "http://www.github.com/sparqlunicorn#fec6c570-b8d5-49be-aa15-8be41afd1aa3_geom",
+      "value": "http://www.github.com/sparqlunicorn#0b12b1c6-4f43-4635-9437-2eccad89860a_geom",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 154,
+   "iri": "http://www.github.com/sparqlunicorn#0b12b1c6-4f43-4635-9437-2eccad89860a",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "0b12b1c6-4f43-4635-9437-2eccad89860a"
+   },
+   "annotations": {
+    "http://www.github.com/sparqlunicorn#Name": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Name",
+      "language": "undefined",
+      "value": "Stone",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Time_Period": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
+      "language": "undefined",
+      "value": "Minion",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Trench": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Trench",
+      "language": "undefined",
+      "value": "Ikea Land",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#fid": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#fid",
+      "language": "undefined",
+      "value": "31",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#43445b66-c4c5-4668-8fb7-00186131c6ff_geom",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 155,
+   "iri": "http://www.github.com/sparqlunicorn#43445b66-c4c5-4668-8fb7-00186131c6ff",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "43445b66-c4c5-4668-8fb7-00186131c6ff"
+   },
+   "annotations": {
+    "http://www.github.com/sparqlunicorn#Name": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Name",
+      "language": "undefined",
+      "value": "Stone",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Time_Period": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
+      "language": "undefined",
+      "value": "Minion",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Trench": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Trench",
+      "language": "undefined",
+      "value": "Ikea Land",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#fid": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#fid",
+      "language": "undefined",
+      "value": "44",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#b7ee573a-bf90-4f57-b159-39e1fc2822a8_geom",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 156,
+   "iri": "http://www.github.com/sparqlunicorn#b7ee573a-bf90-4f57-b159-39e1fc2822a8",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "b7ee573a-bf90-4f57-b159-39e1fc2822a8"
+   },
+   "annotations": {
+    "http://www.github.com/sparqlunicorn#Name": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Name",
+      "language": "undefined",
+      "value": "Stone",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Time_Period": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
+      "language": "undefined",
+      "value": "Minion",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Trench": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Trench",
+      "language": "undefined",
+      "value": "Ikea Land",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#fid": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#fid",
+      "language": "undefined",
+      "value": "45",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#c7c46dd9-6977-4662-86fa-7bd465591b65_geom",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 157,
+   "iri": "http://www.github.com/sparqlunicorn#c7c46dd9-6977-4662-86fa-7bd465591b65",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "c7c46dd9-6977-4662-86fa-7bd465591b65"
+   },
+   "annotations": {
+    "http://www.github.com/sparqlunicorn#Name": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Name",
+      "language": "undefined",
+      "value": "Street",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Time_Period": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
+      "language": "undefined",
+      "value": "Minion",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Trench": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Trench",
+      "language": "undefined",
+      "value": "Ikea Land",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#fid": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#fid",
+      "language": "undefined",
+      "value": "161",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#1ac53fc4-aeb3-4256-ac8e-47160f4d642a_geom",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 158,
+   "iri": "http://www.github.com/sparqlunicorn#1ac53fc4-aeb3-4256-ac8e-47160f4d642a",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "1ac53fc4-aeb3-4256-ac8e-47160f4d642a"
+   },
+   "annotations": {
+    "http://www.github.com/sparqlunicorn#Name": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Name",
+      "language": "undefined",
+      "value": "Street",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Time_Period": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
+      "language": "undefined",
+      "value": "Minion IIa",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Trench": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Trench",
+      "language": "undefined",
+      "value": "Norrfors",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#fid": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#fid",
+      "language": "undefined",
+      "value": "162",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#3e67e756-dad2-4514-a9af-511fd2db0e91_geom",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 159,
+   "iri": "http://www.github.com/sparqlunicorn#3e67e756-dad2-4514-a9af-511fd2db0e91",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "3e67e756-dad2-4514-a9af-511fd2db0e91"
+   },
+   "annotations": {
+    "http://www.github.com/sparqlunicorn#Name": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Name",
+      "language": "undefined",
+      "value": "Street",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Time_Period": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
+      "language": "undefined",
+      "value": "Minion",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Trench": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Trench",
+      "language": "undefined",
+      "value": "Ikea Land",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#fid": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#fid",
+      "language": "undefined",
+      "value": "163",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#72d83c05-1969-4b24-a507-eb1450bffea4_geom",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 160,
+   "iri": "http://www.github.com/sparqlunicorn#72d83c05-1969-4b24-a507-eb1450bffea4",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "72d83c05-1969-4b24-a507-eb1450bffea4"
+   },
+   "annotations": {
+    "http://www.github.com/sparqlunicorn#Name": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Name",
+      "language": "undefined",
+      "value": "Street",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Time_Period": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
+      "language": "undefined",
+      "value": "Minion IIa",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Trench": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Trench",
+      "language": "undefined",
+      "value": "Norrfors",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#fid": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#fid",
+      "language": "undefined",
+      "value": "167",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#7ee2bf5f-4059-4b49-af4f-173eb49582c7_geom",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 161,
+   "iri": "http://www.github.com/sparqlunicorn#7ee2bf5f-4059-4b49-af4f-173eb49582c7",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "7ee2bf5f-4059-4b49-af4f-173eb49582c7"
+   },
+   "annotations": {
+    "http://www.github.com/sparqlunicorn#Name": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Name",
+      "language": "undefined",
+      "value": "Street",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Time_Period": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
+      "language": "undefined",
+      "value": "Minion",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Trench": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Trench",
+      "language": "undefined",
+      "value": "Ikea Land",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#fid": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#fid",
+      "language": "undefined",
+      "value": "165",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#8e91ce6c-6177-45e0-80f4-477fd6e14587_geom",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 162,
+   "iri": "http://www.github.com/sparqlunicorn#8e91ce6c-6177-45e0-80f4-477fd6e14587",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "8e91ce6c-6177-45e0-80f4-477fd6e14587"
+   },
+   "annotations": {
+    "http://www.github.com/sparqlunicorn#Name": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Name",
+      "language": "undefined",
+      "value": "Street",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Time_Period": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
+      "language": "undefined",
+      "value": "Minion",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Trench": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Trench",
+      "language": "undefined",
+      "value": "Ikea Land",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#fid": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#fid",
+      "language": "undefined",
+      "value": "166",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#c62d6ed4-30ab-402b-ba2e-c432aaa0d53b_geom",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 163,
+   "iri": "http://www.github.com/sparqlunicorn#c62d6ed4-30ab-402b-ba2e-c432aaa0d53b",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "c62d6ed4-30ab-402b-ba2e-c432aaa0d53b"
+   },
+   "annotations": {
+    "http://www.github.com/sparqlunicorn#Name": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Name",
+      "language": "undefined",
+      "value": "Street",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Time_Period": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
+      "language": "undefined",
+      "value": "Minion",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Trench": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Trench",
+      "language": "undefined",
+      "value": "Ikea Land",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#fid": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#fid",
+      "language": "undefined",
+      "value": "164",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#d2e36d44-1ea1-4205-8920-c97cdab3b3aa_geom",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 164,
+   "iri": "http://www.github.com/sparqlunicorn#d2e36d44-1ea1-4205-8920-c97cdab3b3aa",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "d2e36d44-1ea1-4205-8920-c97cdab3b3aa"
+   },
+   "annotations": {
+    "http://www.github.com/sparqlunicorn#Condition": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Condition",
+      "language": "undefined",
+      "value": "flatten",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Name": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Name",
+      "language": "undefined",
+      "value": "Kangaroo",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Time_Period": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
+      "language": "undefined",
+      "value": "Minion",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Trench": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Trench",
+      "language": "undefined",
+      "value": "Ikea Land",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#fid": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#fid",
+      "language": "undefined",
+      "value": "67",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#3a55458f-5c2f-4368-9a03-384f6377e301_geom",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 165,
+   "iri": "http://www.github.com/sparqlunicorn#3a55458f-5c2f-4368-9a03-384f6377e301",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "3a55458f-5c2f-4368-9a03-384f6377e301"
+   },
+   "annotations": {
+    "http://www.github.com/sparqlunicorn#Condition": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Condition",
+      "language": "undefined",
+      "value": "flatten",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Name": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Name",
+      "language": "undefined",
+      "value": "Kangaroo",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Time_Period": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
+      "language": "undefined",
+      "value": "Minion I",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Trench": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Trench",
+      "language": "undefined",
+      "value": "Norrfors",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#fid": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#fid",
+      "language": "undefined",
+      "value": "172",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#622ce224-fab0-4fbd-8a79-d8ecc9b26a49_geom",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 166,
+   "iri": "http://www.github.com/sparqlunicorn#622ce224-fab0-4fbd-8a79-d8ecc9b26a49",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "622ce224-fab0-4fbd-8a79-d8ecc9b26a49"
+   },
+   "annotations": {
+    "http://www.github.com/sparqlunicorn#Condition": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Condition",
+      "language": "undefined",
+      "value": "flatten",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Name": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Name",
+      "language": "undefined",
+      "value": "Kangaroo",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Time_Period": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
+      "language": "undefined",
+      "value": "Minion",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Trench": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Trench",
+      "language": "undefined",
+      "value": "Ikea Land",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#fid": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#fid",
+      "language": "undefined",
+      "value": "70",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#6daab534-65db-49f5-9b1b-5842930184c6_geom",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 167,
+   "iri": "http://www.github.com/sparqlunicorn#6daab534-65db-49f5-9b1b-5842930184c6",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "6daab534-65db-49f5-9b1b-5842930184c6"
+   },
+   "annotations": {
+    "http://www.github.com/sparqlunicorn#Condition": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Condition",
+      "language": "undefined",
+      "value": "flatten",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Name": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Name",
+      "language": "undefined",
+      "value": "Kangaroo",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Time_Period": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
+      "language": "undefined",
+      "value": "Minion",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Trench": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Trench",
+      "language": "undefined",
+      "value": "Ikea Land",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#fid": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#fid",
+      "language": "undefined",
+      "value": "71",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#8522a6f2-b165-4529-9dd6-30bc0da88476_geom",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 168,
+   "iri": "http://www.github.com/sparqlunicorn#8522a6f2-b165-4529-9dd6-30bc0da88476",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "8522a6f2-b165-4529-9dd6-30bc0da88476"
+   },
+   "annotations": {
+    "http://www.github.com/sparqlunicorn#Condition": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Condition",
+      "language": "undefined",
+      "value": "dry",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Name": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Name",
+      "language": "undefined",
+      "value": "Crater",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Time_Period": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
+      "language": "undefined",
+      "value": "Minion IIa",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Trench": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Trench",
+      "language": "undefined",
+      "value": "Norrfors",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#fid": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#fid",
+      "language": "undefined",
+      "value": "160",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#4db030c2-2331-4dad-b17c-da023bceff9f_geom",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 169,
+   "iri": "http://www.github.com/sparqlunicorn#4db030c2-2331-4dad-b17c-da023bceff9f",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "4db030c2-2331-4dad-b17c-da023bceff9f"
+   },
+   "annotations": {
+    "http://www.github.com/sparqlunicorn#Name": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Name",
+      "language": "undefined",
+      "value": "Crater",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Time_Period": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
+      "language": "undefined",
+      "value": "Minion",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Trench": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Trench",
+      "language": "undefined",
+      "value": "Ikea Land",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#fid": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#fid",
+      "language": "undefined",
+      "value": "47",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#97e0311e-f072-4b6c-8619-4c8b81cb2232_geom",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 170,
+   "iri": "http://www.github.com/sparqlunicorn#97e0311e-f072-4b6c-8619-4c8b81cb2232",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "97e0311e-f072-4b6c-8619-4c8b81cb2232"
+   },
+   "annotations": {
+    "http://www.github.com/sparqlunicorn#Name": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Name",
+      "language": "undefined",
+      "value": "Allen key (Inbusschl\u00fcssel)",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Time_Period": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Time_Period",
+      "language": "undefined",
+      "value": "Minion",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#Trench": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#Trench",
+      "language": "undefined",
+      "value": "Ikea Land",
+      "type": "label"
+     }
+    ],
+    "http://www.github.com/sparqlunicorn#fid": [
+     {
+      "identifier": "http://www.github.com/sparqlunicorn#fid",
+      "language": "undefined",
+      "value": "68",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/geosparql#hasGeometry": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#86f8a06e-51c7-41be-935b-e70bfcaa67b7_geom",
       "type": "iri"
      }
     ]
@@ -11402,11 +11404,11 @@ var vowlresult={
   },
   {
    "id": 171,
-   "iri": "http://www.github.com/sparqlunicorn#fec6c570-b8d5-49be-aa15-8be41afd1aa3",
+   "iri": "http://www.github.com/sparqlunicorn#86f8a06e-51c7-41be-935b-e70bfcaa67b7",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
-    "IRI-based": "fec6c570-b8d5-49be-aa15-8be41afd1aa3"
+    "IRI-based": "86f8a06e-51c7-41be-935b-e70bfcaa67b7"
    },
    "annotations": {
     "http://www.w3.org/2000/01/rdf-schema#domain": [

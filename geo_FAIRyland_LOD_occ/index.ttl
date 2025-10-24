@@ -7,5 +7,5 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Occurrences of vocabulary http://www.opengis.net/ont/geosparql# in FAIRyland_LOD" ;
     ns1:inDataset <http://www.github.com/sparqlunicorn#FAIRyland_LOD> ;
-    ns1:occurrences 8 .
+    ns1:occurrences 20 .
 

@@ -1,0 +1,14 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://www.github.com/sparqlunicorn#Kangaroo_collection> a geo:FeatureCollection,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Kangaroo Instances Collection"@en ;
+    void:inDataset <http://www.github.com/sparqlunicorn#FAIRyland_LOD> ;
+    rdfs:member <http://www.github.com/sparqlunicorn#3a55458f-5c2f-4368-9a03-384f6377e301>,
+        <http://www.github.com/sparqlunicorn#622ce224-fab0-4fbd-8a79-d8ecc9b26a49>,
+        <http://www.github.com/sparqlunicorn#6daab534-65db-49f5-9b1b-5842930184c6>,
+        <http://www.github.com/sparqlunicorn#8522a6f2-b165-4529-9dd6-30bc0da88476> .
+

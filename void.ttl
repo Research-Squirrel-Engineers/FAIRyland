@@ -31,6 +31,13 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_github.com_Research-Squirrel-Engineers_FAIRyland_> a void:Linkset ;
+    rdfs:label "Linkset: FAIRyland_LOD - fairyland:"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget <https://github.com/Research-Squirrel-Engineers/FAIRyland/> ;
+    void:subjectsTarget <http://www.github.com/sparqlunicorn#FAIRyland_LOD> ;
+    void:triples 172 .
+
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_www.opengis.net_ont_geosparql_> a void:Linkset ;
     rdfs:label "Linkset: FAIRyland_LOD - The GeoSPARQL Ontology (gsp:)"@en ;
     void:linkPredicate rdf:type,
@@ -38,7 +45,7 @@
     void:objectsTarget geo: ;
     void:subjectsTarget <http://www.github.com/sparqlunicorn#FAIRyland_LOD> ;
     void:triples 1,
-        3 .
+        9 .
 
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_www.opengis.net_ont_sf_> a void:Linkset ;
     rdfs:label "Linkset: FAIRyland_LOD - Simple Features Vocabulary (sf:)"@en ;
@@ -111,7 +118,7 @@
 <http://www.github.com/sparqlunicorn#geo_FAIRyland_LOD_occ> a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.opengis.net/ont/geosparql# in FAIRyland_LOD" ;
     voaf:inDataset <http://www.github.com/sparqlunicorn#FAIRyland_LOD> ;
-    voaf:occurrences 8 .
+    voaf:occurrences 20 .
 
 <http://www.github.com/sparqlunicorn#odrl_FAIRyland_LOD_occ> a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/odrl/2/ in FAIRyland_LOD" ;
@@ -273,8 +280,12 @@ doap: a voaf:Vocabulary ;
 
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_29555707-7201-41b5-8ef4-1c59caac6f59> a void:Dataset ;
     rdfs:label "Class Partition: 29555707-7201-41b5-8ef4-1c59caac6f59"@en ;
-    void:class <http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59> ;
-    void:entities 172 .
+    void:class <http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59> .
+
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_AllenKey> a void:Dataset ;
+    rdfs:label "Class Partition: AllenKey"@en ;
+    void:class <https://github.com/Research-Squirrel-Engineers/FAIRyland/AllenKey> ;
+    void:entities 1 .
 
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_AxisDirection> a void:Dataset ;
     rdfs:label "Class Partition: AxisDirection"@en ;
@@ -293,6 +304,11 @@ doap: a voaf:Vocabulary ;
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_CoordinateSystemAxis> a void:Dataset ;
     rdfs:label "Class Partition: CoordinateSystemAxis"@en ;
     void:class <http://www.opengis.net/ont/crs/CoordinateSystemAxis> .
+
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_Crater> a void:Dataset ;
+    rdfs:label "Class Partition: Crater"@en ;
+    void:class <https://github.com/Research-Squirrel-Engineers/FAIRyland/Crater> ;
+    void:entities 2 .
 
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Ellipsoid> a void:Dataset ;
     rdfs:label "Class Partition: Ellipsoid"@en ;
@@ -313,7 +329,7 @@ doap: a voaf:Vocabulary ;
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_FeatureCollection> a void:Dataset ;
     rdfs:label "Class Partition: FeatureCollection"@en ;
     void:class geo:FeatureCollection ;
-    void:entities 1 .
+    void:entities 7 .
 
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_GeographicCRS> a void:Dataset ;
     rdfs:label "Class Partition: GeographicCRS"@en ;
@@ -327,6 +343,21 @@ doap: a voaf:Vocabulary ;
     rdfs:label "Class Partition: GeometryCollection"@en ;
     void:class geo:GeometryCollection ;
     void:entities 2 .
+
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_Kangaroo> a void:Dataset ;
+    rdfs:label "Class Partition: Kangaroo"@en ;
+    void:class <https://github.com/Research-Squirrel-Engineers/FAIRyland/Kangaroo> ;
+    void:entities 4 .
+
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_Koetbullar> a void:Dataset ;
+    rdfs:label "Class Partition: Koetbullar"@en ;
+    void:class <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+    void:entities 136 .
+
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_Minion> a void:Dataset ;
+    rdfs:label "Class Partition: Minion"@en ;
+    void:class <https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion> ;
+    void:entities 18 .
 
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_MultiPolygon> a void:Dataset ;
     rdfs:label "Class Partition: MultiPolygon"@en ;
@@ -358,6 +389,16 @@ doap: a voaf:Vocabulary ;
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_SpatialReferenceSystem> a void:Dataset ;
     rdfs:label "Class Partition: SpatialReferenceSystem"@en ;
     void:class <http://www.opengis.net/ont/crs/SpatialReferenceSystem> .
+
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_Stone> a void:Dataset ;
+    rdfs:label "Class Partition: Stone"@en ;
+    void:class <https://github.com/Research-Squirrel-Engineers/FAIRyland/Stone> ;
+    void:entities 4 .
+
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_Street> a void:Dataset ;
+    rdfs:label "Class Partition: Street"@en ;
+    void:class <https://github.com/Research-Squirrel-Engineers/FAIRyland/Street> ;
+    void:entities 7 .
 
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Time_Period> a void:Dataset ;
     rdfs:label "Property Partition: Time_Period"@en ;
@@ -650,19 +691,19 @@ skos: a voaf:Vocabulary ;
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD> a void:Dataset,
         adms:Asset ;
     rdfs:label "FAIRyland_LOD"@en ;
-    vext:averageLiteralLength 158 ;
-    vext:averageObjectIRILength 61 ;
+    vext:averageLiteralLength 157 ;
+    vext:averageObjectIRILength 60 ;
     vext:averagePropertyIRILength 42 ;
     vext:averageSubjectIRILength 73 ;
     vext:datatypes 3 ;
     vext:distinctBlankNodes 0 ;
-    vext:distinctIRIReferences 982 ;
-    vext:distinctLiterals 365 ;
-    vext:distinctRDFNodes 1347 ;
+    vext:distinctIRIReferences 995 ;
+    vext:distinctLiterals 371 ;
+    vext:distinctRDFNodes 1366 ;
     vext:languages 1 ;
     vext:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
-    dcterms:modified "2025-10-24T21:27:39"^^xsd:dateTime ;
+    dcterms:modified "2025-10-24T21:39:13"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -672,9 +713,11 @@ skos: a voaf:Vocabulary ;
     vann:preferredNamespacePrefix "unicorn"^^xsd:string ;
     vann:preferredNamespaceUri "http://www.github.com/sparqlunicorn#"^^xsd:anyURI ;
     void:classPartition <http://www.github.com/sparqlunicorn#FAIRyland_LOD_29555707-7201-41b5-8ef4-1c59caac6f59>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_AllenKey>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_AxisDirection>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Collection>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_CoordinateSystemAxis>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Crater>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Ellipsoid>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_EllipsoidalCoordinateSystem>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Entity>,
@@ -683,17 +726,22 @@ skos: a voaf:Vocabulary ;
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_GeographicCRS>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Geometry>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_GeometryCollection>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Kangaroo>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Koetbullar>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Minion>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_MultiPolygon>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_PlanarCoordinateSystem>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Polygon>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_SpatialObject>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_SpatialObjectCollection>,
-        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_SpatialReferenceSystem> ;
-    void:classes 18 ;
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_SpatialReferenceSystem>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Stone>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Street> ;
+    void:classes 25 ;
     void:dataDump <https://Research-Squirrel-Engineers.github.io/FAIRyland//index.ttl> ;
-    void:distinctObjects 578 ;
-    void:distinctSubjects 372 ;
-    void:entities 355 ;
+    void:distinctObjects 585 ;
+    void:distinctSubjects 378 ;
+    void:entities 361 ;
     void:feature <http://www.w3.org/ns/formats/RDFa>,
         <http://www.w3.org/ns/formats/Turtle> ;
     void:properties 32 ;
@@ -728,7 +776,7 @@ skos: a voaf:Vocabulary ;
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_unit_auth_code>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_unit_code>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_unit_conversion_factor> ;
-    void:triples 2202 ;
+    void:triples 2220 ;
     void:uriSpace "http://www.github.com/sparqlunicorn#"^^xsd:string ;
     void:vocabulary vext:,
         dcam:,

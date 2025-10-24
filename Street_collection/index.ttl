@@ -1,0 +1,17 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://www.github.com/sparqlunicorn#Street_collection> a geo:FeatureCollection,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Street Instances Collection"@en ;
+    void:inDataset <http://www.github.com/sparqlunicorn#FAIRyland_LOD> ;
+    rdfs:member <http://www.github.com/sparqlunicorn#1ac53fc4-aeb3-4256-ac8e-47160f4d642a>,
+        <http://www.github.com/sparqlunicorn#3e67e756-dad2-4514-a9af-511fd2db0e91>,
+        <http://www.github.com/sparqlunicorn#72d83c05-1969-4b24-a507-eb1450bffea4>,
+        <http://www.github.com/sparqlunicorn#7ee2bf5f-4059-4b49-af4f-173eb49582c7>,
+        <http://www.github.com/sparqlunicorn#8e91ce6c-6177-45e0-80f4-477fd6e14587>,
+        <http://www.github.com/sparqlunicorn#c62d6ed4-30ab-402b-ba2e-c432aaa0d53b>,
+        <http://www.github.com/sparqlunicorn#d2e36d44-1ea1-4205-8920-c97cdab3b3aa> .
+

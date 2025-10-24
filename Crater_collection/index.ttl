@@ -1,0 +1,12 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://www.github.com/sparqlunicorn#Crater_collection> a geo:FeatureCollection,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Crater Instances Collection"@en ;
+    void:inDataset <http://www.github.com/sparqlunicorn#FAIRyland_LOD> ;
+    rdfs:member <http://www.github.com/sparqlunicorn#4db030c2-2331-4dad-b17c-da023bceff9f>,
+        <http://www.github.com/sparqlunicorn#97e0311e-f072-4b6c-8619-4c8b81cb2232> .
+

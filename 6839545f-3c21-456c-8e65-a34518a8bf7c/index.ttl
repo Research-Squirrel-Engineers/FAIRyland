@@ -3,8 +3,8 @@
 @prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ns1:6839545f-3c21-456c-8e65-a34518a8bf7c a ns1:29555707-7201-41b5-8ef4-1c59caac6f59,
-        <http://www.w3.org/ns/ldp#Resource>,
+ns1:6839545f-3c21-456c-8e65-a34518a8bf7c a <http://www.w3.org/ns/ldp#Resource>,
+        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;

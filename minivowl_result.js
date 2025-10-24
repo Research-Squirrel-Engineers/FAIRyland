@@ -6,9 +6,39 @@ var minivowlresult={
  ],
  "nodes": [
   {
-   "name": "29555707-7201-41b5-8ef4-1c59caac6f59",
+   "name": "Koetbullar",
    "type": "class",
-   "uri": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
+   "uri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"
+  },
+  {
+   "name": "Minion",
+   "type": "class",
+   "uri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion"
+  },
+  {
+   "name": "Stone",
+   "type": "class",
+   "uri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Stone"
+  },
+  {
+   "name": "Street",
+   "type": "class",
+   "uri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Street"
+  },
+  {
+   "name": "Kangaroo",
+   "type": "class",
+   "uri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Kangaroo"
+  },
+  {
+   "name": "Crater",
+   "type": "class",
+   "uri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Crater"
+  },
+  {
+   "name": "AllenKey",
+   "type": "class",
+   "uri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/AllenKey"
   },
   {
    "name": "DatatypeProperty",
@@ -83,71 +113,155 @@ var minivowlresult={
  ],
  "links": [
   {
-   "source": 0,
-   "target": 10,
+   "source": 6,
+   "target": 16,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 6,
+   "target": 15,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 3,
+   "target": 16,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 3,
+   "target": 15,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 2,
+   "target": 16,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 2,
+   "target": 15,
    "valueTo": "hasGeometry",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
    "source": 0,
-   "target": 9,
+   "target": 16,
    "valueTo": "hasGeometry",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
-   "source": 12,
-   "target": 13,
+   "source": 0,
+   "target": 15,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 4,
+   "target": 16,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 4,
+   "target": 15,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 5,
+   "target": 16,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 5,
+   "target": 15,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 1,
+   "target": 16,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 1,
+   "target": 15,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 18,
+   "target": 19,
    "valueTo": "axis",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/crs/axis"
   },
   {
-   "source": 11,
-   "target": 13,
+   "source": 17,
+   "target": 19,
    "valueTo": "axis",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/crs/axis"
   },
   {
-   "source": 4,
-   "target": 12,
+   "source": 9,
+   "target": 18,
    "valueTo": "coordinateSystem",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/crs/coordinateSystem"
   },
   {
-   "source": 4,
-   "target": 11,
+   "source": 9,
+   "target": 17,
    "valueTo": "coordinateSystem",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/crs/coordinateSystem"
   },
   {
-   "source": 2,
-   "target": 12,
+   "source": 8,
+   "target": 18,
    "valueTo": "coordinateSystem",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/crs/coordinateSystem"
   },
   {
-   "source": 2,
-   "target": 11,
+   "source": 8,
+   "target": 17,
    "valueTo": "coordinateSystem",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/crs/coordinateSystem"
   },
   {
-   "source": 3,
-   "target": 12,
+   "source": 10,
+   "target": 18,
    "valueTo": "coordinateSystem",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/crs/coordinateSystem"
   },
   {
-   "source": 3,
-   "target": 11,
+   "source": 10,
+   "target": 17,
    "valueTo": "coordinateSystem",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/crs/coordinateSystem"
