@@ -5,7 +5,9 @@
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Trench> a void:Dataset,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Property Partition: Trench"@en ;
+    rdfs:label "Class Partition: Trench"@en,
+        "Property Partition: Trench"@en ;
+    void:class <https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench> ;
     void:property <http://www.github.com/sparqlunicorn#Trench> ;
     void:triples 172 .
 

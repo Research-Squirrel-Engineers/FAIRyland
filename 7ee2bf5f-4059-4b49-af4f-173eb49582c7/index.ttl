@@ -1,15 +1,19 @@
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix ns1: <http://www.github.com/sparqlunicorn#> .
+@prefix ns2: <https://github.com/Research-Squirrel-Engineers/FAIRyland/> .
 @prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 ns1:7ee2bf5f-4059-4b49-af4f-173eb49582c7 a <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Street>,
+        ns2:Street,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Street"^^xsd:string ;
     ns1:Time_Period "Minion IIa"^^xsd:string ;
     ns1:Trench "Norrfors"^^xsd:string ;
     ns1:fid 167 ;
-    geo:hasGeometry ns1:7ee2bf5f-4059-4b49-af4f-173eb49582c7_geom .
+    geo:hasGeometry ns1:7ee2bf5f-4059-4b49-af4f-173eb49582c7_geom ;
+    ns2:hasperiod ns2:Minion_IIa ;
+    ns2:hastrench ns2:Norrfors ;
+    ns2:timeperiod ns2:MinionIIa .
 

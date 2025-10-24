@@ -267,6 +267,7 @@
         <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#Stone_collection>,
         <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#Street>,
         <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#Street_collection>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#TimePeriod>,
         <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#WGS84>,
         <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a0108469-2166-4732-8aff-f6429f29a82f>,
         <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a0108469-2166-4732-8aff-f6429f29a82f_geom>,
@@ -398,6 +399,16 @@
         <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#fec6c570-b8d5-49be-aa15-8be41afd1aa3>,
         <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#fec6c570-b8d5-49be-aa15-8be41afd1aa3_geom>,
         <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#nonns_Feature.html>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#nonns_IkeaLand.html>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#nonns_MinionI.html>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#nonns_MinionIIa.html>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#nonns_MinionIIb.html>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#nonns_Minion_I.html>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#nonns_Minion_IIa.html>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#nonns_Minion_IIb.html>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#nonns_Minion_Period.html>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#nonns_Norrfors.html>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#nonns_Trench.html>,
         <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#north> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#0194d590-c58c-4c97-98f8-303ea8ffe32a> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
@@ -1174,6 +1185,9 @@
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#Street_collection> ns1:forClass geo:FeatureCollection ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//Street_collection> .
 
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#TimePeriod> ns1:forClass <#> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//TimePeriod> .
+
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#WGS84> ns1:forClass <http://www.opengis.net/ont/crs/Ellipsoid> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//WGS84> .
 
@@ -1566,6 +1580,36 @@
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#nonns_Feature.html> ns1:forClass geo:SpatialObject ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//nonns_Feature.html> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#nonns_IkeaLand.html> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//nonns_IkeaLand.html> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#nonns_MinionI.html> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/TimePeriod> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//nonns_MinionI.html> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#nonns_MinionIIa.html> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/TimePeriod> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//nonns_MinionIIa.html> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#nonns_MinionIIb.html> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/TimePeriod> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//nonns_MinionIIb.html> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#nonns_Minion_I.html> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/TimePeriod> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//nonns_Minion_I.html> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#nonns_Minion_IIa.html> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/TimePeriod> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//nonns_Minion_IIa.html> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#nonns_Minion_IIb.html> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/TimePeriod> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//nonns_Minion_IIb.html> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#nonns_Minion_Period.html> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/TimePeriod> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//nonns_Minion_Period.html> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#nonns_Norrfors.html> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//nonns_Norrfors.html> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#nonns_Trench.html> ns1:forClass <#> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//nonns_Trench.html> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#north> ns1:forClass <http://www.opengis.net/ont/crs/AxisDirection> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//north> .

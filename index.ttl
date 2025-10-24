@@ -9,7 +9,8 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix ns1: <http://www.github.com/sparqlunicorn#> .
-@prefix ns2: <http://ldf.fi/void-ext#> .
+@prefix ns2: <https://github.com/Research-Squirrel-Engineers/FAIRyland/> .
+@prefix ns3: <http://ldf.fi/void-ext#> .
 @prefix odrl: <http://www.w3.org/ns/odrl/2/> .
 @prefix org: <http://www.w3.org/ns/org#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -71,10 +72,14 @@ ns1:FAIRyland_LOD_github.com_Research-Squirrel-Engineers_FAIRyland_ a void:Links
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Linkset: FAIRyland_LOD - fairyland:"@en ;
-    void:linkPredicate rdf:type ;
-    void:objectsTarget <https://github.com/Research-Squirrel-Engineers/FAIRyland/> ;
+    void:linkPredicate rdf:type,
+        ns2:hasperiod,
+        ns2:hastrench,
+        ns2:timeperiod ;
+    void:objectsTarget ns2: ;
     void:subjectsTarget ns1:FAIRyland_LOD ;
-    void:triples 172 .
+    void:triples 8,
+        172 .
 
 ns1:FAIRyland_LOD_www.opengis.net_ont_geosparql_ a void:Linkset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -521,1213 +526,1434 @@ ns1:Street_collection a geo:FeatureCollection,
 ns1:0194d590-c58c-4c97-98f8-303ea8ffe32a a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 98 ;
-    geo:hasGeometry ns1:0194d590-c58c-4c97-98f8-303ea8ffe32a_geom .
+    geo:hasGeometry ns1:0194d590-c58c-4c97-98f8-303ea8ffe32a_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:038d7342-a29b-4fb4-848a-38956486b324 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 154 ;
-    geo:hasGeometry ns1:038d7342-a29b-4fb4-848a-38956486b324_geom .
+    geo:hasGeometry ns1:038d7342-a29b-4fb4-848a-38956486b324_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:03bf5218-bda5-4791-b190-b302c4d8d6ce a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 141 ;
-    geo:hasGeometry ns1:03bf5218-bda5-4791-b190-b302c4d8d6ce_geom .
+    geo:hasGeometry ns1:03bf5218-bda5-4791-b190-b302c4d8d6ce_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:047d2aa4-c98d-4c8e-bba6-c5bc935b626a a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 2 ;
-    geo:hasGeometry ns1:047d2aa4-c98d-4c8e-bba6-c5bc935b626a_geom .
+    geo:hasGeometry ns1:047d2aa4-c98d-4c8e-bba6-c5bc935b626a_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:069e7a2d-631d-4338-adf9-5fd2f9bd2155 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 119 ;
-    geo:hasGeometry ns1:069e7a2d-631d-4338-adf9-5fd2f9bd2155_geom .
+    geo:hasGeometry ns1:069e7a2d-631d-4338-adf9-5fd2f9bd2155_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:0800c7da-7e10-4ba2-a020-7db1bc018572 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Condition "smashed"^^xsd:string ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 103 ;
-    geo:hasGeometry ns1:0800c7da-7e10-4ba2-a020-7db1bc018572_geom .
+    geo:hasGeometry ns1:0800c7da-7e10-4ba2-a020-7db1bc018572_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:09625e57-e1e3-4819-baac-8154feac0fe6 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 24 ;
-    geo:hasGeometry ns1:09625e57-e1e3-4819-baac-8154feac0fe6_geom .
+    geo:hasGeometry ns1:09625e57-e1e3-4819-baac-8154feac0fe6_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion> ;
+        ns2:Minion ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Condition "flatten"^^xsd:string ;
     ns1:Name "Minions"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 46 ;
-    geo:hasGeometry ns1:09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb_geom .
+    geo:hasGeometry ns1:09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:0b12b1c6-4f43-4635-9437-2eccad89860a a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Stone> ;
+        ns2:Stone ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Stone"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 33 ;
-    geo:hasGeometry ns1:0b12b1c6-4f43-4635-9437-2eccad89860a_geom .
+    geo:hasGeometry ns1:0b12b1c6-4f43-4635-9437-2eccad89860a_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:0b959b96-55fd-4550-b4de-68e2c4f9625f a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 28 ;
-    geo:hasGeometry ns1:0b959b96-55fd-4550-b4de-68e2c4f9625f_geom .
+    geo:hasGeometry ns1:0b959b96-55fd-4550-b4de-68e2c4f9625f_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:0cc84bdb-a46b-47fc-851f-925f22e3fd77 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 81 ;
-    geo:hasGeometry ns1:0cc84bdb-a46b-47fc-851f-925f22e3fd77_geom .
+    geo:hasGeometry ns1:0cc84bdb-a46b-47fc-851f-925f22e3fd77_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:0cde71e0-701f-44cd-a025-5cac1d1c7d70 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 75 ;
-    geo:hasGeometry ns1:0cde71e0-701f-44cd-a025-5cac1d1c7d70_geom .
+    geo:hasGeometry ns1:0cde71e0-701f-44cd-a025-5cac1d1c7d70_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:0d9d574e-754a-4f9c-93b7-47fc15d4f2d3 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion> ;
+        ns2:Minion ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Condition "flatten"^^xsd:string ;
     ns1:Name "Minions"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 43 ;
-    geo:hasGeometry ns1:0d9d574e-754a-4f9c-93b7-47fc15d4f2d3_geom .
+    geo:hasGeometry ns1:0d9d574e-754a-4f9c-93b7-47fc15d4f2d3_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:1073f60f-73b2-4193-8bd7-951995224dbb a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 122 ;
-    geo:hasGeometry ns1:1073f60f-73b2-4193-8bd7-951995224dbb_geom .
+    geo:hasGeometry ns1:1073f60f-73b2-4193-8bd7-951995224dbb_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:10d1a1c2-f56c-485c-a5cc-4d4e48c8e675 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 88 ;
-    geo:hasGeometry ns1:10d1a1c2-f56c-485c-a5cc-4d4e48c8e675_geom .
+    geo:hasGeometry ns1:10d1a1c2-f56c-485c-a5cc-4d4e48c8e675_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:12ce69a0-6b49-4159-8ff6-b468f44d33b5 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 135 ;
-    geo:hasGeometry ns1:12ce69a0-6b49-4159-8ff6-b468f44d33b5_geom .
+    geo:hasGeometry ns1:12ce69a0-6b49-4159-8ff6-b468f44d33b5_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:12d61444-88ae-43b3-95d4-15e5fecd4180 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 101 ;
-    geo:hasGeometry ns1:12d61444-88ae-43b3-95d4-15e5fecd4180_geom .
+    geo:hasGeometry ns1:12d61444-88ae-43b3-95d4-15e5fecd4180_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:180a5320-3833-4133-aa46-aab7f0d80d84 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Condition "smashed"^^xsd:string ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 27 ;
-    geo:hasGeometry ns1:180a5320-3833-4133-aa46-aab7f0d80d84_geom .
+    geo:hasGeometry ns1:180a5320-3833-4133-aa46-aab7f0d80d84_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:18d49631-5a11-48f6-acb7-62cfaf8de742 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion> ;
+        ns2:Minion ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Condition "flatten"^^xsd:string ;
     ns1:Name "Minions"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 42 ;
-    geo:hasGeometry ns1:18d49631-5a11-48f6-acb7-62cfaf8de742_geom .
+    geo:hasGeometry ns1:18d49631-5a11-48f6-acb7-62cfaf8de742_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:19793c7f-6cc9-462c-99da-e3e33ff97461 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 92 ;
-    geo:hasGeometry ns1:19793c7f-6cc9-462c-99da-e3e33ff97461_geom .
+    geo:hasGeometry ns1:19793c7f-6cc9-462c-99da-e3e33ff97461_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:1a2be1c9-acaf-4659-839d-0146401472f2 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 108 ;
-    geo:hasGeometry ns1:1a2be1c9-acaf-4659-839d-0146401472f2_geom .
+    geo:hasGeometry ns1:1a2be1c9-acaf-4659-839d-0146401472f2_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:1ac53fc4-aeb3-4256-ac8e-47160f4d642a a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Street> ;
+        ns2:Street ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Street"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 161 ;
-    geo:hasGeometry ns1:1ac53fc4-aeb3-4256-ac8e-47160f4d642a_geom .
+    geo:hasGeometry ns1:1ac53fc4-aeb3-4256-ac8e-47160f4d642a_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:1d935768-ea8d-4be8-884b-a4dff9825021 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion> ;
+        ns2:Minion ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Condition "flatten"^^xsd:string ;
     ns1:Name "Minions"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 35 ;
-    geo:hasGeometry ns1:1d935768-ea8d-4be8-884b-a4dff9825021_geom .
+    geo:hasGeometry ns1:1d935768-ea8d-4be8-884b-a4dff9825021_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:1fcfa357-13f8-4cb5-8e28-f98280989898 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 79 ;
-    geo:hasGeometry ns1:1fcfa357-13f8-4cb5-8e28-f98280989898_geom .
+    geo:hasGeometry ns1:1fcfa357-13f8-4cb5-8e28-f98280989898_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:25d0c170-da08-47ed-8bf8-78f36d0f558e a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 143 ;
-    geo:hasGeometry ns1:25d0c170-da08-47ed-8bf8-78f36d0f558e_geom .
+    geo:hasGeometry ns1:25d0c170-da08-47ed-8bf8-78f36d0f558e_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:264aceda-0df9-48de-9c9a-bfac46e9d790 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 132 ;
-    geo:hasGeometry ns1:264aceda-0df9-48de-9c9a-bfac46e9d790_geom .
+    geo:hasGeometry ns1:264aceda-0df9-48de-9c9a-bfac46e9d790_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:275a5b7f-e28a-41ec-b6b5-9bc82b47f1a0 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 82 ;
-    geo:hasGeometry ns1:275a5b7f-e28a-41ec-b6b5-9bc82b47f1a0_geom .
+    geo:hasGeometry ns1:275a5b7f-e28a-41ec-b6b5-9bc82b47f1a0_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:28ec2dbf-6806-4a32-a35d-78764bfda459 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 84 ;
-    geo:hasGeometry ns1:28ec2dbf-6806-4a32-a35d-78764bfda459_geom .
+    geo:hasGeometry ns1:28ec2dbf-6806-4a32-a35d-78764bfda459_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:2abb9a90-732f-4e75-b764-6b3df7dfa173 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 148 ;
-    geo:hasGeometry ns1:2abb9a90-732f-4e75-b764-6b3df7dfa173_geom .
+    geo:hasGeometry ns1:2abb9a90-732f-4e75-b764-6b3df7dfa173_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:2d3d304e-4ac7-4f2f-93a6-251105f7ace4 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 29 ;
-    geo:hasGeometry ns1:2d3d304e-4ac7-4f2f-93a6-251105f7ace4_geom .
+    geo:hasGeometry ns1:2d3d304e-4ac7-4f2f-93a6-251105f7ace4_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:2e711592-9068-438a-80b9-0c7725e1d6bb a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 114 ;
-    geo:hasGeometry ns1:2e711592-9068-438a-80b9-0c7725e1d6bb_geom .
+    geo:hasGeometry ns1:2e711592-9068-438a-80b9-0c7725e1d6bb_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:3018eba9-3c11-41e8-901e-7377167b58e4 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 136 ;
-    geo:hasGeometry ns1:3018eba9-3c11-41e8-901e-7377167b58e4_geom .
+    geo:hasGeometry ns1:3018eba9-3c11-41e8-901e-7377167b58e4_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:31615fc1-a7de-48af-80a2-777dd77760b2 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 1 ;
-    geo:hasGeometry ns1:31615fc1-a7de-48af-80a2-777dd77760b2_geom .
+    geo:hasGeometry ns1:31615fc1-a7de-48af-80a2-777dd77760b2_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:32126fde-7a0e-46ab-b512-ad9f20ea10ea a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 134 ;
-    geo:hasGeometry ns1:32126fde-7a0e-46ab-b512-ad9f20ea10ea_geom .
+    geo:hasGeometry ns1:32126fde-7a0e-46ab-b512-ad9f20ea10ea_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:327283ae-3a31-4397-ae77-2566e4d146b6 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 159 ;
-    geo:hasGeometry ns1:327283ae-3a31-4397-ae77-2566e4d146b6_geom .
+    geo:hasGeometry ns1:327283ae-3a31-4397-ae77-2566e4d146b6_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:3280d786-1bb7-4913-9be9-9041f65ef4b6 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 105 ;
-    geo:hasGeometry ns1:3280d786-1bb7-4913-9be9-9041f65ef4b6_geom .
+    geo:hasGeometry ns1:3280d786-1bb7-4913-9be9-9041f65ef4b6_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:3672902d-7362-4069-9769-21296706d028 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 48 ;
-    geo:hasGeometry ns1:3672902d-7362-4069-9769-21296706d028_geom .
+    geo:hasGeometry ns1:3672902d-7362-4069-9769-21296706d028_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:37993191-20c4-49a4-b3bc-2a28960f323d a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion> ;
+        ns2:Minion ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Condition "flatten"^^xsd:string ;
     ns1:Name "Minions"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 58 ;
-    geo:hasGeometry ns1:37993191-20c4-49a4-b3bc-2a28960f323d_geom .
+    geo:hasGeometry ns1:37993191-20c4-49a4-b3bc-2a28960f323d_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:389c5712-618e-4532-84fd-4eb084e6c0aa a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 15 ;
-    geo:hasGeometry ns1:389c5712-618e-4532-84fd-4eb084e6c0aa_geom .
+    geo:hasGeometry ns1:389c5712-618e-4532-84fd-4eb084e6c0aa_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:3a55458f-5c2f-4368-9a03-384f6377e301 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Kangaroo> ;
+        ns2:Kangaroo ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Condition "flatten"^^xsd:string ;
     ns1:Name "Kangaroo"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 67 ;
-    geo:hasGeometry ns1:3a55458f-5c2f-4368-9a03-384f6377e301_geom .
+    geo:hasGeometry ns1:3a55458f-5c2f-4368-9a03-384f6377e301_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:3cd74fe7-9b31-4361-ad28-08afb3097edc a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Condition "smashed"^^xsd:string ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 130 ;
-    geo:hasGeometry ns1:3cd74fe7-9b31-4361-ad28-08afb3097edc_geom .
+    geo:hasGeometry ns1:3cd74fe7-9b31-4361-ad28-08afb3097edc_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:3d393a7a-ea8c-45d2-aca7-1453da500bb5 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion> ;
+        ns2:Minion ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Condition "flatten"^^xsd:string ;
     ns1:Name "Minions"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 55 ;
-    geo:hasGeometry ns1:3d393a7a-ea8c-45d2-aca7-1453da500bb5_geom .
+    geo:hasGeometry ns1:3d393a7a-ea8c-45d2-aca7-1453da500bb5_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:3e67e756-dad2-4514-a9af-511fd2db0e91 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Street> ;
+        ns2:Street ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Street"^^xsd:string ;
     ns1:Time_Period "Minion IIa"^^xsd:string ;
     ns1:Trench "Norrfors"^^xsd:string ;
     ns1:fid 162 ;
-    geo:hasGeometry ns1:3e67e756-dad2-4514-a9af-511fd2db0e91_geom .
+    geo:hasGeometry ns1:3e67e756-dad2-4514-a9af-511fd2db0e91_geom ;
+    ns2:hasperiod ns2:Minion_IIa ;
+    ns2:hastrench ns2:Norrfors ;
+    ns2:timeperiod ns2:MinionIIa .
 
 ns1:3e78afb0-3e1c-4814-a038-dfde669dc4c1 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 13 ;
-    geo:hasGeometry ns1:3e78afb0-3e1c-4814-a038-dfde669dc4c1_geom .
+    geo:hasGeometry ns1:3e78afb0-3e1c-4814-a038-dfde669dc4c1_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:41bc9d9f-999b-4c03-868d-e3823fc03184 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 50 ;
-    geo:hasGeometry ns1:41bc9d9f-999b-4c03-868d-e3823fc03184_geom .
+    geo:hasGeometry ns1:41bc9d9f-999b-4c03-868d-e3823fc03184_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:43445b66-c4c5-4668-8fb7-00186131c6ff a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Stone> ;
+        ns2:Stone ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Stone"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 31 ;
-    geo:hasGeometry ns1:43445b66-c4c5-4668-8fb7-00186131c6ff_geom .
+    geo:hasGeometry ns1:43445b66-c4c5-4668-8fb7-00186131c6ff_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:435bca7b-b840-4894-9bff-df7c45b2c20c a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 147 ;
-    geo:hasGeometry ns1:435bca7b-b840-4894-9bff-df7c45b2c20c_geom .
+    geo:hasGeometry ns1:435bca7b-b840-4894-9bff-df7c45b2c20c_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:45d241e5-c948-4ae3-860b-668b54894e58 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 14 ;
-    geo:hasGeometry ns1:45d241e5-c948-4ae3-860b-668b54894e58_geom .
+    geo:hasGeometry ns1:45d241e5-c948-4ae3-860b-668b54894e58_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:464f2805-ec4f-4d89-858e-f56a4378062d a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 74 ;
-    geo:hasGeometry ns1:464f2805-ec4f-4d89-858e-f56a4378062d_geom .
+    geo:hasGeometry ns1:464f2805-ec4f-4d89-858e-f56a4378062d_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:467872e1-4482-4e05-ba2e-2ac81b40dcf7 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 109 ;
-    geo:hasGeometry ns1:467872e1-4482-4e05-ba2e-2ac81b40dcf7_geom .
+    geo:hasGeometry ns1:467872e1-4482-4e05-ba2e-2ac81b40dcf7_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:4692f53e-797d-4457-bbc3-55273889566f a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 156 ;
-    geo:hasGeometry ns1:4692f53e-797d-4457-bbc3-55273889566f_geom .
+    geo:hasGeometry ns1:4692f53e-797d-4457-bbc3-55273889566f_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:4960c3ef-c969-4930-8f87-3e9250c5b716 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 23 ;
-    geo:hasGeometry ns1:4960c3ef-c969-4930-8f87-3e9250c5b716_geom .
+    geo:hasGeometry ns1:4960c3ef-c969-4930-8f87-3e9250c5b716_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:49ca3504-ffe4-4ec4-bd95-72123b14e48e a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 7 ;
-    geo:hasGeometry ns1:49ca3504-ffe4-4ec4-bd95-72123b14e48e_geom .
+    geo:hasGeometry ns1:49ca3504-ffe4-4ec4-bd95-72123b14e48e_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:4a4c2cd5-02ce-415c-b812-ec9fd13d73c6 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 32 ;
-    geo:hasGeometry ns1:4a4c2cd5-02ce-415c-b812-ec9fd13d73c6_geom .
+    geo:hasGeometry ns1:4a4c2cd5-02ce-415c-b812-ec9fd13d73c6_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:4bb458df-e06c-4d79-bcdb-663a09168b93 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 149 ;
-    geo:hasGeometry ns1:4bb458df-e06c-4d79-bcdb-663a09168b93_geom .
+    geo:hasGeometry ns1:4bb458df-e06c-4d79-bcdb-663a09168b93_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:4ccf2904-a68a-4c88-81de-8d549bc421e9 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 152 ;
-    geo:hasGeometry ns1:4ccf2904-a68a-4c88-81de-8d549bc421e9_geom .
+    geo:hasGeometry ns1:4ccf2904-a68a-4c88-81de-8d549bc421e9_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:4db030c2-2331-4dad-b17c-da023bceff9f a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Crater> ;
+        ns2:Crater ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Condition "dry"^^xsd:string ;
     ns1:Name "Crater"^^xsd:string ;
     ns1:Time_Period "Minion IIa"^^xsd:string ;
     ns1:Trench "Norrfors"^^xsd:string ;
     ns1:fid 160 ;
-    geo:hasGeometry ns1:4db030c2-2331-4dad-b17c-da023bceff9f_geom .
+    geo:hasGeometry ns1:4db030c2-2331-4dad-b17c-da023bceff9f_geom ;
+    ns2:hasperiod ns2:Minion_IIa ;
+    ns2:hastrench ns2:Norrfors ;
+    ns2:timeperiod ns2:MinionIIa .
 
 ns1:4e1bbd40-75c2-4134-abdf-71a85b238394 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion> ;
+        ns2:Minion ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Condition "flatten"^^xsd:string ;
     ns1:Name "Minions"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 57 ;
-    geo:hasGeometry ns1:4e1bbd40-75c2-4134-abdf-71a85b238394_geom .
+    geo:hasGeometry ns1:4e1bbd40-75c2-4134-abdf-71a85b238394_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:4f25cbc8-6f89-434b-8988-0e3e965f2aa7 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 157 ;
-    geo:hasGeometry ns1:4f25cbc8-6f89-434b-8988-0e3e965f2aa7_geom .
+    geo:hasGeometry ns1:4f25cbc8-6f89-434b-8988-0e3e965f2aa7_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:521dd20c-2456-40a9-8b2b-0064396ccb07 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 20 ;
-    geo:hasGeometry ns1:521dd20c-2456-40a9-8b2b-0064396ccb07_geom .
+    geo:hasGeometry ns1:521dd20c-2456-40a9-8b2b-0064396ccb07_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:526eb9a7-2805-4a93-b49c-df9a922b279c a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 91 ;
-    geo:hasGeometry ns1:526eb9a7-2805-4a93-b49c-df9a922b279c_geom .
+    geo:hasGeometry ns1:526eb9a7-2805-4a93-b49c-df9a922b279c_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:52f8f607-2c6b-4b25-90f8-861ed744e1ca a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Condition "smashed"^^xsd:string ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 90 ;
-    geo:hasGeometry ns1:52f8f607-2c6b-4b25-90f8-861ed744e1ca_geom .
+    geo:hasGeometry ns1:52f8f607-2c6b-4b25-90f8-861ed744e1ca_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:53bf2db7-7718-4835-bc3c-2baf3068207f a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Condition "smashed"^^xsd:string ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 65 ;
-    geo:hasGeometry ns1:53bf2db7-7718-4835-bc3c-2baf3068207f_geom .
+    geo:hasGeometry ns1:53bf2db7-7718-4835-bc3c-2baf3068207f_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:53ed429c-06e1-419a-9002-12d7bcf18ba0 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 78 ;
-    geo:hasGeometry ns1:53ed429c-06e1-419a-9002-12d7bcf18ba0_geom .
+    geo:hasGeometry ns1:53ed429c-06e1-419a-9002-12d7bcf18ba0_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:54e13ec0-7b5a-4f4a-892f-615ab97d9000 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 21 ;
-    geo:hasGeometry ns1:54e13ec0-7b5a-4f4a-892f-615ab97d9000_geom .
+    geo:hasGeometry ns1:54e13ec0-7b5a-4f4a-892f-615ab97d9000_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:55eee8ec-2c4a-4924-8d2e-89b0d57b2d74 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 142 ;
-    geo:hasGeometry ns1:55eee8ec-2c4a-4924-8d2e-89b0d57b2d74_geom .
+    geo:hasGeometry ns1:55eee8ec-2c4a-4924-8d2e-89b0d57b2d74_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:569674c9-3895-4cb5-8f2c-38e608cab577 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 39 ;
-    geo:hasGeometry ns1:569674c9-3895-4cb5-8f2c-38e608cab577_geom .
+    geo:hasGeometry ns1:569674c9-3895-4cb5-8f2c-38e608cab577_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:5bcc0471-f0ba-417c-bae1-abb3223cd352 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 62 ;
-    geo:hasGeometry ns1:5bcc0471-f0ba-417c-bae1-abb3223cd352_geom .
+    geo:hasGeometry ns1:5bcc0471-f0ba-417c-bae1-abb3223cd352_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:5c6ce17c-cdde-459e-a423-ad5d827e5d4e a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 129 ;
-    geo:hasGeometry ns1:5c6ce17c-cdde-459e-a423-ad5d827e5d4e_geom .
+    geo:hasGeometry ns1:5c6ce17c-cdde-459e-a423-ad5d827e5d4e_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:5f5d079d-712c-4ad0-842c-c04d0d0763e5 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 26 ;
-    geo:hasGeometry ns1:5f5d079d-712c-4ad0-842c-c04d0d0763e5_geom .
+    geo:hasGeometry ns1:5f5d079d-712c-4ad0-842c-c04d0d0763e5_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:622ce224-fab0-4fbd-8a79-d8ecc9b26a49 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Kangaroo> ;
+        ns2:Kangaroo ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Condition "flatten"^^xsd:string ;
     ns1:Name "Kangaroo"^^xsd:string ;
     ns1:Time_Period "Minion I"^^xsd:string ;
     ns1:Trench "Norrfors"^^xsd:string ;
     ns1:fid 172 ;
-    geo:hasGeometry ns1:622ce224-fab0-4fbd-8a79-d8ecc9b26a49_geom .
+    geo:hasGeometry ns1:622ce224-fab0-4fbd-8a79-d8ecc9b26a49_geom ;
+    ns2:hasperiod ns2:Minion_I ;
+    ns2:hastrench ns2:Norrfors ;
+    ns2:timeperiod ns2:MinionI .
 
 ns1:6247dd7d-45da-4805-9922-ad78d30ddc00 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion> ;
+        ns2:Minion ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Condition "flatten"^^xsd:string ;
     ns1:Name "Minions"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 59 ;
-    geo:hasGeometry ns1:6247dd7d-45da-4805-9922-ad78d30ddc00_geom .
+    geo:hasGeometry ns1:6247dd7d-45da-4805-9922-ad78d30ddc00_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:62c65c41-af9e-4af8-af61-97602598da5c a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion> ;
+        ns2:Minion ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Condition "flatten"^^xsd:string ;
     ns1:Name "Minions"^^xsd:string ;
     ns1:Time_Period "Minion IIa"^^xsd:string ;
     ns1:Trench "Norrfors"^^xsd:string ;
     ns1:fid 169 ;
-    geo:hasGeometry ns1:62c65c41-af9e-4af8-af61-97602598da5c_geom .
+    geo:hasGeometry ns1:62c65c41-af9e-4af8-af61-97602598da5c_geom ;
+    ns2:hasperiod ns2:Minion_IIa ;
+    ns2:hastrench ns2:Norrfors ;
+    ns2:timeperiod ns2:MinionIIa .
 
 ns1:64586be1-1d82-4160-a5fb-5af067a6276b a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 137 ;
-    geo:hasGeometry ns1:64586be1-1d82-4160-a5fb-5af067a6276b_geom .
+    geo:hasGeometry ns1:64586be1-1d82-4160-a5fb-5af067a6276b_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:646cf01d-f91f-454d-96f3-69f122d90cf1 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 99 ;
-    geo:hasGeometry ns1:646cf01d-f91f-454d-96f3-69f122d90cf1_geom .
+    geo:hasGeometry ns1:646cf01d-f91f-454d-96f3-69f122d90cf1_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:65f7355b-9621-4b7e-a716-8fa0a4f07a0e a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 116 ;
-    geo:hasGeometry ns1:65f7355b-9621-4b7e-a716-8fa0a4f07a0e_geom .
+    geo:hasGeometry ns1:65f7355b-9621-4b7e-a716-8fa0a4f07a0e_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:66424eb1-6ec0-4f2a-9003-e2143babe975 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 22 ;
-    geo:hasGeometry ns1:66424eb1-6ec0-4f2a-9003-e2143babe975_geom .
+    geo:hasGeometry ns1:66424eb1-6ec0-4f2a-9003-e2143babe975_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:6839545f-3c21-456c-8e65-a34518a8bf7c a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 118 ;
-    geo:hasGeometry ns1:6839545f-3c21-456c-8e65-a34518a8bf7c_geom .
+    geo:hasGeometry ns1:6839545f-3c21-456c-8e65-a34518a8bf7c_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:69195ab5-0241-4995-8079-fee9d5509376 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 53 ;
-    geo:hasGeometry ns1:69195ab5-0241-4995-8079-fee9d5509376_geom .
+    geo:hasGeometry ns1:69195ab5-0241-4995-8079-fee9d5509376_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:6939e3db-546a-4041-a823-e729a2d4b694 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 145 ;
-    geo:hasGeometry ns1:6939e3db-546a-4041-a823-e729a2d4b694_geom .
+    geo:hasGeometry ns1:6939e3db-546a-4041-a823-e729a2d4b694_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:6a176aee-0f30-4da3-bd88-b48f61a6a5ca a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion> ;
+        ns2:Minion ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Condition "flatten"^^xsd:string ;
     ns1:Name "Minions"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 38 ;
-    geo:hasGeometry ns1:6a176aee-0f30-4da3-bd88-b48f61a6a5ca_geom .
+    geo:hasGeometry ns1:6a176aee-0f30-4da3-bd88-b48f61a6a5ca_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:6daab534-65db-49f5-9b1b-5842930184c6 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Kangaroo> ;
+        ns2:Kangaroo ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Condition "flatten"^^xsd:string ;
     ns1:Name "Kangaroo"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 70 ;
-    geo:hasGeometry ns1:6daab534-65db-49f5-9b1b-5842930184c6_geom .
+    geo:hasGeometry ns1:6daab534-65db-49f5-9b1b-5842930184c6_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:6f14de57-897a-4758-a984-262ca18baf75 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 18 ;
-    geo:hasGeometry ns1:6f14de57-897a-4758-a984-262ca18baf75_geom .
+    geo:hasGeometry ns1:6f14de57-897a-4758-a984-262ca18baf75_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:6fa013cb-f86c-4978-ac06-999760a58991 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 111 ;
-    geo:hasGeometry ns1:6fa013cb-f86c-4978-ac06-999760a58991_geom .
+    geo:hasGeometry ns1:6fa013cb-f86c-4978-ac06-999760a58991_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:72d83c05-1969-4b24-a507-eb1450bffea4 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Street> ;
+        ns2:Street ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Street"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 163 ;
-    geo:hasGeometry ns1:72d83c05-1969-4b24-a507-eb1450bffea4_geom .
+    geo:hasGeometry ns1:72d83c05-1969-4b24-a507-eb1450bffea4_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:7a2b1560-c346-41b6-915b-a10547cd3440 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Condition "smashed"^^xsd:string ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 80 ;
-    geo:hasGeometry ns1:7a2b1560-c346-41b6-915b-a10547cd3440_geom .
+    geo:hasGeometry ns1:7a2b1560-c346-41b6-915b-a10547cd3440_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:7abeb59f-2759-4736-897c-69d50f0cdb27 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 144 ;
-    geo:hasGeometry ns1:7abeb59f-2759-4736-897c-69d50f0cdb27_geom .
+    geo:hasGeometry ns1:7abeb59f-2759-4736-897c-69d50f0cdb27_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:7c93771e-f108-4c1a-8ede-799d87629036 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 133 ;
-    geo:hasGeometry ns1:7c93771e-f108-4c1a-8ede-799d87629036_geom .
+    geo:hasGeometry ns1:7c93771e-f108-4c1a-8ede-799d87629036_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:7ee2bf5f-4059-4b49-af4f-173eb49582c7 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Street> ;
+        ns2:Street ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Street"^^xsd:string ;
     ns1:Time_Period "Minion IIa"^^xsd:string ;
     ns1:Trench "Norrfors"^^xsd:string ;
     ns1:fid 167 ;
-    geo:hasGeometry ns1:7ee2bf5f-4059-4b49-af4f-173eb49582c7_geom .
+    geo:hasGeometry ns1:7ee2bf5f-4059-4b49-af4f-173eb49582c7_geom ;
+    ns2:hasperiod ns2:Minion_IIa ;
+    ns2:hastrench ns2:Norrfors ;
+    ns2:timeperiod ns2:MinionIIa .
 
 ns1:7effe8a8-89ea-40c7-b095-ac70c7f9c030 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 63 ;
-    geo:hasGeometry ns1:7effe8a8-89ea-40c7-b095-ac70c7f9c030_geom .
+    geo:hasGeometry ns1:7effe8a8-89ea-40c7-b095-ac70c7f9c030_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:81a150a3-f5f9-4f03-84d7-b5e043f9d371 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 77 ;
-    geo:hasGeometry ns1:81a150a3-f5f9-4f03-84d7-b5e043f9d371_geom .
+    geo:hasGeometry ns1:81a150a3-f5f9-4f03-84d7-b5e043f9d371_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:8522a6f2-b165-4529-9dd6-30bc0da88476 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Kangaroo> ;
+        ns2:Kangaroo ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Condition "flatten"^^xsd:string ;
     ns1:Name "Kangaroo"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 71 ;
-    geo:hasGeometry ns1:8522a6f2-b165-4529-9dd6-30bc0da88476_geom .
+    geo:hasGeometry ns1:8522a6f2-b165-4529-9dd6-30bc0da88476_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:866cbf6d-496f-4aff-acce-5f47e32fdcd9 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 19 ;
-    geo:hasGeometry ns1:866cbf6d-496f-4aff-acce-5f47e32fdcd9_geom .
+    geo:hasGeometry ns1:866cbf6d-496f-4aff-acce-5f47e32fdcd9_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:86997e8b-4662-4c0f-a2d1-b17edc36ac8a a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 76 ;
-    geo:hasGeometry ns1:86997e8b-4662-4c0f-a2d1-b17edc36ac8a_geom .
+    geo:hasGeometry ns1:86997e8b-4662-4c0f-a2d1-b17edc36ac8a_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:86f8a06e-51c7-41be-935b-e70bfcaa67b7 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/AllenKey> ;
+        ns2:AllenKey ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Allen key (Inbusschlüssel)"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 68 ;
-    geo:hasGeometry ns1:86f8a06e-51c7-41be-935b-e70bfcaa67b7_geom .
+    geo:hasGeometry ns1:86f8a06e-51c7-41be-935b-e70bfcaa67b7_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:89b07983-8e6c-4b79-a97f-618a913945ee a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 158 ;
-    geo:hasGeometry ns1:89b07983-8e6c-4b79-a97f-618a913945ee_geom .
+    geo:hasGeometry ns1:89b07983-8e6c-4b79-a97f-618a913945ee_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:8a40c3de-b0fb-4dc0-84d4-2000b15d6f60 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion> ;
+        ns2:Minion ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Condition "flatten"^^xsd:string ;
     ns1:Name "Minions"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 56 ;
-    geo:hasGeometry ns1:8a40c3de-b0fb-4dc0-84d4-2000b15d6f60_geom .
+    geo:hasGeometry ns1:8a40c3de-b0fb-4dc0-84d4-2000b15d6f60_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:8a782006-277b-43df-b476-622e770433ba a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 120 ;
-    geo:hasGeometry ns1:8a782006-277b-43df-b476-622e770433ba_geom .
+    geo:hasGeometry ns1:8a782006-277b-43df-b476-622e770433ba_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:8e91ce6c-6177-45e0-80f4-477fd6e14587 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Street> ;
+        ns2:Street ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Street"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 165 ;
-    geo:hasGeometry ns1:8e91ce6c-6177-45e0-80f4-477fd6e14587_geom .
+    geo:hasGeometry ns1:8e91ce6c-6177-45e0-80f4-477fd6e14587_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:8fc69a50-3bd3-43ef-9f74-2e52360f520c a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 49 ;
-    geo:hasGeometry ns1:8fc69a50-3bd3-43ef-9f74-2e52360f520c_geom .
+    geo:hasGeometry ns1:8fc69a50-3bd3-43ef-9f74-2e52360f520c_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:90d8c5f4-021b-414b-8219-47f4e39bbff6 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Condition "smashed"^^xsd:string ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 104 ;
-    geo:hasGeometry ns1:90d8c5f4-021b-414b-8219-47f4e39bbff6_geom .
+    geo:hasGeometry ns1:90d8c5f4-021b-414b-8219-47f4e39bbff6_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:91417e18-f9c7-49d7-80b2-ec408b898147 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 61 ;
-    geo:hasGeometry ns1:91417e18-f9c7-49d7-80b2-ec408b898147_geom .
+    geo:hasGeometry ns1:91417e18-f9c7-49d7-80b2-ec408b898147_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:92bc7954-d3e5-456e-a3f9-15ed633ca086 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 40 ;
-    geo:hasGeometry ns1:92bc7954-d3e5-456e-a3f9-15ed633ca086_geom .
+    geo:hasGeometry ns1:92bc7954-d3e5-456e-a3f9-15ed633ca086_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:9460842b-7734-4665-82a2-0085a33ce453 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 153 ;
-    geo:hasGeometry ns1:9460842b-7734-4665-82a2-0085a33ce453_geom .
+    geo:hasGeometry ns1:9460842b-7734-4665-82a2-0085a33ce453_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:97e0311e-f072-4b6c-8619-4c8b81cb2232 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Crater> ;
+        ns2:Crater ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Crater"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 47 ;
-    geo:hasGeometry ns1:97e0311e-f072-4b6c-8619-4c8b81cb2232_geom .
+    geo:hasGeometry ns1:97e0311e-f072-4b6c-8619-4c8b81cb2232_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:9a404584-fd22-42a3-ba09-2382a8cc7596 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 97 ;
-    geo:hasGeometry ns1:9a404584-fd22-42a3-ba09-2382a8cc7596_geom .
+    geo:hasGeometry ns1:9a404584-fd22-42a3-ba09-2382a8cc7596_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:9d5f5c58-94c9-426a-862c-0bce70aa017e a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 66 ;
-    geo:hasGeometry ns1:9d5f5c58-94c9-426a-862c-0bce70aa017e_geom .
+    geo:hasGeometry ns1:9d5f5c58-94c9-426a-862c-0bce70aa017e_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:9e80e441-dc60-4514-8477-702e7d8ea321 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 64 ;
-    geo:hasGeometry ns1:9e80e441-dc60-4514-8477-702e7d8ea321_geom .
+    geo:hasGeometry ns1:9e80e441-dc60-4514-8477-702e7d8ea321_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:FAIRyland_LOD_Condition a void:Dataset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1751,14 +1977,6 @@ ns1:FAIRyland_LOD_Time_Period a void:Dataset,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Property Partition: Time_Period"@en ;
     void:property ns1:Time_Period ;
-    void:triples 172 .
-
-ns1:FAIRyland_LOD_Trench a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Property Partition: Trench"@en ;
-    void:property ns1:Trench ;
     void:triples 172 .
 
 ns1:FAIRyland_LOD_abbreviation a void:Dataset,
@@ -1875,6 +2093,22 @@ ns1:FAIRyland_LOD_hasGeometry a void:Dataset,
     void:property geo:hasGeometry ;
     void:triples 172 .
 
+ns1:FAIRyland_LOD_hasperiod a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: hasperiod"@en ;
+    void:property ns2:hasperiod ;
+    void:triples 172 .
+
+ns1:FAIRyland_LOD_hastrench a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: hastrench"@en ;
+    void:property ns2:hastrench ;
+    void:triples 172 .
+
 ns1:FAIRyland_LOD_isApplicableTo a void:Dataset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -1939,13 +2173,21 @@ ns1:FAIRyland_LOD_subClassOf a void:Dataset,
     void:property rdfs:subClassOf ;
     void:triples 5 .
 
+ns1:FAIRyland_LOD_timeperiod a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: timeperiod"@en ;
+    void:property ns2:timeperiod ;
+    void:triples 8 .
+
 ns1:FAIRyland_LOD_type a void:Dataset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Property Partition: type"@en ;
     void:property rdf:type ;
-    void:triples 367 .
+    void:triples 376 .
 
 ns1:FAIRyland_LOD_unit a void:Dataset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1982,724 +2224,855 @@ ns1:FAIRyland_LOD_unit_conversion_factor a void:Dataset,
 ns1:a0108469-2166-4732-8aff-f6429f29a82f a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Condition "smashed"^^xsd:string ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 124 ;
-    geo:hasGeometry ns1:a0108469-2166-4732-8aff-f6429f29a82f_geom .
+    geo:hasGeometry ns1:a0108469-2166-4732-8aff-f6429f29a82f_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:a09111ca-c359-48cc-9a96-e79673caa0b8 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 113 ;
-    geo:hasGeometry ns1:a09111ca-c359-48cc-9a96-e79673caa0b8_geom .
+    geo:hasGeometry ns1:a09111ca-c359-48cc-9a96-e79673caa0b8_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:a3006e8d-46d6-4db0-81aa-23238514e5eb a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion> ;
+        ns2:Minion ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Condition "flatten"^^xsd:string ;
     ns1:Name "Minions"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 41 ;
-    geo:hasGeometry ns1:a3006e8d-46d6-4db0-81aa-23238514e5eb_geom .
+    geo:hasGeometry ns1:a3006e8d-46d6-4db0-81aa-23238514e5eb_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:a3228d61-d64a-4b1f-be73-130b222b1c11 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 3 ;
-    geo:hasGeometry ns1:a3228d61-d64a-4b1f-be73-130b222b1c11_geom .
+    geo:hasGeometry ns1:a3228d61-d64a-4b1f-be73-130b222b1c11_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:a7f106af-5755-44ed-9ba2-86b1110e21f7 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 17 ;
-    geo:hasGeometry ns1:a7f106af-5755-44ed-9ba2-86b1110e21f7_geom .
+    geo:hasGeometry ns1:a7f106af-5755-44ed-9ba2-86b1110e21f7_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:a9d036a7-9001-47c8-89db-54c0fe8d6829 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion> ;
+        ns2:Minion ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Condition "flatten"^^xsd:string ;
     ns1:Name "Minions"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 37 ;
-    geo:hasGeometry ns1:a9d036a7-9001-47c8-89db-54c0fe8d6829_geom .
+    geo:hasGeometry ns1:a9d036a7-9001-47c8-89db-54c0fe8d6829_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:ab7a69ca-6c8f-4d13-893b-3702231a60b7 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion> ;
+        ns2:Minion ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Condition "flatten"^^xsd:string ;
     ns1:Name "Minions"^^xsd:string ;
     ns1:Time_Period "Minion IIa"^^xsd:string ;
     ns1:Trench "Norrfors"^^xsd:string ;
     ns1:fid 168 ;
-    geo:hasGeometry ns1:ab7a69ca-6c8f-4d13-893b-3702231a60b7_geom .
+    geo:hasGeometry ns1:ab7a69ca-6c8f-4d13-893b-3702231a60b7_geom ;
+    ns2:hasperiod ns2:Minion_IIa ;
+    ns2:hastrench ns2:Norrfors ;
+    ns2:timeperiod ns2:MinionIIa .
 
 ns1:abb845a6-5386-459e-938f-5100e0af1f72 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 126 ;
-    geo:hasGeometry ns1:abb845a6-5386-459e-938f-5100e0af1f72_geom .
+    geo:hasGeometry ns1:abb845a6-5386-459e-938f-5100e0af1f72_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:b1984fb3-ca88-4453-8fa3-b782d735052c a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 6 ;
-    geo:hasGeometry ns1:b1984fb3-ca88-4453-8fa3-b782d735052c_geom .
+    geo:hasGeometry ns1:b1984fb3-ca88-4453-8fa3-b782d735052c_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:b3a42fde-e5a1-4a7f-912f-ef0fe1019b2b a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Condition "smashed"^^xsd:string ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 85 ;
-    geo:hasGeometry ns1:b3a42fde-e5a1-4a7f-912f-ef0fe1019b2b_geom .
+    geo:hasGeometry ns1:b3a42fde-e5a1-4a7f-912f-ef0fe1019b2b_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:b6233e40-079e-447d-b960-2f59a90dcd6e a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 121 ;
-    geo:hasGeometry ns1:b6233e40-079e-447d-b960-2f59a90dcd6e_geom .
+    geo:hasGeometry ns1:b6233e40-079e-447d-b960-2f59a90dcd6e_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:b70a68c4-e63b-445d-8f0f-ec2384dc1363 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 123 ;
-    geo:hasGeometry ns1:b70a68c4-e63b-445d-8f0f-ec2384dc1363_geom .
+    geo:hasGeometry ns1:b70a68c4-e63b-445d-8f0f-ec2384dc1363_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:b7b8283e-fd64-4b1f-b6e3-81a71091b63a a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 128 ;
-    geo:hasGeometry ns1:b7b8283e-fd64-4b1f-b6e3-81a71091b63a_geom .
+    geo:hasGeometry ns1:b7b8283e-fd64-4b1f-b6e3-81a71091b63a_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:b7ee573a-bf90-4f57-b159-39e1fc2822a8 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Stone> ;
+        ns2:Stone ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Stone"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 44 ;
-    geo:hasGeometry ns1:b7ee573a-bf90-4f57-b159-39e1fc2822a8_geom .
+    geo:hasGeometry ns1:b7ee573a-bf90-4f57-b159-39e1fc2822a8_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:b8b8a52d-9851-4436-9d74-90cc18bdc8e1 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 107 ;
-    geo:hasGeometry ns1:b8b8a52d-9851-4436-9d74-90cc18bdc8e1_geom .
+    geo:hasGeometry ns1:b8b8a52d-9851-4436-9d74-90cc18bdc8e1_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:b8ca6de4-79fe-49d2-b786-e5a01b2dc2a0 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Condition "smashed"^^xsd:string ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 60 ;
-    geo:hasGeometry ns1:b8ca6de4-79fe-49d2-b786-e5a01b2dc2a0_geom .
+    geo:hasGeometry ns1:b8ca6de4-79fe-49d2-b786-e5a01b2dc2a0_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:b9b8ed23-6d56-4374-b098-d5fe1a84c94f a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 30 ;
-    geo:hasGeometry ns1:b9b8ed23-6d56-4374-b098-d5fe1a84c94f_geom .
+    geo:hasGeometry ns1:b9b8ed23-6d56-4374-b098-d5fe1a84c94f_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:ba37ba09-e4e5-4785-886e-bf6e84dbfb8a a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 150 ;
-    geo:hasGeometry ns1:ba37ba09-e4e5-4785-886e-bf6e84dbfb8a_geom .
+    geo:hasGeometry ns1:ba37ba09-e4e5-4785-886e-bf6e84dbfb8a_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:ba7170d7-475e-4502-9cbd-054d5d326a7d a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion> ;
+        ns2:Minion ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Condition "flatten"^^xsd:string ;
     ns1:Name "Minions"^^xsd:string ;
     ns1:Time_Period "Minion IIb"^^xsd:string ;
     ns1:Trench "Norrfors"^^xsd:string ;
     ns1:fid 171 ;
-    geo:hasGeometry ns1:ba7170d7-475e-4502-9cbd-054d5d326a7d_geom .
+    geo:hasGeometry ns1:ba7170d7-475e-4502-9cbd-054d5d326a7d_geom ;
+    ns2:hasperiod ns2:Minion_IIb ;
+    ns2:hastrench ns2:Norrfors ;
+    ns2:timeperiod ns2:MinionIIb .
 
 ns1:bb2e25bb-08ac-43b7-bdd0-c0fb04835eb8 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 86 ;
-    geo:hasGeometry ns1:bb2e25bb-08ac-43b7-bdd0-c0fb04835eb8_geom .
+    geo:hasGeometry ns1:bb2e25bb-08ac-43b7-bdd0-c0fb04835eb8_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:bd4e5cb6-b4bc-4d65-921d-21dec34dda1b a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 110 ;
-    geo:hasGeometry ns1:bd4e5cb6-b4bc-4d65-921d-21dec34dda1b_geom .
+    geo:hasGeometry ns1:bd4e5cb6-b4bc-4d65-921d-21dec34dda1b_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:c08f3cf1-e573-4914-b15f-b249261d9fab a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 125 ;
-    geo:hasGeometry ns1:c08f3cf1-e573-4914-b15f-b249261d9fab_geom .
+    geo:hasGeometry ns1:c08f3cf1-e573-4914-b15f-b249261d9fab_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:c2174141-51b4-4932-b3b3-4526eb6245d5 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 95 ;
-    geo:hasGeometry ns1:c2174141-51b4-4932-b3b3-4526eb6245d5_geom .
+    geo:hasGeometry ns1:c2174141-51b4-4932-b3b3-4526eb6245d5_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:c2efc23f-47bb-47cc-9786-739739a84f3b a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 96 ;
-    geo:hasGeometry ns1:c2efc23f-47bb-47cc-9786-739739a84f3b_geom .
+    geo:hasGeometry ns1:c2efc23f-47bb-47cc-9786-739739a84f3b_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:c3bb016c-19bf-454f-8530-ffe68ec1da1a a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 115 ;
-    geo:hasGeometry ns1:c3bb016c-19bf-454f-8530-ffe68ec1da1a_geom .
+    geo:hasGeometry ns1:c3bb016c-19bf-454f-8530-ffe68ec1da1a_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:c5f35a70-8ad6-4cd8-8b0d-519a9ce95b94 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 93 ;
-    geo:hasGeometry ns1:c5f35a70-8ad6-4cd8-8b0d-519a9ce95b94_geom .
+    geo:hasGeometry ns1:c5f35a70-8ad6-4cd8-8b0d-519a9ce95b94_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:c62d6ed4-30ab-402b-ba2e-c432aaa0d53b a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Street> ;
+        ns2:Street ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Street"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 166 ;
-    geo:hasGeometry ns1:c62d6ed4-30ab-402b-ba2e-c432aaa0d53b_geom .
+    geo:hasGeometry ns1:c62d6ed4-30ab-402b-ba2e-c432aaa0d53b_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:c7c46dd9-6977-4662-86fa-7bd465591b65 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Stone> ;
+        ns2:Stone ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Stone"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 45 ;
-    geo:hasGeometry ns1:c7c46dd9-6977-4662-86fa-7bd465591b65_geom .
+    geo:hasGeometry ns1:c7c46dd9-6977-4662-86fa-7bd465591b65_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:cbe5d6de-a929-4641-9d9b-9b9b2498eeb3 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Condition "smashed"^^xsd:string ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 131 ;
-    geo:hasGeometry ns1:cbe5d6de-a929-4641-9d9b-9b9b2498eeb3_geom .
+    geo:hasGeometry ns1:cbe5d6de-a929-4641-9d9b-9b9b2498eeb3_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:cc01dfc5-6d56-472f-9045-d22f22b2ca3a a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 100 ;
-    geo:hasGeometry ns1:cc01dfc5-6d56-472f-9045-d22f22b2ca3a_geom .
+    geo:hasGeometry ns1:cc01dfc5-6d56-472f-9045-d22f22b2ca3a_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:cc774e18-df41-45a3-976b-bbbbc25ecff1 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Condition "smashed"^^xsd:string ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 69 ;
-    geo:hasGeometry ns1:cc774e18-df41-45a3-976b-bbbbc25ecff1_geom .
+    geo:hasGeometry ns1:cc774e18-df41-45a3-976b-bbbbc25ecff1_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:cdab6a0b-7238-4f14-894e-b5fe7bb763d9 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 102 ;
-    geo:hasGeometry ns1:cdab6a0b-7238-4f14-894e-b5fe7bb763d9_geom .
+    geo:hasGeometry ns1:cdab6a0b-7238-4f14-894e-b5fe7bb763d9_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:ce36306d-ab71-49f0-aed2-6cea0b2cf1d7 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Condition "smashed"^^xsd:string ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 73 ;
-    geo:hasGeometry ns1:ce36306d-ab71-49f0-aed2-6cea0b2cf1d7_geom .
+    geo:hasGeometry ns1:ce36306d-ab71-49f0-aed2-6cea0b2cf1d7_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:cfd8197a-ab1b-41e3-9c44-30bb2d1827ac a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 151 ;
-    geo:hasGeometry ns1:cfd8197a-ab1b-41e3-9c44-30bb2d1827ac_geom .
+    geo:hasGeometry ns1:cfd8197a-ab1b-41e3-9c44-30bb2d1827ac_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:d04e1b9c-9c7e-4e90-86a1-9c1e367de3e4 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 127 ;
-    geo:hasGeometry ns1:d04e1b9c-9c7e-4e90-86a1-9c1e367de3e4_geom .
+    geo:hasGeometry ns1:d04e1b9c-9c7e-4e90-86a1-9c1e367de3e4_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:d1248c32-d156-418a-a10f-104d770ca6fd a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 140 ;
-    geo:hasGeometry ns1:d1248c32-d156-418a-a10f-104d770ca6fd_geom .
+    geo:hasGeometry ns1:d1248c32-d156-418a-a10f-104d770ca6fd_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:d2e36d44-1ea1-4205-8920-c97cdab3b3aa a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Street> ;
+        ns2:Street ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Street"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 164 ;
-    geo:hasGeometry ns1:d2e36d44-1ea1-4205-8920-c97cdab3b3aa_geom .
+    geo:hasGeometry ns1:d2e36d44-1ea1-4205-8920-c97cdab3b3aa_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:d39b0a02-169d-40a8-897d-7c7a5eee497d a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 138 ;
-    geo:hasGeometry ns1:d39b0a02-169d-40a8-897d-7c7a5eee497d_geom .
+    geo:hasGeometry ns1:d39b0a02-169d-40a8-897d-7c7a5eee497d_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:d46e1360-2fe2-43a6-80fc-892d3d2881c1 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 52 ;
-    geo:hasGeometry ns1:d46e1360-2fe2-43a6-80fc-892d3d2881c1_geom .
+    geo:hasGeometry ns1:d46e1360-2fe2-43a6-80fc-892d3d2881c1_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:d5710f70-63c7-4107-ac87-3fad0dca5830 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 11 ;
-    geo:hasGeometry ns1:d5710f70-63c7-4107-ac87-3fad0dca5830_geom .
+    geo:hasGeometry ns1:d5710f70-63c7-4107-ac87-3fad0dca5830_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:dc5ba2e0-7975-466e-930f-a5469030df40 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 10 ;
-    geo:hasGeometry ns1:dc5ba2e0-7975-466e-930f-a5469030df40_geom .
+    geo:hasGeometry ns1:dc5ba2e0-7975-466e-930f-a5469030df40_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:dca0e312-48bb-4ff0-9316-fa71cdda0c9c a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 5 ;
-    geo:hasGeometry ns1:dca0e312-48bb-4ff0-9316-fa71cdda0c9c_geom .
+    geo:hasGeometry ns1:dca0e312-48bb-4ff0-9316-fa71cdda0c9c_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:ddc25136-83aa-463c-9460-c718847292e0 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 12 ;
-    geo:hasGeometry ns1:ddc25136-83aa-463c-9460-c718847292e0_geom .
+    geo:hasGeometry ns1:ddc25136-83aa-463c-9460-c718847292e0_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:de109b58-0791-4eb7-9fff-d536f15297af a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 8 ;
-    geo:hasGeometry ns1:de109b58-0791-4eb7-9fff-d536f15297af_geom .
+    geo:hasGeometry ns1:de109b58-0791-4eb7-9fff-d536f15297af_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:e1a4e1ed-5021-4210-80a0-248b4c59ba2b a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Condition "smashed"^^xsd:string ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 112 ;
-    geo:hasGeometry ns1:e1a4e1ed-5021-4210-80a0-248b4c59ba2b_geom .
+    geo:hasGeometry ns1:e1a4e1ed-5021-4210-80a0-248b4c59ba2b_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:e2bb5213-40ec-467b-ab58-dfd191d67b15 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 25 ;
-    geo:hasGeometry ns1:e2bb5213-40ec-467b-ab58-dfd191d67b15_geom .
+    geo:hasGeometry ns1:e2bb5213-40ec-467b-ab58-dfd191d67b15_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:e46dfffe-e0b5-4b6b-8545-7f7133231fcd a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 106 ;
-    geo:hasGeometry ns1:e46dfffe-e0b5-4b6b-8545-7f7133231fcd_geom .
+    geo:hasGeometry ns1:e46dfffe-e0b5-4b6b-8545-7f7133231fcd_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:e4f0d99c-176b-4354-872f-84ea358ac1d1 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 51 ;
-    geo:hasGeometry ns1:e4f0d99c-176b-4354-872f-84ea358ac1d1_geom .
+    geo:hasGeometry ns1:e4f0d99c-176b-4354-872f-84ea358ac1d1_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:e537eb8d-e10d-4cfa-88d8-f7e4e74e5a66 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 139 ;
-    geo:hasGeometry ns1:e537eb8d-e10d-4cfa-88d8-f7e4e74e5a66_geom .
+    geo:hasGeometry ns1:e537eb8d-e10d-4cfa-88d8-f7e4e74e5a66_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:e6b91a0a-28db-4f3c-bbe7-3191b69ece51 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 94 ;
-    geo:hasGeometry ns1:e6b91a0a-28db-4f3c-bbe7-3191b69ece51_geom .
+    geo:hasGeometry ns1:e6b91a0a-28db-4f3c-bbe7-3191b69ece51_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:e80677e6-20b7-4e3b-85f3-26eabae3fe58 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 155 ;
-    geo:hasGeometry ns1:e80677e6-20b7-4e3b-85f3-26eabae3fe58_geom .
+    geo:hasGeometry ns1:e80677e6-20b7-4e3b-85f3-26eabae3fe58_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:e9b6f78c-acb3-44a8-a83d-5230ac8adfb8 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Condition "smashed"^^xsd:string ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 89 ;
-    geo:hasGeometry ns1:e9b6f78c-acb3-44a8-a83d-5230ac8adfb8_geom .
+    geo:hasGeometry ns1:e9b6f78c-acb3-44a8-a83d-5230ac8adfb8_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:ea530a2d-219a-4b12-a8b4-4cf7ca09b6b1 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 16 ;
-    geo:hasGeometry ns1:ea530a2d-219a-4b12-a8b4-4cf7ca09b6b1_geom .
+    geo:hasGeometry ns1:ea530a2d-219a-4b12-a8b4-4cf7ca09b6b1_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:ebd26bae-6b1e-419b-ab53-a52e011f6c81 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Condition "smashed"^^xsd:string ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 72 ;
-    geo:hasGeometry ns1:ebd26bae-6b1e-419b-ab53-a52e011f6c81_geom .
+    geo:hasGeometry ns1:ebd26bae-6b1e-419b-ab53-a52e011f6c81_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:ec69643d-e636-443f-95a0-bb55b9614841 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 117 ;
-    geo:hasGeometry ns1:ec69643d-e636-443f-95a0-bb55b9614841_geom .
+    geo:hasGeometry ns1:ec69643d-e636-443f-95a0-bb55b9614841_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:eec807e9-47d0-4801-a3f8-017c818a99e7 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 9 ;
-    geo:hasGeometry ns1:eec807e9-47d0-4801-a3f8-017c818a99e7_geom .
+    geo:hasGeometry ns1:eec807e9-47d0-4801-a3f8-017c818a99e7_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:f148606b-a850-4d16-a627-606fb8ee5577 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 87 ;
-    geo:hasGeometry ns1:f148606b-a850-4d16-a627-606fb8ee5577_geom .
+    geo:hasGeometry ns1:f148606b-a850-4d16-a627-606fb8ee5577_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:f4c616a4-3188-45f4-ad66-878498003c20 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion> ;
+        ns2:Minion ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Condition "flatten"^^xsd:string ;
     ns1:Name "Minions"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 34 ;
-    geo:hasGeometry ns1:f4c616a4-3188-45f4-ad66-878498003c20_geom .
+    geo:hasGeometry ns1:f4c616a4-3188-45f4-ad66-878498003c20_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:f533c183-22fb-43cf-9bd1-265caaa661a0 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 146 ;
-    geo:hasGeometry ns1:f533c183-22fb-43cf-9bd1-265caaa661a0_geom .
+    geo:hasGeometry ns1:f533c183-22fb-43cf-9bd1-265caaa661a0_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:fab26445-cb25-492a-8d8a-47f31706a753 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 4 ;
-    geo:hasGeometry ns1:fab26445-cb25-492a-8d8a-47f31706a753_geom .
+    geo:hasGeometry ns1:fab26445-cb25-492a-8d8a-47f31706a753_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:fd82485d-f6e8-4413-9120-c739f0cc1e82 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Condition "smashed"^^xsd:string ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 83 ;
-    geo:hasGeometry ns1:fd82485d-f6e8-4413-9120-c739f0cc1e82_geom .
+    geo:hasGeometry ns1:fd82485d-f6e8-4413-9120-c739f0cc1e82_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:fd8fe6ba-e13a-4ef3-9047-626fc45be9e2 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion> ;
+        ns2:Minion ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Condition "flatten"^^xsd:string ;
     ns1:Name "Minions"^^xsd:string ;
     ns1:Time_Period "Minion IIb"^^xsd:string ;
     ns1:Trench "Norrfors"^^xsd:string ;
     ns1:fid 170 ;
-    geo:hasGeometry ns1:fd8fe6ba-e13a-4ef3-9047-626fc45be9e2_geom .
+    geo:hasGeometry ns1:fd8fe6ba-e13a-4ef3-9047-626fc45be9e2_geom ;
+    ns2:hasperiod ns2:Minion_IIb ;
+    ns2:hastrench ns2:Norrfors ;
+    ns2:timeperiod ns2:MinionIIb .
 
 ns1:fdf099f7-869f-499e-80c3-00c91f0a4d35 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion> ;
+        ns2:Minion ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Condition "flatten"^^xsd:string ;
     ns1:Name "Minions"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 36 ;
-    geo:hasGeometry ns1:fdf099f7-869f-499e-80c3-00c91f0a4d35_geom .
+    geo:hasGeometry ns1:fdf099f7-869f-499e-80c3-00c91f0a4d35_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:fec6c570-b8d5-49be-aa15-8be41afd1aa3 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
+        ns2:Koetbullar ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Condition "smashed"^^xsd:string ;
     ns1:Name "Kötbullar"^^xsd:string ;
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 54 ;
-    geo:hasGeometry ns1:fec6c570-b8d5-49be-aa15-8be41afd1aa3_geom .
+    geo:hasGeometry ns1:fec6c570-b8d5-49be-aa15-8be41afd1aa3_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 
 ns1:0194d590-c58c-4c97-98f8-303ea8ffe32a_geom a <http://www.opengis.net/ont/sf#Polygon>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3457,6 +3830,16 @@ ns1:9e80e441-dc60-4514-8477-702e7d8ea321_geom a <http://www.opengis.net/ont/sf#P
     void:inDataset ns1:FAIRyland_LOD ;
     geo:asWKT "POLYGON((20.02649600000000163 63.88015299999999996, 20.0264950000000006 63.88015299999999996, 20.02649299999999855 63.88015299999999996, 20.02649200000000107 63.88015299999999996, 20.02648900000000154 63.88015299999999996, 20.02648800000000051 63.88015299999999996, 20.02648699999999948 63.88015200000000249, 20.02648699999999948 63.88015099999999791, 20.02648699999999948 63.88015000000000043, 20.02648800000000051 63.88015000000000043, 20.02648900000000154 63.88014900000000296, 20.02649100000000004 63.88014900000000296, 20.02649200000000107 63.88014799999999838, 20.02649399999999957 63.88014799999999838, 20.0264950000000006 63.88014799999999838, 20.02649600000000163 63.88014900000000296, 20.02649600000000163 63.88014900000000296, 20.0264969999999991 63.88015000000000043, 20.0264969999999991 63.88015099999999791, 20.02649600000000163 63.88015299999999996))"^^geo:wktLiteral .
 
+ns1:FAIRyland_LOD_Trench a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Class Partition: Trench"@en,
+        "Property Partition: Trench"@en ;
+    void:class ns2:Trench ;
+    void:property ns1:Trench ;
+    void:triples 172 .
+
 ns1:Name a owl:DatatypeProperty,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -3950,19 +4333,19 @@ ns1:FAIRyland_LOD a void:Dataset,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "FAIRyland_LOD"@en ;
-    ns2:averageLiteralLength 157 ;
-    ns2:averageObjectIRILength 60 ;
-    ns2:averagePropertyIRILength 42 ;
-    ns2:averageSubjectIRILength 73 ;
-    ns2:datatypes 3 ;
-    ns2:distinctBlankNodes 0 ;
-    ns2:distinctIRIReferences 995 ;
-    ns2:distinctLiterals 371 ;
-    ns2:distinctRDFNodes 1366 ;
-    ns2:languages 1 ;
-    ns2:propertyClasses 0 ;
+    ns3:averageLiteralLength 157 ;
+    ns3:averageObjectIRILength 62 ;
+    ns3:averagePropertyIRILength 44 ;
+    ns3:averageSubjectIRILength 73 ;
+    ns3:datatypes 3 ;
+    ns3:distinctBlankNodes 0 ;
+    ns3:distinctIRIReferences 1018 ;
+    ns3:distinctLiterals 371 ;
+    ns3:distinctRDFNodes 1389 ;
+    ns3:languages 1 ;
+    ns3:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
-    dcterms:modified "2025-10-24T21:39:13"^^xsd:dateTime ;
+    dcterms:modified "2025-10-24T21:58:36"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -3995,15 +4378,17 @@ ns1:FAIRyland_LOD a void:Dataset,
         ns1:FAIRyland_LOD_SpatialObjectCollection,
         ns1:FAIRyland_LOD_SpatialReferenceSystem,
         ns1:FAIRyland_LOD_Stone,
-        ns1:FAIRyland_LOD_Street ;
-    void:classes 25 ;
+        ns1:FAIRyland_LOD_Street,
+        ns1:FAIRyland_LOD_TimePeriod,
+        ns1:FAIRyland_LOD_Trench ;
+    void:classes 27 ;
     void:dataDump <https://Research-Squirrel-Engineers.github.io/FAIRyland//index.ttl> ;
-    void:distinctObjects 585 ;
-    void:distinctSubjects 378 ;
+    void:distinctObjects 596 ;
+    void:distinctSubjects 387 ;
     void:entities 361 ;
     void:feature <http://www.w3.org/ns/formats/RDFa>,
         <http://www.w3.org/ns/formats/Turtle> ;
-    void:properties 32 ;
+    void:properties 35 ;
     void:propertyPartition ns1:FAIRyland_LOD_Condition,
         ns1:FAIRyland_LOD_Name,
         ns1:FAIRyland_LOD_Time_Period,
@@ -4022,6 +4407,8 @@ ns1:FAIRyland_LOD a void:Dataset,
         ns1:FAIRyland_LOD_fid,
         ns1:FAIRyland_LOD_flatteningParameter,
         ns1:FAIRyland_LOD_hasGeometry,
+        ns1:FAIRyland_LOD_hasperiod,
+        ns1:FAIRyland_LOD_hastrench,
         ns1:FAIRyland_LOD_isApplicableTo,
         ns1:FAIRyland_LOD_isBound,
         ns1:FAIRyland_LOD_isSphere,
@@ -4030,14 +4417,15 @@ ns1:FAIRyland_LOD a void:Dataset,
         ns1:FAIRyland_LOD_semiMajorAxis,
         ns1:FAIRyland_LOD_semiMinorAxis,
         ns1:FAIRyland_LOD_subClassOf,
+        ns1:FAIRyland_LOD_timeperiod,
         ns1:FAIRyland_LOD_type,
         ns1:FAIRyland_LOD_unit,
         ns1:FAIRyland_LOD_unit_auth_code,
         ns1:FAIRyland_LOD_unit_code,
         ns1:FAIRyland_LOD_unit_conversion_factor ;
-    void:triples 2220 ;
+    void:triples 2581 ;
     void:uriSpace "http://www.github.com/sparqlunicorn#"^^xsd:string ;
-    void:vocabulary ns2:,
+    void:vocabulary ns3:,
         dcam:,
         dcmitype:,
         dc:,

@@ -1024,6 +1024,14 @@ var tree={
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
+            },
+            "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": {
+              "instancecount": 1,
+              "https://github.com/Research-Squirrel-Engineers/FAIRyland/TimePeriod": 1
+            },
+            "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": {
+              "instancecount": 1,
+              "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench": 1
             }
           },
           "from": {
@@ -1033,7 +1041,7 @@ var tree={
             }
           }
         },
-        "instancecount": 7
+        "instancecount": 9
       },
       {
         "id": "http://www.github.com/sparqlunicorn#09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb",
@@ -1194,6 +1202,14 @@ var tree={
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
+            },
+            "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": {
+              "instancecount": 1,
+              "https://github.com/Research-Squirrel-Engineers/FAIRyland/TimePeriod": 1
+            },
+            "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": {
+              "instancecount": 1,
+              "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench": 1
             }
           },
           "from": {
@@ -1203,7 +1219,7 @@ var tree={
             }
           }
         },
-        "instancecount": 8
+        "instancecount": 10
       },
       {
         "id": "http://www.github.com/sparqlunicorn#0b12b1c6-4f43-4635-9437-2eccad89860a",
@@ -1263,6 +1279,14 @@ var tree={
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
+            },
+            "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": {
+              "instancecount": 1,
+              "https://github.com/Research-Squirrel-Engineers/FAIRyland/TimePeriod": 1
+            },
+            "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": {
+              "instancecount": 1,
+              "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench": 1
             }
           },
           "from": {
@@ -1272,7 +1296,7 @@ var tree={
             }
           }
         },
-        "instancecount": 7
+        "instancecount": 9
       },
       {
         "id": "http://www.github.com/sparqlunicorn#1ac53fc4-aeb3-4256-ac8e-47160f4d642a",
@@ -1349,10 +1373,18 @@ var tree={
             },
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 1,
-              "http://www.opengis.net/ont/sf#MultiPolygon": 1
+              "http://www.opengis.net/ont/sf#Polygon": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
+            },
+            "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": {
+              "instancecount": 1,
+              "https://github.com/Research-Squirrel-Engineers/FAIRyland/TimePeriod": 1
+            },
+            "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": {
+              "instancecount": 1,
+              "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench": 1
             }
           },
           "from": {
@@ -1362,7 +1394,7 @@ var tree={
             }
           }
         },
-        "instancecount": 7
+        "instancecount": 9
       },
       {
         "id": "http://www.github.com/sparqlunicorn#3a55458f-5c2f-4368-9a03-384f6377e301",
@@ -1425,6 +1457,18 @@ var tree={
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
+            },
+            "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": {
+              "instancecount": 1,
+              "https://github.com/Research-Squirrel-Engineers/FAIRyland/TimePeriod": 1
+            },
+            "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": {
+              "instancecount": 1,
+              "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench": 1
+            },
+            "https://github.com/Research-Squirrel-Engineers/FAIRyland/timeperiod": {
+              "instancecount": 1,
+              "https://github.com/Research-Squirrel-Engineers/FAIRyland/TimePeriod": 1
             }
           },
           "from": {
@@ -1434,7 +1478,7 @@ var tree={
             }
           }
         },
-        "instancecount": 8
+        "instancecount": 11
       },
       {
         "id": "http://www.github.com/sparqlunicorn#4db030c2-2331-4dad-b17c-da023bceff9f",
@@ -1462,6 +1506,9 @@ var tree={
               "http://www.w3.org/ns/adms#Asset": 1,
               "http://rdfs.org/ns/void#Dataset": 1
             },
+            "http://www.github.com/sparqlunicorn#Condition": {
+              "instancecount": 1
+            },
             "http://www.github.com/sparqlunicorn#Name": {
               "instancecount": 1
             },
@@ -1480,6 +1527,18 @@ var tree={
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
+            },
+            "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": {
+              "instancecount": 1,
+              "https://github.com/Research-Squirrel-Engineers/FAIRyland/TimePeriod": 1
+            },
+            "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": {
+              "instancecount": 1,
+              "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench": 1
+            },
+            "https://github.com/Research-Squirrel-Engineers/FAIRyland/timeperiod": {
+              "instancecount": 1,
+              "https://github.com/Research-Squirrel-Engineers/FAIRyland/TimePeriod": 1
             }
           },
           "from": {
@@ -1489,7 +1548,7 @@ var tree={
             }
           }
         },
-        "instancecount": 7
+        "instancecount": 11
       },
       {
         "id": "http://www.github.com/sparqlunicorn#86f8a06e-51c7-41be-935b-e70bfcaa67b7",
@@ -1528,6 +1587,14 @@ var tree={
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
+            },
+            "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": {
+              "instancecount": 1,
+              "https://github.com/Research-Squirrel-Engineers/FAIRyland/TimePeriod": 1
+            },
+            "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": {
+              "instancecount": 1,
+              "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench": 1
             }
           },
           "from": {
@@ -1537,7 +1604,7 @@ var tree={
             }
           }
         },
-        "instancecount": 7
+        "instancecount": 9
       },
       {
         "id": "http://www.opengis.net/def/crs/EPSG/0/4326_suniv0_",
@@ -2829,7 +2896,7 @@ var tree={
           "from": {
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 0,
-              "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar": 1
+              "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
@@ -2940,6 +3007,83 @@ var tree={
         "parent": "#",
         "type": "class",
         "text": "CoordinateSystemAxis (geocrs:CoordinateSystemAxis) [2]",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#nonns_MinionI.html",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/TimePeriod",
+        "type": "instance",
+        "text": "MinionI (fairyland:MinionI)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#nonns_Minion_I.html",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/TimePeriod",
+        "type": "instance",
+        "text": "Minion_I (fairyland:Minion_I)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#nonns_MinionIIb.html",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/TimePeriod",
+        "type": "instance",
+        "text": "MinionIIb (fairyland:MinionIIb)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#nonns_Minion_IIb.html",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/TimePeriod",
+        "type": "instance",
+        "text": "Minion_IIb (fairyland:Minion_IIb)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#nonns_MinionIIa.html",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/TimePeriod",
+        "type": "instance",
+        "text": "MinionIIa (fairyland:MinionIIa)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#nonns_Minion_IIa.html",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/TimePeriod",
+        "type": "instance",
+        "text": "Minion_IIa (fairyland:Minion_IIa)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#nonns_Minion_Period.html",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/TimePeriod",
+        "type": "instance",
+        "text": "Minion_Period (fairyland:Minion_Period)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/TimePeriod",
+        "parent": "#",
+        "type": "class",
+        "text": "TimePeriod (fairyland:TimePeriod) [7]",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#nonns_Norrfors.html",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench",
+        "type": "instance",
+        "text": "Norrfors (fairyland:Norrfors)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#nonns_IkeaLand.html",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench",
+        "type": "instance",
+        "text": "IkeaLand (fairyland:IkeaLand)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#nonns_Trench.html",
+        "parent": "#",
+        "type": "class",
+        "text": "Trench (fairyland:Trench)",
         "data": {}
       },
       {

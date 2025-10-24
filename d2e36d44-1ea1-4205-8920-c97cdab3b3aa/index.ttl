@@ -1,15 +1,18 @@
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
-@prefix ns1: <http://www.github.com/sparqlunicorn#> .
+@prefix ns1: <https://github.com/Research-Squirrel-Engineers/FAIRyland/> .
+@prefix ns2: <http://www.github.com/sparqlunicorn#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ns1:d2e36d44-1ea1-4205-8920-c97cdab3b3aa a <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Street>,
+ns2:d2e36d44-1ea1-4205-8920-c97cdab3b3aa a <http://www.w3.org/ns/ldp#Resource>,
+        ns1:Street,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    void:inDataset ns1:FAIRyland_LOD ;
-    ns1:Name "Street"^^xsd:string ;
-    ns1:Time_Period "Minion"^^xsd:string ;
-    ns1:Trench "Ikea Land"^^xsd:string ;
-    ns1:fid 164 ;
-    geo:hasGeometry ns1:d2e36d44-1ea1-4205-8920-c97cdab3b3aa_geom .
+    void:inDataset ns2:FAIRyland_LOD ;
+    ns2:Name "Street"^^xsd:string ;
+    ns2:Time_Period "Minion"^^xsd:string ;
+    ns2:Trench "Ikea Land"^^xsd:string ;
+    ns2:fid 164 ;
+    geo:hasGeometry ns2:d2e36d44-1ea1-4205-8920-c97cdab3b3aa_geom ;
+    ns1:hasperiod ns1:Minion_Period ;
+    ns1:hastrench ns1:IkeaLand .
 

@@ -1,10 +1,11 @@
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix ns1: <http://www.github.com/sparqlunicorn#> .
+@prefix ns2: <https://github.com/Research-Squirrel-Engineers/FAIRyland/> .
 @prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 ns1:53bf2db7-7718-4835-bc3c-2baf3068207f a <http://www.w3.org/ns/ldp#Resource>,
-        <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar>,
+        ns2:Koetbullar,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     void:inDataset ns1:FAIRyland_LOD ;
     ns1:Condition "smashed"^^xsd:string ;
@@ -12,5 +13,7 @@ ns1:53bf2db7-7718-4835-bc3c-2baf3068207f a <http://www.w3.org/ns/ldp#Resource>,
     ns1:Time_Period "Minion"^^xsd:string ;
     ns1:Trench "Ikea Land"^^xsd:string ;
     ns1:fid 65 ;
-    geo:hasGeometry ns1:53bf2db7-7718-4835-bc3c-2baf3068207f_geom .
+    geo:hasGeometry ns1:53bf2db7-7718-4835-bc3c-2baf3068207f_geom ;
+    ns2:hasperiod ns2:Minion_Period ;
+    ns2:hastrench ns2:IkeaLand .
 

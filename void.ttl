@@ -33,10 +33,14 @@
 
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_github.com_Research-Squirrel-Engineers_FAIRyland_> a void:Linkset ;
     rdfs:label "Linkset: FAIRyland_LOD - fairyland:"@en ;
-    void:linkPredicate rdf:type ;
+    void:linkPredicate rdf:type,
+        <https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod>,
+        <https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench>,
+        <https://github.com/Research-Squirrel-Engineers/FAIRyland/timeperiod> ;
     void:objectsTarget <https://github.com/Research-Squirrel-Engineers/FAIRyland/> ;
     void:subjectsTarget <http://www.github.com/sparqlunicorn#FAIRyland_LOD> ;
-    void:triples 172 .
+    void:triples 8,
+        172 .
 
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_www.opengis.net_ont_geosparql_> a void:Linkset ;
     rdfs:label "Linkset: FAIRyland_LOD - The GeoSPARQL Ontology (gsp:)"@en ;
@@ -400,14 +404,13 @@ doap: a voaf:Vocabulary ;
     void:class <https://github.com/Research-Squirrel-Engineers/FAIRyland/Street> ;
     void:entities 7 .
 
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_TimePeriod> a void:Dataset ;
+    rdfs:label "Class Partition: TimePeriod"@en ;
+    void:class <https://github.com/Research-Squirrel-Engineers/FAIRyland/TimePeriod> .
+
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Time_Period> a void:Dataset ;
     rdfs:label "Property Partition: Time_Period"@en ;
     void:property <http://www.github.com/sparqlunicorn#Time_Period> ;
-    void:triples 172 .
-
-<http://www.github.com/sparqlunicorn#FAIRyland_LOD_Trench> a void:Dataset ;
-    rdfs:label "Property Partition: Trench"@en ;
-    void:property <http://www.github.com/sparqlunicorn#Trench> ;
     void:triples 172 .
 
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_abbreviation> a void:Dataset ;
@@ -487,6 +490,16 @@ doap: a voaf:Vocabulary ;
     void:property geo:hasGeometry ;
     void:triples 172 .
 
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_hasperiod> a void:Dataset ;
+    rdfs:label "Property Partition: hasperiod"@en ;
+    void:property <https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod> ;
+    void:triples 172 .
+
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_hastrench> a void:Dataset ;
+    rdfs:label "Property Partition: hastrench"@en ;
+    void:property <https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench> ;
+    void:triples 172 .
+
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_isApplicableTo> a void:Dataset ;
     rdfs:label "Property Partition: isApplicableTo"@en ;
     void:property <http://www.opengis.net/ont/crs/isApplicableTo> ;
@@ -527,10 +540,15 @@ doap: a voaf:Vocabulary ;
     void:property rdfs:subClassOf ;
     void:triples 5 .
 
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_timeperiod> a void:Dataset ;
+    rdfs:label "Property Partition: timeperiod"@en ;
+    void:property <https://github.com/Research-Squirrel-Engineers/FAIRyland/timeperiod> ;
+    void:triples 8 .
+
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_type> a void:Dataset ;
     rdfs:label "Property Partition: type"@en ;
     void:property rdf:type ;
-    void:triples 367 .
+    void:triples 376 .
 
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_unit> a void:Dataset ;
     rdfs:label "Property Partition: unit"@en ;
@@ -664,6 +682,13 @@ wgs: a voaf:Vocabulary ;
     vann:preferredNamespaceUri "https://www.w3.org/2003/01/geo/wgs84_pos#"^^xsd:anyURI ;
     voaf:usageInDataset wgs:_FAIRyland_LOD_occ .
 
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_Trench> a void:Dataset ;
+    rdfs:label "Class Partition: Trench"@en,
+        "Property Partition: Trench"@en ;
+    void:class <https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench> ;
+    void:property <http://www.github.com/sparqlunicorn#Trench> ;
+    void:triples 172 .
+
 geo: a voaf:Vocabulary ;
     rdfs:label "The GeoSPARQL Ontology"@en ;
     vann:preferredNamespacePrefix "geo"^^xsd:string ;
@@ -692,18 +717,18 @@ skos: a voaf:Vocabulary ;
         adms:Asset ;
     rdfs:label "FAIRyland_LOD"@en ;
     vext:averageLiteralLength 157 ;
-    vext:averageObjectIRILength 60 ;
-    vext:averagePropertyIRILength 42 ;
+    vext:averageObjectIRILength 62 ;
+    vext:averagePropertyIRILength 44 ;
     vext:averageSubjectIRILength 73 ;
     vext:datatypes 3 ;
     vext:distinctBlankNodes 0 ;
-    vext:distinctIRIReferences 995 ;
+    vext:distinctIRIReferences 1018 ;
     vext:distinctLiterals 371 ;
-    vext:distinctRDFNodes 1366 ;
+    vext:distinctRDFNodes 1389 ;
     vext:languages 1 ;
     vext:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
-    dcterms:modified "2025-10-24T21:39:13"^^xsd:dateTime ;
+    dcterms:modified "2025-10-24T21:58:36"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -736,15 +761,17 @@ skos: a voaf:Vocabulary ;
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_SpatialObjectCollection>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_SpatialReferenceSystem>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Stone>,
-        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Street> ;
-    void:classes 25 ;
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Street>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_TimePeriod>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Trench> ;
+    void:classes 27 ;
     void:dataDump <https://Research-Squirrel-Engineers.github.io/FAIRyland//index.ttl> ;
-    void:distinctObjects 585 ;
-    void:distinctSubjects 378 ;
+    void:distinctObjects 596 ;
+    void:distinctSubjects 387 ;
     void:entities 361 ;
     void:feature <http://www.w3.org/ns/formats/RDFa>,
         <http://www.w3.org/ns/formats/Turtle> ;
-    void:properties 32 ;
+    void:properties 35 ;
     void:propertyPartition <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Condition>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Name>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Time_Period>,
@@ -763,6 +790,8 @@ skos: a voaf:Vocabulary ;
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_fid>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_flatteningParameter>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_hasGeometry>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_hasperiod>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_hastrench>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_isApplicableTo>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_isBound>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_isSphere>,
@@ -771,12 +800,13 @@ skos: a voaf:Vocabulary ;
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_semiMajorAxis>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_semiMinorAxis>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_subClassOf>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_timeperiod>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_type>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_unit>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_unit_auth_code>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_unit_code>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_unit_conversion_factor> ;
-    void:triples 2220 ;
+    void:triples 2581 ;
     void:uriSpace "http://www.github.com/sparqlunicorn#"^^xsd:string ;
     void:vocabulary vext:,
         dcam:,

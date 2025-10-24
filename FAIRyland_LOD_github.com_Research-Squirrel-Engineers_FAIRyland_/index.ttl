@@ -7,8 +7,12 @@
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Linkset: FAIRyland_LOD - fairyland:"@en ;
-    void:linkPredicate rdf:type ;
+    void:linkPredicate rdf:type,
+        <https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod>,
+        <https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench>,
+        <https://github.com/Research-Squirrel-Engineers/FAIRyland/timeperiod> ;
     void:objectsTarget <https://github.com/Research-Squirrel-Engineers/FAIRyland/> ;
     void:subjectsTarget <http://www.github.com/sparqlunicorn#FAIRyland_LOD> ;
-    void:triples 172 .
+    void:triples 8,
+        172 .
 

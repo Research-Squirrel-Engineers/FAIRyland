@@ -1,0 +1,11 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_hasperiod> a void:Dataset,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Property Partition: hasperiod"@en ;
+    void:property <https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod> ;
+    void:triples 172 .
+

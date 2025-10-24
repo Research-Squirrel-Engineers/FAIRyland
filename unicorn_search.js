@@ -4,11 +4,21 @@ var search={
   "Crater Instances Collection": "http://www.github.com/sparqlunicorn#Crater_collection",
   "DatatypeProperty Instances Collection": "http://www.github.com/sparqlunicorn#DatatypeProperty_collection",
   "Feature": "http://www.github.com/sparqlunicorn#nonns_Feature.html",
+  "IkeaLand": "http://www.github.com/sparqlunicorn#nonns_IkeaLand.html",
   "Kangaroo Instances Collection": "http://www.github.com/sparqlunicorn#Kangaroo_collection",
   "Koetbullar Instances Collection": "http://www.github.com/sparqlunicorn#Koetbullar_collection",
   "Minion Instances Collection": "http://www.github.com/sparqlunicorn#Minion_collection",
+  "MinionI": "http://www.github.com/sparqlunicorn#nonns_MinionI.html",
+  "MinionIIa": "http://www.github.com/sparqlunicorn#nonns_MinionIIa.html",
+  "MinionIIb": "http://www.github.com/sparqlunicorn#nonns_MinionIIb.html",
+  "Minion_I": "http://www.github.com/sparqlunicorn#nonns_Minion_I.html",
+  "Minion_IIa": "http://www.github.com/sparqlunicorn#nonns_Minion_IIa.html",
+  "Minion_IIb": "http://www.github.com/sparqlunicorn#nonns_Minion_IIb.html",
+  "Minion_Period": "http://www.github.com/sparqlunicorn#nonns_Minion_Period.html",
   "MultiPolygon Instances Collection": "http://www.github.com/sparqlunicorn#MultiPolygon_collection",
+  "Norrfors": "http://www.github.com/sparqlunicorn#nonns_Norrfors.html",
   "Polygon Instances Collection": "http://www.github.com/sparqlunicorn#Polygon_collection",
   "Stone Instances Collection": "http://www.github.com/sparqlunicorn#Stone_collection",
-  "Street Instances Collection": "http://www.github.com/sparqlunicorn#Street_collection"
+  "Street Instances Collection": "http://www.github.com/sparqlunicorn#Street_collection",
+  "Trench": "http://www.github.com/sparqlunicorn#nonns_Trench.html"
 }

@@ -109,18 +109,28 @@ var minivowlresult={
    "name": "Class",
    "type": "class",
    "uri": "http://www.w3.org/2002/07/owl#Class"
+  },
+  {
+   "name": "TimePeriod",
+   "type": "class",
+   "uri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/TimePeriod"
+  },
+  {
+   "name": "Trench",
+   "type": "class",
+   "uri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench"
   }
  ],
  "links": [
   {
-   "source": 6,
+   "source": 1,
    "target": 16,
    "valueTo": "hasGeometry",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
-   "source": 6,
+   "source": 1,
    "target": 15,
    "valueTo": "hasGeometry",
    "propertyTo": "class",
@@ -141,20 +151,6 @@ var minivowlresult={
    "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
-   "source": 2,
-   "target": 16,
-   "valueTo": "hasGeometry",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
-  },
-  {
-   "source": 2,
-   "target": 15,
-   "valueTo": "hasGeometry",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
-  },
-  {
    "source": 0,
    "target": 16,
    "valueTo": "hasGeometry",
@@ -163,20 +159,6 @@ var minivowlresult={
   },
   {
    "source": 0,
-   "target": 15,
-   "valueTo": "hasGeometry",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
-  },
-  {
-   "source": 4,
-   "target": 16,
-   "valueTo": "hasGeometry",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
-  },
-  {
-   "source": 4,
    "target": 15,
    "valueTo": "hasGeometry",
    "propertyTo": "class",
@@ -197,25 +179,172 @@ var minivowlresult={
    "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
-   "source": 1,
+   "source": 4,
    "target": 16,
    "valueTo": "hasGeometry",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
-   "source": 1,
+   "source": 4,
    "target": 15,
    "valueTo": "hasGeometry",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
-   "source": 18,
-   "target": 19,
-   "valueTo": "axis",
+   "source": 6,
+   "target": 16,
+   "valueTo": "hasGeometry",
    "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/crs/axis"
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 6,
+   "target": 15,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 2,
+   "target": 16,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 2,
+   "target": 15,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 1,
+   "target": 22,
+   "valueTo": "hastrench",
+   "propertyTo": "class",
+   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench"
+  },
+  {
+   "source": 3,
+   "target": 22,
+   "valueTo": "hastrench",
+   "propertyTo": "class",
+   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench"
+  },
+  {
+   "source": 0,
+   "target": 22,
+   "valueTo": "hastrench",
+   "propertyTo": "class",
+   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench"
+  },
+  {
+   "source": 5,
+   "target": 22,
+   "valueTo": "hastrench",
+   "propertyTo": "class",
+   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench"
+  },
+  {
+   "source": 4,
+   "target": 22,
+   "valueTo": "hastrench",
+   "propertyTo": "class",
+   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench"
+  },
+  {
+   "source": 6,
+   "target": 22,
+   "valueTo": "hastrench",
+   "propertyTo": "class",
+   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench"
+  },
+  {
+   "source": 2,
+   "target": 22,
+   "valueTo": "hastrench",
+   "propertyTo": "class",
+   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench"
+  },
+  {
+   "source": 1,
+   "target": 21,
+   "valueTo": "hasperiod",
+   "propertyTo": "class",
+   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod"
+  },
+  {
+   "source": 3,
+   "target": 21,
+   "valueTo": "hasperiod",
+   "propertyTo": "class",
+   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod"
+  },
+  {
+   "source": 0,
+   "target": 21,
+   "valueTo": "hasperiod",
+   "propertyTo": "class",
+   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod"
+  },
+  {
+   "source": 5,
+   "target": 21,
+   "valueTo": "hasperiod",
+   "propertyTo": "class",
+   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod"
+  },
+  {
+   "source": 4,
+   "target": 21,
+   "valueTo": "hasperiod",
+   "propertyTo": "class",
+   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod"
+  },
+  {
+   "source": 6,
+   "target": 21,
+   "valueTo": "hasperiod",
+   "propertyTo": "class",
+   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod"
+  },
+  {
+   "source": 2,
+   "target": 21,
+   "valueTo": "hasperiod",
+   "propertyTo": "class",
+   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod"
+  },
+  {
+   "source": 5,
+   "target": 21,
+   "valueTo": "timeperiod",
+   "propertyTo": "class",
+   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/timeperiod"
+  },
+  {
+   "source": 4,
+   "target": 21,
+   "valueTo": "timeperiod",
+   "propertyTo": "class",
+   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/timeperiod"
+  },
+  {
+   "source": 1,
+   "target": 21,
+   "valueTo": "timeperiod",
+   "propertyTo": "class",
+   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/timeperiod"
+  },
+  {
+   "source": 3,
+   "target": 21,
+   "valueTo": "timeperiod",
+   "propertyTo": "class",
+   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/timeperiod"
   },
   {
    "source": 17,
@@ -225,14 +354,14 @@ var minivowlresult={
    "uriTo": "http://www.opengis.net/ont/crs/axis"
   },
   {
-   "source": 9,
-   "target": 18,
-   "valueTo": "coordinateSystem",
+   "source": 18,
+   "target": 19,
+   "valueTo": "axis",
    "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/crs/coordinateSystem"
+   "uriTo": "http://www.opengis.net/ont/crs/axis"
   },
   {
-   "source": 9,
+   "source": 8,
    "target": 17,
    "valueTo": "coordinateSystem",
    "propertyTo": "class",
@@ -246,14 +375,14 @@ var minivowlresult={
    "uriTo": "http://www.opengis.net/ont/crs/coordinateSystem"
   },
   {
-   "source": 8,
+   "source": 9,
    "target": 17,
    "valueTo": "coordinateSystem",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/crs/coordinateSystem"
   },
   {
-   "source": 10,
+   "source": 9,
    "target": 18,
    "valueTo": "coordinateSystem",
    "propertyTo": "class",
@@ -262,6 +391,13 @@ var minivowlresult={
   {
    "source": 10,
    "target": 17,
+   "valueTo": "coordinateSystem",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/crs/coordinateSystem"
+  },
+  {
+   "source": 10,
+   "target": 18,
    "valueTo": "coordinateSystem",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/crs/coordinateSystem"

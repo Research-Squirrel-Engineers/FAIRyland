@@ -98,11 +98,11 @@ var vowlresult={
    "type": "http://www.w3.org/2002/07/owl#Class"
   },
   {
-   "id": 367,
+   "id": 376,
    "type": "http://www.w3.org/2000/01/rdf-schema#Datatype"
   },
   {
-   "id": 368,
+   "id": 377,
    "type": "http://www.w3.org/2000/01/rdf-schema#Datatype"
   }
  ],
@@ -194,7 +194,7 @@ var vowlresult={
    "superClasses": []
   },
   {
-   "id": 367,
+   "id": 376,
    "iri": "http://www.w3.org/2001/XMLSchema#string",
    "baseIRI": "(rdflib.term.URIRef('http://www.github.com/sparqlunicorn#Name'), rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema",
    "instances": 0,
@@ -206,7 +206,7 @@ var vowlresult={
    "superClasses": []
   },
   {
-   "id": 368,
+   "id": 377,
    "iri": "http://www.w3.org/2001/XMLSchema#integer",
    "baseIRI": "(rdflib.term.URIRef('http://www.github.com/sparqlunicorn#fid'), rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema",
    "instances": 0,
@@ -1666,6 +1666,42 @@ var vowlresult={
   {
    "id": 360,
    "type": "http://www.opengis.net/ont/crs/CoordinateSystemAxis"
+  },
+  {
+   "id": 367,
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/TimePeriod"
+  },
+  {
+   "id": 368,
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/TimePeriod"
+  },
+  {
+   "id": 369,
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/TimePeriod"
+  },
+  {
+   "id": 370,
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/TimePeriod"
+  },
+  {
+   "id": 371,
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/TimePeriod"
+  },
+  {
+   "id": 372,
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/TimePeriod"
+  },
+  {
+   "id": 373,
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/TimePeriod"
+  },
+  {
+   "id": 374,
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench"
+  },
+  {
+   "id": 375,
+   "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench"
   }
  ],
  "propertyAttribute": [
@@ -1715,6 +1751,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#038d7342-a29b-4fb4-848a-38956486b324_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -1772,6 +1824,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#03bf5218-bda5-4791-b190-b302c4d8d6ce_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -1827,6 +1895,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#047d2aa4-c98d-4c8e-bba6-c5bc935b626a_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -1880,6 +1964,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#069e7a2d-631d-4338-adf9-5fd2f9bd2155_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -1945,6 +2045,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#0800c7da-7e10-4ba2-a020-7db1bc018572_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -1998,6 +2114,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#09625e57-e1e3-4819-baac-8154feac0fe6_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -2055,6 +2187,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#0b959b96-55fd-4550-b4de-68e2c4f9625f_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -2108,6 +2256,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#0cc84bdb-a46b-47fc-851f-925f22e3fd77_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -2165,6 +2329,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#0cde71e0-701f-44cd-a025-5cac1d1c7d70_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -2218,6 +2398,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#1073f60f-73b2-4193-8bd7-951995224dbb_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -2275,6 +2471,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#10d1a1c2-f56c-485c-a5cc-4d4e48c8e675_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -2330,6 +2542,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#12ce69a0-6b49-4159-8ff6-b468f44d33b5_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -2383,6 +2611,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#12d61444-88ae-43b3-95d4-15e5fecd4180_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -2448,6 +2692,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#180a5320-3833-4133-aa46-aab7f0d80d84_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -2501,6 +2761,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#19793c7f-6cc9-462c-99da-e3e33ff97461_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -2558,6 +2834,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#1a2be1c9-acaf-4659-839d-0146401472f2_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -2611,6 +2903,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#1fcfa357-13f8-4cb5-8e28-f98280989898_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -2668,6 +2976,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#25d0c170-da08-47ed-8bf8-78f36d0f558e_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -2721,6 +3045,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#264aceda-0df9-48de-9c9a-bfac46e9d790_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -2778,6 +3118,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#275a5b7f-e28a-41ec-b6b5-9bc82b47f1a0_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -2831,6 +3187,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#28ec2dbf-6806-4a32-a35d-78764bfda459_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -2888,6 +3260,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#2abb9a90-732f-4e75-b764-6b3df7dfa173_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -2941,6 +3329,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#2d3d304e-4ac7-4f2f-93a6-251105f7ace4_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -2998,6 +3402,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#2e711592-9068-438a-80b9-0c7725e1d6bb_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -3051,6 +3471,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#3018eba9-3c11-41e8-901e-7377167b58e4_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -3108,6 +3544,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#31615fc1-a7de-48af-80a2-777dd77760b2_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -3161,6 +3613,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#32126fde-7a0e-46ab-b512-ad9f20ea10ea_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -3218,6 +3686,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#327283ae-3a31-4397-ae77-2566e4d146b6_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -3271,6 +3755,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#3280d786-1bb7-4913-9be9-9041f65ef4b6_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -3328,6 +3828,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#3672902d-7362-4069-9769-21296706d028_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -3381,6 +3897,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#389c5712-618e-4532-84fd-4eb084e6c0aa_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -3446,6 +3978,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#3cd74fe7-9b31-4361-ad28-08afb3097edc_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -3499,6 +4047,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#3e78afb0-3e1c-4814-a038-dfde669dc4c1_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -3556,6 +4120,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#41bc9d9f-999b-4c03-868d-e3823fc03184_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -3609,6 +4189,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#435bca7b-b840-4894-9bff-df7c45b2c20c_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -3666,6 +4262,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#45d241e5-c948-4ae3-860b-668b54894e58_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -3719,6 +4331,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#464f2805-ec4f-4d89-858e-f56a4378062d_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -3776,6 +4404,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#467872e1-4482-4e05-ba2e-2ac81b40dcf7_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -3829,6 +4473,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#4692f53e-797d-4457-bbc3-55273889566f_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -3886,6 +4546,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#4960c3ef-c969-4930-8f87-3e9250c5b716_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -3939,6 +4615,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#49ca3504-ffe4-4ec4-bd95-72123b14e48e_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -3996,6 +4688,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#4a4c2cd5-02ce-415c-b812-ec9fd13d73c6_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -4049,6 +4757,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#4bb458df-e06c-4d79-bcdb-663a09168b93_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -4106,6 +4830,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#4ccf2904-a68a-4c88-81de-8d549bc421e9_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -4159,6 +4899,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#4f25cbc8-6f89-434b-8988-0e3e965f2aa7_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -4216,6 +4972,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#521dd20c-2456-40a9-8b2b-0064396ccb07_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -4269,6 +5041,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#526eb9a7-2805-4a93-b49c-df9a922b279c_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -4334,6 +5122,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#52f8f607-2c6b-4b25-90f8-861ed744e1ca_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -4397,6 +5201,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#53bf2db7-7718-4835-bc3c-2baf3068207f_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -4450,6 +5270,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#53ed429c-06e1-419a-9002-12d7bcf18ba0_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -4507,6 +5343,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#54e13ec0-7b5a-4f4a-892f-615ab97d9000_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -4560,6 +5412,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#55eee8ec-2c4a-4924-8d2e-89b0d57b2d74_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -4617,6 +5485,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#569674c9-3895-4cb5-8f2c-38e608cab577_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -4670,6 +5554,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#5bcc0471-f0ba-417c-bae1-abb3223cd352_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -4727,6 +5627,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#5c6ce17c-cdde-459e-a423-ad5d827e5d4e_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -4780,6 +5696,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#5f5d079d-712c-4ad0-842c-c04d0d0763e5_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -4837,6 +5769,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#64586be1-1d82-4160-a5fb-5af067a6276b_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -4890,6 +5838,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#646cf01d-f91f-454d-96f3-69f122d90cf1_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -4947,6 +5911,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#65f7355b-9621-4b7e-a716-8fa0a4f07a0e_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -5000,6 +5980,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#66424eb1-6ec0-4f2a-9003-e2143babe975_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -5057,6 +6053,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#6839545f-3c21-456c-8e65-a34518a8bf7c_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -5110,6 +6122,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#69195ab5-0241-4995-8079-fee9d5509376_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -5167,6 +6195,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#6939e3db-546a-4041-a823-e729a2d4b694_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -5222,6 +6266,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#6f14de57-897a-4758-a984-262ca18baf75_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -5275,6 +6335,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#6fa013cb-f86c-4978-ac06-999760a58991_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -5340,6 +6416,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#7a2b1560-c346-41b6-915b-a10547cd3440_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -5393,6 +6485,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#7abeb59f-2759-4736-897c-69d50f0cdb27_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -5450,6 +6558,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#7c93771e-f108-4c1a-8ede-799d87629036_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -5503,6 +6627,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#7effe8a8-89ea-40c7-b095-ac70c7f9c030_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -5560,6 +6700,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#81a150a3-f5f9-4f03-84d7-b5e043f9d371_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -5613,6 +6769,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#866cbf6d-496f-4aff-acce-5f47e32fdcd9_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -5670,6 +6842,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#86997e8b-4662-4c0f-a2d1-b17edc36ac8a_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -5723,6 +6911,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#89b07983-8e6c-4b79-a97f-618a913945ee_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -5780,6 +6984,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#8a782006-277b-43df-b476-622e770433ba_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -5833,6 +7053,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#8fc69a50-3bd3-43ef-9f74-2e52360f520c_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -5898,6 +7134,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#90d8c5f4-021b-414b-8219-47f4e39bbff6_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -5951,6 +7203,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#91417e18-f9c7-49d7-80b2-ec408b898147_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -6008,6 +7276,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#92bc7954-d3e5-456e-a3f9-15ed633ca086_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -6061,6 +7345,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#9460842b-7734-4665-82a2-0085a33ce453_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -6118,6 +7418,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#9a404584-fd22-42a3-ba09-2382a8cc7596_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -6173,6 +7489,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#9d5f5c58-94c9-426a-862c-0bce70aa017e_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -6226,6 +7558,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#9e80e441-dc60-4514-8477-702e7d8ea321_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -6291,6 +7639,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#a0108469-2166-4732-8aff-f6429f29a82f_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -6344,6 +7708,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#a09111ca-c359-48cc-9a96-e79673caa0b8_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -6401,6 +7781,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#a3228d61-d64a-4b1f-be73-130b222b1c11_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -6454,6 +7850,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#a7f106af-5755-44ed-9ba2-86b1110e21f7_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -6511,6 +7923,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#abb845a6-5386-459e-938f-5100e0af1f72_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -6564,6 +7992,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#b1984fb3-ca88-4453-8fa3-b782d735052c_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -6629,6 +8073,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#b3a42fde-e5a1-4a7f-912f-ef0fe1019b2b_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -6682,6 +8142,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#b6233e40-079e-447d-b960-2f59a90dcd6e_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -6739,6 +8215,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#b70a68c4-e63b-445d-8f0f-ec2384dc1363_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -6794,6 +8286,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#b7b8283e-fd64-4b1f-b6e3-81a71091b63a_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -6847,6 +8355,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#b8b8a52d-9851-4436-9d74-90cc18bdc8e1_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -6912,6 +8436,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#b8ca6de4-79fe-49d2-b786-e5a01b2dc2a0_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -6965,6 +8505,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#b9b8ed23-6d56-4374-b098-d5fe1a84c94f_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -7022,6 +8578,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#ba37ba09-e4e5-4785-886e-bf6e84dbfb8a_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -7075,6 +8647,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#bb2e25bb-08ac-43b7-bdd0-c0fb04835eb8_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -7132,6 +8720,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#bd4e5cb6-b4bc-4d65-921d-21dec34dda1b_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -7185,6 +8789,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#c08f3cf1-e573-4914-b15f-b249261d9fab_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -7242,6 +8862,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#c2174141-51b4-4932-b3b3-4526eb6245d5_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -7295,6 +8931,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#c2efc23f-47bb-47cc-9786-739739a84f3b_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -7352,6 +9004,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#c3bb016c-19bf-454f-8530-ffe68ec1da1a_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -7405,6 +9073,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#c5f35a70-8ad6-4cd8-8b0d-519a9ce95b94_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -7470,6 +9154,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#cbe5d6de-a929-4641-9d9b-9b9b2498eeb3_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -7523,6 +9223,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#cc01dfc5-6d56-472f-9045-d22f22b2ca3a_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -7588,6 +9304,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#cc774e18-df41-45a3-976b-bbbbc25ecff1_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -7641,6 +9373,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#cdab6a0b-7238-4f14-894e-b5fe7bb763d9_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -7706,6 +9454,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#ce36306d-ab71-49f0-aed2-6cea0b2cf1d7_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -7759,6 +9523,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#cfd8197a-ab1b-41e3-9c44-30bb2d1827ac_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -7816,6 +9596,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#d04e1b9c-9c7e-4e90-86a1-9c1e367de3e4_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -7869,6 +9665,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#d1248c32-d156-418a-a10f-104d770ca6fd_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -7926,6 +9738,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#d39b0a02-169d-40a8-897d-7c7a5eee497d_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -7979,6 +9807,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#d46e1360-2fe2-43a6-80fc-892d3d2881c1_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -8036,6 +9880,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#d5710f70-63c7-4107-ac87-3fad0dca5830_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -8089,6 +9949,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#dc5ba2e0-7975-466e-930f-a5469030df40_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -8146,6 +10022,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#dca0e312-48bb-4ff0-9316-fa71cdda0c9c_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -8201,6 +10093,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#ddc25136-83aa-463c-9460-c718847292e0_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -8254,6 +10162,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#de109b58-0791-4eb7-9fff-d536f15297af_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -8319,6 +10243,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#e1a4e1ed-5021-4210-80a0-248b4c59ba2b_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -8372,6 +10312,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#e2bb5213-40ec-467b-ab58-dfd191d67b15_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -8429,6 +10385,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#e46dfffe-e0b5-4b6b-8545-7f7133231fcd_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -8482,6 +10454,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#e4f0d99c-176b-4354-872f-84ea358ac1d1_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -8539,6 +10527,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#e537eb8d-e10d-4cfa-88d8-f7e4e74e5a66_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -8594,6 +10598,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#e6b91a0a-28db-4f3c-bbe7-3191b69ece51_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -8647,6 +10667,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#e80677e6-20b7-4e3b-85f3-26eabae3fe58_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -8712,6 +10748,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#e9b6f78c-acb3-44a8-a83d-5230ac8adfb8_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -8765,6 +10817,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#ea530a2d-219a-4b12-a8b4-4cf7ca09b6b1_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -8830,6 +10898,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#ebd26bae-6b1e-419b-ab53-a52e011f6c81_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -8883,6 +10967,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#ec69643d-e636-443f-95a0-bb55b9614841_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -8940,6 +11040,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#eec807e9-47d0-4801-a3f8-017c818a99e7_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -8993,6 +11109,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#f148606b-a850-4d16-a627-606fb8ee5577_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -9050,6 +11182,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#f533c183-22fb-43cf-9bd1-265caaa661a0_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -9103,6 +11251,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#fab26445-cb25-492a-8d8a-47f31706a753_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -9168,6 +11332,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#fd82485d-f6e8-4413-9120-c739f0cc1e82_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -9229,6 +11409,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#fec6c570-b8d5-49be-aa15-8be41afd1aa3_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -9294,6 +11490,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -9355,6 +11567,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#0d9d574e-754a-4f9c-93b7-47fc15d4f2d3_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -9420,6 +11648,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#18d49631-5a11-48f6-acb7-62cfaf8de742_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -9481,6 +11725,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#1d935768-ea8d-4be8-884b-a4dff9825021_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -9546,6 +11806,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#37993191-20c4-49a4-b3bc-2a28960f323d_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -9607,6 +11883,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#3d393a7a-ea8c-45d2-aca7-1453da500bb5_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -9672,6 +11964,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#4e1bbd40-75c2-4134-abdf-71a85b238394_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -9733,6 +12041,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#6247dd7d-45da-4805-9922-ad78d30ddc00_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -9798,6 +12122,30 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#62c65c41-af9e-4af8-af61-97602598da5c_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_IIa",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Norrfors",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/timeperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/timeperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/MinionIIa",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -9859,6 +12207,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#6a176aee-0f30-4da3-bd88-b48f61a6a5ca_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -9924,6 +12288,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#8a40c3de-b0fb-4dc0-84d4-2000b15d6f60_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -9985,6 +12365,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#a3006e8d-46d6-4db0-81aa-23238514e5eb_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -10050,6 +12446,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#a9d036a7-9001-47c8-89db-54c0fe8d6829_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -10111,6 +12523,30 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#ab7a69ca-6c8f-4d13-893b-3702231a60b7_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_IIa",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Norrfors",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/timeperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/timeperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/MinionIIa",
       "type": "iri"
      }
     ]
@@ -10176,6 +12612,30 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#ba7170d7-475e-4502-9cbd-054d5d326a7d_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_IIb",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Norrfors",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/timeperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/timeperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/MinionIIb",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -10237,6 +12697,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#f4c616a4-3188-45f4-ad66-878498003c20_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -10302,6 +12778,30 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#fd8fe6ba-e13a-4ef3-9047-626fc45be9e2_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_IIb",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Norrfors",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/timeperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/timeperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/MinionIIb",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -10365,6 +12865,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#fdf099f7-869f-499e-80c3-00c91f0a4d35_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -10418,6 +12934,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#0b12b1c6-4f43-4635-9437-2eccad89860a_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -10475,6 +13007,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#43445b66-c4c5-4668-8fb7-00186131c6ff_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -10528,6 +13076,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#b7ee573a-bf90-4f57-b159-39e1fc2822a8_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -10585,6 +13149,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#c7c46dd9-6977-4662-86fa-7bd465591b65_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -10638,6 +13218,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#1ac53fc4-aeb3-4256-ac8e-47160f4d642a_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -10695,6 +13291,30 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#3e67e756-dad2-4514-a9af-511fd2db0e91_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_IIa",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Norrfors",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/timeperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/timeperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/MinionIIa",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -10748,6 +13368,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#72d83c05-1969-4b24-a507-eb1450bffea4_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -10805,6 +13441,30 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#7ee2bf5f-4059-4b49-af4f-173eb49582c7_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_IIa",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Norrfors",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/timeperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/timeperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/MinionIIa",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -10858,6 +13518,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#8e91ce6c-6177-45e0-80f4-477fd6e14587_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -10915,6 +13591,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#c62d6ed4-30ab-402b-ba2e-c432aaa0d53b_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -10968,6 +13660,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#d2e36d44-1ea1-4205-8920-c97cdab3b3aa_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -11033,6 +13741,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#3a55458f-5c2f-4368-9a03-384f6377e301_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -11094,6 +13818,30 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#622ce224-fab0-4fbd-8a79-d8ecc9b26a49_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_I",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Norrfors",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/timeperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/timeperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/MinionI",
       "type": "iri"
      }
     ]
@@ -11159,6 +13907,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#6daab534-65db-49f5-9b1b-5842930184c6_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -11220,6 +13984,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#8522a6f2-b165-4529-9dd6-30bc0da88476_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -11285,6 +14065,30 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#4db030c2-2331-4dad-b17c-da023bceff9f_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_IIa",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Norrfors",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/timeperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/timeperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/MinionIIa",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -11340,6 +14144,22 @@ var vowlresult={
       "value": "http://www.github.com/sparqlunicorn#97e0311e-f072-4b6c-8619-4c8b81cb2232_geom",
       "type": "iri"
      }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -11393,6 +14213,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#86f8a06e-51c7-41be-935b-e70bfcaa67b7_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
@@ -15884,6 +18720,132 @@ var vowlresult={
    "label": {
     "IRI-based": "Geodetic_longitude_degree_east"
    },
+   "annotations": {},
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 367,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/MinionI",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": {
+    "IRI-based": "MinionI"
+   },
+   "annotations": {},
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 368,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_I",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": {
+    "IRI-based": "Minion_I"
+   },
+   "annotations": {},
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 369,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/MinionIIb",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": {
+    "IRI-based": "MinionIIb"
+   },
+   "annotations": {},
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 370,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_IIb",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": {
+    "IRI-based": "Minion_IIb"
+   },
+   "annotations": {},
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 371,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/MinionIIa",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": {
+    "IRI-based": "MinionIIa"
+   },
+   "annotations": {},
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 372,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_IIa",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": {
+    "IRI-based": "Minion_IIa"
+   },
+   "annotations": {},
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 373,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": {
+    "IRI-based": "Minion_Period"
+   },
+   "annotations": {},
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 374,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Norrfors",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": {
+    "IRI-based": "Norrfors"
+   },
+   "annotations": {},
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 375,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": {
+    "IRI-based": "IkeaLand"
+   },
    "annotations": {
     "http://www.github.com/sparqlunicorn#Name": [
      {
@@ -15922,6 +18884,22 @@ var vowlresult={
       "identifier": "http://www.opengis.net/ont/geosparql#hasGeometry",
       "language": "undefined",
       "value": "http://www.github.com/sparqlunicorn#0194d590-c58c-4c97-98f8-303ea8ffe32a_geom",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion_Period",
+      "type": "iri"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/IkeaLand",
       "type": "iri"
      }
     ]
