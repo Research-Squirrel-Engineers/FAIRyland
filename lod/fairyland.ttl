@@ -13,35 +13,45 @@ suni:0194d590-c58c-4c97-98f8-303ea8ffe32a a fairyland:Koetbullar ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 98 ;
-    geo:hasGeometry suni:0194d590-c58c-4c97-98f8-303ea8ffe32a_geom .
+    geo:hasGeometry suni:0194d590-c58c-4c97-98f8-303ea8ffe32a_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:038d7342-a29b-4fb4-848a-38956486b324 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 154 ;
-    geo:hasGeometry suni:038d7342-a29b-4fb4-848a-38956486b324_geom .
+    geo:hasGeometry suni:038d7342-a29b-4fb4-848a-38956486b324_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:03bf5218-bda5-4791-b190-b302c4d8d6ce a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 141 ;
-    geo:hasGeometry suni:03bf5218-bda5-4791-b190-b302c4d8d6ce_geom .
+    geo:hasGeometry suni:03bf5218-bda5-4791-b190-b302c4d8d6ce_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:047d2aa4-c98d-4c8e-bba6-c5bc935b626a a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 2 ;
-    geo:hasGeometry suni:047d2aa4-c98d-4c8e-bba6-c5bc935b626a_geom .
+    geo:hasGeometry suni:047d2aa4-c98d-4c8e-bba6-c5bc935b626a_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:069e7a2d-631d-4338-adf9-5fd2f9bd2155 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 119 ;
-    geo:hasGeometry suni:069e7a2d-631d-4338-adf9-5fd2f9bd2155_geom .
+    geo:hasGeometry suni:069e7a2d-631d-4338-adf9-5fd2f9bd2155_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:0800c7da-7e10-4ba2-a020-7db1bc018572 a fairyland:Koetbullar ;
     suni:Condition "smashed"^^xsd:string ;
@@ -49,14 +59,18 @@ suni:0800c7da-7e10-4ba2-a020-7db1bc018572 a fairyland:Koetbullar ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 103 ;
-    geo:hasGeometry suni:0800c7da-7e10-4ba2-a020-7db1bc018572_geom .
+    geo:hasGeometry suni:0800c7da-7e10-4ba2-a020-7db1bc018572_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:09625e57-e1e3-4819-baac-8154feac0fe6 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 24 ;
-    geo:hasGeometry suni:09625e57-e1e3-4819-baac-8154feac0fe6_geom .
+    geo:hasGeometry suni:09625e57-e1e3-4819-baac-8154feac0fe6_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb a fairyland:Minion ;
     suni:Condition "flatten"^^xsd:string ;
@@ -64,35 +78,45 @@ suni:09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb a fairyland:Minion ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 46 ;
-    geo:hasGeometry suni:09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb_geom .
+    geo:hasGeometry suni:09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:0b12b1c6-4f43-4635-9437-2eccad89860a a fairyland:Stone ;
     suni:Name "Stone"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 33 ;
-    geo:hasGeometry suni:0b12b1c6-4f43-4635-9437-2eccad89860a_geom .
+    geo:hasGeometry suni:0b12b1c6-4f43-4635-9437-2eccad89860a_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:0b959b96-55fd-4550-b4de-68e2c4f9625f a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 28 ;
-    geo:hasGeometry suni:0b959b96-55fd-4550-b4de-68e2c4f9625f_geom .
+    geo:hasGeometry suni:0b959b96-55fd-4550-b4de-68e2c4f9625f_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:0cc84bdb-a46b-47fc-851f-925f22e3fd77 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 81 ;
-    geo:hasGeometry suni:0cc84bdb-a46b-47fc-851f-925f22e3fd77_geom .
+    geo:hasGeometry suni:0cc84bdb-a46b-47fc-851f-925f22e3fd77_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:0cde71e0-701f-44cd-a025-5cac1d1c7d70 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 75 ;
-    geo:hasGeometry suni:0cde71e0-701f-44cd-a025-5cac1d1c7d70_geom .
+    geo:hasGeometry suni:0cde71e0-701f-44cd-a025-5cac1d1c7d70_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:0d9d574e-754a-4f9c-93b7-47fc15d4f2d3 a fairyland:Minion ;
     suni:Condition "flatten"^^xsd:string ;
@@ -100,35 +124,45 @@ suni:0d9d574e-754a-4f9c-93b7-47fc15d4f2d3 a fairyland:Minion ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 43 ;
-    geo:hasGeometry suni:0d9d574e-754a-4f9c-93b7-47fc15d4f2d3_geom .
+    geo:hasGeometry suni:0d9d574e-754a-4f9c-93b7-47fc15d4f2d3_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:1073f60f-73b2-4193-8bd7-951995224dbb a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 122 ;
-    geo:hasGeometry suni:1073f60f-73b2-4193-8bd7-951995224dbb_geom .
+    geo:hasGeometry suni:1073f60f-73b2-4193-8bd7-951995224dbb_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:10d1a1c2-f56c-485c-a5cc-4d4e48c8e675 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 88 ;
-    geo:hasGeometry suni:10d1a1c2-f56c-485c-a5cc-4d4e48c8e675_geom .
+    geo:hasGeometry suni:10d1a1c2-f56c-485c-a5cc-4d4e48c8e675_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:12ce69a0-6b49-4159-8ff6-b468f44d33b5 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 135 ;
-    geo:hasGeometry suni:12ce69a0-6b49-4159-8ff6-b468f44d33b5_geom .
+    geo:hasGeometry suni:12ce69a0-6b49-4159-8ff6-b468f44d33b5_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:12d61444-88ae-43b3-95d4-15e5fecd4180 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 101 ;
-    geo:hasGeometry suni:12d61444-88ae-43b3-95d4-15e5fecd4180_geom .
+    geo:hasGeometry suni:12d61444-88ae-43b3-95d4-15e5fecd4180_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:180a5320-3833-4133-aa46-aab7f0d80d84 a fairyland:Koetbullar ;
     suni:Condition "smashed"^^xsd:string ;
@@ -136,7 +170,9 @@ suni:180a5320-3833-4133-aa46-aab7f0d80d84 a fairyland:Koetbullar ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 27 ;
-    geo:hasGeometry suni:180a5320-3833-4133-aa46-aab7f0d80d84_geom .
+    geo:hasGeometry suni:180a5320-3833-4133-aa46-aab7f0d80d84_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:18d49631-5a11-48f6-acb7-62cfaf8de742 a fairyland:Minion ;
     suni:Condition "flatten"^^xsd:string ;
@@ -144,28 +180,36 @@ suni:18d49631-5a11-48f6-acb7-62cfaf8de742 a fairyland:Minion ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 42 ;
-    geo:hasGeometry suni:18d49631-5a11-48f6-acb7-62cfaf8de742_geom .
+    geo:hasGeometry suni:18d49631-5a11-48f6-acb7-62cfaf8de742_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:19793c7f-6cc9-462c-99da-e3e33ff97461 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 92 ;
-    geo:hasGeometry suni:19793c7f-6cc9-462c-99da-e3e33ff97461_geom .
+    geo:hasGeometry suni:19793c7f-6cc9-462c-99da-e3e33ff97461_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:1a2be1c9-acaf-4659-839d-0146401472f2 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 108 ;
-    geo:hasGeometry suni:1a2be1c9-acaf-4659-839d-0146401472f2_geom .
+    geo:hasGeometry suni:1a2be1c9-acaf-4659-839d-0146401472f2_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:1ac53fc4-aeb3-4256-ac8e-47160f4d642a a fairyland:Street ;
     suni:Name "Street"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 161 ;
-    geo:hasGeometry suni:1ac53fc4-aeb3-4256-ac8e-47160f4d642a_geom .
+    geo:hasGeometry suni:1ac53fc4-aeb3-4256-ac8e-47160f4d642a_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:1d935768-ea8d-4be8-884b-a4dff9825021 a fairyland:Minion ;
     suni:Condition "flatten"^^xsd:string ;
@@ -173,105 +217,135 @@ suni:1d935768-ea8d-4be8-884b-a4dff9825021 a fairyland:Minion ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 35 ;
-    geo:hasGeometry suni:1d935768-ea8d-4be8-884b-a4dff9825021_geom .
+    geo:hasGeometry suni:1d935768-ea8d-4be8-884b-a4dff9825021_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:1fcfa357-13f8-4cb5-8e28-f98280989898 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 79 ;
-    geo:hasGeometry suni:1fcfa357-13f8-4cb5-8e28-f98280989898_geom .
+    geo:hasGeometry suni:1fcfa357-13f8-4cb5-8e28-f98280989898_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:25d0c170-da08-47ed-8bf8-78f36d0f558e a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 143 ;
-    geo:hasGeometry suni:25d0c170-da08-47ed-8bf8-78f36d0f558e_geom .
+    geo:hasGeometry suni:25d0c170-da08-47ed-8bf8-78f36d0f558e_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:264aceda-0df9-48de-9c9a-bfac46e9d790 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 132 ;
-    geo:hasGeometry suni:264aceda-0df9-48de-9c9a-bfac46e9d790_geom .
+    geo:hasGeometry suni:264aceda-0df9-48de-9c9a-bfac46e9d790_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:275a5b7f-e28a-41ec-b6b5-9bc82b47f1a0 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 82 ;
-    geo:hasGeometry suni:275a5b7f-e28a-41ec-b6b5-9bc82b47f1a0_geom .
+    geo:hasGeometry suni:275a5b7f-e28a-41ec-b6b5-9bc82b47f1a0_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:28ec2dbf-6806-4a32-a35d-78764bfda459 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 84 ;
-    geo:hasGeometry suni:28ec2dbf-6806-4a32-a35d-78764bfda459_geom .
+    geo:hasGeometry suni:28ec2dbf-6806-4a32-a35d-78764bfda459_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:2abb9a90-732f-4e75-b764-6b3df7dfa173 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 148 ;
-    geo:hasGeometry suni:2abb9a90-732f-4e75-b764-6b3df7dfa173_geom .
+    geo:hasGeometry suni:2abb9a90-732f-4e75-b764-6b3df7dfa173_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:2d3d304e-4ac7-4f2f-93a6-251105f7ace4 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 29 ;
-    geo:hasGeometry suni:2d3d304e-4ac7-4f2f-93a6-251105f7ace4_geom .
+    geo:hasGeometry suni:2d3d304e-4ac7-4f2f-93a6-251105f7ace4_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:2e711592-9068-438a-80b9-0c7725e1d6bb a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 114 ;
-    geo:hasGeometry suni:2e711592-9068-438a-80b9-0c7725e1d6bb_geom .
+    geo:hasGeometry suni:2e711592-9068-438a-80b9-0c7725e1d6bb_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:3018eba9-3c11-41e8-901e-7377167b58e4 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 136 ;
-    geo:hasGeometry suni:3018eba9-3c11-41e8-901e-7377167b58e4_geom .
+    geo:hasGeometry suni:3018eba9-3c11-41e8-901e-7377167b58e4_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:31615fc1-a7de-48af-80a2-777dd77760b2 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 1 ;
-    geo:hasGeometry suni:31615fc1-a7de-48af-80a2-777dd77760b2_geom .
+    geo:hasGeometry suni:31615fc1-a7de-48af-80a2-777dd77760b2_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:32126fde-7a0e-46ab-b512-ad9f20ea10ea a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 134 ;
-    geo:hasGeometry suni:32126fde-7a0e-46ab-b512-ad9f20ea10ea_geom .
+    geo:hasGeometry suni:32126fde-7a0e-46ab-b512-ad9f20ea10ea_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:327283ae-3a31-4397-ae77-2566e4d146b6 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 159 ;
-    geo:hasGeometry suni:327283ae-3a31-4397-ae77-2566e4d146b6_geom .
+    geo:hasGeometry suni:327283ae-3a31-4397-ae77-2566e4d146b6_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:3280d786-1bb7-4913-9be9-9041f65ef4b6 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 105 ;
-    geo:hasGeometry suni:3280d786-1bb7-4913-9be9-9041f65ef4b6_geom .
+    geo:hasGeometry suni:3280d786-1bb7-4913-9be9-9041f65ef4b6_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:3672902d-7362-4069-9769-21296706d028 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 48 ;
-    geo:hasGeometry suni:3672902d-7362-4069-9769-21296706d028_geom .
+    geo:hasGeometry suni:3672902d-7362-4069-9769-21296706d028_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:37993191-20c4-49a4-b3bc-2a28960f323d a fairyland:Minion ;
     suni:Condition "flatten"^^xsd:string ;
@@ -279,14 +353,18 @@ suni:37993191-20c4-49a4-b3bc-2a28960f323d a fairyland:Minion ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 58 ;
-    geo:hasGeometry suni:37993191-20c4-49a4-b3bc-2a28960f323d_geom .
+    geo:hasGeometry suni:37993191-20c4-49a4-b3bc-2a28960f323d_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:389c5712-618e-4532-84fd-4eb084e6c0aa a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 15 ;
-    geo:hasGeometry suni:389c5712-618e-4532-84fd-4eb084e6c0aa_geom .
+    geo:hasGeometry suni:389c5712-618e-4532-84fd-4eb084e6c0aa_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:3a55458f-5c2f-4368-9a03-384f6377e301 a fairyland:Kangaroo ;
     suni:Condition "flatten"^^xsd:string ;
@@ -294,7 +372,9 @@ suni:3a55458f-5c2f-4368-9a03-384f6377e301 a fairyland:Kangaroo ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 67 ;
-    geo:hasGeometry suni:3a55458f-5c2f-4368-9a03-384f6377e301_geom .
+    geo:hasGeometry suni:3a55458f-5c2f-4368-9a03-384f6377e301_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:3cd74fe7-9b31-4361-ad28-08afb3097edc a fairyland:Koetbullar ;
     suni:Condition "smashed"^^xsd:string ;
@@ -302,7 +382,9 @@ suni:3cd74fe7-9b31-4361-ad28-08afb3097edc a fairyland:Koetbullar ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 130 ;
-    geo:hasGeometry suni:3cd74fe7-9b31-4361-ad28-08afb3097edc_geom .
+    geo:hasGeometry suni:3cd74fe7-9b31-4361-ad28-08afb3097edc_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:3d393a7a-ea8c-45d2-aca7-1453da500bb5 a fairyland:Minion ;
     suni:Condition "flatten"^^xsd:string ;
@@ -310,105 +392,136 @@ suni:3d393a7a-ea8c-45d2-aca7-1453da500bb5 a fairyland:Minion ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 55 ;
-    geo:hasGeometry suni:3d393a7a-ea8c-45d2-aca7-1453da500bb5_geom .
+    geo:hasGeometry suni:3d393a7a-ea8c-45d2-aca7-1453da500bb5_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:3e67e756-dad2-4514-a9af-511fd2db0e91 a fairyland:Street ;
     suni:Name "Street"^^xsd:string ;
     suni:Time_Period "Minion IIa"^^xsd:string ;
     suni:Trench "Norrfors"^^xsd:string ;
     suni:fid 162 ;
-    geo:hasGeometry suni:3e67e756-dad2-4514-a9af-511fd2db0e91_geom .
+    geo:hasGeometry suni:3e67e756-dad2-4514-a9af-511fd2db0e91_geom ;
+    fairyland:hasperiod fairyland:Minion_IIa ;
+    fairyland:hastrench fairyland:Norrfors ;
+    fairyland:timeperiod fairyland:MinionIIa .
 
 suni:3e78afb0-3e1c-4814-a038-dfde669dc4c1 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 13 ;
-    geo:hasGeometry suni:3e78afb0-3e1c-4814-a038-dfde669dc4c1_geom .
+    geo:hasGeometry suni:3e78afb0-3e1c-4814-a038-dfde669dc4c1_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:41bc9d9f-999b-4c03-868d-e3823fc03184 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 50 ;
-    geo:hasGeometry suni:41bc9d9f-999b-4c03-868d-e3823fc03184_geom .
+    geo:hasGeometry suni:41bc9d9f-999b-4c03-868d-e3823fc03184_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:43445b66-c4c5-4668-8fb7-00186131c6ff a fairyland:Stone ;
     suni:Name "Stone"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 31 ;
-    geo:hasGeometry suni:43445b66-c4c5-4668-8fb7-00186131c6ff_geom .
+    geo:hasGeometry suni:43445b66-c4c5-4668-8fb7-00186131c6ff_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:435bca7b-b840-4894-9bff-df7c45b2c20c a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 147 ;
-    geo:hasGeometry suni:435bca7b-b840-4894-9bff-df7c45b2c20c_geom .
+    geo:hasGeometry suni:435bca7b-b840-4894-9bff-df7c45b2c20c_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:45d241e5-c948-4ae3-860b-668b54894e58 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 14 ;
-    geo:hasGeometry suni:45d241e5-c948-4ae3-860b-668b54894e58_geom .
+    geo:hasGeometry suni:45d241e5-c948-4ae3-860b-668b54894e58_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:464f2805-ec4f-4d89-858e-f56a4378062d a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 74 ;
-    geo:hasGeometry suni:464f2805-ec4f-4d89-858e-f56a4378062d_geom .
+    geo:hasGeometry suni:464f2805-ec4f-4d89-858e-f56a4378062d_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:467872e1-4482-4e05-ba2e-2ac81b40dcf7 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 109 ;
-    geo:hasGeometry suni:467872e1-4482-4e05-ba2e-2ac81b40dcf7_geom .
+    geo:hasGeometry suni:467872e1-4482-4e05-ba2e-2ac81b40dcf7_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:4692f53e-797d-4457-bbc3-55273889566f a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 156 ;
-    geo:hasGeometry suni:4692f53e-797d-4457-bbc3-55273889566f_geom .
+    geo:hasGeometry suni:4692f53e-797d-4457-bbc3-55273889566f_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:4960c3ef-c969-4930-8f87-3e9250c5b716 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 23 ;
-    geo:hasGeometry suni:4960c3ef-c969-4930-8f87-3e9250c5b716_geom .
+    geo:hasGeometry suni:4960c3ef-c969-4930-8f87-3e9250c5b716_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:49ca3504-ffe4-4ec4-bd95-72123b14e48e a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 7 ;
-    geo:hasGeometry suni:49ca3504-ffe4-4ec4-bd95-72123b14e48e_geom .
+    geo:hasGeometry suni:49ca3504-ffe4-4ec4-bd95-72123b14e48e_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:4a4c2cd5-02ce-415c-b812-ec9fd13d73c6 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 32 ;
-    geo:hasGeometry suni:4a4c2cd5-02ce-415c-b812-ec9fd13d73c6_geom .
+    geo:hasGeometry suni:4a4c2cd5-02ce-415c-b812-ec9fd13d73c6_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:4bb458df-e06c-4d79-bcdb-663a09168b93 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 149 ;
-    geo:hasGeometry suni:4bb458df-e06c-4d79-bcdb-663a09168b93_geom .
+    geo:hasGeometry suni:4bb458df-e06c-4d79-bcdb-663a09168b93_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:4ccf2904-a68a-4c88-81de-8d549bc421e9 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 152 ;
-    geo:hasGeometry suni:4ccf2904-a68a-4c88-81de-8d549bc421e9_geom .
+    geo:hasGeometry suni:4ccf2904-a68a-4c88-81de-8d549bc421e9_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:4db030c2-2331-4dad-b17c-da023bceff9f a fairyland:Crater ;
     suni:Condition "dry"^^xsd:string ;
@@ -416,7 +529,10 @@ suni:4db030c2-2331-4dad-b17c-da023bceff9f a fairyland:Crater ;
     suni:Time_Period "Minion IIa"^^xsd:string ;
     suni:Trench "Norrfors"^^xsd:string ;
     suni:fid 160 ;
-    geo:hasGeometry suni:4db030c2-2331-4dad-b17c-da023bceff9f_geom .
+    geo:hasGeometry suni:4db030c2-2331-4dad-b17c-da023bceff9f_geom ;
+    fairyland:hasperiod fairyland:Minion_IIa ;
+    fairyland:hastrench fairyland:Norrfors ;
+    fairyland:timeperiod fairyland:MinionIIa .
 
 suni:4e1bbd40-75c2-4134-abdf-71a85b238394 a fairyland:Minion ;
     suni:Condition "flatten"^^xsd:string ;
@@ -424,28 +540,36 @@ suni:4e1bbd40-75c2-4134-abdf-71a85b238394 a fairyland:Minion ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 57 ;
-    geo:hasGeometry suni:4e1bbd40-75c2-4134-abdf-71a85b238394_geom .
+    geo:hasGeometry suni:4e1bbd40-75c2-4134-abdf-71a85b238394_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:4f25cbc8-6f89-434b-8988-0e3e965f2aa7 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 157 ;
-    geo:hasGeometry suni:4f25cbc8-6f89-434b-8988-0e3e965f2aa7_geom .
+    geo:hasGeometry suni:4f25cbc8-6f89-434b-8988-0e3e965f2aa7_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:521dd20c-2456-40a9-8b2b-0064396ccb07 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 20 ;
-    geo:hasGeometry suni:521dd20c-2456-40a9-8b2b-0064396ccb07_geom .
+    geo:hasGeometry suni:521dd20c-2456-40a9-8b2b-0064396ccb07_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:526eb9a7-2805-4a93-b49c-df9a922b279c a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 91 ;
-    geo:hasGeometry suni:526eb9a7-2805-4a93-b49c-df9a922b279c_geom .
+    geo:hasGeometry suni:526eb9a7-2805-4a93-b49c-df9a922b279c_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:52f8f607-2c6b-4b25-90f8-861ed744e1ca a fairyland:Koetbullar ;
     suni:Condition "smashed"^^xsd:string ;
@@ -453,7 +577,9 @@ suni:52f8f607-2c6b-4b25-90f8-861ed744e1ca a fairyland:Koetbullar ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 90 ;
-    geo:hasGeometry suni:52f8f607-2c6b-4b25-90f8-861ed744e1ca_geom .
+    geo:hasGeometry suni:52f8f607-2c6b-4b25-90f8-861ed744e1ca_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:53bf2db7-7718-4835-bc3c-2baf3068207f a fairyland:Koetbullar ;
     suni:Condition "smashed"^^xsd:string ;
@@ -461,56 +587,72 @@ suni:53bf2db7-7718-4835-bc3c-2baf3068207f a fairyland:Koetbullar ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 65 ;
-    geo:hasGeometry suni:53bf2db7-7718-4835-bc3c-2baf3068207f_geom .
+    geo:hasGeometry suni:53bf2db7-7718-4835-bc3c-2baf3068207f_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:53ed429c-06e1-419a-9002-12d7bcf18ba0 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 78 ;
-    geo:hasGeometry suni:53ed429c-06e1-419a-9002-12d7bcf18ba0_geom .
+    geo:hasGeometry suni:53ed429c-06e1-419a-9002-12d7bcf18ba0_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:54e13ec0-7b5a-4f4a-892f-615ab97d9000 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 21 ;
-    geo:hasGeometry suni:54e13ec0-7b5a-4f4a-892f-615ab97d9000_geom .
+    geo:hasGeometry suni:54e13ec0-7b5a-4f4a-892f-615ab97d9000_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:55eee8ec-2c4a-4924-8d2e-89b0d57b2d74 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 142 ;
-    geo:hasGeometry suni:55eee8ec-2c4a-4924-8d2e-89b0d57b2d74_geom .
+    geo:hasGeometry suni:55eee8ec-2c4a-4924-8d2e-89b0d57b2d74_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:569674c9-3895-4cb5-8f2c-38e608cab577 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 39 ;
-    geo:hasGeometry suni:569674c9-3895-4cb5-8f2c-38e608cab577_geom .
+    geo:hasGeometry suni:569674c9-3895-4cb5-8f2c-38e608cab577_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:5bcc0471-f0ba-417c-bae1-abb3223cd352 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 62 ;
-    geo:hasGeometry suni:5bcc0471-f0ba-417c-bae1-abb3223cd352_geom .
+    geo:hasGeometry suni:5bcc0471-f0ba-417c-bae1-abb3223cd352_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:5c6ce17c-cdde-459e-a423-ad5d827e5d4e a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 129 ;
-    geo:hasGeometry suni:5c6ce17c-cdde-459e-a423-ad5d827e5d4e_geom .
+    geo:hasGeometry suni:5c6ce17c-cdde-459e-a423-ad5d827e5d4e_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:5f5d079d-712c-4ad0-842c-c04d0d0763e5 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 26 ;
-    geo:hasGeometry suni:5f5d079d-712c-4ad0-842c-c04d0d0763e5_geom .
+    geo:hasGeometry suni:5f5d079d-712c-4ad0-842c-c04d0d0763e5_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:622ce224-fab0-4fbd-8a79-d8ecc9b26a49 a fairyland:Kangaroo ;
     suni:Condition "flatten"^^xsd:string ;
@@ -518,7 +660,10 @@ suni:622ce224-fab0-4fbd-8a79-d8ecc9b26a49 a fairyland:Kangaroo ;
     suni:Time_Period "Minion I"^^xsd:string ;
     suni:Trench "Norrfors"^^xsd:string ;
     suni:fid 172 ;
-    geo:hasGeometry suni:622ce224-fab0-4fbd-8a79-d8ecc9b26a49_geom .
+    geo:hasGeometry suni:622ce224-fab0-4fbd-8a79-d8ecc9b26a49_geom ;
+    fairyland:hasperiod fairyland:Minion_I ;
+    fairyland:hastrench fairyland:Norrfors ;
+    fairyland:timeperiod fairyland:MinionI .
 
 suni:6247dd7d-45da-4805-9922-ad78d30ddc00 a fairyland:Minion ;
     suni:Condition "flatten"^^xsd:string ;
@@ -526,7 +671,9 @@ suni:6247dd7d-45da-4805-9922-ad78d30ddc00 a fairyland:Minion ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 59 ;
-    geo:hasGeometry suni:6247dd7d-45da-4805-9922-ad78d30ddc00_geom .
+    geo:hasGeometry suni:6247dd7d-45da-4805-9922-ad78d30ddc00_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:62c65c41-af9e-4af8-af61-97602598da5c a fairyland:Minion ;
     suni:Condition "flatten"^^xsd:string ;
@@ -534,56 +681,73 @@ suni:62c65c41-af9e-4af8-af61-97602598da5c a fairyland:Minion ;
     suni:Time_Period "Minion IIa"^^xsd:string ;
     suni:Trench "Norrfors"^^xsd:string ;
     suni:fid 169 ;
-    geo:hasGeometry suni:62c65c41-af9e-4af8-af61-97602598da5c_geom .
+    geo:hasGeometry suni:62c65c41-af9e-4af8-af61-97602598da5c_geom ;
+    fairyland:hasperiod fairyland:Minion_IIa ;
+    fairyland:hastrench fairyland:Norrfors ;
+    fairyland:timeperiod fairyland:MinionIIa .
 
 suni:64586be1-1d82-4160-a5fb-5af067a6276b a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 137 ;
-    geo:hasGeometry suni:64586be1-1d82-4160-a5fb-5af067a6276b_geom .
+    geo:hasGeometry suni:64586be1-1d82-4160-a5fb-5af067a6276b_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:646cf01d-f91f-454d-96f3-69f122d90cf1 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 99 ;
-    geo:hasGeometry suni:646cf01d-f91f-454d-96f3-69f122d90cf1_geom .
+    geo:hasGeometry suni:646cf01d-f91f-454d-96f3-69f122d90cf1_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:65f7355b-9621-4b7e-a716-8fa0a4f07a0e a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 116 ;
-    geo:hasGeometry suni:65f7355b-9621-4b7e-a716-8fa0a4f07a0e_geom .
+    geo:hasGeometry suni:65f7355b-9621-4b7e-a716-8fa0a4f07a0e_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:66424eb1-6ec0-4f2a-9003-e2143babe975 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 22 ;
-    geo:hasGeometry suni:66424eb1-6ec0-4f2a-9003-e2143babe975_geom .
+    geo:hasGeometry suni:66424eb1-6ec0-4f2a-9003-e2143babe975_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:6839545f-3c21-456c-8e65-a34518a8bf7c a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 118 ;
-    geo:hasGeometry suni:6839545f-3c21-456c-8e65-a34518a8bf7c_geom .
+    geo:hasGeometry suni:6839545f-3c21-456c-8e65-a34518a8bf7c_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:69195ab5-0241-4995-8079-fee9d5509376 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 53 ;
-    geo:hasGeometry suni:69195ab5-0241-4995-8079-fee9d5509376_geom .
+    geo:hasGeometry suni:69195ab5-0241-4995-8079-fee9d5509376_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:6939e3db-546a-4041-a823-e729a2d4b694 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 145 ;
-    geo:hasGeometry suni:6939e3db-546a-4041-a823-e729a2d4b694_geom .
+    geo:hasGeometry suni:6939e3db-546a-4041-a823-e729a2d4b694_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:6a176aee-0f30-4da3-bd88-b48f61a6a5ca a fairyland:Minion ;
     suni:Condition "flatten"^^xsd:string ;
@@ -591,7 +755,9 @@ suni:6a176aee-0f30-4da3-bd88-b48f61a6a5ca a fairyland:Minion ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 38 ;
-    geo:hasGeometry suni:6a176aee-0f30-4da3-bd88-b48f61a6a5ca_geom .
+    geo:hasGeometry suni:6a176aee-0f30-4da3-bd88-b48f61a6a5ca_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:6daab534-65db-49f5-9b1b-5842930184c6 a fairyland:Kangaroo ;
     suni:Condition "flatten"^^xsd:string ;
@@ -599,28 +765,36 @@ suni:6daab534-65db-49f5-9b1b-5842930184c6 a fairyland:Kangaroo ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 70 ;
-    geo:hasGeometry suni:6daab534-65db-49f5-9b1b-5842930184c6_geom .
+    geo:hasGeometry suni:6daab534-65db-49f5-9b1b-5842930184c6_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:6f14de57-897a-4758-a984-262ca18baf75 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 18 ;
-    geo:hasGeometry suni:6f14de57-897a-4758-a984-262ca18baf75_geom .
+    geo:hasGeometry suni:6f14de57-897a-4758-a984-262ca18baf75_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:6fa013cb-f86c-4978-ac06-999760a58991 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 111 ;
-    geo:hasGeometry suni:6fa013cb-f86c-4978-ac06-999760a58991_geom .
+    geo:hasGeometry suni:6fa013cb-f86c-4978-ac06-999760a58991_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:72d83c05-1969-4b24-a507-eb1450bffea4 a fairyland:Street ;
     suni:Name "Street"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 163 ;
-    geo:hasGeometry suni:72d83c05-1969-4b24-a507-eb1450bffea4_geom .
+    geo:hasGeometry suni:72d83c05-1969-4b24-a507-eb1450bffea4_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:7a2b1560-c346-41b6-915b-a10547cd3440 a fairyland:Koetbullar ;
     suni:Condition "smashed"^^xsd:string ;
@@ -628,42 +802,55 @@ suni:7a2b1560-c346-41b6-915b-a10547cd3440 a fairyland:Koetbullar ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 80 ;
-    geo:hasGeometry suni:7a2b1560-c346-41b6-915b-a10547cd3440_geom .
+    geo:hasGeometry suni:7a2b1560-c346-41b6-915b-a10547cd3440_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:7abeb59f-2759-4736-897c-69d50f0cdb27 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 144 ;
-    geo:hasGeometry suni:7abeb59f-2759-4736-897c-69d50f0cdb27_geom .
+    geo:hasGeometry suni:7abeb59f-2759-4736-897c-69d50f0cdb27_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:7c93771e-f108-4c1a-8ede-799d87629036 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 133 ;
-    geo:hasGeometry suni:7c93771e-f108-4c1a-8ede-799d87629036_geom .
+    geo:hasGeometry suni:7c93771e-f108-4c1a-8ede-799d87629036_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:7ee2bf5f-4059-4b49-af4f-173eb49582c7 a fairyland:Street ;
     suni:Name "Street"^^xsd:string ;
     suni:Time_Period "Minion IIa"^^xsd:string ;
     suni:Trench "Norrfors"^^xsd:string ;
     suni:fid 167 ;
-    geo:hasGeometry suni:7ee2bf5f-4059-4b49-af4f-173eb49582c7_geom .
+    geo:hasGeometry suni:7ee2bf5f-4059-4b49-af4f-173eb49582c7_geom ;
+    fairyland:hasperiod fairyland:Minion_IIa ;
+    fairyland:hastrench fairyland:Norrfors ;
+    fairyland:timeperiod fairyland:MinionIIa .
 
 suni:7effe8a8-89ea-40c7-b095-ac70c7f9c030 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 63 ;
-    geo:hasGeometry suni:7effe8a8-89ea-40c7-b095-ac70c7f9c030_geom .
+    geo:hasGeometry suni:7effe8a8-89ea-40c7-b095-ac70c7f9c030_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:81a150a3-f5f9-4f03-84d7-b5e043f9d371 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 77 ;
-    geo:hasGeometry suni:81a150a3-f5f9-4f03-84d7-b5e043f9d371_geom .
+    geo:hasGeometry suni:81a150a3-f5f9-4f03-84d7-b5e043f9d371_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:8522a6f2-b165-4529-9dd6-30bc0da88476 a fairyland:Kangaroo ;
     suni:Condition "flatten"^^xsd:string ;
@@ -671,35 +858,45 @@ suni:8522a6f2-b165-4529-9dd6-30bc0da88476 a fairyland:Kangaroo ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 71 ;
-    geo:hasGeometry suni:8522a6f2-b165-4529-9dd6-30bc0da88476_geom .
+    geo:hasGeometry suni:8522a6f2-b165-4529-9dd6-30bc0da88476_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:866cbf6d-496f-4aff-acce-5f47e32fdcd9 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 19 ;
-    geo:hasGeometry suni:866cbf6d-496f-4aff-acce-5f47e32fdcd9_geom .
+    geo:hasGeometry suni:866cbf6d-496f-4aff-acce-5f47e32fdcd9_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:86997e8b-4662-4c0f-a2d1-b17edc36ac8a a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 76 ;
-    geo:hasGeometry suni:86997e8b-4662-4c0f-a2d1-b17edc36ac8a_geom .
+    geo:hasGeometry suni:86997e8b-4662-4c0f-a2d1-b17edc36ac8a_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:86f8a06e-51c7-41be-935b-e70bfcaa67b7 a fairyland:AllenKey ;
     suni:Name "Allen key (Inbusschlüssel)"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 68 ;
-    geo:hasGeometry suni:86f8a06e-51c7-41be-935b-e70bfcaa67b7_geom .
+    geo:hasGeometry suni:86f8a06e-51c7-41be-935b-e70bfcaa67b7_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:89b07983-8e6c-4b79-a97f-618a913945ee a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 158 ;
-    geo:hasGeometry suni:89b07983-8e6c-4b79-a97f-618a913945ee_geom .
+    geo:hasGeometry suni:89b07983-8e6c-4b79-a97f-618a913945ee_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:8a40c3de-b0fb-4dc0-84d4-2000b15d6f60 a fairyland:Minion ;
     suni:Condition "flatten"^^xsd:string ;
@@ -707,28 +904,36 @@ suni:8a40c3de-b0fb-4dc0-84d4-2000b15d6f60 a fairyland:Minion ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 56 ;
-    geo:hasGeometry suni:8a40c3de-b0fb-4dc0-84d4-2000b15d6f60_geom .
+    geo:hasGeometry suni:8a40c3de-b0fb-4dc0-84d4-2000b15d6f60_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:8a782006-277b-43df-b476-622e770433ba a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 120 ;
-    geo:hasGeometry suni:8a782006-277b-43df-b476-622e770433ba_geom .
+    geo:hasGeometry suni:8a782006-277b-43df-b476-622e770433ba_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:8e91ce6c-6177-45e0-80f4-477fd6e14587 a fairyland:Street ;
     suni:Name "Street"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 165 ;
-    geo:hasGeometry suni:8e91ce6c-6177-45e0-80f4-477fd6e14587_geom .
+    geo:hasGeometry suni:8e91ce6c-6177-45e0-80f4-477fd6e14587_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:8fc69a50-3bd3-43ef-9f74-2e52360f520c a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 49 ;
-    geo:hasGeometry suni:8fc69a50-3bd3-43ef-9f74-2e52360f520c_geom .
+    geo:hasGeometry suni:8fc69a50-3bd3-43ef-9f74-2e52360f520c_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:90d8c5f4-021b-414b-8219-47f4e39bbff6 a fairyland:Koetbullar ;
     suni:Condition "smashed"^^xsd:string ;
@@ -736,56 +941,72 @@ suni:90d8c5f4-021b-414b-8219-47f4e39bbff6 a fairyland:Koetbullar ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 104 ;
-    geo:hasGeometry suni:90d8c5f4-021b-414b-8219-47f4e39bbff6_geom .
+    geo:hasGeometry suni:90d8c5f4-021b-414b-8219-47f4e39bbff6_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:91417e18-f9c7-49d7-80b2-ec408b898147 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 61 ;
-    geo:hasGeometry suni:91417e18-f9c7-49d7-80b2-ec408b898147_geom .
+    geo:hasGeometry suni:91417e18-f9c7-49d7-80b2-ec408b898147_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:92bc7954-d3e5-456e-a3f9-15ed633ca086 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 40 ;
-    geo:hasGeometry suni:92bc7954-d3e5-456e-a3f9-15ed633ca086_geom .
+    geo:hasGeometry suni:92bc7954-d3e5-456e-a3f9-15ed633ca086_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:9460842b-7734-4665-82a2-0085a33ce453 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 153 ;
-    geo:hasGeometry suni:9460842b-7734-4665-82a2-0085a33ce453_geom .
+    geo:hasGeometry suni:9460842b-7734-4665-82a2-0085a33ce453_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:97e0311e-f072-4b6c-8619-4c8b81cb2232 a fairyland:Crater ;
     suni:Name "Crater"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 47 ;
-    geo:hasGeometry suni:97e0311e-f072-4b6c-8619-4c8b81cb2232_geom .
+    geo:hasGeometry suni:97e0311e-f072-4b6c-8619-4c8b81cb2232_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:9a404584-fd22-42a3-ba09-2382a8cc7596 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 97 ;
-    geo:hasGeometry suni:9a404584-fd22-42a3-ba09-2382a8cc7596_geom .
+    geo:hasGeometry suni:9a404584-fd22-42a3-ba09-2382a8cc7596_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:9d5f5c58-94c9-426a-862c-0bce70aa017e a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 66 ;
-    geo:hasGeometry suni:9d5f5c58-94c9-426a-862c-0bce70aa017e_geom .
+    geo:hasGeometry suni:9d5f5c58-94c9-426a-862c-0bce70aa017e_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:9e80e441-dc60-4514-8477-702e7d8ea321 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 64 ;
-    geo:hasGeometry suni:9e80e441-dc60-4514-8477-702e7d8ea321_geom .
+    geo:hasGeometry suni:9e80e441-dc60-4514-8477-702e7d8ea321_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:Name a owl:DatatypeProperty ;
     rdfs:domain suni:29555707-7201-41b5-8ef4-1c59caac6f59 ;
@@ -805,14 +1026,18 @@ suni:a0108469-2166-4732-8aff-f6429f29a82f a fairyland:Koetbullar ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 124 ;
-    geo:hasGeometry suni:a0108469-2166-4732-8aff-f6429f29a82f_geom .
+    geo:hasGeometry suni:a0108469-2166-4732-8aff-f6429f29a82f_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:a09111ca-c359-48cc-9a96-e79673caa0b8 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 113 ;
-    geo:hasGeometry suni:a09111ca-c359-48cc-9a96-e79673caa0b8_geom .
+    geo:hasGeometry suni:a09111ca-c359-48cc-9a96-e79673caa0b8_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:a3006e8d-46d6-4db0-81aa-23238514e5eb a fairyland:Minion ;
     suni:Condition "flatten"^^xsd:string ;
@@ -820,21 +1045,27 @@ suni:a3006e8d-46d6-4db0-81aa-23238514e5eb a fairyland:Minion ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 41 ;
-    geo:hasGeometry suni:a3006e8d-46d6-4db0-81aa-23238514e5eb_geom .
+    geo:hasGeometry suni:a3006e8d-46d6-4db0-81aa-23238514e5eb_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:a3228d61-d64a-4b1f-be73-130b222b1c11 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 3 ;
-    geo:hasGeometry suni:a3228d61-d64a-4b1f-be73-130b222b1c11_geom .
+    geo:hasGeometry suni:a3228d61-d64a-4b1f-be73-130b222b1c11_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:a7f106af-5755-44ed-9ba2-86b1110e21f7 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 17 ;
-    geo:hasGeometry suni:a7f106af-5755-44ed-9ba2-86b1110e21f7_geom .
+    geo:hasGeometry suni:a7f106af-5755-44ed-9ba2-86b1110e21f7_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:a9d036a7-9001-47c8-89db-54c0fe8d6829 a fairyland:Minion ;
     suni:Condition "flatten"^^xsd:string ;
@@ -842,7 +1073,9 @@ suni:a9d036a7-9001-47c8-89db-54c0fe8d6829 a fairyland:Minion ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 37 ;
-    geo:hasGeometry suni:a9d036a7-9001-47c8-89db-54c0fe8d6829_geom .
+    geo:hasGeometry suni:a9d036a7-9001-47c8-89db-54c0fe8d6829_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:ab7a69ca-6c8f-4d13-893b-3702231a60b7 a fairyland:Minion ;
     suni:Condition "flatten"^^xsd:string ;
@@ -850,21 +1083,28 @@ suni:ab7a69ca-6c8f-4d13-893b-3702231a60b7 a fairyland:Minion ;
     suni:Time_Period "Minion IIa"^^xsd:string ;
     suni:Trench "Norrfors"^^xsd:string ;
     suni:fid 168 ;
-    geo:hasGeometry suni:ab7a69ca-6c8f-4d13-893b-3702231a60b7_geom .
+    geo:hasGeometry suni:ab7a69ca-6c8f-4d13-893b-3702231a60b7_geom ;
+    fairyland:hasperiod fairyland:Minion_IIa ;
+    fairyland:hastrench fairyland:Norrfors ;
+    fairyland:timeperiod fairyland:MinionIIa .
 
 suni:abb845a6-5386-459e-938f-5100e0af1f72 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 126 ;
-    geo:hasGeometry suni:abb845a6-5386-459e-938f-5100e0af1f72_geom .
+    geo:hasGeometry suni:abb845a6-5386-459e-938f-5100e0af1f72_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:b1984fb3-ca88-4453-8fa3-b782d735052c a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 6 ;
-    geo:hasGeometry suni:b1984fb3-ca88-4453-8fa3-b782d735052c_geom .
+    geo:hasGeometry suni:b1984fb3-ca88-4453-8fa3-b782d735052c_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:b3a42fde-e5a1-4a7f-912f-ef0fe1019b2b a fairyland:Koetbullar ;
     suni:Condition "smashed"^^xsd:string ;
@@ -872,42 +1112,54 @@ suni:b3a42fde-e5a1-4a7f-912f-ef0fe1019b2b a fairyland:Koetbullar ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 85 ;
-    geo:hasGeometry suni:b3a42fde-e5a1-4a7f-912f-ef0fe1019b2b_geom .
+    geo:hasGeometry suni:b3a42fde-e5a1-4a7f-912f-ef0fe1019b2b_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:b6233e40-079e-447d-b960-2f59a90dcd6e a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 121 ;
-    geo:hasGeometry suni:b6233e40-079e-447d-b960-2f59a90dcd6e_geom .
+    geo:hasGeometry suni:b6233e40-079e-447d-b960-2f59a90dcd6e_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:b70a68c4-e63b-445d-8f0f-ec2384dc1363 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 123 ;
-    geo:hasGeometry suni:b70a68c4-e63b-445d-8f0f-ec2384dc1363_geom .
+    geo:hasGeometry suni:b70a68c4-e63b-445d-8f0f-ec2384dc1363_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:b7b8283e-fd64-4b1f-b6e3-81a71091b63a a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 128 ;
-    geo:hasGeometry suni:b7b8283e-fd64-4b1f-b6e3-81a71091b63a_geom .
+    geo:hasGeometry suni:b7b8283e-fd64-4b1f-b6e3-81a71091b63a_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:b7ee573a-bf90-4f57-b159-39e1fc2822a8 a fairyland:Stone ;
     suni:Name "Stone"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 44 ;
-    geo:hasGeometry suni:b7ee573a-bf90-4f57-b159-39e1fc2822a8_geom .
+    geo:hasGeometry suni:b7ee573a-bf90-4f57-b159-39e1fc2822a8_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:b8b8a52d-9851-4436-9d74-90cc18bdc8e1 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 107 ;
-    geo:hasGeometry suni:b8b8a52d-9851-4436-9d74-90cc18bdc8e1_geom .
+    geo:hasGeometry suni:b8b8a52d-9851-4436-9d74-90cc18bdc8e1_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:b8ca6de4-79fe-49d2-b786-e5a01b2dc2a0 a fairyland:Koetbullar ;
     suni:Condition "smashed"^^xsd:string ;
@@ -915,21 +1167,27 @@ suni:b8ca6de4-79fe-49d2-b786-e5a01b2dc2a0 a fairyland:Koetbullar ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 60 ;
-    geo:hasGeometry suni:b8ca6de4-79fe-49d2-b786-e5a01b2dc2a0_geom .
+    geo:hasGeometry suni:b8ca6de4-79fe-49d2-b786-e5a01b2dc2a0_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:b9b8ed23-6d56-4374-b098-d5fe1a84c94f a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 30 ;
-    geo:hasGeometry suni:b9b8ed23-6d56-4374-b098-d5fe1a84c94f_geom .
+    geo:hasGeometry suni:b9b8ed23-6d56-4374-b098-d5fe1a84c94f_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:ba37ba09-e4e5-4785-886e-bf6e84dbfb8a a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 150 ;
-    geo:hasGeometry suni:ba37ba09-e4e5-4785-886e-bf6e84dbfb8a_geom .
+    geo:hasGeometry suni:ba37ba09-e4e5-4785-886e-bf6e84dbfb8a_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:ba7170d7-475e-4502-9cbd-054d5d326a7d a fairyland:Minion ;
     suni:Condition "flatten"^^xsd:string ;
@@ -937,70 +1195,91 @@ suni:ba7170d7-475e-4502-9cbd-054d5d326a7d a fairyland:Minion ;
     suni:Time_Period "Minion IIb"^^xsd:string ;
     suni:Trench "Norrfors"^^xsd:string ;
     suni:fid 171 ;
-    geo:hasGeometry suni:ba7170d7-475e-4502-9cbd-054d5d326a7d_geom .
+    geo:hasGeometry suni:ba7170d7-475e-4502-9cbd-054d5d326a7d_geom ;
+    fairyland:hasperiod fairyland:Minion_IIb ;
+    fairyland:hastrench fairyland:Norrfors ;
+    fairyland:timeperiod fairyland:MinionIIb .
 
 suni:bb2e25bb-08ac-43b7-bdd0-c0fb04835eb8 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 86 ;
-    geo:hasGeometry suni:bb2e25bb-08ac-43b7-bdd0-c0fb04835eb8_geom .
+    geo:hasGeometry suni:bb2e25bb-08ac-43b7-bdd0-c0fb04835eb8_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:bd4e5cb6-b4bc-4d65-921d-21dec34dda1b a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 110 ;
-    geo:hasGeometry suni:bd4e5cb6-b4bc-4d65-921d-21dec34dda1b_geom .
+    geo:hasGeometry suni:bd4e5cb6-b4bc-4d65-921d-21dec34dda1b_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:c08f3cf1-e573-4914-b15f-b249261d9fab a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 125 ;
-    geo:hasGeometry suni:c08f3cf1-e573-4914-b15f-b249261d9fab_geom .
+    geo:hasGeometry suni:c08f3cf1-e573-4914-b15f-b249261d9fab_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:c2174141-51b4-4932-b3b3-4526eb6245d5 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 95 ;
-    geo:hasGeometry suni:c2174141-51b4-4932-b3b3-4526eb6245d5_geom .
+    geo:hasGeometry suni:c2174141-51b4-4932-b3b3-4526eb6245d5_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:c2efc23f-47bb-47cc-9786-739739a84f3b a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 96 ;
-    geo:hasGeometry suni:c2efc23f-47bb-47cc-9786-739739a84f3b_geom .
+    geo:hasGeometry suni:c2efc23f-47bb-47cc-9786-739739a84f3b_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:c3bb016c-19bf-454f-8530-ffe68ec1da1a a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 115 ;
-    geo:hasGeometry suni:c3bb016c-19bf-454f-8530-ffe68ec1da1a_geom .
+    geo:hasGeometry suni:c3bb016c-19bf-454f-8530-ffe68ec1da1a_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:c5f35a70-8ad6-4cd8-8b0d-519a9ce95b94 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 93 ;
-    geo:hasGeometry suni:c5f35a70-8ad6-4cd8-8b0d-519a9ce95b94_geom .
+    geo:hasGeometry suni:c5f35a70-8ad6-4cd8-8b0d-519a9ce95b94_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:c62d6ed4-30ab-402b-ba2e-c432aaa0d53b a fairyland:Street ;
     suni:Name "Street"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 166 ;
-    geo:hasGeometry suni:c62d6ed4-30ab-402b-ba2e-c432aaa0d53b_geom .
+    geo:hasGeometry suni:c62d6ed4-30ab-402b-ba2e-c432aaa0d53b_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:c7c46dd9-6977-4662-86fa-7bd465591b65 a fairyland:Stone ;
     suni:Name "Stone"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 45 ;
-    geo:hasGeometry suni:c7c46dd9-6977-4662-86fa-7bd465591b65_geom .
+    geo:hasGeometry suni:c7c46dd9-6977-4662-86fa-7bd465591b65_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:cbe5d6de-a929-4641-9d9b-9b9b2498eeb3 a fairyland:Koetbullar ;
     suni:Condition "smashed"^^xsd:string ;
@@ -1008,14 +1287,18 @@ suni:cbe5d6de-a929-4641-9d9b-9b9b2498eeb3 a fairyland:Koetbullar ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 131 ;
-    geo:hasGeometry suni:cbe5d6de-a929-4641-9d9b-9b9b2498eeb3_geom .
+    geo:hasGeometry suni:cbe5d6de-a929-4641-9d9b-9b9b2498eeb3_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:cc01dfc5-6d56-472f-9045-d22f22b2ca3a a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 100 ;
-    geo:hasGeometry suni:cc01dfc5-6d56-472f-9045-d22f22b2ca3a_geom .
+    geo:hasGeometry suni:cc01dfc5-6d56-472f-9045-d22f22b2ca3a_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:cc774e18-df41-45a3-976b-bbbbc25ecff1 a fairyland:Koetbullar ;
     suni:Condition "smashed"^^xsd:string ;
@@ -1023,14 +1306,18 @@ suni:cc774e18-df41-45a3-976b-bbbbc25ecff1 a fairyland:Koetbullar ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 69 ;
-    geo:hasGeometry suni:cc774e18-df41-45a3-976b-bbbbc25ecff1_geom .
+    geo:hasGeometry suni:cc774e18-df41-45a3-976b-bbbbc25ecff1_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:cdab6a0b-7238-4f14-894e-b5fe7bb763d9 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 102 ;
-    geo:hasGeometry suni:cdab6a0b-7238-4f14-894e-b5fe7bb763d9_geom .
+    geo:hasGeometry suni:cdab6a0b-7238-4f14-894e-b5fe7bb763d9_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:ce36306d-ab71-49f0-aed2-6cea0b2cf1d7 a fairyland:Koetbullar ;
     suni:Condition "smashed"^^xsd:string ;
@@ -1038,84 +1325,108 @@ suni:ce36306d-ab71-49f0-aed2-6cea0b2cf1d7 a fairyland:Koetbullar ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 73 ;
-    geo:hasGeometry suni:ce36306d-ab71-49f0-aed2-6cea0b2cf1d7_geom .
+    geo:hasGeometry suni:ce36306d-ab71-49f0-aed2-6cea0b2cf1d7_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:cfd8197a-ab1b-41e3-9c44-30bb2d1827ac a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 151 ;
-    geo:hasGeometry suni:cfd8197a-ab1b-41e3-9c44-30bb2d1827ac_geom .
+    geo:hasGeometry suni:cfd8197a-ab1b-41e3-9c44-30bb2d1827ac_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:d04e1b9c-9c7e-4e90-86a1-9c1e367de3e4 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 127 ;
-    geo:hasGeometry suni:d04e1b9c-9c7e-4e90-86a1-9c1e367de3e4_geom .
+    geo:hasGeometry suni:d04e1b9c-9c7e-4e90-86a1-9c1e367de3e4_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:d1248c32-d156-418a-a10f-104d770ca6fd a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 140 ;
-    geo:hasGeometry suni:d1248c32-d156-418a-a10f-104d770ca6fd_geom .
+    geo:hasGeometry suni:d1248c32-d156-418a-a10f-104d770ca6fd_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:d2e36d44-1ea1-4205-8920-c97cdab3b3aa a fairyland:Street ;
     suni:Name "Street"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 164 ;
-    geo:hasGeometry suni:d2e36d44-1ea1-4205-8920-c97cdab3b3aa_geom .
+    geo:hasGeometry suni:d2e36d44-1ea1-4205-8920-c97cdab3b3aa_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:d39b0a02-169d-40a8-897d-7c7a5eee497d a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 138 ;
-    geo:hasGeometry suni:d39b0a02-169d-40a8-897d-7c7a5eee497d_geom .
+    geo:hasGeometry suni:d39b0a02-169d-40a8-897d-7c7a5eee497d_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:d46e1360-2fe2-43a6-80fc-892d3d2881c1 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 52 ;
-    geo:hasGeometry suni:d46e1360-2fe2-43a6-80fc-892d3d2881c1_geom .
+    geo:hasGeometry suni:d46e1360-2fe2-43a6-80fc-892d3d2881c1_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:d5710f70-63c7-4107-ac87-3fad0dca5830 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 11 ;
-    geo:hasGeometry suni:d5710f70-63c7-4107-ac87-3fad0dca5830_geom .
+    geo:hasGeometry suni:d5710f70-63c7-4107-ac87-3fad0dca5830_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:dc5ba2e0-7975-466e-930f-a5469030df40 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 10 ;
-    geo:hasGeometry suni:dc5ba2e0-7975-466e-930f-a5469030df40_geom .
+    geo:hasGeometry suni:dc5ba2e0-7975-466e-930f-a5469030df40_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:dca0e312-48bb-4ff0-9316-fa71cdda0c9c a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 5 ;
-    geo:hasGeometry suni:dca0e312-48bb-4ff0-9316-fa71cdda0c9c_geom .
+    geo:hasGeometry suni:dca0e312-48bb-4ff0-9316-fa71cdda0c9c_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:ddc25136-83aa-463c-9460-c718847292e0 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 12 ;
-    geo:hasGeometry suni:ddc25136-83aa-463c-9460-c718847292e0_geom .
+    geo:hasGeometry suni:ddc25136-83aa-463c-9460-c718847292e0_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:de109b58-0791-4eb7-9fff-d536f15297af a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 8 ;
-    geo:hasGeometry suni:de109b58-0791-4eb7-9fff-d536f15297af_geom .
+    geo:hasGeometry suni:de109b58-0791-4eb7-9fff-d536f15297af_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:e1a4e1ed-5021-4210-80a0-248b4c59ba2b a fairyland:Koetbullar ;
     suni:Condition "smashed"^^xsd:string ;
@@ -1123,49 +1434,63 @@ suni:e1a4e1ed-5021-4210-80a0-248b4c59ba2b a fairyland:Koetbullar ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 112 ;
-    geo:hasGeometry suni:e1a4e1ed-5021-4210-80a0-248b4c59ba2b_geom .
+    geo:hasGeometry suni:e1a4e1ed-5021-4210-80a0-248b4c59ba2b_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:e2bb5213-40ec-467b-ab58-dfd191d67b15 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 25 ;
-    geo:hasGeometry suni:e2bb5213-40ec-467b-ab58-dfd191d67b15_geom .
+    geo:hasGeometry suni:e2bb5213-40ec-467b-ab58-dfd191d67b15_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:e46dfffe-e0b5-4b6b-8545-7f7133231fcd a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 106 ;
-    geo:hasGeometry suni:e46dfffe-e0b5-4b6b-8545-7f7133231fcd_geom .
+    geo:hasGeometry suni:e46dfffe-e0b5-4b6b-8545-7f7133231fcd_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:e4f0d99c-176b-4354-872f-84ea358ac1d1 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 51 ;
-    geo:hasGeometry suni:e4f0d99c-176b-4354-872f-84ea358ac1d1_geom .
+    geo:hasGeometry suni:e4f0d99c-176b-4354-872f-84ea358ac1d1_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:e537eb8d-e10d-4cfa-88d8-f7e4e74e5a66 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 139 ;
-    geo:hasGeometry suni:e537eb8d-e10d-4cfa-88d8-f7e4e74e5a66_geom .
+    geo:hasGeometry suni:e537eb8d-e10d-4cfa-88d8-f7e4e74e5a66_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:e6b91a0a-28db-4f3c-bbe7-3191b69ece51 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 94 ;
-    geo:hasGeometry suni:e6b91a0a-28db-4f3c-bbe7-3191b69ece51_geom .
+    geo:hasGeometry suni:e6b91a0a-28db-4f3c-bbe7-3191b69ece51_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:e80677e6-20b7-4e3b-85f3-26eabae3fe58 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 155 ;
-    geo:hasGeometry suni:e80677e6-20b7-4e3b-85f3-26eabae3fe58_geom .
+    geo:hasGeometry suni:e80677e6-20b7-4e3b-85f3-26eabae3fe58_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:e9b6f78c-acb3-44a8-a83d-5230ac8adfb8 a fairyland:Koetbullar ;
     suni:Condition "smashed"^^xsd:string ;
@@ -1173,14 +1498,18 @@ suni:e9b6f78c-acb3-44a8-a83d-5230ac8adfb8 a fairyland:Koetbullar ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 89 ;
-    geo:hasGeometry suni:e9b6f78c-acb3-44a8-a83d-5230ac8adfb8_geom .
+    geo:hasGeometry suni:e9b6f78c-acb3-44a8-a83d-5230ac8adfb8_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:ea530a2d-219a-4b12-a8b4-4cf7ca09b6b1 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 16 ;
-    geo:hasGeometry suni:ea530a2d-219a-4b12-a8b4-4cf7ca09b6b1_geom .
+    geo:hasGeometry suni:ea530a2d-219a-4b12-a8b4-4cf7ca09b6b1_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:ebd26bae-6b1e-419b-ab53-a52e011f6c81 a fairyland:Koetbullar ;
     suni:Condition "smashed"^^xsd:string ;
@@ -1188,28 +1517,36 @@ suni:ebd26bae-6b1e-419b-ab53-a52e011f6c81 a fairyland:Koetbullar ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 72 ;
-    geo:hasGeometry suni:ebd26bae-6b1e-419b-ab53-a52e011f6c81_geom .
+    geo:hasGeometry suni:ebd26bae-6b1e-419b-ab53-a52e011f6c81_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:ec69643d-e636-443f-95a0-bb55b9614841 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 117 ;
-    geo:hasGeometry suni:ec69643d-e636-443f-95a0-bb55b9614841_geom .
+    geo:hasGeometry suni:ec69643d-e636-443f-95a0-bb55b9614841_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:eec807e9-47d0-4801-a3f8-017c818a99e7 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 9 ;
-    geo:hasGeometry suni:eec807e9-47d0-4801-a3f8-017c818a99e7_geom .
+    geo:hasGeometry suni:eec807e9-47d0-4801-a3f8-017c818a99e7_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:f148606b-a850-4d16-a627-606fb8ee5577 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 87 ;
-    geo:hasGeometry suni:f148606b-a850-4d16-a627-606fb8ee5577_geom .
+    geo:hasGeometry suni:f148606b-a850-4d16-a627-606fb8ee5577_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:f4c616a4-3188-45f4-ad66-878498003c20 a fairyland:Minion ;
     suni:Condition "flatten"^^xsd:string ;
@@ -1217,21 +1554,27 @@ suni:f4c616a4-3188-45f4-ad66-878498003c20 a fairyland:Minion ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 34 ;
-    geo:hasGeometry suni:f4c616a4-3188-45f4-ad66-878498003c20_geom .
+    geo:hasGeometry suni:f4c616a4-3188-45f4-ad66-878498003c20_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:f533c183-22fb-43cf-9bd1-265caaa661a0 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 146 ;
-    geo:hasGeometry suni:f533c183-22fb-43cf-9bd1-265caaa661a0_geom .
+    geo:hasGeometry suni:f533c183-22fb-43cf-9bd1-265caaa661a0_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:fab26445-cb25-492a-8d8a-47f31706a753 a fairyland:Koetbullar ;
     suni:Name "Kötbullar"^^xsd:string ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 4 ;
-    geo:hasGeometry suni:fab26445-cb25-492a-8d8a-47f31706a753_geom .
+    geo:hasGeometry suni:fab26445-cb25-492a-8d8a-47f31706a753_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:fd82485d-f6e8-4413-9120-c739f0cc1e82 a fairyland:Koetbullar ;
     suni:Condition "smashed"^^xsd:string ;
@@ -1239,7 +1582,9 @@ suni:fd82485d-f6e8-4413-9120-c739f0cc1e82 a fairyland:Koetbullar ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 83 ;
-    geo:hasGeometry suni:fd82485d-f6e8-4413-9120-c739f0cc1e82_geom .
+    geo:hasGeometry suni:fd82485d-f6e8-4413-9120-c739f0cc1e82_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:fd8fe6ba-e13a-4ef3-9047-626fc45be9e2 a fairyland:Minion ;
     suni:Condition "flatten"^^xsd:string ;
@@ -1247,7 +1592,10 @@ suni:fd8fe6ba-e13a-4ef3-9047-626fc45be9e2 a fairyland:Minion ;
     suni:Time_Period "Minion IIb"^^xsd:string ;
     suni:Trench "Norrfors"^^xsd:string ;
     suni:fid 170 ;
-    geo:hasGeometry suni:fd8fe6ba-e13a-4ef3-9047-626fc45be9e2_geom .
+    geo:hasGeometry suni:fd8fe6ba-e13a-4ef3-9047-626fc45be9e2_geom ;
+    fairyland:hasperiod fairyland:Minion_IIb ;
+    fairyland:hastrench fairyland:Norrfors ;
+    fairyland:timeperiod fairyland:MinionIIb .
 
 suni:fdf099f7-869f-499e-80c3-00c91f0a4d35 a fairyland:Minion ;
     suni:Condition "flatten"^^xsd:string ;
@@ -1255,7 +1603,9 @@ suni:fdf099f7-869f-499e-80c3-00c91f0a4d35 a fairyland:Minion ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 36 ;
-    geo:hasGeometry suni:fdf099f7-869f-499e-80c3-00c91f0a4d35_geom .
+    geo:hasGeometry suni:fdf099f7-869f-499e-80c3-00c91f0a4d35_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:fec6c570-b8d5-49be-aa15-8be41afd1aa3 a fairyland:Koetbullar ;
     suni:Condition "smashed"^^xsd:string ;
@@ -1263,7 +1613,9 @@ suni:fec6c570-b8d5-49be-aa15-8be41afd1aa3 a fairyland:Koetbullar ;
     suni:Time_Period "Minion"^^xsd:string ;
     suni:Trench "Ikea Land"^^xsd:string ;
     suni:fid 54 ;
-    geo:hasGeometry suni:fec6c570-b8d5-49be-aa15-8be41afd1aa3_geom .
+    geo:hasGeometry suni:fec6c570-b8d5-49be-aa15-8be41afd1aa3_geom ;
+    fairyland:hasperiod fairyland:Minion_Period ;
+    fairyland:hastrench fairyland:IkeaLand .
 
 suni:fid a owl:DatatypeProperty ;
     rdfs:domain suni:29555707-7201-41b5-8ef4-1c59caac6f59 ;
@@ -1844,6 +2196,10 @@ suni:fec6c570-b8d5-49be-aa15-8be41afd1aa3_geom a <http://www.opengis.net/ont/sf#
 geo:Feature a owl:Class ;
     rdfs:subClassOf geo:SpatialObject .
 
+fairyland:MinionI a fairyland:TimePeriod .
+
+fairyland:Minion_I a fairyland:TimePeriod .
+
 geo:Geometry a owl:Class ;
     rdfs:subClassOf geo:SpatialObject .
 
@@ -1852,8 +2208,22 @@ geo:SpatialObject a owl:Class .
 <http://www.opengis.net/ont/sf#MultiPolygon> a owl:Class ;
     rdfs:subClassOf geo:Geometry .
 
+fairyland:MinionIIb a fairyland:TimePeriod .
+
+fairyland:Minion_IIb a fairyland:TimePeriod .
+
 suni:29555707-7201-41b5-8ef4-1c59caac6f59 a owl:Class ;
     rdfs:subClassOf geo:Feature .
+
+fairyland:MinionIIa a fairyland:TimePeriod .
+
+fairyland:Minion_IIa a fairyland:TimePeriod .
+
+fairyland:Norrfors a fairyland:Trench .
+
+fairyland:IkeaLand a fairyland:Trench .
+
+fairyland:Minion_Period a fairyland:TimePeriod .
 
 <http://www.opengis.net/ont/sf#Polygon> a owl:Class ;
     rdfs:subClassOf geo:Geometry .
