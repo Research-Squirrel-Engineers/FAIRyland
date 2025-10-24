@@ -6,9 +6,9 @@ var minivowlresult={
  ],
  "nodes": [
   {
-   "name": "4079945b-30a0-4745-8d5d-fd721a7b6385",
+   "name": "29555707-7201-41b5-8ef4-1c59caac6f59",
    "type": "class",
-   "uri": "http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385"
+   "uri": "http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59"
   },
   {
    "name": "DatatypeProperty",
@@ -16,9 +16,9 @@ var minivowlresult={
    "uri": "http://www.w3.org/2002/07/owl#DatatypeProperty"
   },
   {
-   "name": "ProjectedCRS",
+   "name": "GeographicCRS",
    "type": "class",
-   "uri": "http://www.opengis.net/ont/crs/ProjectedCRS"
+   "uri": "http://www.opengis.net/ont/crs/GeographicCRS"
   },
   {
    "name": "NamedIndividual",
@@ -41,6 +41,11 @@ var minivowlresult={
    "uri": "http://www.opengis.net/ont/crs/AxisDirection"
   },
   {
+   "name": "Ellipsoid",
+   "type": "class",
+   "uri": "http://www.opengis.net/ont/crs/Ellipsoid"
+  },
+  {
    "name": "ObjectProperty",
    "type": "class",
    "uri": "http://www.w3.org/2002/07/owl#ObjectProperty"
@@ -51,9 +56,14 @@ var minivowlresult={
    "uri": "http://www.opengis.net/ont/sf#Polygon"
   },
   {
-   "name": "CartesianCoordinateSystem",
+   "name": "MultiPolygon",
    "type": "class",
-   "uri": "http://www.opengis.net/ont/crs/CartesianCoordinateSystem"
+   "uri": "http://www.opengis.net/ont/sf#MultiPolygon"
+  },
+  {
+   "name": "EllipsoidalCoordinateSystem",
+   "type": "class",
+   "uri": "http://www.opengis.net/ont/crs/EllipsoidalCoordinateSystem"
   },
   {
    "name": "PlanarCoordinateSystem",
@@ -74,66 +84,73 @@ var minivowlresult={
  "links": [
   {
    "source": 0,
-   "target": 8,
+   "target": 10,
    "valueTo": "hasGeometry",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
-   "source": 2,
-   "target": 10,
-   "valueTo": "coordinateSystem",
+   "source": 0,
+   "target": 9,
+   "valueTo": "hasGeometry",
    "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/crs/coordinateSystem"
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
-   "source": 2,
-   "target": 9,
+   "source": 12,
+   "target": 13,
+   "valueTo": "axis",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/crs/axis"
+  },
+  {
+   "source": 11,
+   "target": 13,
+   "valueTo": "axis",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/crs/axis"
+  },
+  {
+   "source": 4,
+   "target": 12,
    "valueTo": "coordinateSystem",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/crs/coordinateSystem"
   },
   {
    "source": 4,
-   "target": 10,
+   "target": 11,
    "valueTo": "coordinateSystem",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/crs/coordinateSystem"
   },
   {
-   "source": 4,
-   "target": 9,
+   "source": 2,
+   "target": 12,
+   "valueTo": "coordinateSystem",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/crs/coordinateSystem"
+  },
+  {
+   "source": 2,
+   "target": 11,
    "valueTo": "coordinateSystem",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/crs/coordinateSystem"
   },
   {
    "source": 3,
-   "target": 10,
+   "target": 12,
    "valueTo": "coordinateSystem",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/crs/coordinateSystem"
   },
   {
    "source": 3,
-   "target": 9,
+   "target": 11,
    "valueTo": "coordinateSystem",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/crs/coordinateSystem"
-  },
-  {
-   "source": 10,
-   "target": 11,
-   "valueTo": "axis",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/crs/axis"
-  },
-  {
-   "source": 9,
-   "target": 11,
-   "valueTo": "axis",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/crs/axis"
   }
  ]
 }

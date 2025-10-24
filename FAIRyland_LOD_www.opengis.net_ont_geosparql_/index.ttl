@@ -13,5 +13,5 @@
     void:objectsTarget geo: ;
     void:subjectsTarget <http://www.github.com/sparqlunicorn#FAIRyland_LOD> ;
     void:triples 1,
-        2 .
+        3 .
 

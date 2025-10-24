@@ -1,0 +1,12 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://www.github.com/sparqlunicorn#MultiPolygon_collection> a geo:GeometryCollection,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "MultiPolygon Instances Collection"@en ;
+    void:inDataset <http://www.github.com/sparqlunicorn#FAIRyland_LOD> ;
+    rdfs:member <http://www.github.com/sparqlunicorn#72d83c05-1969-4b24-a507-eb1450bffea4_geom>,
+        <http://www.github.com/sparqlunicorn#8e91ce6c-6177-45e0-80f4-477fd6e14587_geom> .
+

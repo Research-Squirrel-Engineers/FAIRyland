@@ -1,0 +1,9 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://www.github.com/sparqlunicorn#dc5ba2e0-7975-466e-930f-a5469030df40_geom> a <http://www.opengis.net/ont/sf#Polygon>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    void:inDataset <http://www.github.com/sparqlunicorn#FAIRyland_LOD> ;
+    geo:asWKT "POLYGON((20.02671199999999985 63.88012899999999661, 20.02671000000000134 63.88012899999999661, 20.02670799999999929 63.88012799999999913, 20.02670799999999929 63.88012700000000166, 20.02671000000000134 63.88012599999999708, 20.02671199999999985 63.88012599999999708, 20.02671499999999938 63.88012599999999708, 20.02671600000000041 63.88012700000000166, 20.02671499999999938 63.88012799999999913, 20.02671199999999985 63.88012899999999661))"^^geo:wktLiteral .
+

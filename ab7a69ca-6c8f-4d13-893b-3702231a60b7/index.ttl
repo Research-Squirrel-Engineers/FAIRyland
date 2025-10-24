@@ -1,0 +1,16 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://www.github.com/sparqlunicorn#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:ab7a69ca-6c8f-4d13-893b-3702231a60b7 a ns1:29555707-7201-41b5-8ef4-1c59caac6f59,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    void:inDataset ns1:FAIRyland_LOD ;
+    ns1:Condition "flatten"^^xsd:string ;
+    ns1:Name "Minions"^^xsd:string ;
+    ns1:Time_Period "Minion IIa"^^xsd:string ;
+    ns1:Trench "Norrfors"^^xsd:string ;
+    ns1:fid 168 ;
+    geo:hasGeometry ns1:ab7a69ca-6c8f-4d13-893b-3702231a60b7_geom .
+

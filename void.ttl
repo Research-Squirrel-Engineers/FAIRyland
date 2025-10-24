@@ -38,7 +38,7 @@
     void:objectsTarget geo: ;
     void:subjectsTarget <http://www.github.com/sparqlunicorn#FAIRyland_LOD> ;
     void:triples 1,
-        2 .
+        3 .
 
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_www.opengis.net_ont_sf_> a void:Linkset ;
     rdfs:label "Linkset: FAIRyland_LOD - Simple Features Vocabulary (sf:)"@en ;
@@ -111,7 +111,7 @@
 <http://www.github.com/sparqlunicorn#geo_FAIRyland_LOD_occ> a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.opengis.net/ont/geosparql# in FAIRyland_LOD" ;
     voaf:inDataset <http://www.github.com/sparqlunicorn#FAIRyland_LOD> ;
-    voaf:occurrences 6 .
+    voaf:occurrences 8 .
 
 <http://www.github.com/sparqlunicorn#odrl_FAIRyland_LOD_occ> a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/odrl/2/ in FAIRyland_LOD" ;
@@ -271,18 +271,14 @@ doap: a voaf:Vocabulary ;
     vann:preferredNamespaceUri "http://usefulinc.com/ns/doap#"^^xsd:anyURI ;
     voaf:usageInDataset doap:_FAIRyland_LOD_occ .
 
-<http://www.github.com/sparqlunicorn#FAIRyland_LOD_4079945b-30a0-4745-8d5d-fd721a7b6385> a void:Dataset ;
-    rdfs:label "Class Partition: 4079945b-30a0-4745-8d5d-fd721a7b6385"@en ;
-    void:class <http://www.github.com/sparqlunicorn#4079945b-30a0-4745-8d5d-fd721a7b6385> ;
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_29555707-7201-41b5-8ef4-1c59caac6f59> a void:Dataset ;
+    rdfs:label "Class Partition: 29555707-7201-41b5-8ef4-1c59caac6f59"@en ;
+    void:class <http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59> ;
     void:entities 172 .
 
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_AxisDirection> a void:Dataset ;
     rdfs:label "Class Partition: AxisDirection"@en ;
     void:class <http://www.opengis.net/ont/crs/AxisDirection> .
-
-<http://www.github.com/sparqlunicorn#FAIRyland_LOD_CartesianCoordinateSystem> a void:Dataset ;
-    rdfs:label "Class Partition: CartesianCoordinateSystem"@en ;
-    void:class <http://www.opengis.net/ont/crs/CartesianCoordinateSystem> .
 
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Collection> a void:Dataset ;
     rdfs:label "Class Partition: Collection"@en ;
@@ -298,6 +294,14 @@ doap: a voaf:Vocabulary ;
     rdfs:label "Class Partition: CoordinateSystemAxis"@en ;
     void:class <http://www.opengis.net/ont/crs/CoordinateSystemAxis> .
 
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_Ellipsoid> a void:Dataset ;
+    rdfs:label "Class Partition: Ellipsoid"@en ;
+    void:class <http://www.opengis.net/ont/crs/Ellipsoid> .
+
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_EllipsoidalCoordinateSystem> a void:Dataset ;
+    rdfs:label "Class Partition: EllipsoidalCoordinateSystem"@en ;
+    void:class <http://www.opengis.net/ont/crs/EllipsoidalCoordinateSystem> .
+
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Entity> a void:Dataset ;
     rdfs:label "Class Partition: Entity"@en ;
     void:class prov:Entity .
@@ -311,6 +315,10 @@ doap: a voaf:Vocabulary ;
     void:class geo:FeatureCollection ;
     void:entities 1 .
 
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_GeographicCRS> a void:Dataset ;
+    rdfs:label "Class Partition: GeographicCRS"@en ;
+    void:class <http://www.opengis.net/ont/crs/GeographicCRS> .
+
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Geometry> a void:Dataset ;
     rdfs:label "Class Partition: Geometry"@en ;
     void:class geo:Geometry .
@@ -318,7 +326,12 @@ doap: a voaf:Vocabulary ;
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_GeometryCollection> a void:Dataset ;
     rdfs:label "Class Partition: GeometryCollection"@en ;
     void:class geo:GeometryCollection ;
-    void:entities 1 .
+    void:entities 2 .
+
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_MultiPolygon> a void:Dataset ;
+    rdfs:label "Class Partition: MultiPolygon"@en ;
+    void:class <http://www.opengis.net/ont/sf#MultiPolygon> ;
+    void:entities 2 .
 
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Name> a void:Dataset ;
     rdfs:label "Property Partition: Name"@en ;
@@ -332,11 +345,7 @@ doap: a voaf:Vocabulary ;
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Polygon> a void:Dataset ;
     rdfs:label "Class Partition: Polygon"@en ;
     void:class <http://www.opengis.net/ont/sf#Polygon> ;
-    void:entities 172 .
-
-<http://www.github.com/sparqlunicorn#FAIRyland_LOD_ProjectedCRS> a void:Dataset ;
-    rdfs:label "Class Partition: ProjectedCRS"@en ;
-    void:class <http://www.opengis.net/ont/crs/ProjectedCRS> .
+    void:entities 170 .
 
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_SpatialObject> a void:Dataset ;
     rdfs:label "Class Partition: SpatialObject"@en ;
@@ -365,6 +374,11 @@ doap: a voaf:Vocabulary ;
     void:property <http://www.opengis.net/ont/crs/abbreviation> ;
     void:triples 2 .
 
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_approximates> a void:Dataset ;
+    rdfs:label "Property Partition: approximates"@en ;
+    void:property <http://www.opengis.net/ont/crs/approximates> ;
+    void:triples 1 .
+
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_asProj> a void:Dataset ;
     rdfs:label "Property Partition: asProj"@en ;
     void:property <http://www.opengis.net/ont/crs/asProj> ;
@@ -392,6 +406,11 @@ doap: a voaf:Vocabulary ;
     void:property <http://www.opengis.net/ont/crs/coordinateSystem> ;
     void:triples 1 .
 
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_definition> a void:Dataset ;
+    rdfs:label "Property Partition: definition"@en ;
+    void:property skos:definition ;
+    void:triples 1 .
+
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_direction> a void:Dataset ;
     rdfs:label "Property Partition: direction"@en ;
     void:property <http://www.opengis.net/ont/crs/direction> ;
@@ -407,10 +426,20 @@ doap: a voaf:Vocabulary ;
     void:property rdfs:domain ;
     void:triples 4 .
 
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_eccentricity> a void:Dataset ;
+    rdfs:label "Property Partition: eccentricity"@en ;
+    void:property <http://www.opengis.net/ont/crs/eccentricity> ;
+    void:triples 1 .
+
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_fid> a void:Dataset ;
     rdfs:label "Property Partition: fid"@en ;
     void:property <http://www.github.com/sparqlunicorn#fid> ;
     void:triples 172 .
+
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_flatteningParameter> a void:Dataset ;
+    rdfs:label "Property Partition: flatteningParameter"@en ;
+    void:property <http://www.opengis.net/ont/crs/flatteningParameter> ;
+    void:triples 1 .
 
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_hasGeometry> a void:Dataset ;
     rdfs:label "Property Partition: hasGeometry"@en ;
@@ -427,25 +456,40 @@ doap: a voaf:Vocabulary ;
     void:property <http://www.opengis.net/ont/crs/isBound> ;
     void:triples 1 .
 
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_isSphere> a void:Dataset ;
+    rdfs:label "Property Partition: isSphere"@en ;
+    void:property <http://www.opengis.net/ont/crs/isSphere> ;
+    void:triples 1 .
+
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_label> a void:Dataset ;
     rdfs:label "Property Partition: label"@en ;
     void:property rdfs:label ;
-    void:triples 4 .
+    void:triples 5 .
 
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_range> a void:Dataset ;
     rdfs:label "Property Partition: range"@en ;
     void:property rdfs:range ;
     void:triples 4 .
 
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_semiMajorAxis> a void:Dataset ;
+    rdfs:label "Property Partition: semiMajorAxis"@en ;
+    void:property <http://www.opengis.net/ont/crs/semiMajorAxis> ;
+    void:triples 1 .
+
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_semiMinorAxis> a void:Dataset ;
+    rdfs:label "Property Partition: semiMinorAxis"@en ;
+    void:property <http://www.opengis.net/ont/crs/semiMinorAxis> ;
+    void:triples 1 .
+
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_subClassOf> a void:Dataset ;
     rdfs:label "Property Partition: subClassOf"@en ;
     void:property rdfs:subClassOf ;
-    void:triples 4 .
+    void:triples 5 .
 
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_type> a void:Dataset ;
     rdfs:label "Property Partition: type"@en ;
     void:property rdf:type ;
-    void:triples 365 .
+    void:triples 367 .
 
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_unit> a void:Dataset ;
     rdfs:label "Property Partition: unit"@en ;
@@ -606,19 +650,19 @@ skos: a voaf:Vocabulary ;
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD> a void:Dataset,
         adms:Asset ;
     rdfs:label "FAIRyland_LOD"@en ;
-    vext:averageLiteralLength 197 ;
+    vext:averageLiteralLength 158 ;
     vext:averageObjectIRILength 61 ;
     vext:averagePropertyIRILength 42 ;
     vext:averageSubjectIRILength 73 ;
     vext:datatypes 3 ;
     vext:distinctBlankNodes 0 ;
-    vext:distinctIRIReferences 964 ;
-    vext:distinctLiterals 364 ;
-    vext:distinctRDFNodes 1328 ;
+    vext:distinctIRIReferences 982 ;
+    vext:distinctLiterals 365 ;
+    vext:distinctRDFNodes 1347 ;
     vext:languages 1 ;
     vext:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
-    dcterms:modified "2025-10-24T21:14:46"^^xsd:dateTime ;
+    dcterms:modified "2025-10-24T21:27:39"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -627,55 +671,64 @@ skos: a voaf:Vocabulary ;
     dcterms:title "FAIRyland_LOD"@en ;
     vann:preferredNamespacePrefix "unicorn"^^xsd:string ;
     vann:preferredNamespaceUri "http://www.github.com/sparqlunicorn#"^^xsd:anyURI ;
-    void:classPartition <http://www.github.com/sparqlunicorn#FAIRyland_LOD_4079945b-30a0-4745-8d5d-fd721a7b6385>,
+    void:classPartition <http://www.github.com/sparqlunicorn#FAIRyland_LOD_29555707-7201-41b5-8ef4-1c59caac6f59>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_AxisDirection>,
-        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_CartesianCoordinateSystem>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Collection>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_CoordinateSystemAxis>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Ellipsoid>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_EllipsoidalCoordinateSystem>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Entity>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Feature>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_FeatureCollection>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_GeographicCRS>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Geometry>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_GeometryCollection>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_MultiPolygon>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_PlanarCoordinateSystem>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Polygon>,
-        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_ProjectedCRS>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_SpatialObject>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_SpatialObjectCollection>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_SpatialReferenceSystem> ;
-    void:classes 16 ;
+    void:classes 18 ;
     void:dataDump <https://Research-Squirrel-Engineers.github.io/FAIRyland//index.ttl> ;
-    void:distinctObjects 570 ;
-    void:distinctSubjects 369 ;
-    void:entities 354 ;
+    void:distinctObjects 578 ;
+    void:distinctSubjects 372 ;
+    void:entities 355 ;
     void:feature <http://www.w3.org/ns/formats/RDFa>,
         <http://www.w3.org/ns/formats/Turtle> ;
-    void:properties 25 ;
+    void:properties 32 ;
     void:propertyPartition <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Condition>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Name>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Time_Period>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Trench>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_abbreviation>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_approximates>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_asProj>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_asProjJSON>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_asWKT>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_axis>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_coordinateSystem>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_definition>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_direction>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_domain>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_eccentricity>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_fid>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_flatteningParameter>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_hasGeometry>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_isApplicableTo>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_isBound>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_isSphere>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_label>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_range>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_semiMajorAxis>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_semiMinorAxis>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_subClassOf>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_type>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_unit>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_unit_auth_code>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_unit_code>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_unit_conversion_factor> ;
-    void:triples 2188 ;
+    void:triples 2202 ;
     void:uriSpace "http://www.github.com/sparqlunicorn#"^^xsd:string ;
     void:vocabulary vext:,
         dcam:,
