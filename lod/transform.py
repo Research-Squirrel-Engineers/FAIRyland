@@ -266,6 +266,46 @@ if geojson_path.exists():
 else:
     print("• Hinweis: points_tmp.geojson nicht gefunden – Abschnitt 4 übersprungen.")
 
+
+# ------------------------ 5) POLYGON-Koordinaten runden (6 Dezimalstellen) ------------------------
+def _round_number_str(num_str: str, places: int = 6) -> str:
+    try:
+        return f"{float(num_str):.{places}f}"
+    except Exception:
+        return num_str
+
+
+def round_polygon_wkt(text: str, places: int = 6) -> str:
+    # Nur echte POLYGON-Geometrien anfassen
+    if not text.lstrip().upper().startswith("POLYGON("):
+        return text
+    # Zahlen (inkl. negativ, mit Dezimalpunkt) runden
+    return re.sub(
+        r"(-?\d+(?:\.\d+)?)", lambda m: _round_number_str(m.group(1), places), text
+    )
+
+
+# Alle geo:asWKT-Literale prüfen und POLYGON-Koordinaten runden
+GEO_IRI2 = (
+    next((str(ns) for prefix, ns in g.namespaces() if prefix == "geo"), None)
+    or "http://www.opengis.net/ont/geosparql#"
+)
+GEO_asWKT2 = URIRef(GEO_IRI2 + "asWKT")
+GEO_wktLiteral2 = URIRef(GEO_IRI2 + "wktLiteral")
+
+rounded_polygons = 0
+for geom, _, lit in list(g.triples((None, GEO_asWKT2, None))):
+    if isinstance(lit, Literal):
+        txt = str(lit)
+        if txt.lstrip().upper().startswith("POLYGON("):
+            new_txt = round_polygon_wkt(txt, 6)
+            if new_txt != txt:
+                g.remove((geom, GEO_asWKT2, lit))
+                g.add((geom, GEO_asWKT2, Literal(new_txt, datatype=GEO_wktLiteral2)))
+                rounded_polygons += 1
+
+print(f"• POLYGON-Koordinaten auf 6 Dezimalstellen gerundet: {rounded_polygons}")
+
 # --- Datei speichern ---
 g.serialize(destination=str(out_path), format="turtle")
 print(f"✅ Fertig. Datei geschrieben: {out_path}")
