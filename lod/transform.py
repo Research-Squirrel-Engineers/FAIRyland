@@ -1,15 +1,14 @@
 from pathlib import Path
 import re
 import unicodedata
+import json
 from rdflib import Graph, Literal, URIRef, Namespace
 from rdflib.namespace import RDF
 
 # --- Immer relativer Pfad zum Script ---
 base_dir = Path(__file__).parent.resolve()
 in_path = base_dir / "fairyland.ttl"
-out_path = (
-    base_dir / "fairyland.ttl"
-)  # überschreibt in-place (kannst ändern auf fixed-Datei)
+out_path = base_dir / "fairyland.ttl"  # überschreibt in-place (bei Bedarf ändern)
 
 print(f"Arbeitsverzeichnis: {base_dir}")
 print(f"Lade Datei: {in_path.name}")
@@ -47,6 +46,10 @@ def normalise_polygon(text: str) -> str:
 
 
 def slugify_local(name: str) -> str:
+    """
+    Erzeuge einen lokalen Bezeichner im CamelCase aus einem Namen (Unicode-freundlich).
+    Beispiel: 'Minion IIa' -> 'MinionIIa', 'Kötbullar' -> 'Kotbullar'
+    """
     nfkd = unicodedata.normalize("NFKD", name)
     ascii_str = "".join(ch for ch in nfkd if not unicodedata.combining(ch))
     cleaned = re.sub(r"[^0-9A-Za-z]+", " ", ascii_str)
@@ -55,6 +58,10 @@ def slugify_local(name: str) -> str:
 
 
 def ensure_instance_local(local_name: str, class_local: str) -> URIRef:
+    """
+    Stelle sicher, dass eine Instanz fairyland:<local_name> existiert und den Typ fairyland:<class_local> besitzt.
+    Gibt die Instanz-URI zurück.
+    """
     inst = URIRef(FAIR + local_name)
     class_uri = URIRef(FAIR + class_local)
     if (inst, RDF.type, class_uri) not in g:
@@ -87,6 +94,7 @@ print(f"• WKT-Normalisierung: {changed_polygon} Literal(e) geändert.")
 name_pred = URIRef(SUNI + "Name")
 original_type = URIRef(SUNI + "29555707-7201-41b5-8ef4-1c59caac6f59")
 
+# Mapping-Tabelle (hart kodiert)
 mapping_name_to_class = {
     "Allen key (Inbusschlüssel)": "AllenKey",
     "Crater": "Crater",
@@ -198,6 +206,65 @@ for s, _, o in g.triples((None, time_pred_lit, None)):
         linked_time += 1
 
 print(f"• TimePeriod-Verknüpfungen gesetzt: {linked_time}")
+
+# ------------------------ 4) Punkte aus GeoJSON -> WKT POINT im TTL ------------------------
+geojson_path = base_dir / "points_tmp.geojson"
+if geojson_path.exists():
+    with geojson_path.open("r", encoding="utf-8") as f:
+        gj = json.load(f)
+
+    # GeoSPARQL-Namespace ermitteln (oder Standard setzen)
+    GEO_IRI = (
+        next((str(ns) for prefix, ns in g.namespaces() if prefix == "geo"), None)
+        or "http://www.opengis.net/ont/geosparql#"
+    )
+    GEO_hasGeometry = URIRef(GEO_IRI + "hasGeometry")
+    GEO_asWKT = URIRef(GEO_IRI + "asWKT")
+    GEO_wktLiteral = URIRef(GEO_IRI + "wktLiteral")
+
+    # id -> POINT(lon lat) aus GeoJSON (id entspricht suni:fid)
+    id_to_point_wkt = {}
+    for feat in gj.get("features", []):
+        props = feat.get("properties") or {}
+        fid = (
+            props.get("id") or props.get("ID") or props.get("fid")
+        )  # <- korrektes Mapping
+        geom = feat.get("geometry") or {}
+        if geom.get("type") == "Point":
+            coords = geom.get("coordinates")
+            if isinstance(coords, (list, tuple)) and len(coords) >= 2:
+                lon, lat = coords[0], coords[1]
+                wkt = f"POINT({lon} {lat})"
+                id_to_point_wkt[str(fid)] = wkt
+                try:
+                    id_to_point_wkt[int(fid)] = wkt
+                except Exception:
+                    pass
+
+    updated_points = 0
+    suni_fid_pred = URIRef(SUNI + "fid")
+
+    for s, _, o in list(g.triples((None, suni_fid_pred, None))):
+        key = str(o)
+        new_wkt = id_to_point_wkt.get(key)
+        if new_wkt is None:
+            try:
+                new_wkt = id_to_point_wkt.get(int(key))
+            except Exception:
+                new_wkt = None
+        if not new_wkt:
+            continue
+
+        for _, _, geom in g.triples((s, GEO_hasGeometry, None)):
+            # vorhandenes asWKT (egal welcher Inhalt) ersetzen
+            for _, _, oldlit in list(g.triples((geom, GEO_asWKT, None))):
+                g.remove((geom, GEO_asWKT, oldlit))
+            g.add((geom, GEO_asWKT, Literal(new_wkt, datatype=GEO_wktLiteral)))
+            updated_points += 1
+
+    print(f"• GeoJSON-Point-Updates durchgeführt: {updated_points}")
+else:
+    print("• Hinweis: points_tmp.geojson nicht gefunden – Abschnitt 4 übersprungen.")
 
 # --- Datei speichern ---
 g.serialize(destination=str(out_path), format="turtle")
