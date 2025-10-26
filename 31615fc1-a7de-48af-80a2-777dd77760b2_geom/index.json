@@ -1,1 +1,1 @@
-{"http://rdfs.org/ns/void#inDataset": ["http://www.github.com/sparqlunicorn#FAIRyland_LOD"], "http://www.opengis.net/ont/geosparql#asWKT": ["POINT(20.026582 63.880143)"], "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": ["http://www.opengis.net/ont/sf#Polygon"]}
+{"http://rdfs.org/ns/void#inDataset": ["http://www.github.com/sparqlunicorn#FAIRyland_LOD"], "http://www.opengis.net/ont/geosparql#asWKT": ["POINT(20.026582 63.880143)"], "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": ["http://www.opengis.net/ont/sf#Point"]}

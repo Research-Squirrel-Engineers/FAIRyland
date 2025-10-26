@@ -1,7 +1,7 @@
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 
-<http://www.github.com/sparqlunicorn#ddc25136-83aa-463c-9460-c718847292e0_geom> a <http://www.opengis.net/ont/sf#Polygon>,
+<http://www.github.com/sparqlunicorn#ddc25136-83aa-463c-9460-c718847292e0_geom> a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     void:inDataset <http://www.github.com/sparqlunicorn#FAIRyland_LOD> ;

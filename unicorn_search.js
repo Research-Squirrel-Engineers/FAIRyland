@@ -17,6 +17,7 @@ var search={
   "Minion_Period": "http://www.github.com/sparqlunicorn#nonns_Minion_Period.html",
   "MultiPolygon Instances Collection": "http://www.github.com/sparqlunicorn#MultiPolygon_collection",
   "Norrfors": "http://www.github.com/sparqlunicorn#nonns_Norrfors.html",
+  "Point Instances Collection": "http://www.github.com/sparqlunicorn#Point_collection",
   "Polygon Instances Collection": "http://www.github.com/sparqlunicorn#Polygon_collection",
   "Stone Instances Collection": "http://www.github.com/sparqlunicorn#Stone_collection",
   "Street Instances Collection": "http://www.github.com/sparqlunicorn#Street_collection",

@@ -49,7 +49,7 @@
     void:objectsTarget geo: ;
     void:subjectsTarget <http://www.github.com/sparqlunicorn#FAIRyland_LOD> ;
     void:triples 1,
-        9 .
+        10 .
 
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_www.opengis.net_ont_sf_> a void:Linkset ;
     rdfs:label "Linkset: FAIRyland_LOD - Simple Features Vocabulary (sf:)"@en ;
@@ -122,7 +122,7 @@
 <http://www.github.com/sparqlunicorn#geo_FAIRyland_LOD_occ> a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.opengis.net/ont/geosparql# in FAIRyland_LOD" ;
     voaf:inDataset <http://www.github.com/sparqlunicorn#FAIRyland_LOD> ;
-    voaf:occurrences 20 .
+    voaf:occurrences 22 .
 
 <http://www.github.com/sparqlunicorn#odrl_FAIRyland_LOD_occ> a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/odrl/2/ in FAIRyland_LOD" ;
@@ -346,7 +346,7 @@ doap: a voaf:Vocabulary ;
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_GeometryCollection> a void:Dataset ;
     rdfs:label "Class Partition: GeometryCollection"@en ;
     void:class geo:GeometryCollection ;
-    void:entities 2 .
+    void:entities 3 .
 
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Kangaroo> a void:Dataset ;
     rdfs:label "Class Partition: Kangaroo"@en ;
@@ -377,10 +377,15 @@ doap: a voaf:Vocabulary ;
     rdfs:label "Class Partition: PlanarCoordinateSystem"@en ;
     void:class <http://www.opengis.net/ont/crs/PlanarCoordinateSystem> .
 
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_Point> a void:Dataset ;
+    rdfs:label "Class Partition: Point"@en ;
+    void:class <http://www.opengis.net/ont/sf#Point> ;
+    void:entities 42 .
+
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Polygon> a void:Dataset ;
     rdfs:label "Class Partition: Polygon"@en ;
     void:class <http://www.opengis.net/ont/sf#Polygon> ;
-    void:entities 170 .
+    void:entities 128 .
 
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_SpatialObject> a void:Dataset ;
     rdfs:label "Class Partition: SpatialObject"@en ;
@@ -722,13 +727,13 @@ skos: a voaf:Vocabulary ;
     vext:averageSubjectIRILength 73 ;
     vext:datatypes 3 ;
     vext:distinctBlankNodes 0 ;
-    vext:distinctIRIReferences 997 ;
-    vext:distinctLiterals 350 ;
-    vext:distinctRDFNodes 1347 ;
+    vext:distinctIRIReferences 999 ;
+    vext:distinctLiterals 351 ;
+    vext:distinctRDFNodes 1350 ;
     vext:languages 1 ;
     vext:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
-    dcterms:modified "2025-10-26T18:23:15"^^xsd:dateTime ;
+    dcterms:modified "2025-10-26T18:37:03"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -756,6 +761,7 @@ skos: a voaf:Vocabulary ;
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Minion>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_MultiPolygon>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_PlanarCoordinateSystem>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Point>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Polygon>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_SpatialObject>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_SpatialObjectCollection>,
@@ -764,11 +770,11 @@ skos: a voaf:Vocabulary ;
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Street>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_TimePeriod>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Trench> ;
-    void:classes 27 ;
+    void:classes 28 ;
     void:dataDump <https://Research-Squirrel-Engineers.github.io/FAIRyland//index.ttl> ;
-    void:distinctObjects 575 ;
-    void:distinctSubjects 387 ;
-    void:entities 361 ;
+    void:distinctObjects 576 ;
+    void:distinctSubjects 388 ;
+    void:entities 362 ;
     void:feature <http://www.w3.org/ns/formats/RDFa>,
         <http://www.w3.org/ns/formats/Turtle> ;
     void:properties 35 ;
@@ -806,7 +812,7 @@ skos: a voaf:Vocabulary ;
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_unit_auth_code>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_unit_code>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_unit_conversion_factor> ;
-    void:triples 2581 ;
+    void:triples 2584 ;
     void:uriSpace "http://www.github.com/sparqlunicorn#"^^xsd:string ;
     void:vocabulary vext:,
         dcam:,

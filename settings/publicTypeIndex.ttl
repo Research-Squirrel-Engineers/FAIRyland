@@ -258,6 +258,8 @@
         <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#MultiPolygon>,
         <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#MultiPolygon_collection>,
         <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#PlanarCoordinateSystem>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#Point>,
+        <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#Point_collection>,
         <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#Polygon>,
         <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#Polygon_collection>,
         <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#SpatialObject>,
@@ -432,7 +434,7 @@
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#047d2aa4-c98d-4c8e-bba6-c5bc935b626a> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//047d2aa4-c98d-4c8e-bba6-c5bc935b626a> .
 
-<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#047d2aa4-c98d-4c8e-bba6-c5bc935b626a_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#047d2aa4-c98d-4c8e-bba6-c5bc935b626a_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//047d2aa4-c98d-4c8e-bba6-c5bc935b626a_geom> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#069e7a2d-631d-4338-adf9-5fd2f9bd2155> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
@@ -456,13 +458,13 @@
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb> .
 
-<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb_geom> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#0b12b1c6-4f43-4635-9437-2eccad89860a> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Stone> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//0b12b1c6-4f43-4635-9437-2eccad89860a> .
 
-<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#0b12b1c6-4f43-4635-9437-2eccad89860a_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#0b12b1c6-4f43-4635-9437-2eccad89860a_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//0b12b1c6-4f43-4635-9437-2eccad89860a_geom> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#0b959b96-55fd-4550-b4de-68e2c4f9625f> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
@@ -474,7 +476,7 @@
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#0cc84bdb-a46b-47fc-851f-925f22e3fd77> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//0cc84bdb-a46b-47fc-851f-925f22e3fd77> .
 
-<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#0cc84bdb-a46b-47fc-851f-925f22e3fd77_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#0cc84bdb-a46b-47fc-851f-925f22e3fd77_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//0cc84bdb-a46b-47fc-851f-925f22e3fd77_geom> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#0cde71e0-701f-44cd-a025-5cac1d1c7d70> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
@@ -486,7 +488,7 @@
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#0d9d574e-754a-4f9c-93b7-47fc15d4f2d3> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//0d9d574e-754a-4f9c-93b7-47fc15d4f2d3> .
 
-<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#0d9d574e-754a-4f9c-93b7-47fc15d4f2d3_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#0d9d574e-754a-4f9c-93b7-47fc15d4f2d3_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//0d9d574e-754a-4f9c-93b7-47fc15d4f2d3_geom> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#1073f60f-73b2-4193-8bd7-951995224dbb> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
@@ -522,7 +524,7 @@
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#18d49631-5a11-48f6-acb7-62cfaf8de742> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//18d49631-5a11-48f6-acb7-62cfaf8de742> .
 
-<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#18d49631-5a11-48f6-acb7-62cfaf8de742_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#18d49631-5a11-48f6-acb7-62cfaf8de742_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//18d49631-5a11-48f6-acb7-62cfaf8de742_geom> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#19793c7f-6cc9-462c-99da-e3e33ff97461> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
@@ -546,7 +548,7 @@
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#1d935768-ea8d-4be8-884b-a4dff9825021> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//1d935768-ea8d-4be8-884b-a4dff9825021> .
 
-<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#1d935768-ea8d-4be8-884b-a4dff9825021_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#1d935768-ea8d-4be8-884b-a4dff9825021_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//1d935768-ea8d-4be8-884b-a4dff9825021_geom> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#1fcfa357-13f8-4cb5-8e28-f98280989898> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
@@ -609,7 +611,7 @@
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#31615fc1-a7de-48af-80a2-777dd77760b2> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//31615fc1-a7de-48af-80a2-777dd77760b2> .
 
-<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#31615fc1-a7de-48af-80a2-777dd77760b2_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#31615fc1-a7de-48af-80a2-777dd77760b2_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//31615fc1-a7de-48af-80a2-777dd77760b2_geom> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#32126fde-7a0e-46ab-b512-ad9f20ea10ea> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
@@ -621,7 +623,7 @@
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#327283ae-3a31-4397-ae77-2566e4d146b6> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//327283ae-3a31-4397-ae77-2566e4d146b6> .
 
-<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#327283ae-3a31-4397-ae77-2566e4d146b6_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#327283ae-3a31-4397-ae77-2566e4d146b6_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//327283ae-3a31-4397-ae77-2566e4d146b6_geom> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#3280d786-1bb7-4913-9be9-9041f65ef4b6> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
@@ -639,13 +641,13 @@
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#37993191-20c4-49a4-b3bc-2a28960f323d> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//37993191-20c4-49a4-b3bc-2a28960f323d> .
 
-<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#37993191-20c4-49a4-b3bc-2a28960f323d_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#37993191-20c4-49a4-b3bc-2a28960f323d_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//37993191-20c4-49a4-b3bc-2a28960f323d_geom> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#389c5712-618e-4532-84fd-4eb084e6c0aa> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//389c5712-618e-4532-84fd-4eb084e6c0aa> .
 
-<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#389c5712-618e-4532-84fd-4eb084e6c0aa_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#389c5712-618e-4532-84fd-4eb084e6c0aa_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//389c5712-618e-4532-84fd-4eb084e6c0aa_geom> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#3a55458f-5c2f-4368-9a03-384f6377e301> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Kangaroo> ;
@@ -663,7 +665,7 @@
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#3d393a7a-ea8c-45d2-aca7-1453da500bb5> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//3d393a7a-ea8c-45d2-aca7-1453da500bb5> .
 
-<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#3d393a7a-ea8c-45d2-aca7-1453da500bb5_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#3d393a7a-ea8c-45d2-aca7-1453da500bb5_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//3d393a7a-ea8c-45d2-aca7-1453da500bb5_geom> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#3e67e756-dad2-4514-a9af-511fd2db0e91> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Street> ;
@@ -675,7 +677,7 @@
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#3e78afb0-3e1c-4814-a038-dfde669dc4c1> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//3e78afb0-3e1c-4814-a038-dfde669dc4c1> .
 
-<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#3e78afb0-3e1c-4814-a038-dfde669dc4c1_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#3e78afb0-3e1c-4814-a038-dfde669dc4c1_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//3e78afb0-3e1c-4814-a038-dfde669dc4c1_geom> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#41bc9d9f-999b-4c03-868d-e3823fc03184> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
@@ -699,7 +701,7 @@
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#43445b66-c4c5-4668-8fb7-00186131c6ff> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Stone> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//43445b66-c4c5-4668-8fb7-00186131c6ff> .
 
-<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#43445b66-c4c5-4668-8fb7-00186131c6ff_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#43445b66-c4c5-4668-8fb7-00186131c6ff_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//43445b66-c4c5-4668-8fb7-00186131c6ff_geom> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#435bca7b-b840-4894-9bff-df7c45b2c20c> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
@@ -711,7 +713,7 @@
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#45d241e5-c948-4ae3-860b-668b54894e58> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//45d241e5-c948-4ae3-860b-668b54894e58> .
 
-<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#45d241e5-c948-4ae3-860b-668b54894e58_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#45d241e5-c948-4ae3-860b-668b54894e58_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//45d241e5-c948-4ae3-860b-668b54894e58_geom> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#464f2805-ec4f-4d89-858e-f56a4378062d> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
@@ -741,13 +743,13 @@
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#49ca3504-ffe4-4ec4-bd95-72123b14e48e> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//49ca3504-ffe4-4ec4-bd95-72123b14e48e> .
 
-<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#49ca3504-ffe4-4ec4-bd95-72123b14e48e_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#49ca3504-ffe4-4ec4-bd95-72123b14e48e_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//49ca3504-ffe4-4ec4-bd95-72123b14e48e_geom> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#4a4c2cd5-02ce-415c-b812-ec9fd13d73c6> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//4a4c2cd5-02ce-415c-b812-ec9fd13d73c6> .
 
-<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#4a4c2cd5-02ce-415c-b812-ec9fd13d73c6_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#4a4c2cd5-02ce-415c-b812-ec9fd13d73c6_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//4a4c2cd5-02ce-415c-b812-ec9fd13d73c6_geom> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#4bb458df-e06c-4d79-bcdb-663a09168b93> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
@@ -771,7 +773,7 @@
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#4e1bbd40-75c2-4134-abdf-71a85b238394> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//4e1bbd40-75c2-4134-abdf-71a85b238394> .
 
-<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#4e1bbd40-75c2-4134-abdf-71a85b238394_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#4e1bbd40-75c2-4134-abdf-71a85b238394_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//4e1bbd40-75c2-4134-abdf-71a85b238394_geom> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#4f25cbc8-6f89-434b-8988-0e3e965f2aa7> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
@@ -783,7 +785,7 @@
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#521dd20c-2456-40a9-8b2b-0064396ccb07> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//521dd20c-2456-40a9-8b2b-0064396ccb07> .
 
-<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#521dd20c-2456-40a9-8b2b-0064396ccb07_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#521dd20c-2456-40a9-8b2b-0064396ccb07_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//521dd20c-2456-40a9-8b2b-0064396ccb07_geom> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#526eb9a7-2805-4a93-b49c-df9a922b279c> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
@@ -813,7 +815,7 @@
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#54e13ec0-7b5a-4f4a-892f-615ab97d9000> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//54e13ec0-7b5a-4f4a-892f-615ab97d9000> .
 
-<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#54e13ec0-7b5a-4f4a-892f-615ab97d9000_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#54e13ec0-7b5a-4f4a-892f-615ab97d9000_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//54e13ec0-7b5a-4f4a-892f-615ab97d9000_geom> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#55eee8ec-2c4a-4924-8d2e-89b0d57b2d74> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
@@ -855,7 +857,7 @@
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#6247dd7d-45da-4805-9922-ad78d30ddc00> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//6247dd7d-45da-4805-9922-ad78d30ddc00> .
 
-<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#6247dd7d-45da-4805-9922-ad78d30ddc00_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#6247dd7d-45da-4805-9922-ad78d30ddc00_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//6247dd7d-45da-4805-9922-ad78d30ddc00_geom> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#62c65c41-af9e-4af8-af61-97602598da5c> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion> ;
@@ -909,7 +911,7 @@
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#6a176aee-0f30-4da3-bd88-b48f61a6a5ca> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//6a176aee-0f30-4da3-bd88-b48f61a6a5ca> .
 
-<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#6a176aee-0f30-4da3-bd88-b48f61a6a5ca_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#6a176aee-0f30-4da3-bd88-b48f61a6a5ca_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//6a176aee-0f30-4da3-bd88-b48f61a6a5ca_geom> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#6daab534-65db-49f5-9b1b-5842930184c6> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Kangaroo> ;
@@ -921,7 +923,7 @@
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#6f14de57-897a-4758-a984-262ca18baf75> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//6f14de57-897a-4758-a984-262ca18baf75> .
 
-<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#6f14de57-897a-4758-a984-262ca18baf75_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#6f14de57-897a-4758-a984-262ca18baf75_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//6f14de57-897a-4758-a984-262ca18baf75_geom> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#6fa013cb-f86c-4978-ac06-999760a58991> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
@@ -981,7 +983,7 @@
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#866cbf6d-496f-4aff-acce-5f47e32fdcd9> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//866cbf6d-496f-4aff-acce-5f47e32fdcd9> .
 
-<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#866cbf6d-496f-4aff-acce-5f47e32fdcd9_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#866cbf6d-496f-4aff-acce-5f47e32fdcd9_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//866cbf6d-496f-4aff-acce-5f47e32fdcd9_geom> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#86997e8b-4662-4c0f-a2d1-b17edc36ac8a> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
@@ -1005,7 +1007,7 @@
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#8a40c3de-b0fb-4dc0-84d4-2000b15d6f60> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//8a40c3de-b0fb-4dc0-84d4-2000b15d6f60> .
 
-<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#8a40c3de-b0fb-4dc0-84d4-2000b15d6f60_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#8a40c3de-b0fb-4dc0-84d4-2000b15d6f60_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//8a40c3de-b0fb-4dc0-84d4-2000b15d6f60_geom> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#8a782006-277b-43df-b476-622e770433ba> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
@@ -1158,6 +1160,12 @@
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#PlanarCoordinateSystem> ns1:forClass <#> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//PlanarCoordinateSystem> .
 
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#Point> ns1:forClass <#> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//Point> .
+
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#Point_collection> ns1:forClass geo:GeometryCollection ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//Point_collection> .
+
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#Polygon> ns1:forClass geo:Geometry ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//Polygon> .
 
@@ -1206,25 +1214,25 @@
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a3006e8d-46d6-4db0-81aa-23238514e5eb> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//a3006e8d-46d6-4db0-81aa-23238514e5eb> .
 
-<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a3006e8d-46d6-4db0-81aa-23238514e5eb_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a3006e8d-46d6-4db0-81aa-23238514e5eb_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//a3006e8d-46d6-4db0-81aa-23238514e5eb_geom> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a3228d61-d64a-4b1f-be73-130b222b1c11> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//a3228d61-d64a-4b1f-be73-130b222b1c11> .
 
-<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a3228d61-d64a-4b1f-be73-130b222b1c11_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a3228d61-d64a-4b1f-be73-130b222b1c11_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//a3228d61-d64a-4b1f-be73-130b222b1c11_geom> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a7f106af-5755-44ed-9ba2-86b1110e21f7> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//a7f106af-5755-44ed-9ba2-86b1110e21f7> .
 
-<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a7f106af-5755-44ed-9ba2-86b1110e21f7_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a7f106af-5755-44ed-9ba2-86b1110e21f7_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//a7f106af-5755-44ed-9ba2-86b1110e21f7_geom> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a9d036a7-9001-47c8-89db-54c0fe8d6829> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//a9d036a7-9001-47c8-89db-54c0fe8d6829> .
 
-<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a9d036a7-9001-47c8-89db-54c0fe8d6829_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#a9d036a7-9001-47c8-89db-54c0fe8d6829_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//a9d036a7-9001-47c8-89db-54c0fe8d6829_geom> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ab7a69ca-6c8f-4d13-893b-3702231a60b7> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion> ;
@@ -1242,7 +1250,7 @@
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#b1984fb3-ca88-4453-8fa3-b782d735052c> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//b1984fb3-ca88-4453-8fa3-b782d735052c> .
 
-<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#b1984fb3-ca88-4453-8fa3-b782d735052c_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#b1984fb3-ca88-4453-8fa3-b782d735052c_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//b1984fb3-ca88-4453-8fa3-b782d735052c_geom> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#b3a42fde-e5a1-4a7f-912f-ef0fe1019b2b> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
@@ -1272,7 +1280,7 @@
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#b7ee573a-bf90-4f57-b159-39e1fc2822a8> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Stone> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//b7ee573a-bf90-4f57-b159-39e1fc2822a8> .
 
-<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#b7ee573a-bf90-4f57-b159-39e1fc2822a8_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#b7ee573a-bf90-4f57-b159-39e1fc2822a8_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//b7ee573a-bf90-4f57-b159-39e1fc2822a8_geom> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#b8b8a52d-9851-4436-9d74-90cc18bdc8e1> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
@@ -1356,7 +1364,7 @@
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#c7c46dd9-6977-4662-86fa-7bd465591b65> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Stone> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//c7c46dd9-6977-4662-86fa-7bd465591b65> .
 
-<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#c7c46dd9-6977-4662-86fa-7bd465591b65_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#c7c46dd9-6977-4662-86fa-7bd465591b65_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//c7c46dd9-6977-4662-86fa-7bd465591b65_geom> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#cbe5d6de-a929-4641-9d9b-9b9b2498eeb3> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
@@ -1428,31 +1436,31 @@
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#d5710f70-63c7-4107-ac87-3fad0dca5830> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//d5710f70-63c7-4107-ac87-3fad0dca5830> .
 
-<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#d5710f70-63c7-4107-ac87-3fad0dca5830_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#d5710f70-63c7-4107-ac87-3fad0dca5830_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//d5710f70-63c7-4107-ac87-3fad0dca5830_geom> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#dc5ba2e0-7975-466e-930f-a5469030df40> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//dc5ba2e0-7975-466e-930f-a5469030df40> .
 
-<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#dc5ba2e0-7975-466e-930f-a5469030df40_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#dc5ba2e0-7975-466e-930f-a5469030df40_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//dc5ba2e0-7975-466e-930f-a5469030df40_geom> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#dca0e312-48bb-4ff0-9316-fa71cdda0c9c> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//dca0e312-48bb-4ff0-9316-fa71cdda0c9c> .
 
-<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#dca0e312-48bb-4ff0-9316-fa71cdda0c9c_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#dca0e312-48bb-4ff0-9316-fa71cdda0c9c_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//dca0e312-48bb-4ff0-9316-fa71cdda0c9c_geom> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ddc25136-83aa-463c-9460-c718847292e0> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//ddc25136-83aa-463c-9460-c718847292e0> .
 
-<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ddc25136-83aa-463c-9460-c718847292e0_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ddc25136-83aa-463c-9460-c718847292e0_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//ddc25136-83aa-463c-9460-c718847292e0_geom> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#de109b58-0791-4eb7-9fff-d536f15297af> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//de109b58-0791-4eb7-9fff-d536f15297af> .
 
-<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#de109b58-0791-4eb7-9fff-d536f15297af_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#de109b58-0791-4eb7-9fff-d536f15297af_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//de109b58-0791-4eb7-9fff-d536f15297af_geom> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#e1a4e1ed-5021-4210-80a0-248b4c59ba2b> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
@@ -1506,7 +1514,7 @@
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ea530a2d-219a-4b12-a8b4-4cf7ca09b6b1> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//ea530a2d-219a-4b12-a8b4-4cf7ca09b6b1> .
 
-<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ea530a2d-219a-4b12-a8b4-4cf7ca09b6b1_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#ea530a2d-219a-4b12-a8b4-4cf7ca09b6b1_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//ea530a2d-219a-4b12-a8b4-4cf7ca09b6b1_geom> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#east> ns1:forClass <http://www.opengis.net/ont/crs/AxisDirection> ;
@@ -1527,7 +1535,7 @@
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#eec807e9-47d0-4801-a3f8-017c818a99e7> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//eec807e9-47d0-4801-a3f8-017c818a99e7> .
 
-<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#eec807e9-47d0-4801-a3f8-017c818a99e7_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#eec807e9-47d0-4801-a3f8-017c818a99e7_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//eec807e9-47d0-4801-a3f8-017c818a99e7_geom> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#f148606b-a850-4d16-a627-606fb8ee5577> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
@@ -1539,7 +1547,7 @@
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#f4c616a4-3188-45f4-ad66-878498003c20> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//f4c616a4-3188-45f4-ad66-878498003c20> .
 
-<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#f4c616a4-3188-45f4-ad66-878498003c20_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#f4c616a4-3188-45f4-ad66-878498003c20_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//f4c616a4-3188-45f4-ad66-878498003c20_geom> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#f533c183-22fb-43cf-9bd1-265caaa661a0> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
@@ -1551,7 +1559,7 @@
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#fab26445-cb25-492a-8d8a-47f31706a753> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//fab26445-cb25-492a-8d8a-47f31706a753> .
 
-<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#fab26445-cb25-492a-8d8a-47f31706a753_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#fab26445-cb25-492a-8d8a-47f31706a753_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//fab26445-cb25-492a-8d8a-47f31706a753_geom> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#fd82485d-f6e8-4413-9120-c739f0cc1e82> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;
@@ -1569,7 +1577,7 @@
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#fdf099f7-869f-499e-80c3-00c91f0a4d35> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//fdf099f7-869f-499e-80c3-00c91f0a4d35> .
 
-<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#fdf099f7-869f-499e-80c3-00c91f0a4d35_geom> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+<https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#fdf099f7-869f-499e-80c3-00c91f0a4d35_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://Research-Squirrel-Engineers.github.io/FAIRyland//fdf099f7-869f-499e-80c3-00c91f0a4d35_geom> .
 
 <https://Research-Squirrel-Engineers.github.io/FAIRyland//settings/publicTypeIndex.ttl#fec6c570-b8d5-49be-aa15-8be41afd1aa3> ns1:forClass <https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar> ;

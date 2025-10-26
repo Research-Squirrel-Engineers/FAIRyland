@@ -1477,171 +1477,171 @@ var vowlresult={
   },
   {
    "id": 313,
-   "type": "http://www.opengis.net/ont/sf#Polygon"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 314,
-   "type": "http://www.opengis.net/ont/sf#Polygon"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 315,
-   "type": "http://www.opengis.net/ont/sf#Polygon"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 316,
-   "type": "http://www.opengis.net/ont/sf#Polygon"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 317,
-   "type": "http://www.opengis.net/ont/sf#Polygon"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 318,
-   "type": "http://www.opengis.net/ont/sf#Polygon"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 319,
-   "type": "http://www.opengis.net/ont/sf#Polygon"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 320,
-   "type": "http://www.opengis.net/ont/sf#Polygon"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 321,
-   "type": "http://www.opengis.net/ont/sf#Polygon"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 322,
-   "type": "http://www.opengis.net/ont/sf#Polygon"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 323,
-   "type": "http://www.opengis.net/ont/sf#Polygon"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 324,
-   "type": "http://www.opengis.net/ont/sf#Polygon"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 325,
-   "type": "http://www.opengis.net/ont/sf#Polygon"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 326,
-   "type": "http://www.opengis.net/ont/sf#Polygon"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 327,
-   "type": "http://www.opengis.net/ont/sf#Polygon"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 328,
-   "type": "http://www.opengis.net/ont/sf#Polygon"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 329,
-   "type": "http://www.opengis.net/ont/sf#Polygon"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 330,
-   "type": "http://www.opengis.net/ont/sf#Polygon"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 331,
-   "type": "http://www.opengis.net/ont/sf#Polygon"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 332,
-   "type": "http://www.opengis.net/ont/sf#Polygon"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 333,
-   "type": "http://www.opengis.net/ont/sf#Polygon"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 334,
-   "type": "http://www.opengis.net/ont/sf#Polygon"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 335,
-   "type": "http://www.opengis.net/ont/sf#Polygon"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 336,
-   "type": "http://www.opengis.net/ont/sf#Polygon"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 337,
-   "type": "http://www.opengis.net/ont/sf#Polygon"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 338,
-   "type": "http://www.opengis.net/ont/sf#Polygon"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 339,
-   "type": "http://www.opengis.net/ont/sf#Polygon"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 340,
-   "type": "http://www.opengis.net/ont/sf#Polygon"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 341,
-   "type": "http://www.opengis.net/ont/sf#Polygon"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 342,
-   "type": "http://www.opengis.net/ont/sf#Polygon"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 343,
-   "type": "http://www.opengis.net/ont/sf#Polygon"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 344,
-   "type": "http://www.opengis.net/ont/sf#Polygon"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 345,
-   "type": "http://www.opengis.net/ont/sf#Polygon"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 346,
-   "type": "http://www.opengis.net/ont/sf#Polygon"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 347,
-   "type": "http://www.opengis.net/ont/sf#Polygon"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 348,
-   "type": "http://www.opengis.net/ont/sf#Polygon"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 349,
-   "type": "http://www.opengis.net/ont/sf#Polygon"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 350,
-   "type": "http://www.opengis.net/ont/sf#Polygon"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 351,
-   "type": "http://www.opengis.net/ont/sf#Polygon"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 352,
-   "type": "http://www.opengis.net/ont/sf#Polygon"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 353,
-   "type": "http://www.opengis.net/ont/sf#Polygon"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 354,
-   "type": "http://www.opengis.net/ont/sf#Polygon"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 355,
@@ -14665,29 +14665,6 @@ var vowlresult={
      {
       "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
       "language": "undefined",
-      "value": "POINT(20.026546 63.880125)",
-      "type": "label"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 188,
-   "iri": "http://www.github.com/sparqlunicorn#047d2aa4-c98d-4c8e-bba6-c5bc935b626a_geom",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "047d2aa4-c98d-4c8e-bba6-c5bc935b626a_geom"
-   },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
       "value": "POLYGON((20.026372 63.880184, 20.026370 63.880184, 20.026369 63.880184, 20.026369 63.880183, 20.026370 63.880183, 20.026372 63.880183, 20.026373 63.880183, 20.026372 63.880184))",
       "type": "label"
      }
@@ -14699,7 +14676,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 189,
+   "id": 188,
    "iri": "http://www.github.com/sparqlunicorn#069e7a2d-631d-4338-adf9-5fd2f9bd2155_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -14722,7 +14699,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 190,
+   "id": 189,
    "iri": "http://www.github.com/sparqlunicorn#0800c7da-7e10-4ba2-a020-7db1bc018572_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -14745,58 +14722,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 191,
+   "id": 190,
    "iri": "http://www.github.com/sparqlunicorn#09625e57-e1e3-4819-baac-8154feac0fe6_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "09625e57-e1e3-4819-baac-8154feac0fe6_geom"
-   },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.02664 63.880141)",
-      "type": "label"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 192,
-   "iri": "http://www.github.com/sparqlunicorn#09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb_geom",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb_geom"
-   },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.026552 63.88011)",
-      "type": "label"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 193,
-   "iri": "http://www.github.com/sparqlunicorn#0b12b1c6-4f43-4635-9437-2eccad89860a_geom",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "0b12b1c6-4f43-4635-9437-2eccad89860a_geom"
    },
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
@@ -14814,35 +14745,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 194,
+   "id": 191,
    "iri": "http://www.github.com/sparqlunicorn#0b959b96-55fd-4550-b4de-68e2c4f9625f_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "0b959b96-55fd-4550-b4de-68e2c4f9625f_geom"
-   },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.026384 63.880102)",
-      "type": "label"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 195,
-   "iri": "http://www.github.com/sparqlunicorn#0cc84bdb-a46b-47fc-851f-925f22e3fd77_geom",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "0cc84bdb-a46b-47fc-851f-925f22e3fd77_geom"
    },
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
@@ -14860,35 +14768,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 196,
+   "id": 192,
    "iri": "http://www.github.com/sparqlunicorn#0cde71e0-701f-44cd-a025-5cac1d1c7d70_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "0cde71e0-701f-44cd-a025-5cac1d1c7d70_geom"
-   },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.026551 63.88013)",
-      "type": "label"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 197,
-   "iri": "http://www.github.com/sparqlunicorn#0d9d574e-754a-4f9c-93b7-47fc15d4f2d3_geom",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "0d9d574e-754a-4f9c-93b7-47fc15d4f2d3_geom"
    },
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
@@ -14906,7 +14791,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 198,
+   "id": 193,
    "iri": "http://www.github.com/sparqlunicorn#1073f60f-73b2-4193-8bd7-951995224dbb_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -14929,7 +14814,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 199,
+   "id": 194,
    "iri": "http://www.github.com/sparqlunicorn#10d1a1c2-f56c-485c-a5cc-4d4e48c8e675_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -14952,7 +14837,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 200,
+   "id": 195,
    "iri": "http://www.github.com/sparqlunicorn#12ce69a0-6b49-4159-8ff6-b468f44d33b5_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -14975,7 +14860,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 201,
+   "id": 196,
    "iri": "http://www.github.com/sparqlunicorn#12d61444-88ae-43b3-95d4-15e5fecd4180_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -14998,35 +14883,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 202,
+   "id": 197,
    "iri": "http://www.github.com/sparqlunicorn#180a5320-3833-4133-aa46-aab7f0d80d84_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "180a5320-3833-4133-aa46-aab7f0d80d84_geom"
-   },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.026557 63.880125)",
-      "type": "label"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 203,
-   "iri": "http://www.github.com/sparqlunicorn#18d49631-5a11-48f6-acb7-62cfaf8de742_geom",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "18d49631-5a11-48f6-acb7-62cfaf8de742_geom"
    },
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
@@ -15044,7 +14906,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 204,
+   "id": 198,
    "iri": "http://www.github.com/sparqlunicorn#19793c7f-6cc9-462c-99da-e3e33ff97461_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -15067,7 +14929,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 205,
+   "id": 199,
    "iri": "http://www.github.com/sparqlunicorn#1a2be1c9-acaf-4659-839d-0146401472f2_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -15090,35 +14952,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 206,
+   "id": 200,
    "iri": "http://www.github.com/sparqlunicorn#1ac53fc4-aeb3-4256-ac8e-47160f4d642a_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "1ac53fc4-aeb3-4256-ac8e-47160f4d642a_geom"
-   },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.02659 63.880125)",
-      "type": "label"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 207,
-   "iri": "http://www.github.com/sparqlunicorn#1d935768-ea8d-4be8-884b-a4dff9825021_geom",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "1d935768-ea8d-4be8-884b-a4dff9825021_geom"
    },
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
@@ -15136,7 +14975,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 208,
+   "id": 201,
    "iri": "http://www.github.com/sparqlunicorn#1fcfa357-13f8-4cb5-8e28-f98280989898_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -15159,7 +14998,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 209,
+   "id": 202,
    "iri": "http://www.github.com/sparqlunicorn#25d0c170-da08-47ed-8bf8-78f36d0f558e_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -15182,7 +15021,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 210,
+   "id": 203,
    "iri": "http://www.github.com/sparqlunicorn#264aceda-0df9-48de-9c9a-bfac46e9d790_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -15205,7 +15044,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 211,
+   "id": 204,
    "iri": "http://www.github.com/sparqlunicorn#275a5b7f-e28a-41ec-b6b5-9bc82b47f1a0_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -15228,7 +15067,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 212,
+   "id": 205,
    "iri": "http://www.github.com/sparqlunicorn#28ec2dbf-6806-4a32-a35d-78764bfda459_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -15251,7 +15090,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 213,
+   "id": 206,
    "iri": "http://www.github.com/sparqlunicorn#2abb9a90-732f-4e75-b764-6b3df7dfa173_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -15274,7 +15113,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 214,
+   "id": 207,
    "iri": "http://www.github.com/sparqlunicorn#2d3d304e-4ac7-4f2f-93a6-251105f7ace4_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -15297,7 +15136,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 215,
+   "id": 208,
    "iri": "http://www.github.com/sparqlunicorn#2e711592-9068-438a-80b9-0c7725e1d6bb_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -15320,35 +15159,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 216,
+   "id": 209,
    "iri": "http://www.github.com/sparqlunicorn#3018eba9-3c11-41e8-901e-7377167b58e4_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "3018eba9-3c11-41e8-901e-7377167b58e4_geom"
-   },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.026582 63.880143)",
-      "type": "label"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 217,
-   "iri": "http://www.github.com/sparqlunicorn#31615fc1-a7de-48af-80a2-777dd77760b2_geom",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "31615fc1-a7de-48af-80a2-777dd77760b2_geom"
    },
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
@@ -15366,35 +15182,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 218,
+   "id": 210,
    "iri": "http://www.github.com/sparqlunicorn#32126fde-7a0e-46ab-b512-ad9f20ea10ea_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "32126fde-7a0e-46ab-b512-ad9f20ea10ea_geom"
-   },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.026492 63.880107)",
-      "type": "label"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 219,
-   "iri": "http://www.github.com/sparqlunicorn#327283ae-3a31-4397-ae77-2566e4d146b6_geom",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "327283ae-3a31-4397-ae77-2566e4d146b6_geom"
    },
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
@@ -15412,7 +15205,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 220,
+   "id": 211,
    "iri": "http://www.github.com/sparqlunicorn#3280d786-1bb7-4913-9be9-9041f65ef4b6_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -15435,58 +15228,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 221,
+   "id": 212,
    "iri": "http://www.github.com/sparqlunicorn#3672902d-7362-4069-9769-21296706d028_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "3672902d-7362-4069-9769-21296706d028_geom"
-   },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.026501 63.880147)",
-      "type": "label"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 222,
-   "iri": "http://www.github.com/sparqlunicorn#37993191-20c4-49a4-b3bc-2a28960f323d_geom",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "37993191-20c4-49a4-b3bc-2a28960f323d_geom"
-   },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.026574 63.880119)",
-      "type": "label"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 223,
-   "iri": "http://www.github.com/sparqlunicorn#389c5712-618e-4532-84fd-4eb084e6c0aa_geom",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "389c5712-618e-4532-84fd-4eb084e6c0aa_geom"
    },
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
@@ -15504,7 +15251,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 224,
+   "id": 213,
    "iri": "http://www.github.com/sparqlunicorn#3a55458f-5c2f-4368-9a03-384f6377e301_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -15527,35 +15274,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 225,
+   "id": 214,
    "iri": "http://www.github.com/sparqlunicorn#3cd74fe7-9b31-4361-ad28-08afb3097edc_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "3cd74fe7-9b31-4361-ad28-08afb3097edc_geom"
-   },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.02652 63.880144)",
-      "type": "label"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 226,
-   "iri": "http://www.github.com/sparqlunicorn#3d393a7a-ea8c-45d2-aca7-1453da500bb5_geom",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "3d393a7a-ea8c-45d2-aca7-1453da500bb5_geom"
    },
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
@@ -15573,35 +15297,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 227,
+   "id": 215,
    "iri": "http://www.github.com/sparqlunicorn#3e67e756-dad2-4514-a9af-511fd2db0e91_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "3e67e756-dad2-4514-a9af-511fd2db0e91_geom"
-   },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.026551 63.88013)",
-      "type": "label"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 228,
-   "iri": "http://www.github.com/sparqlunicorn#3e78afb0-3e1c-4814-a038-dfde669dc4c1_geom",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "3e78afb0-3e1c-4814-a038-dfde669dc4c1_geom"
    },
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
@@ -15619,35 +15320,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 229,
+   "id": 216,
    "iri": "http://www.github.com/sparqlunicorn#41bc9d9f-999b-4c03-868d-e3823fc03184_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "41bc9d9f-999b-4c03-868d-e3823fc03184_geom"
-   },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.026568 63.880109)",
-      "type": "label"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 230,
-   "iri": "http://www.github.com/sparqlunicorn#43445b66-c4c5-4668-8fb7-00186131c6ff_geom",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "43445b66-c4c5-4668-8fb7-00186131c6ff_geom"
    },
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
@@ -15665,35 +15343,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 231,
+   "id": 217,
    "iri": "http://www.github.com/sparqlunicorn#435bca7b-b840-4894-9bff-df7c45b2c20c_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "435bca7b-b840-4894-9bff-df7c45b2c20c_geom"
-   },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.026557 63.880125)",
-      "type": "label"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 232,
-   "iri": "http://www.github.com/sparqlunicorn#45d241e5-c948-4ae3-860b-668b54894e58_geom",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "45d241e5-c948-4ae3-860b-668b54894e58_geom"
    },
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
@@ -15711,7 +15366,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 233,
+   "id": 218,
    "iri": "http://www.github.com/sparqlunicorn#464f2805-ec4f-4d89-858e-f56a4378062d_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -15734,7 +15389,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 234,
+   "id": 219,
    "iri": "http://www.github.com/sparqlunicorn#467872e1-4482-4e05-ba2e-2ac81b40dcf7_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -15757,7 +15412,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 235,
+   "id": 220,
    "iri": "http://www.github.com/sparqlunicorn#4692f53e-797d-4457-bbc3-55273889566f_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -15780,58 +15435,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 236,
+   "id": 221,
    "iri": "http://www.github.com/sparqlunicorn#4960c3ef-c969-4930-8f87-3e9250c5b716_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "4960c3ef-c969-4930-8f87-3e9250c5b716_geom"
-   },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.026509 63.880149)",
-      "type": "label"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 237,
-   "iri": "http://www.github.com/sparqlunicorn#49ca3504-ffe4-4ec4-bd95-72123b14e48e_geom",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "49ca3504-ffe4-4ec4-bd95-72123b14e48e_geom"
-   },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.026562 63.880111)",
-      "type": "label"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 238,
-   "iri": "http://www.github.com/sparqlunicorn#4a4c2cd5-02ce-415c-b812-ec9fd13d73c6_geom",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "4a4c2cd5-02ce-415c-b812-ec9fd13d73c6_geom"
    },
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
@@ -15849,7 +15458,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 239,
+   "id": 222,
    "iri": "http://www.github.com/sparqlunicorn#4bb458df-e06c-4d79-bcdb-663a09168b93_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -15872,7 +15481,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 240,
+   "id": 223,
    "iri": "http://www.github.com/sparqlunicorn#4ccf2904-a68a-4c88-81de-8d549bc421e9_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -15895,35 +15504,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 241,
+   "id": 224,
    "iri": "http://www.github.com/sparqlunicorn#4db030c2-2331-4dad-b17c-da023bceff9f_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "4db030c2-2331-4dad-b17c-da023bceff9f_geom"
-   },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.026509 63.880149)",
-      "type": "label"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 242,
-   "iri": "http://www.github.com/sparqlunicorn#4e1bbd40-75c2-4134-abdf-71a85b238394_geom",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "4e1bbd40-75c2-4134-abdf-71a85b238394_geom"
    },
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
@@ -15941,35 +15527,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 243,
+   "id": 225,
    "iri": "http://www.github.com/sparqlunicorn#4f25cbc8-6f89-434b-8988-0e3e965f2aa7_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "4f25cbc8-6f89-434b-8988-0e3e965f2aa7_geom"
-   },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.026492 63.880107)",
-      "type": "label"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 244,
-   "iri": "http://www.github.com/sparqlunicorn#521dd20c-2456-40a9-8b2b-0064396ccb07_geom",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "521dd20c-2456-40a9-8b2b-0064396ccb07_geom"
    },
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
@@ -15987,7 +15550,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 245,
+   "id": 226,
    "iri": "http://www.github.com/sparqlunicorn#526eb9a7-2805-4a93-b49c-df9a922b279c_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -16010,7 +15573,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 246,
+   "id": 227,
    "iri": "http://www.github.com/sparqlunicorn#52f8f607-2c6b-4b25-90f8-861ed744e1ca_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -16033,7 +15596,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 247,
+   "id": 228,
    "iri": "http://www.github.com/sparqlunicorn#53bf2db7-7718-4835-bc3c-2baf3068207f_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -16056,35 +15619,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 248,
+   "id": 229,
    "iri": "http://www.github.com/sparqlunicorn#53ed429c-06e1-419a-9002-12d7bcf18ba0_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "53ed429c-06e1-419a-9002-12d7bcf18ba0_geom"
-   },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.026562 63.880111)",
-      "type": "label"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 249,
-   "iri": "http://www.github.com/sparqlunicorn#54e13ec0-7b5a-4f4a-892f-615ab97d9000_geom",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "54e13ec0-7b5a-4f4a-892f-615ab97d9000_geom"
    },
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
@@ -16102,7 +15642,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 250,
+   "id": 230,
    "iri": "http://www.github.com/sparqlunicorn#55eee8ec-2c4a-4924-8d2e-89b0d57b2d74_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -16125,7 +15665,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 251,
+   "id": 231,
    "iri": "http://www.github.com/sparqlunicorn#569674c9-3895-4cb5-8f2c-38e608cab577_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -16148,7 +15688,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 252,
+   "id": 232,
    "iri": "http://www.github.com/sparqlunicorn#5bcc0471-f0ba-417c-bae1-abb3223cd352_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -16171,7 +15711,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 253,
+   "id": 233,
    "iri": "http://www.github.com/sparqlunicorn#5c6ce17c-cdde-459e-a423-ad5d827e5d4e_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -16194,7 +15734,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 254,
+   "id": 234,
    "iri": "http://www.github.com/sparqlunicorn#5f5d079d-712c-4ad0-842c-c04d0d0763e5_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -16217,35 +15757,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 255,
+   "id": 235,
    "iri": "http://www.github.com/sparqlunicorn#622ce224-fab0-4fbd-8a79-d8ecc9b26a49_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "622ce224-fab0-4fbd-8a79-d8ecc9b26a49_geom"
-   },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.026494 63.880144)",
-      "type": "label"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 256,
-   "iri": "http://www.github.com/sparqlunicorn#6247dd7d-45da-4805-9922-ad78d30ddc00_geom",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "6247dd7d-45da-4805-9922-ad78d30ddc00_geom"
    },
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
@@ -16263,7 +15780,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 257,
+   "id": 236,
    "iri": "http://www.github.com/sparqlunicorn#62c65c41-af9e-4af8-af61-97602598da5c_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -16286,7 +15803,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 258,
+   "id": 237,
    "iri": "http://www.github.com/sparqlunicorn#64586be1-1d82-4160-a5fb-5af067a6276b_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -16309,7 +15826,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 259,
+   "id": 238,
    "iri": "http://www.github.com/sparqlunicorn#646cf01d-f91f-454d-96f3-69f122d90cf1_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -16332,7 +15849,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 260,
+   "id": 239,
    "iri": "http://www.github.com/sparqlunicorn#65f7355b-9621-4b7e-a716-8fa0a4f07a0e_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -16355,7 +15872,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 261,
+   "id": 240,
    "iri": "http://www.github.com/sparqlunicorn#66424eb1-6ec0-4f2a-9003-e2143babe975_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -16378,7 +15895,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 262,
+   "id": 241,
    "iri": "http://www.github.com/sparqlunicorn#6839545f-3c21-456c-8e65-a34518a8bf7c_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -16401,7 +15918,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 263,
+   "id": 242,
    "iri": "http://www.github.com/sparqlunicorn#69195ab5-0241-4995-8079-fee9d5509376_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -16424,35 +15941,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 264,
+   "id": 243,
    "iri": "http://www.github.com/sparqlunicorn#6939e3db-546a-4041-a823-e729a2d4b694_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "6939e3db-546a-4041-a823-e729a2d4b694_geom"
-   },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.026576 63.880135)",
-      "type": "label"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 265,
-   "iri": "http://www.github.com/sparqlunicorn#6a176aee-0f30-4da3-bd88-b48f61a6a5ca_geom",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "6a176aee-0f30-4da3-bd88-b48f61a6a5ca_geom"
    },
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
@@ -16470,35 +15964,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 266,
+   "id": 244,
    "iri": "http://www.github.com/sparqlunicorn#6daab534-65db-49f5-9b1b-5842930184c6_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "6daab534-65db-49f5-9b1b-5842930184c6_geom"
-   },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.026589 63.88013)",
-      "type": "label"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 267,
-   "iri": "http://www.github.com/sparqlunicorn#6f14de57-897a-4758-a984-262ca18baf75_geom",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "6f14de57-897a-4758-a984-262ca18baf75_geom"
    },
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
@@ -16516,7 +15987,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 268,
+   "id": 245,
    "iri": "http://www.github.com/sparqlunicorn#6fa013cb-f86c-4978-ac06-999760a58991_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -16539,7 +16010,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 269,
+   "id": 246,
    "iri": "http://www.github.com/sparqlunicorn#7a2b1560-c346-41b6-915b-a10547cd3440_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -16562,7 +16033,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 270,
+   "id": 247,
    "iri": "http://www.github.com/sparqlunicorn#7abeb59f-2759-4736-897c-69d50f0cdb27_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -16585,7 +16056,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 271,
+   "id": 248,
    "iri": "http://www.github.com/sparqlunicorn#7c93771e-f108-4c1a-8ede-799d87629036_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -16608,7 +16079,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 272,
+   "id": 249,
    "iri": "http://www.github.com/sparqlunicorn#7ee2bf5f-4059-4b49-af4f-173eb49582c7_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -16631,7 +16102,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 273,
+   "id": 250,
    "iri": "http://www.github.com/sparqlunicorn#7effe8a8-89ea-40c7-b095-ac70c7f9c030_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -16654,7 +16125,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 274,
+   "id": 251,
    "iri": "http://www.github.com/sparqlunicorn#81a150a3-f5f9-4f03-84d7-b5e043f9d371_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -16677,35 +16148,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 275,
+   "id": 252,
    "iri": "http://www.github.com/sparqlunicorn#8522a6f2-b165-4529-9dd6-30bc0da88476_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "8522a6f2-b165-4529-9dd6-30bc0da88476_geom"
-   },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.026384 63.880102)",
-      "type": "label"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 276,
-   "iri": "http://www.github.com/sparqlunicorn#866cbf6d-496f-4aff-acce-5f47e32fdcd9_geom",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "866cbf6d-496f-4aff-acce-5f47e32fdcd9_geom"
    },
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
@@ -16723,7 +16171,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 277,
+   "id": 253,
    "iri": "http://www.github.com/sparqlunicorn#86997e8b-4662-4c0f-a2d1-b17edc36ac8a_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -16746,7 +16194,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 278,
+   "id": 254,
    "iri": "http://www.github.com/sparqlunicorn#86f8a06e-51c7-41be-935b-e70bfcaa67b7_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -16769,35 +16217,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 279,
+   "id": 255,
    "iri": "http://www.github.com/sparqlunicorn#89b07983-8e6c-4b79-a97f-618a913945ee_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "89b07983-8e6c-4b79-a97f-618a913945ee_geom"
-   },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.026516 63.880147)",
-      "type": "label"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 280,
-   "iri": "http://www.github.com/sparqlunicorn#8a40c3de-b0fb-4dc0-84d4-2000b15d6f60_geom",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "8a40c3de-b0fb-4dc0-84d4-2000b15d6f60_geom"
    },
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
@@ -16815,7 +16240,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 281,
+   "id": 256,
    "iri": "http://www.github.com/sparqlunicorn#8a782006-277b-43df-b476-622e770433ba_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -16838,7 +16263,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 282,
+   "id": 257,
    "iri": "http://www.github.com/sparqlunicorn#8fc69a50-3bd3-43ef-9f74-2e52360f520c_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -16861,7 +16286,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 283,
+   "id": 258,
    "iri": "http://www.github.com/sparqlunicorn#90d8c5f4-021b-414b-8219-47f4e39bbff6_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -16884,7 +16309,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 284,
+   "id": 259,
    "iri": "http://www.github.com/sparqlunicorn#91417e18-f9c7-49d7-80b2-ec408b898147_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -16907,7 +16332,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 285,
+   "id": 260,
    "iri": "http://www.github.com/sparqlunicorn#92bc7954-d3e5-456e-a3f9-15ed633ca086_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -16930,7 +16355,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 286,
+   "id": 261,
    "iri": "http://www.github.com/sparqlunicorn#9460842b-7734-4665-82a2-0085a33ce453_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -16953,7 +16378,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 287,
+   "id": 262,
    "iri": "http://www.github.com/sparqlunicorn#97e0311e-f072-4b6c-8619-4c8b81cb2232_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -16976,7 +16401,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 288,
+   "id": 263,
    "iri": "http://www.github.com/sparqlunicorn#9a404584-fd22-42a3-ba09-2382a8cc7596_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -16999,7 +16424,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 289,
+   "id": 264,
    "iri": "http://www.github.com/sparqlunicorn#9d5f5c58-94c9-426a-862c-0bce70aa017e_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -17022,7 +16447,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 290,
+   "id": 265,
    "iri": "http://www.github.com/sparqlunicorn#9e80e441-dc60-4514-8477-702e7d8ea321_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -17045,7 +16470,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 291,
+   "id": 266,
    "iri": "http://www.github.com/sparqlunicorn#a0108469-2166-4732-8aff-f6429f29a82f_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -17068,104 +16493,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 292,
+   "id": 267,
    "iri": "http://www.github.com/sparqlunicorn#a09111ca-c359-48cc-9a96-e79673caa0b8_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "a09111ca-c359-48cc-9a96-e79673caa0b8_geom"
-   },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.026559 63.880133)",
-      "type": "label"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 293,
-   "iri": "http://www.github.com/sparqlunicorn#a3006e8d-46d6-4db0-81aa-23238514e5eb_geom",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "a3006e8d-46d6-4db0-81aa-23238514e5eb_geom"
-   },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.026552 63.88011)",
-      "type": "label"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 294,
-   "iri": "http://www.github.com/sparqlunicorn#a3228d61-d64a-4b1f-be73-130b222b1c11_geom",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "a3228d61-d64a-4b1f-be73-130b222b1c11_geom"
-   },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.02659 63.880125)",
-      "type": "label"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 295,
-   "iri": "http://www.github.com/sparqlunicorn#a7f106af-5755-44ed-9ba2-86b1110e21f7_geom",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "a7f106af-5755-44ed-9ba2-86b1110e21f7_geom"
-   },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.026589 63.88013)",
-      "type": "label"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 296,
-   "iri": "http://www.github.com/sparqlunicorn#a9d036a7-9001-47c8-89db-54c0fe8d6829_geom",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "a9d036a7-9001-47c8-89db-54c0fe8d6829_geom"
    },
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
@@ -17183,7 +16516,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 297,
+   "id": 268,
    "iri": "http://www.github.com/sparqlunicorn#ab7a69ca-6c8f-4d13-893b-3702231a60b7_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -17206,35 +16539,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 298,
+   "id": 269,
    "iri": "http://www.github.com/sparqlunicorn#abb845a6-5386-459e-938f-5100e0af1f72_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "abb845a6-5386-459e-938f-5100e0af1f72_geom"
-   },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.026501 63.880147)",
-      "type": "label"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 299,
-   "iri": "http://www.github.com/sparqlunicorn#b1984fb3-ca88-4453-8fa3-b782d735052c_geom",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "b1984fb3-ca88-4453-8fa3-b782d735052c_geom"
    },
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
@@ -17252,7 +16562,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 300,
+   "id": 270,
    "iri": "http://www.github.com/sparqlunicorn#b3a42fde-e5a1-4a7f-912f-ef0fe1019b2b_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -17275,7 +16585,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 301,
+   "id": 271,
    "iri": "http://www.github.com/sparqlunicorn#b6233e40-079e-447d-b960-2f59a90dcd6e_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -17298,7 +16608,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 302,
+   "id": 272,
    "iri": "http://www.github.com/sparqlunicorn#b70a68c4-e63b-445d-8f0f-ec2384dc1363_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -17321,35 +16631,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 303,
+   "id": 273,
    "iri": "http://www.github.com/sparqlunicorn#b7b8283e-fd64-4b1f-b6e3-81a71091b63a_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "b7b8283e-fd64-4b1f-b6e3-81a71091b63a_geom"
-   },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.026546 63.880125)",
-      "type": "label"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 304,
-   "iri": "http://www.github.com/sparqlunicorn#b7ee573a-bf90-4f57-b159-39e1fc2822a8_geom",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "b7ee573a-bf90-4f57-b159-39e1fc2822a8_geom"
    },
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
@@ -17367,7 +16654,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 305,
+   "id": 274,
    "iri": "http://www.github.com/sparqlunicorn#b8b8a52d-9851-4436-9d74-90cc18bdc8e1_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -17390,7 +16677,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 306,
+   "id": 275,
    "iri": "http://www.github.com/sparqlunicorn#b8ca6de4-79fe-49d2-b786-e5a01b2dc2a0_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -17413,7 +16700,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 307,
+   "id": 276,
    "iri": "http://www.github.com/sparqlunicorn#b9b8ed23-6d56-4374-b098-d5fe1a84c94f_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -17436,7 +16723,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 308,
+   "id": 277,
    "iri": "http://www.github.com/sparqlunicorn#ba37ba09-e4e5-4785-886e-bf6e84dbfb8a_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -17459,7 +16746,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 309,
+   "id": 278,
    "iri": "http://www.github.com/sparqlunicorn#ba7170d7-475e-4502-9cbd-054d5d326a7d_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -17482,7 +16769,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 310,
+   "id": 279,
    "iri": "http://www.github.com/sparqlunicorn#bb2e25bb-08ac-43b7-bdd0-c0fb04835eb8_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -17505,7 +16792,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 311,
+   "id": 280,
    "iri": "http://www.github.com/sparqlunicorn#bd4e5cb6-b4bc-4d65-921d-21dec34dda1b_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -17528,7 +16815,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 312,
+   "id": 281,
    "iri": "http://www.github.com/sparqlunicorn#c08f3cf1-e573-4914-b15f-b249261d9fab_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -17551,7 +16838,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 313,
+   "id": 282,
    "iri": "http://www.github.com/sparqlunicorn#c2174141-51b4-4932-b3b3-4526eb6245d5_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -17574,7 +16861,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 314,
+   "id": 283,
    "iri": "http://www.github.com/sparqlunicorn#c2efc23f-47bb-47cc-9786-739739a84f3b_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -17597,7 +16884,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 315,
+   "id": 284,
    "iri": "http://www.github.com/sparqlunicorn#c3bb016c-19bf-454f-8530-ffe68ec1da1a_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -17620,7 +16907,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 316,
+   "id": 285,
    "iri": "http://www.github.com/sparqlunicorn#c5f35a70-8ad6-4cd8-8b0d-519a9ce95b94_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -17643,35 +16930,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 317,
+   "id": 286,
    "iri": "http://www.github.com/sparqlunicorn#c62d6ed4-30ab-402b-ba2e-c432aaa0d53b_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "c62d6ed4-30ab-402b-ba2e-c432aaa0d53b_geom"
-   },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.026582 63.880143)",
-      "type": "label"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 318,
-   "iri": "http://www.github.com/sparqlunicorn#c7c46dd9-6977-4662-86fa-7bd465591b65_geom",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "c7c46dd9-6977-4662-86fa-7bd465591b65_geom"
    },
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
@@ -17689,7 +16953,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 319,
+   "id": 287,
    "iri": "http://www.github.com/sparqlunicorn#cbe5d6de-a929-4641-9d9b-9b9b2498eeb3_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -17712,7 +16976,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 320,
+   "id": 288,
    "iri": "http://www.github.com/sparqlunicorn#cc01dfc5-6d56-472f-9045-d22f22b2ca3a_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -17735,7 +16999,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 321,
+   "id": 289,
    "iri": "http://www.github.com/sparqlunicorn#cc774e18-df41-45a3-976b-bbbbc25ecff1_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -17758,7 +17022,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 322,
+   "id": 290,
    "iri": "http://www.github.com/sparqlunicorn#cdab6a0b-7238-4f14-894e-b5fe7bb763d9_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -17781,7 +17045,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 323,
+   "id": 291,
    "iri": "http://www.github.com/sparqlunicorn#ce36306d-ab71-49f0-aed2-6cea0b2cf1d7_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -17804,7 +17068,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 324,
+   "id": 292,
    "iri": "http://www.github.com/sparqlunicorn#cfd8197a-ab1b-41e3-9c44-30bb2d1827ac_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -17827,7 +17091,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 325,
+   "id": 293,
    "iri": "http://www.github.com/sparqlunicorn#d04e1b9c-9c7e-4e90-86a1-9c1e367de3e4_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -17850,7 +17114,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 326,
+   "id": 294,
    "iri": "http://www.github.com/sparqlunicorn#d1248c32-d156-418a-a10f-104d770ca6fd_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -17873,7 +17137,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 327,
+   "id": 295,
    "iri": "http://www.github.com/sparqlunicorn#d2e36d44-1ea1-4205-8920-c97cdab3b3aa_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -17896,7 +17160,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 328,
+   "id": 296,
    "iri": "http://www.github.com/sparqlunicorn#d39b0a02-169d-40a8-897d-7c7a5eee497d_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -17919,127 +17183,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 329,
+   "id": 297,
    "iri": "http://www.github.com/sparqlunicorn#d46e1360-2fe2-43a6-80fc-892d3d2881c1_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "d46e1360-2fe2-43a6-80fc-892d3d2881c1_geom"
-   },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.02664 63.880141)",
-      "type": "label"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 330,
-   "iri": "http://www.github.com/sparqlunicorn#d5710f70-63c7-4107-ac87-3fad0dca5830_geom",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "d5710f70-63c7-4107-ac87-3fad0dca5830_geom"
-   },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.026576 63.880135)",
-      "type": "label"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 331,
-   "iri": "http://www.github.com/sparqlunicorn#dc5ba2e0-7975-466e-930f-a5469030df40_geom",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "dc5ba2e0-7975-466e-930f-a5469030df40_geom"
-   },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.026494 63.880144)",
-      "type": "label"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 332,
-   "iri": "http://www.github.com/sparqlunicorn#dca0e312-48bb-4ff0-9316-fa71cdda0c9c_geom",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "dca0e312-48bb-4ff0-9316-fa71cdda0c9c_geom"
-   },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.026559 63.880133)",
-      "type": "label"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 333,
-   "iri": "http://www.github.com/sparqlunicorn#ddc25136-83aa-463c-9460-c718847292e0_geom",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "ddc25136-83aa-463c-9460-c718847292e0_geom"
-   },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.026516 63.880147)",
-      "type": "label"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 334,
-   "iri": "http://www.github.com/sparqlunicorn#de109b58-0791-4eb7-9fff-d536f15297af_geom",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "de109b58-0791-4eb7-9fff-d536f15297af_geom"
    },
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
@@ -18057,7 +17206,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 335,
+   "id": 298,
    "iri": "http://www.github.com/sparqlunicorn#e1a4e1ed-5021-4210-80a0-248b4c59ba2b_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -18080,7 +17229,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 336,
+   "id": 299,
    "iri": "http://www.github.com/sparqlunicorn#e2bb5213-40ec-467b-ab58-dfd191d67b15_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -18103,7 +17252,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 337,
+   "id": 300,
    "iri": "http://www.github.com/sparqlunicorn#e46dfffe-e0b5-4b6b-8545-7f7133231fcd_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -18126,7 +17275,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 338,
+   "id": 301,
    "iri": "http://www.github.com/sparqlunicorn#e4f0d99c-176b-4354-872f-84ea358ac1d1_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -18149,7 +17298,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 339,
+   "id": 302,
    "iri": "http://www.github.com/sparqlunicorn#e537eb8d-e10d-4cfa-88d8-f7e4e74e5a66_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -18172,7 +17321,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 340,
+   "id": 303,
    "iri": "http://www.github.com/sparqlunicorn#e6b91a0a-28db-4f3c-bbe7-3191b69ece51_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -18195,7 +17344,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 341,
+   "id": 304,
    "iri": "http://www.github.com/sparqlunicorn#e80677e6-20b7-4e3b-85f3-26eabae3fe58_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -18218,35 +17367,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 342,
+   "id": 305,
    "iri": "http://www.github.com/sparqlunicorn#e9b6f78c-acb3-44a8-a83d-5230ac8adfb8_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "e9b6f78c-acb3-44a8-a83d-5230ac8adfb8_geom"
-   },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.026586 63.880122)",
-      "type": "label"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 343,
-   "iri": "http://www.github.com/sparqlunicorn#ea530a2d-219a-4b12-a8b4-4cf7ca09b6b1_geom",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "ea530a2d-219a-4b12-a8b4-4cf7ca09b6b1_geom"
    },
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
@@ -18264,7 +17390,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 344,
+   "id": 306,
    "iri": "http://www.github.com/sparqlunicorn#ebd26bae-6b1e-419b-ab53-a52e011f6c81_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -18287,35 +17413,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 345,
+   "id": 307,
    "iri": "http://www.github.com/sparqlunicorn#ec69643d-e636-443f-95a0-bb55b9614841_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "ec69643d-e636-443f-95a0-bb55b9614841_geom"
-   },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.02652 63.880144)",
-      "type": "label"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 346,
-   "iri": "http://www.github.com/sparqlunicorn#eec807e9-47d0-4801-a3f8-017c818a99e7_geom",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "eec807e9-47d0-4801-a3f8-017c818a99e7_geom"
    },
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
@@ -18333,35 +17436,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 347,
+   "id": 308,
    "iri": "http://www.github.com/sparqlunicorn#f148606b-a850-4d16-a627-606fb8ee5577_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "f148606b-a850-4d16-a627-606fb8ee5577_geom"
-   },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.026574 63.880119)",
-      "type": "label"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 348,
-   "iri": "http://www.github.com/sparqlunicorn#f4c616a4-3188-45f4-ad66-878498003c20_geom",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "f4c616a4-3188-45f4-ad66-878498003c20_geom"
    },
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
@@ -18379,35 +17459,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 349,
+   "id": 309,
    "iri": "http://www.github.com/sparqlunicorn#f533c183-22fb-43cf-9bd1-265caaa661a0_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "f533c183-22fb-43cf-9bd1-265caaa661a0_geom"
-   },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.026568 63.880109)",
-      "type": "label"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 350,
-   "iri": "http://www.github.com/sparqlunicorn#fab26445-cb25-492a-8d8a-47f31706a753_geom",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "fab26445-cb25-492a-8d8a-47f31706a753_geom"
    },
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
@@ -18425,7 +17482,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 351,
+   "id": 310,
    "iri": "http://www.github.com/sparqlunicorn#fd82485d-f6e8-4413-9120-c739f0cc1e82_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
@@ -18448,35 +17505,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 352,
+   "id": 311,
    "iri": "http://www.github.com/sparqlunicorn#fd8fe6ba-e13a-4ef3-9047-626fc45be9e2_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "fd8fe6ba-e13a-4ef3-9047-626fc45be9e2_geom"
-   },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.026586 63.880122)",
-      "type": "label"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 353,
-   "iri": "http://www.github.com/sparqlunicorn#fdf099f7-869f-499e-80c3-00c91f0a4d35_geom",
-   "baseIRI": "http://www.github.com/sparqlunicorn",
-   "instances": 0,
-   "label": {
-    "IRI-based": "fdf099f7-869f-499e-80c3-00c91f0a4d35_geom"
    },
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
@@ -18494,12 +17528,978 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 354,
+   "id": 312,
    "iri": "http://www.github.com/sparqlunicorn#fec6c570-b8d5-49be-aa15-8be41afd1aa3_geom",
    "baseIRI": "http://www.github.com/sparqlunicorn",
    "instances": 0,
    "label": {
     "IRI-based": "fec6c570-b8d5-49be-aa15-8be41afd1aa3_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.026546 63.880125)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 313,
+   "iri": "http://www.github.com/sparqlunicorn#047d2aa4-c98d-4c8e-bba6-c5bc935b626a_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "047d2aa4-c98d-4c8e-bba6-c5bc935b626a_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.02664 63.880141)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 314,
+   "iri": "http://www.github.com/sparqlunicorn#09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.026552 63.88011)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 315,
+   "iri": "http://www.github.com/sparqlunicorn#0b12b1c6-4f43-4635-9437-2eccad89860a_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "0b12b1c6-4f43-4635-9437-2eccad89860a_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.026384 63.880102)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 316,
+   "iri": "http://www.github.com/sparqlunicorn#0cc84bdb-a46b-47fc-851f-925f22e3fd77_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "0cc84bdb-a46b-47fc-851f-925f22e3fd77_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.026551 63.88013)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 317,
+   "iri": "http://www.github.com/sparqlunicorn#0d9d574e-754a-4f9c-93b7-47fc15d4f2d3_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "0d9d574e-754a-4f9c-93b7-47fc15d4f2d3_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.026557 63.880125)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 318,
+   "iri": "http://www.github.com/sparqlunicorn#18d49631-5a11-48f6-acb7-62cfaf8de742_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "18d49631-5a11-48f6-acb7-62cfaf8de742_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.02659 63.880125)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 319,
+   "iri": "http://www.github.com/sparqlunicorn#1d935768-ea8d-4be8-884b-a4dff9825021_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "1d935768-ea8d-4be8-884b-a4dff9825021_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.026582 63.880143)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 320,
+   "iri": "http://www.github.com/sparqlunicorn#31615fc1-a7de-48af-80a2-777dd77760b2_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "31615fc1-a7de-48af-80a2-777dd77760b2_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.026492 63.880107)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 321,
+   "iri": "http://www.github.com/sparqlunicorn#327283ae-3a31-4397-ae77-2566e4d146b6_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "327283ae-3a31-4397-ae77-2566e4d146b6_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.026501 63.880147)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 322,
+   "iri": "http://www.github.com/sparqlunicorn#37993191-20c4-49a4-b3bc-2a28960f323d_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "37993191-20c4-49a4-b3bc-2a28960f323d_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.026574 63.880119)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 323,
+   "iri": "http://www.github.com/sparqlunicorn#389c5712-618e-4532-84fd-4eb084e6c0aa_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "389c5712-618e-4532-84fd-4eb084e6c0aa_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.02652 63.880144)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 324,
+   "iri": "http://www.github.com/sparqlunicorn#3d393a7a-ea8c-45d2-aca7-1453da500bb5_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "3d393a7a-ea8c-45d2-aca7-1453da500bb5_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.026551 63.88013)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 325,
+   "iri": "http://www.github.com/sparqlunicorn#3e78afb0-3e1c-4814-a038-dfde669dc4c1_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "3e78afb0-3e1c-4814-a038-dfde669dc4c1_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.026568 63.880109)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 326,
+   "iri": "http://www.github.com/sparqlunicorn#43445b66-c4c5-4668-8fb7-00186131c6ff_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "43445b66-c4c5-4668-8fb7-00186131c6ff_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.026557 63.880125)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 327,
+   "iri": "http://www.github.com/sparqlunicorn#45d241e5-c948-4ae3-860b-668b54894e58_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "45d241e5-c948-4ae3-860b-668b54894e58_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.026509 63.880149)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 328,
+   "iri": "http://www.github.com/sparqlunicorn#49ca3504-ffe4-4ec4-bd95-72123b14e48e_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "49ca3504-ffe4-4ec4-bd95-72123b14e48e_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.026562 63.880111)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 329,
+   "iri": "http://www.github.com/sparqlunicorn#4a4c2cd5-02ce-415c-b812-ec9fd13d73c6_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "4a4c2cd5-02ce-415c-b812-ec9fd13d73c6_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.026509 63.880149)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 330,
+   "iri": "http://www.github.com/sparqlunicorn#4e1bbd40-75c2-4134-abdf-71a85b238394_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "4e1bbd40-75c2-4134-abdf-71a85b238394_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.026492 63.880107)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 331,
+   "iri": "http://www.github.com/sparqlunicorn#521dd20c-2456-40a9-8b2b-0064396ccb07_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "521dd20c-2456-40a9-8b2b-0064396ccb07_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.026562 63.880111)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 332,
+   "iri": "http://www.github.com/sparqlunicorn#54e13ec0-7b5a-4f4a-892f-615ab97d9000_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "54e13ec0-7b5a-4f4a-892f-615ab97d9000_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.026494 63.880144)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 333,
+   "iri": "http://www.github.com/sparqlunicorn#6247dd7d-45da-4805-9922-ad78d30ddc00_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "6247dd7d-45da-4805-9922-ad78d30ddc00_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.026576 63.880135)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 334,
+   "iri": "http://www.github.com/sparqlunicorn#6a176aee-0f30-4da3-bd88-b48f61a6a5ca_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "6a176aee-0f30-4da3-bd88-b48f61a6a5ca_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.026589 63.88013)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 335,
+   "iri": "http://www.github.com/sparqlunicorn#6f14de57-897a-4758-a984-262ca18baf75_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "6f14de57-897a-4758-a984-262ca18baf75_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.026384 63.880102)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 336,
+   "iri": "http://www.github.com/sparqlunicorn#866cbf6d-496f-4aff-acce-5f47e32fdcd9_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "866cbf6d-496f-4aff-acce-5f47e32fdcd9_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.026516 63.880147)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 337,
+   "iri": "http://www.github.com/sparqlunicorn#8a40c3de-b0fb-4dc0-84d4-2000b15d6f60_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "8a40c3de-b0fb-4dc0-84d4-2000b15d6f60_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.026559 63.880133)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 338,
+   "iri": "http://www.github.com/sparqlunicorn#a3006e8d-46d6-4db0-81aa-23238514e5eb_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "a3006e8d-46d6-4db0-81aa-23238514e5eb_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.026552 63.88011)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 339,
+   "iri": "http://www.github.com/sparqlunicorn#a3228d61-d64a-4b1f-be73-130b222b1c11_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "a3228d61-d64a-4b1f-be73-130b222b1c11_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.02659 63.880125)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 340,
+   "iri": "http://www.github.com/sparqlunicorn#a7f106af-5755-44ed-9ba2-86b1110e21f7_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "a7f106af-5755-44ed-9ba2-86b1110e21f7_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.026589 63.88013)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 341,
+   "iri": "http://www.github.com/sparqlunicorn#a9d036a7-9001-47c8-89db-54c0fe8d6829_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "a9d036a7-9001-47c8-89db-54c0fe8d6829_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.026501 63.880147)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 342,
+   "iri": "http://www.github.com/sparqlunicorn#b1984fb3-ca88-4453-8fa3-b782d735052c_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "b1984fb3-ca88-4453-8fa3-b782d735052c_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.026546 63.880125)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 343,
+   "iri": "http://www.github.com/sparqlunicorn#b7ee573a-bf90-4f57-b159-39e1fc2822a8_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "b7ee573a-bf90-4f57-b159-39e1fc2822a8_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.026582 63.880143)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 344,
+   "iri": "http://www.github.com/sparqlunicorn#c7c46dd9-6977-4662-86fa-7bd465591b65_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "c7c46dd9-6977-4662-86fa-7bd465591b65_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.02664 63.880141)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 345,
+   "iri": "http://www.github.com/sparqlunicorn#d5710f70-63c7-4107-ac87-3fad0dca5830_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "d5710f70-63c7-4107-ac87-3fad0dca5830_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.026576 63.880135)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 346,
+   "iri": "http://www.github.com/sparqlunicorn#dc5ba2e0-7975-466e-930f-a5469030df40_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "dc5ba2e0-7975-466e-930f-a5469030df40_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.026494 63.880144)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 347,
+   "iri": "http://www.github.com/sparqlunicorn#dca0e312-48bb-4ff0-9316-fa71cdda0c9c_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "dca0e312-48bb-4ff0-9316-fa71cdda0c9c_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.026559 63.880133)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 348,
+   "iri": "http://www.github.com/sparqlunicorn#ddc25136-83aa-463c-9460-c718847292e0_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "ddc25136-83aa-463c-9460-c718847292e0_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.026516 63.880147)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 349,
+   "iri": "http://www.github.com/sparqlunicorn#de109b58-0791-4eb7-9fff-d536f15297af_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "de109b58-0791-4eb7-9fff-d536f15297af_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.026586 63.880122)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 350,
+   "iri": "http://www.github.com/sparqlunicorn#ea530a2d-219a-4b12-a8b4-4cf7ca09b6b1_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "ea530a2d-219a-4b12-a8b4-4cf7ca09b6b1_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.02652 63.880144)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 351,
+   "iri": "http://www.github.com/sparqlunicorn#eec807e9-47d0-4801-a3f8-017c818a99e7_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "eec807e9-47d0-4801-a3f8-017c818a99e7_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.026574 63.880119)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 352,
+   "iri": "http://www.github.com/sparqlunicorn#f4c616a4-3188-45f4-ad66-878498003c20_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "f4c616a4-3188-45f4-ad66-878498003c20_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.026568 63.880109)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 353,
+   "iri": "http://www.github.com/sparqlunicorn#fab26445-cb25-492a-8d8a-47f31706a753_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "fab26445-cb25-492a-8d8a-47f31706a753_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.026586 63.880122)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 354,
+   "iri": "http://www.github.com/sparqlunicorn#fdf099f7-869f-499e-80c3-00c91f0a4d35_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "fdf099f7-869f-499e-80c3-00c91f0a4d35_geom"
    },
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [

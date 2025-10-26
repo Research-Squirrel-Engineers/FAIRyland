@@ -91,7 +91,7 @@ ns2:FAIRyland_LOD_www.opengis.net_ont_geosparql_ a void:Linkset,
     void:objectsTarget geo: ;
     void:subjectsTarget ns2:FAIRyland_LOD ;
     void:triples 1,
-        9 .
+        10 .
 
 ns2:FAIRyland_LOD_www.opengis.net_ont_sf_ a void:Linkset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -321,6 +321,55 @@ ns2:MultiPolygon_collection a geo:GeometryCollection,
     rdfs:member ns2:72d83c05-1969-4b24-a507-eb1450bffea4_geom,
         ns2:8e91ce6c-6177-45e0-80f4-477fd6e14587_geom .
 
+ns2:Point_collection a geo:GeometryCollection,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Point Instances Collection"@en ;
+    void:inDataset ns2:FAIRyland_LOD ;
+    rdfs:member ns2:047d2aa4-c98d-4c8e-bba6-c5bc935b626a_geom,
+        ns2:09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb_geom,
+        ns2:0b12b1c6-4f43-4635-9437-2eccad89860a_geom,
+        ns2:0cc84bdb-a46b-47fc-851f-925f22e3fd77_geom,
+        ns2:0d9d574e-754a-4f9c-93b7-47fc15d4f2d3_geom,
+        ns2:18d49631-5a11-48f6-acb7-62cfaf8de742_geom,
+        ns2:1d935768-ea8d-4be8-884b-a4dff9825021_geom,
+        ns2:31615fc1-a7de-48af-80a2-777dd77760b2_geom,
+        ns2:327283ae-3a31-4397-ae77-2566e4d146b6_geom,
+        ns2:37993191-20c4-49a4-b3bc-2a28960f323d_geom,
+        ns2:389c5712-618e-4532-84fd-4eb084e6c0aa_geom,
+        ns2:3d393a7a-ea8c-45d2-aca7-1453da500bb5_geom,
+        ns2:3e78afb0-3e1c-4814-a038-dfde669dc4c1_geom,
+        ns2:43445b66-c4c5-4668-8fb7-00186131c6ff_geom,
+        ns2:45d241e5-c948-4ae3-860b-668b54894e58_geom,
+        ns2:49ca3504-ffe4-4ec4-bd95-72123b14e48e_geom,
+        ns2:4a4c2cd5-02ce-415c-b812-ec9fd13d73c6_geom,
+        ns2:4e1bbd40-75c2-4134-abdf-71a85b238394_geom,
+        ns2:521dd20c-2456-40a9-8b2b-0064396ccb07_geom,
+        ns2:54e13ec0-7b5a-4f4a-892f-615ab97d9000_geom,
+        ns2:6247dd7d-45da-4805-9922-ad78d30ddc00_geom,
+        ns2:6a176aee-0f30-4da3-bd88-b48f61a6a5ca_geom,
+        ns2:6f14de57-897a-4758-a984-262ca18baf75_geom,
+        ns2:866cbf6d-496f-4aff-acce-5f47e32fdcd9_geom,
+        ns2:8a40c3de-b0fb-4dc0-84d4-2000b15d6f60_geom,
+        ns2:a3006e8d-46d6-4db0-81aa-23238514e5eb_geom,
+        ns2:a3228d61-d64a-4b1f-be73-130b222b1c11_geom,
+        ns2:a7f106af-5755-44ed-9ba2-86b1110e21f7_geom,
+        ns2:a9d036a7-9001-47c8-89db-54c0fe8d6829_geom,
+        ns2:b1984fb3-ca88-4453-8fa3-b782d735052c_geom,
+        ns2:b7ee573a-bf90-4f57-b159-39e1fc2822a8_geom,
+        ns2:c7c46dd9-6977-4662-86fa-7bd465591b65_geom,
+        ns2:d5710f70-63c7-4107-ac87-3fad0dca5830_geom,
+        ns2:dc5ba2e0-7975-466e-930f-a5469030df40_geom,
+        ns2:dca0e312-48bb-4ff0-9316-fa71cdda0c9c_geom,
+        ns2:ddc25136-83aa-463c-9460-c718847292e0_geom,
+        ns2:de109b58-0791-4eb7-9fff-d536f15297af_geom,
+        ns2:ea530a2d-219a-4b12-a8b4-4cf7ca09b6b1_geom,
+        ns2:eec807e9-47d0-4801-a3f8-017c818a99e7_geom,
+        ns2:f4c616a4-3188-45f4-ad66-878498003c20_geom,
+        ns2:fab26445-cb25-492a-8d8a-47f31706a753_geom,
+        ns2:fdf099f7-869f-499e-80c3-00c91f0a4d35_geom .
+
 ns2:Polygon_collection a geo:GeometryCollection,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -330,26 +379,19 @@ ns2:Polygon_collection a geo:GeometryCollection,
     rdfs:member ns2:0194d590-c58c-4c97-98f8-303ea8ffe32a_geom,
         ns2:038d7342-a29b-4fb4-848a-38956486b324_geom,
         ns2:03bf5218-bda5-4791-b190-b302c4d8d6ce_geom,
-        ns2:047d2aa4-c98d-4c8e-bba6-c5bc935b626a_geom,
         ns2:069e7a2d-631d-4338-adf9-5fd2f9bd2155_geom,
         ns2:0800c7da-7e10-4ba2-a020-7db1bc018572_geom,
         ns2:09625e57-e1e3-4819-baac-8154feac0fe6_geom,
-        ns2:09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb_geom,
-        ns2:0b12b1c6-4f43-4635-9437-2eccad89860a_geom,
         ns2:0b959b96-55fd-4550-b4de-68e2c4f9625f_geom,
-        ns2:0cc84bdb-a46b-47fc-851f-925f22e3fd77_geom,
         ns2:0cde71e0-701f-44cd-a025-5cac1d1c7d70_geom,
-        ns2:0d9d574e-754a-4f9c-93b7-47fc15d4f2d3_geom,
         ns2:1073f60f-73b2-4193-8bd7-951995224dbb_geom,
         ns2:10d1a1c2-f56c-485c-a5cc-4d4e48c8e675_geom,
         ns2:12ce69a0-6b49-4159-8ff6-b468f44d33b5_geom,
         ns2:12d61444-88ae-43b3-95d4-15e5fecd4180_geom,
         ns2:180a5320-3833-4133-aa46-aab7f0d80d84_geom,
-        ns2:18d49631-5a11-48f6-acb7-62cfaf8de742_geom,
         ns2:19793c7f-6cc9-462c-99da-e3e33ff97461_geom,
         ns2:1a2be1c9-acaf-4659-839d-0146401472f2_geom,
         ns2:1ac53fc4-aeb3-4256-ac8e-47160f4d642a_geom,
-        ns2:1d935768-ea8d-4be8-884b-a4dff9825021_geom,
         ns2:1fcfa357-13f8-4cb5-8e28-f98280989898_geom,
         ns2:25d0c170-da08-47ed-8bf8-78f36d0f558e_geom,
         ns2:264aceda-0df9-48de-9c9a-bfac46e9d790_geom,
@@ -359,46 +401,32 @@ ns2:Polygon_collection a geo:GeometryCollection,
         ns2:2d3d304e-4ac7-4f2f-93a6-251105f7ace4_geom,
         ns2:2e711592-9068-438a-80b9-0c7725e1d6bb_geom,
         ns2:3018eba9-3c11-41e8-901e-7377167b58e4_geom,
-        ns2:31615fc1-a7de-48af-80a2-777dd77760b2_geom,
         ns2:32126fde-7a0e-46ab-b512-ad9f20ea10ea_geom,
-        ns2:327283ae-3a31-4397-ae77-2566e4d146b6_geom,
         ns2:3280d786-1bb7-4913-9be9-9041f65ef4b6_geom,
         ns2:3672902d-7362-4069-9769-21296706d028_geom,
-        ns2:37993191-20c4-49a4-b3bc-2a28960f323d_geom,
-        ns2:389c5712-618e-4532-84fd-4eb084e6c0aa_geom,
         ns2:3a55458f-5c2f-4368-9a03-384f6377e301_geom,
         ns2:3cd74fe7-9b31-4361-ad28-08afb3097edc_geom,
-        ns2:3d393a7a-ea8c-45d2-aca7-1453da500bb5_geom,
         ns2:3e67e756-dad2-4514-a9af-511fd2db0e91_geom,
-        ns2:3e78afb0-3e1c-4814-a038-dfde669dc4c1_geom,
         ns2:41bc9d9f-999b-4c03-868d-e3823fc03184_geom,
-        ns2:43445b66-c4c5-4668-8fb7-00186131c6ff_geom,
         ns2:435bca7b-b840-4894-9bff-df7c45b2c20c_geom,
-        ns2:45d241e5-c948-4ae3-860b-668b54894e58_geom,
         ns2:464f2805-ec4f-4d89-858e-f56a4378062d_geom,
         ns2:467872e1-4482-4e05-ba2e-2ac81b40dcf7_geom,
         ns2:4692f53e-797d-4457-bbc3-55273889566f_geom,
         ns2:4960c3ef-c969-4930-8f87-3e9250c5b716_geom,
-        ns2:49ca3504-ffe4-4ec4-bd95-72123b14e48e_geom,
-        ns2:4a4c2cd5-02ce-415c-b812-ec9fd13d73c6_geom,
         ns2:4bb458df-e06c-4d79-bcdb-663a09168b93_geom,
         ns2:4ccf2904-a68a-4c88-81de-8d549bc421e9_geom,
         ns2:4db030c2-2331-4dad-b17c-da023bceff9f_geom,
-        ns2:4e1bbd40-75c2-4134-abdf-71a85b238394_geom,
         ns2:4f25cbc8-6f89-434b-8988-0e3e965f2aa7_geom,
-        ns2:521dd20c-2456-40a9-8b2b-0064396ccb07_geom,
         ns2:526eb9a7-2805-4a93-b49c-df9a922b279c_geom,
         ns2:52f8f607-2c6b-4b25-90f8-861ed744e1ca_geom,
         ns2:53bf2db7-7718-4835-bc3c-2baf3068207f_geom,
         ns2:53ed429c-06e1-419a-9002-12d7bcf18ba0_geom,
-        ns2:54e13ec0-7b5a-4f4a-892f-615ab97d9000_geom,
         ns2:55eee8ec-2c4a-4924-8d2e-89b0d57b2d74_geom,
         ns2:569674c9-3895-4cb5-8f2c-38e608cab577_geom,
         ns2:5bcc0471-f0ba-417c-bae1-abb3223cd352_geom,
         ns2:5c6ce17c-cdde-459e-a423-ad5d827e5d4e_geom,
         ns2:5f5d079d-712c-4ad0-842c-c04d0d0763e5_geom,
         ns2:622ce224-fab0-4fbd-8a79-d8ecc9b26a49_geom,
-        ns2:6247dd7d-45da-4805-9922-ad78d30ddc00_geom,
         ns2:62c65c41-af9e-4af8-af61-97602598da5c_geom,
         ns2:64586be1-1d82-4160-a5fb-5af067a6276b_geom,
         ns2:646cf01d-f91f-454d-96f3-69f122d90cf1_geom,
@@ -407,9 +435,7 @@ ns2:Polygon_collection a geo:GeometryCollection,
         ns2:6839545f-3c21-456c-8e65-a34518a8bf7c_geom,
         ns2:69195ab5-0241-4995-8079-fee9d5509376_geom,
         ns2:6939e3db-546a-4041-a823-e729a2d4b694_geom,
-        ns2:6a176aee-0f30-4da3-bd88-b48f61a6a5ca_geom,
         ns2:6daab534-65db-49f5-9b1b-5842930184c6_geom,
-        ns2:6f14de57-897a-4758-a984-262ca18baf75_geom,
         ns2:6fa013cb-f86c-4978-ac06-999760a58991_geom,
         ns2:7a2b1560-c346-41b6-915b-a10547cd3440_geom,
         ns2:7abeb59f-2759-4736-897c-69d50f0cdb27_geom,
@@ -418,11 +444,9 @@ ns2:Polygon_collection a geo:GeometryCollection,
         ns2:7effe8a8-89ea-40c7-b095-ac70c7f9c030_geom,
         ns2:81a150a3-f5f9-4f03-84d7-b5e043f9d371_geom,
         ns2:8522a6f2-b165-4529-9dd6-30bc0da88476_geom,
-        ns2:866cbf6d-496f-4aff-acce-5f47e32fdcd9_geom,
         ns2:86997e8b-4662-4c0f-a2d1-b17edc36ac8a_geom,
         ns2:86f8a06e-51c7-41be-935b-e70bfcaa67b7_geom,
         ns2:89b07983-8e6c-4b79-a97f-618a913945ee_geom,
-        ns2:8a40c3de-b0fb-4dc0-84d4-2000b15d6f60_geom,
         ns2:8a782006-277b-43df-b476-622e770433ba_geom,
         ns2:8fc69a50-3bd3-43ef-9f74-2e52360f520c_geom,
         ns2:90d8c5f4-021b-414b-8219-47f4e39bbff6_geom,
@@ -435,18 +459,12 @@ ns2:Polygon_collection a geo:GeometryCollection,
         ns2:9e80e441-dc60-4514-8477-702e7d8ea321_geom,
         ns2:a0108469-2166-4732-8aff-f6429f29a82f_geom,
         ns2:a09111ca-c359-48cc-9a96-e79673caa0b8_geom,
-        ns2:a3006e8d-46d6-4db0-81aa-23238514e5eb_geom,
-        ns2:a3228d61-d64a-4b1f-be73-130b222b1c11_geom,
-        ns2:a7f106af-5755-44ed-9ba2-86b1110e21f7_geom,
-        ns2:a9d036a7-9001-47c8-89db-54c0fe8d6829_geom,
         ns2:ab7a69ca-6c8f-4d13-893b-3702231a60b7_geom,
         ns2:abb845a6-5386-459e-938f-5100e0af1f72_geom,
-        ns2:b1984fb3-ca88-4453-8fa3-b782d735052c_geom,
         ns2:b3a42fde-e5a1-4a7f-912f-ef0fe1019b2b_geom,
         ns2:b6233e40-079e-447d-b960-2f59a90dcd6e_geom,
         ns2:b70a68c4-e63b-445d-8f0f-ec2384dc1363_geom,
         ns2:b7b8283e-fd64-4b1f-b6e3-81a71091b63a_geom,
-        ns2:b7ee573a-bf90-4f57-b159-39e1fc2822a8_geom,
         ns2:b8b8a52d-9851-4436-9d74-90cc18bdc8e1_geom,
         ns2:b8ca6de4-79fe-49d2-b786-e5a01b2dc2a0_geom,
         ns2:b9b8ed23-6d56-4374-b098-d5fe1a84c94f_geom,
@@ -460,7 +478,6 @@ ns2:Polygon_collection a geo:GeometryCollection,
         ns2:c3bb016c-19bf-454f-8530-ffe68ec1da1a_geom,
         ns2:c5f35a70-8ad6-4cd8-8b0d-519a9ce95b94_geom,
         ns2:c62d6ed4-30ab-402b-ba2e-c432aaa0d53b_geom,
-        ns2:c7c46dd9-6977-4662-86fa-7bd465591b65_geom,
         ns2:cbe5d6de-a929-4641-9d9b-9b9b2498eeb3_geom,
         ns2:cc01dfc5-6d56-472f-9045-d22f22b2ca3a_geom,
         ns2:cc774e18-df41-45a3-976b-bbbbc25ecff1_geom,
@@ -472,11 +489,6 @@ ns2:Polygon_collection a geo:GeometryCollection,
         ns2:d2e36d44-1ea1-4205-8920-c97cdab3b3aa_geom,
         ns2:d39b0a02-169d-40a8-897d-7c7a5eee497d_geom,
         ns2:d46e1360-2fe2-43a6-80fc-892d3d2881c1_geom,
-        ns2:d5710f70-63c7-4107-ac87-3fad0dca5830_geom,
-        ns2:dc5ba2e0-7975-466e-930f-a5469030df40_geom,
-        ns2:dca0e312-48bb-4ff0-9316-fa71cdda0c9c_geom,
-        ns2:ddc25136-83aa-463c-9460-c718847292e0_geom,
-        ns2:de109b58-0791-4eb7-9fff-d536f15297af_geom,
         ns2:e1a4e1ed-5021-4210-80a0-248b4c59ba2b_geom,
         ns2:e2bb5213-40ec-467b-ab58-dfd191d67b15_geom,
         ns2:e46dfffe-e0b5-4b6b-8545-7f7133231fcd_geom,
@@ -485,17 +497,12 @@ ns2:Polygon_collection a geo:GeometryCollection,
         ns2:e6b91a0a-28db-4f3c-bbe7-3191b69ece51_geom,
         ns2:e80677e6-20b7-4e3b-85f3-26eabae3fe58_geom,
         ns2:e9b6f78c-acb3-44a8-a83d-5230ac8adfb8_geom,
-        ns2:ea530a2d-219a-4b12-a8b4-4cf7ca09b6b1_geom,
         ns2:ebd26bae-6b1e-419b-ab53-a52e011f6c81_geom,
         ns2:ec69643d-e636-443f-95a0-bb55b9614841_geom,
-        ns2:eec807e9-47d0-4801-a3f8-017c818a99e7_geom,
         ns2:f148606b-a850-4d16-a627-606fb8ee5577_geom,
-        ns2:f4c616a4-3188-45f4-ad66-878498003c20_geom,
         ns2:f533c183-22fb-43cf-9bd1-265caaa661a0_geom,
-        ns2:fab26445-cb25-492a-8d8a-47f31706a753_geom,
         ns2:fd82485d-f6e8-4413-9120-c739f0cc1e82_geom,
         ns2:fd8fe6ba-e13a-4ef3-9047-626fc45be9e2_geom,
-        ns2:fdf099f7-869f-499e-80c3-00c91f0a4d35_geom,
         ns2:fec6c570-b8d5-49be-aa15-8be41afd1aa3_geom .
 
 ns2:Stone_collection a geo:FeatureCollection,
@@ -3095,7 +3102,7 @@ ns2:03bf5218-bda5-4791-b190-b302c4d8d6ce_geom a <http://www.opengis.net/ont/sf#P
     void:inDataset ns2:FAIRyland_LOD ;
     geo:asWKT "POLYGON((20.026531 63.880155, 20.026530 63.880155, 20.026528 63.880155, 20.026528 63.880154, 20.026530 63.880153, 20.026531 63.880154, 20.026533 63.880154, 20.026531 63.880155))"^^geo:wktLiteral .
 
-ns2:047d2aa4-c98d-4c8e-bba6-c5bc935b626a_geom a <http://www.opengis.net/ont/sf#Polygon>,
+ns2:047d2aa4-c98d-4c8e-bba6-c5bc935b626a_geom a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
@@ -3123,14 +3130,14 @@ ns2:09625e57-e1e3-4819-baac-8154feac0fe6_geom a <http://www.opengis.net/ont/sf#P
     void:inDataset ns2:FAIRyland_LOD ;
     geo:asWKT "POLYGON((20.026672 63.880122, 20.026670 63.880122, 20.026668 63.880122, 20.026669 63.880121, 20.026671 63.880120, 20.026673 63.880120, 20.026675 63.880121, 20.026672 63.880122))"^^geo:wktLiteral .
 
-ns2:09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb_geom a <http://www.opengis.net/ont/sf#Polygon>,
+ns2:09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb_geom a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns2:FAIRyland_LOD ;
     geo:asWKT "POINT(20.02664 63.880141)"^^geo:wktLiteral .
 
-ns2:0b12b1c6-4f43-4635-9437-2eccad89860a_geom a <http://www.opengis.net/ont/sf#Polygon>,
+ns2:0b12b1c6-4f43-4635-9437-2eccad89860a_geom a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
@@ -3144,7 +3151,7 @@ ns2:0b959b96-55fd-4550-b4de-68e2c4f9625f_geom a <http://www.opengis.net/ont/sf#P
     void:inDataset ns2:FAIRyland_LOD ;
     geo:asWKT "POLYGON((20.026727 63.880134, 20.026725 63.880133, 20.026723 63.880133, 20.026724 63.880132, 20.026727 63.880132, 20.026729 63.880133, 20.026727 63.880134))"^^geo:wktLiteral .
 
-ns2:0cc84bdb-a46b-47fc-851f-925f22e3fd77_geom a <http://www.opengis.net/ont/sf#Polygon>,
+ns2:0cc84bdb-a46b-47fc-851f-925f22e3fd77_geom a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
@@ -3158,7 +3165,7 @@ ns2:0cde71e0-701f-44cd-a025-5cac1d1c7d70_geom a <http://www.opengis.net/ont/sf#P
     void:inDataset ns2:FAIRyland_LOD ;
     geo:asWKT "POLYGON((20.026481 63.880120, 20.026480 63.880121, 20.026480 63.880121, 20.026478 63.880121, 20.026476 63.880121, 20.026474 63.880120, 20.026473 63.880120, 20.026473 63.880119, 20.026473 63.880118, 20.026474 63.880118, 20.026476 63.880117, 20.026478 63.880117, 20.026479 63.880118, 20.026481 63.880118, 20.026481 63.880120))"^^geo:wktLiteral .
 
-ns2:0d9d574e-754a-4f9c-93b7-47fc15d4f2d3_geom a <http://www.opengis.net/ont/sf#Polygon>,
+ns2:0d9d574e-754a-4f9c-93b7-47fc15d4f2d3_geom a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
@@ -3200,7 +3207,7 @@ ns2:180a5320-3833-4133-aa46-aab7f0d80d84_geom a <http://www.opengis.net/ont/sf#P
     void:inDataset ns2:FAIRyland_LOD ;
     geo:asWKT "POLYGON((20.026705 63.880133, 20.026707 63.880133, 20.026709 63.880133, 20.026712 63.880134, 20.026714 63.880134, 20.026716 63.880133, 20.026716 63.880132, 20.026716 63.880131, 20.026717 63.880130, 20.026720 63.880130, 20.026720 63.880129, 20.026721 63.880128, 20.026723 63.880128, 20.026725 63.880128, 20.026728 63.880128, 20.026730 63.880128, 20.026732 63.880127, 20.026731 63.880126, 20.026730 63.880125, 20.026729 63.880124, 20.026728 63.880123, 20.026727 63.880122, 20.026727 63.880121, 20.026727 63.880120, 20.026728 63.880119, 20.026727 63.880118, 20.026726 63.880117, 20.026725 63.880116, 20.026724 63.880115, 20.026722 63.880115, 20.026719 63.880117, 20.026718 63.880117, 20.026716 63.880117, 20.026715 63.880116, 20.026716 63.880115, 20.026713 63.880115, 20.026711 63.880115, 20.026709 63.880114, 20.026706 63.880114, 20.026704 63.880114, 20.026701 63.880114, 20.026699 63.880115, 20.026697 63.880115, 20.026697 63.880117, 20.026695 63.880117, 20.026692 63.880118, 20.026690 63.880118, 20.026690 63.880119, 20.026691 63.880121, 20.026691 63.880122, 20.026693 63.880123, 20.026694 63.880124, 20.026694 63.880125, 20.026695 63.880126, 20.026694 63.880127, 20.026693 63.880128, 20.026695 63.880129, 20.026697 63.880129, 20.026699 63.880130, 20.026699 63.880130, 20.026701 63.880130, 20.026703 63.880130, 20.026704 63.880131, 20.026703 63.880132, 20.026705 63.880133),(20.026707 63.880120, 20.026709 63.880121, 20.026710 63.880122, 20.026711 63.880121, 20.026714 63.880121, 20.026716 63.880121, 20.026717 63.880122, 20.026716 63.880123, 20.026713 63.880124, 20.026710 63.880124, 20.026710 63.880123, 20.026708 63.880123, 20.026705 63.880124, 20.026703 63.880123, 20.026704 63.880122, 20.026704 63.880121, 20.026703 63.880120, 20.026705 63.880120, 20.026707 63.880120),(20.026716 63.880127, 20.026715 63.880128, 20.026712 63.880129, 20.026710 63.880129, 20.026708 63.880128, 20.026708 63.880127, 20.026710 63.880126, 20.026712 63.880126, 20.026715 63.880126, 20.026716 63.880127))"^^geo:wktLiteral .
 
-ns2:18d49631-5a11-48f6-acb7-62cfaf8de742_geom a <http://www.opengis.net/ont/sf#Polygon>,
+ns2:18d49631-5a11-48f6-acb7-62cfaf8de742_geom a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
@@ -3228,7 +3235,7 @@ ns2:1ac53fc4-aeb3-4256-ac8e-47160f4d642a_geom a <http://www.opengis.net/ont/sf#P
     void:inDataset ns2:FAIRyland_LOD ;
     geo:asWKT "POLYGON((20.026288 63.880134, 20.026359 63.880146, 20.026369 63.880147, 20.026369 63.880146, 20.026369 63.880145, 20.026369 63.880144, 20.026370 63.880143, 20.026371 63.880143, 20.026371 63.880142, 20.026372 63.880141, 20.026372 63.880140, 20.026373 63.880139, 20.026373 63.880138, 20.026374 63.880137, 20.026294 63.880127, 20.026267 63.880113, 20.026224 63.880098, 20.026189 63.880086, 20.026171 63.880098, 20.026229 63.880117, 20.026288 63.880134))"^^geo:wktLiteral .
 
-ns2:1d935768-ea8d-4be8-884b-a4dff9825021_geom a <http://www.opengis.net/ont/sf#Polygon>,
+ns2:1d935768-ea8d-4be8-884b-a4dff9825021_geom a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
@@ -3298,7 +3305,7 @@ ns2:3018eba9-3c11-41e8-901e-7377167b58e4_geom a <http://www.opengis.net/ont/sf#P
     void:inDataset ns2:FAIRyland_LOD ;
     geo:asWKT "POLYGON((20.026577 63.880195, 20.026575 63.880195, 20.026573 63.880195, 20.026571 63.880194, 20.026570 63.880194, 20.026571 63.880193, 20.026572 63.880192, 20.026573 63.880191, 20.026575 63.880191, 20.026577 63.880191, 20.026579 63.880192, 20.026579 63.880193, 20.026579 63.880193, 20.026579 63.880194, 20.026577 63.880195))"^^geo:wktLiteral .
 
-ns2:31615fc1-a7de-48af-80a2-777dd77760b2_geom a <http://www.opengis.net/ont/sf#Polygon>,
+ns2:31615fc1-a7de-48af-80a2-777dd77760b2_geom a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
@@ -3312,7 +3319,7 @@ ns2:32126fde-7a0e-46ab-b512-ad9f20ea10ea_geom a <http://www.opengis.net/ont/sf#P
     void:inDataset ns2:FAIRyland_LOD ;
     geo:asWKT "POLYGON((20.026520 63.880185, 20.026519 63.880185, 20.026518 63.880186, 20.026516 63.880186, 20.026515 63.880186, 20.026514 63.880185, 20.026515 63.880184, 20.026516 63.880184, 20.026518 63.880183, 20.026520 63.880183, 20.026520 63.880185))"^^geo:wktLiteral .
 
-ns2:327283ae-3a31-4397-ae77-2566e4d146b6_geom a <http://www.opengis.net/ont/sf#Polygon>,
+ns2:327283ae-3a31-4397-ae77-2566e4d146b6_geom a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
@@ -3333,14 +3340,14 @@ ns2:3672902d-7362-4069-9769-21296706d028_geom a <http://www.opengis.net/ont/sf#P
     void:inDataset ns2:FAIRyland_LOD ;
     geo:asWKT "POLYGON((20.026583 63.880156, 20.026581 63.880156, 20.026579 63.880156, 20.026578 63.880155, 20.026579 63.880154, 20.026580 63.880154, 20.026582 63.880154, 20.026584 63.880153, 20.026585 63.880154, 20.026587 63.880154, 20.026588 63.880155, 20.026587 63.880156, 20.026586 63.880156, 20.026583 63.880156))"^^geo:wktLiteral .
 
-ns2:37993191-20c4-49a4-b3bc-2a28960f323d_geom a <http://www.opengis.net/ont/sf#Polygon>,
+ns2:37993191-20c4-49a4-b3bc-2a28960f323d_geom a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns2:FAIRyland_LOD ;
     geo:asWKT "POINT(20.026501 63.880147)"^^geo:wktLiteral .
 
-ns2:389c5712-618e-4532-84fd-4eb084e6c0aa_geom a <http://www.opengis.net/ont/sf#Polygon>,
+ns2:389c5712-618e-4532-84fd-4eb084e6c0aa_geom a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
@@ -3361,7 +3368,7 @@ ns2:3cd74fe7-9b31-4361-ad28-08afb3097edc_geom a <http://www.opengis.net/ont/sf#P
     void:inDataset ns2:FAIRyland_LOD ;
     geo:asWKT "POLYGON((20.026578 63.880204, 20.026576 63.880204, 20.026574 63.880205, 20.026572 63.880205, 20.026570 63.880205, 20.026569 63.880205, 20.026567 63.880205, 20.026566 63.880206, 20.026564 63.880206, 20.026562 63.880206, 20.026561 63.880206, 20.026561 63.880205, 20.026562 63.880205, 20.026564 63.880204, 20.026565 63.880204, 20.026564 63.880203, 20.026564 63.880202, 20.026562 63.880202, 20.026564 63.880201, 20.026566 63.880201, 20.026567 63.880201, 20.026569 63.880201, 20.026571 63.880201, 20.026571 63.880200, 20.026570 63.880200, 20.026568 63.880199, 20.026566 63.880198, 20.026565 63.880197, 20.026567 63.880197, 20.026570 63.880198, 20.026571 63.880199, 20.026572 63.880199, 20.026574 63.880200, 20.026574 63.880199, 20.026573 63.880198, 20.026573 63.880198, 20.026575 63.880197, 20.026576 63.880198, 20.026577 63.880199, 20.026579 63.880199, 20.026580 63.880198, 20.026582 63.880198, 20.026583 63.880199, 20.026584 63.880200, 20.026583 63.880200, 20.026582 63.880201, 20.026581 63.880202, 20.026578 63.880204))"^^geo:wktLiteral .
 
-ns2:3d393a7a-ea8c-45d2-aca7-1453da500bb5_geom a <http://www.opengis.net/ont/sf#Polygon>,
+ns2:3d393a7a-ea8c-45d2-aca7-1453da500bb5_geom a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
@@ -3375,7 +3382,7 @@ ns2:3e67e756-dad2-4514-a9af-511fd2db0e91_geom a <http://www.opengis.net/ont/sf#P
     void:inDataset ns2:FAIRyland_LOD ;
     geo:asWKT "POLYGON((20.025035 63.879298, 20.025102 63.879340, 20.025124 63.879332, 20.025046 63.879284, 20.024983 63.879245, 20.024961 63.879252, 20.025035 63.879298))"^^geo:wktLiteral .
 
-ns2:3e78afb0-3e1c-4814-a038-dfde669dc4c1_geom a <http://www.opengis.net/ont/sf#Polygon>,
+ns2:3e78afb0-3e1c-4814-a038-dfde669dc4c1_geom a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
@@ -3389,7 +3396,7 @@ ns2:41bc9d9f-999b-4c03-868d-e3823fc03184_geom a <http://www.opengis.net/ont/sf#P
     void:inDataset ns2:FAIRyland_LOD ;
     geo:asWKT "POLYGON((20.026560 63.880153, 20.026558 63.880153, 20.026556 63.880153, 20.026555 63.880152, 20.026555 63.880151, 20.026556 63.880151, 20.026558 63.880150, 20.026560 63.880150, 20.026562 63.880151, 20.026563 63.880152, 20.026564 63.880152, 20.026560 63.880153))"^^geo:wktLiteral .
 
-ns2:43445b66-c4c5-4668-8fb7-00186131c6ff_geom a <http://www.opengis.net/ont/sf#Polygon>,
+ns2:43445b66-c4c5-4668-8fb7-00186131c6ff_geom a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
@@ -3403,7 +3410,7 @@ ns2:435bca7b-b840-4894-9bff-df7c45b2c20c_geom a <http://www.opengis.net/ont/sf#P
     void:inDataset ns2:FAIRyland_LOD ;
     geo:asWKT "POLYGON((20.026562 63.880162, 20.026561 63.880163, 20.026559 63.880163, 20.026557 63.880162, 20.026557 63.880161, 20.026557 63.880160, 20.026558 63.880160, 20.026560 63.880160, 20.026561 63.880160, 20.026562 63.880162))"^^geo:wktLiteral .
 
-ns2:45d241e5-c948-4ae3-860b-668b54894e58_geom a <http://www.opengis.net/ont/sf#Polygon>,
+ns2:45d241e5-c948-4ae3-860b-668b54894e58_geom a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
@@ -3438,14 +3445,14 @@ ns2:4960c3ef-c969-4930-8f87-3e9250c5b716_geom a <http://www.opengis.net/ont/sf#P
     void:inDataset ns2:FAIRyland_LOD ;
     geo:asWKT "POLYGON((20.026679 63.880124, 20.026677 63.880123, 20.026676 63.880122, 20.026679 63.880122, 20.026681 63.880123, 20.026680 63.880124, 20.026679 63.880124))"^^geo:wktLiteral .
 
-ns2:49ca3504-ffe4-4ec4-bd95-72123b14e48e_geom a <http://www.opengis.net/ont/sf#Polygon>,
+ns2:49ca3504-ffe4-4ec4-bd95-72123b14e48e_geom a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns2:FAIRyland_LOD ;
     geo:asWKT "POINT(20.026509 63.880149)"^^geo:wktLiteral .
 
-ns2:4a4c2cd5-02ce-415c-b812-ec9fd13d73c6_geom a <http://www.opengis.net/ont/sf#Polygon>,
+ns2:4a4c2cd5-02ce-415c-b812-ec9fd13d73c6_geom a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
@@ -3473,7 +3480,7 @@ ns2:4db030c2-2331-4dad-b17c-da023bceff9f_geom a <http://www.opengis.net/ont/sf#P
     void:inDataset ns2:FAIRyland_LOD ;
     geo:asWKT "POLYGON((20.024827 63.879229, 20.024940 63.879259, 20.025028 63.879229, 20.025044 63.879190, 20.025061 63.879133, 20.024984 63.879119, 20.024920 63.879089, 20.024831 63.879100, 20.024746 63.879123, 20.024610 63.879132, 20.024686 63.879162, 20.024690 63.879197, 20.024674 63.879235, 20.024803 63.879252, 20.024827 63.879229))"^^geo:wktLiteral .
 
-ns2:4e1bbd40-75c2-4134-abdf-71a85b238394_geom a <http://www.opengis.net/ont/sf#Polygon>,
+ns2:4e1bbd40-75c2-4134-abdf-71a85b238394_geom a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
@@ -3487,7 +3494,7 @@ ns2:4f25cbc8-6f89-434b-8988-0e3e965f2aa7_geom a <http://www.opengis.net/ont/sf#P
     void:inDataset ns2:FAIRyland_LOD ;
     geo:asWKT "POLYGON((20.026419 63.880124, 20.026418 63.880124, 20.026416 63.880123, 20.026416 63.880123, 20.026416 63.880123, 20.026416 63.880122, 20.026418 63.880122, 20.026418 63.880122, 20.026419 63.880123, 20.026419 63.880123, 20.026419 63.880124))"^^geo:wktLiteral .
 
-ns2:521dd20c-2456-40a9-8b2b-0064396ccb07_geom a <http://www.opengis.net/ont/sf#Polygon>,
+ns2:521dd20c-2456-40a9-8b2b-0064396ccb07_geom a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
@@ -3522,7 +3529,7 @@ ns2:53ed429c-06e1-419a-9002-12d7bcf18ba0_geom a <http://www.opengis.net/ont/sf#P
     void:inDataset ns2:FAIRyland_LOD ;
     geo:asWKT "POLYGON((20.026422 63.880103, 20.026422 63.880103, 20.026421 63.880104, 20.026419 63.880105, 20.026417 63.880105, 20.026416 63.880104, 20.026414 63.880103, 20.026413 63.880102, 20.026412 63.880102, 20.026411 63.880101, 20.026411 63.880100, 20.026410 63.880099, 20.026410 63.880099, 20.026409 63.880098, 20.026411 63.880097, 20.026412 63.880096, 20.026414 63.880095, 20.026416 63.880095, 20.026417 63.880095, 20.026419 63.880095, 20.026421 63.880095, 20.026422 63.880095, 20.026424 63.880096, 20.026425 63.880097, 20.026425 63.880097, 20.026425 63.880098, 20.026425 63.880099, 20.026425 63.880099, 20.026422 63.880103))"^^geo:wktLiteral .
 
-ns2:54e13ec0-7b5a-4f4a-892f-615ab97d9000_geom a <http://www.opengis.net/ont/sf#Polygon>,
+ns2:54e13ec0-7b5a-4f4a-892f-615ab97d9000_geom a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
@@ -3571,7 +3578,7 @@ ns2:622ce224-fab0-4fbd-8a79-d8ecc9b26a49_geom a <http://www.opengis.net/ont/sf#P
     void:inDataset ns2:FAIRyland_LOD ;
     geo:asWKT "POLYGON((20.025391 63.879133, 20.025440 63.879124, 20.025444 63.879114, 20.025432 63.879111, 20.025422 63.879112, 20.025412 63.879118, 20.025397 63.879119, 20.025371 63.879120, 20.025362 63.879122, 20.025338 63.879128, 20.025329 63.879135, 20.025347 63.879146, 20.025360 63.879161, 20.025397 63.879161, 20.025414 63.879155, 20.025418 63.879141, 20.025391 63.879133))"^^geo:wktLiteral .
 
-ns2:6247dd7d-45da-4805-9922-ad78d30ddc00_geom a <http://www.opengis.net/ont/sf#Polygon>,
+ns2:6247dd7d-45da-4805-9922-ad78d30ddc00_geom a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
@@ -3634,7 +3641,7 @@ ns2:6939e3db-546a-4041-a823-e729a2d4b694_geom a <http://www.opengis.net/ont/sf#P
     void:inDataset ns2:FAIRyland_LOD ;
     geo:asWKT "POLYGON((20.026482 63.880151, 20.026482 63.880152, 20.026480 63.880153, 20.026479 63.880153, 20.026477 63.880152, 20.026477 63.880151, 20.026478 63.880151, 20.026480 63.880150, 20.026481 63.880149, 20.026483 63.880149, 20.026485 63.880149, 20.026487 63.880149, 20.026488 63.880150, 20.026482 63.880151))"^^geo:wktLiteral .
 
-ns2:6a176aee-0f30-4da3-bd88-b48f61a6a5ca_geom a <http://www.opengis.net/ont/sf#Polygon>,
+ns2:6a176aee-0f30-4da3-bd88-b48f61a6a5ca_geom a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
@@ -3648,7 +3655,7 @@ ns2:6daab534-65db-49f5-9b1b-5842930184c6_geom a <http://www.opengis.net/ont/sf#P
     void:inDataset ns2:FAIRyland_LOD ;
     geo:asWKT "POLYGON((20.026549 63.880183, 20.026548 63.880182, 20.026545 63.880181, 20.026544 63.880181, 20.026543 63.880180, 20.026541 63.880180, 20.026539 63.880179, 20.026538 63.880179, 20.026537 63.880178, 20.026536 63.880179, 20.026535 63.880179, 20.026533 63.880180, 20.026533 63.880181, 20.026533 63.880181, 20.026533 63.880182, 20.026533 63.880183, 20.026534 63.880184, 20.026535 63.880184, 20.026535 63.880185, 20.026535 63.880186, 20.026533 63.880187, 20.026531 63.880187, 20.026528 63.880187, 20.026527 63.880187, 20.026525 63.880186, 20.026525 63.880186, 20.026524 63.880185, 20.026524 63.880184, 20.026524 63.880183, 20.026525 63.880183, 20.026526 63.880182, 20.026526 63.880181, 20.026527 63.880180, 20.026528 63.880179, 20.026528 63.880179, 20.026528 63.880178, 20.026528 63.880177, 20.026528 63.880176, 20.026526 63.880176, 20.026524 63.880176, 20.026522 63.880177, 20.026521 63.880177, 20.026519 63.880178, 20.026518 63.880179, 20.026517 63.880179, 20.026515 63.880179, 20.026515 63.880178, 20.026516 63.880177, 20.026517 63.880177, 20.026519 63.880176, 20.026520 63.880176, 20.026522 63.880176, 20.026523 63.880175, 20.026525 63.880175, 20.026527 63.880175, 20.026529 63.880175, 20.026531 63.880175, 20.026532 63.880174, 20.026533 63.880174, 20.026535 63.880173, 20.026536 63.880172, 20.026537 63.880172, 20.026539 63.880171, 20.026540 63.880171, 20.026541 63.880172, 20.026540 63.880172, 20.026539 63.880173, 20.026538 63.880173, 20.026537 63.880174, 20.026536 63.880175, 20.026537 63.880175, 20.026539 63.880175, 20.026541 63.880175, 20.026542 63.880175, 20.026542 63.880176, 20.026541 63.880177, 20.026541 63.880177, 20.026542 63.880178, 20.026544 63.880179, 20.026546 63.880179, 20.026547 63.880180, 20.026548 63.880181, 20.026549 63.880181, 20.026550 63.880182, 20.026549 63.880183))"^^geo:wktLiteral .
 
-ns2:6f14de57-897a-4758-a984-262ca18baf75_geom a <http://www.opengis.net/ont/sf#Polygon>,
+ns2:6f14de57-897a-4758-a984-262ca18baf75_geom a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
@@ -3718,7 +3725,7 @@ ns2:8522a6f2-b165-4529-9dd6-30bc0da88476_geom a <http://www.opengis.net/ont/sf#P
     void:inDataset ns2:FAIRyland_LOD ;
     geo:asWKT "POLYGON((20.026428 63.880179, 20.026427 63.880178, 20.026427 63.880177, 20.026426 63.880177, 20.026424 63.880177, 20.026422 63.880176, 20.026421 63.880177, 20.026419 63.880177, 20.026419 63.880178, 20.026420 63.880178, 20.026421 63.880179, 20.026421 63.880180, 20.026421 63.880181, 20.026418 63.880182, 20.026416 63.880182, 20.026414 63.880182, 20.026413 63.880183, 20.026413 63.880184, 20.026413 63.880185, 20.026413 63.880186, 20.026413 63.880187, 20.026415 63.880187, 20.026416 63.880187, 20.026417 63.880188, 20.026417 63.880189, 20.026418 63.880190, 20.026419 63.880190, 20.026421 63.880191, 20.026423 63.880191, 20.026425 63.880191, 20.026426 63.880190, 20.026426 63.880189, 20.026427 63.880188, 20.026428 63.880187, 20.026430 63.880187, 20.026432 63.880187, 20.026433 63.880188, 20.026436 63.880188, 20.026437 63.880188, 20.026437 63.880187, 20.026438 63.880187, 20.026440 63.880187, 20.026441 63.880186, 20.026439 63.880186, 20.026437 63.880185, 20.026435 63.880185, 20.026432 63.880185, 20.026431 63.880185, 20.026429 63.880184, 20.026427 63.880184, 20.026427 63.880183, 20.026428 63.880183, 20.026430 63.880183, 20.026432 63.880183, 20.026434 63.880183, 20.026434 63.880182, 20.026432 63.880182, 20.026431 63.880182, 20.026430 63.880181, 20.026429 63.880180, 20.026428 63.880179))"^^geo:wktLiteral .
 
-ns2:866cbf6d-496f-4aff-acce-5f47e32fdcd9_geom a <http://www.opengis.net/ont/sf#Polygon>,
+ns2:866cbf6d-496f-4aff-acce-5f47e32fdcd9_geom a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
@@ -3746,7 +3753,7 @@ ns2:89b07983-8e6c-4b79-a97f-618a913945ee_geom a <http://www.opengis.net/ont/sf#P
     void:inDataset ns2:FAIRyland_LOD ;
     geo:asWKT "POLYGON((20.026388 63.880118, 20.026388 63.880119, 20.026387 63.880119, 20.026386 63.880119, 20.026386 63.880118, 20.026385 63.880118, 20.026385 63.880117, 20.026386 63.880117, 20.026387 63.880117, 20.026388 63.880117, 20.026390 63.880117, 20.026390 63.880118, 20.026388 63.880118))"^^geo:wktLiteral .
 
-ns2:8a40c3de-b0fb-4dc0-84d4-2000b15d6f60_geom a <http://www.opengis.net/ont/sf#Polygon>,
+ns2:8a40c3de-b0fb-4dc0-84d4-2000b15d6f60_geom a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
@@ -3878,28 +3885,28 @@ ns2:a09111ca-c359-48cc-9a96-e79673caa0b8_geom a <http://www.opengis.net/ont/sf#P
     void:inDataset ns2:FAIRyland_LOD ;
     geo:asWKT "POLYGON((20.026396 63.880187, 20.026396 63.880188, 20.026395 63.880188, 20.026393 63.880188, 20.026393 63.880187, 20.026392 63.880186, 20.026392 63.880186, 20.026392 63.880185, 20.026394 63.880184, 20.026396 63.880184, 20.026397 63.880185, 20.026398 63.880186, 20.026396 63.880187))"^^geo:wktLiteral .
 
-ns2:a3006e8d-46d6-4db0-81aa-23238514e5eb_geom a <http://www.opengis.net/ont/sf#Polygon>,
+ns2:a3006e8d-46d6-4db0-81aa-23238514e5eb_geom a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns2:FAIRyland_LOD ;
     geo:asWKT "POINT(20.026559 63.880133)"^^geo:wktLiteral .
 
-ns2:a3228d61-d64a-4b1f-be73-130b222b1c11_geom a <http://www.opengis.net/ont/sf#Polygon>,
+ns2:a3228d61-d64a-4b1f-be73-130b222b1c11_geom a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns2:FAIRyland_LOD ;
     geo:asWKT "POINT(20.026552 63.88011)"^^geo:wktLiteral .
 
-ns2:a7f106af-5755-44ed-9ba2-86b1110e21f7_geom a <http://www.opengis.net/ont/sf#Polygon>,
+ns2:a7f106af-5755-44ed-9ba2-86b1110e21f7_geom a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns2:FAIRyland_LOD ;
     geo:asWKT "POINT(20.02659 63.880125)"^^geo:wktLiteral .
 
-ns2:a9d036a7-9001-47c8-89db-54c0fe8d6829_geom a <http://www.opengis.net/ont/sf#Polygon>,
+ns2:a9d036a7-9001-47c8-89db-54c0fe8d6829_geom a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
@@ -3920,7 +3927,7 @@ ns2:abb845a6-5386-459e-938f-5100e0af1f72_geom a <http://www.opengis.net/ont/sf#P
     void:inDataset ns2:FAIRyland_LOD ;
     geo:asWKT "POLYGON((20.026513 63.880223, 20.026511 63.880223, 20.026508 63.880223, 20.026506 63.880223, 20.026504 63.880223, 20.026503 63.880223, 20.026501 63.880223, 20.026500 63.880224, 20.026498 63.880224, 20.026496 63.880224, 20.026493 63.880223, 20.026491 63.880223, 20.026490 63.880222, 20.026492 63.880221, 20.026493 63.880221, 20.026497 63.880220, 20.026499 63.880220, 20.026501 63.880220, 20.026502 63.880220, 20.026504 63.880220, 20.026507 63.880220, 20.026509 63.880220, 20.026510 63.880220, 20.026513 63.880220, 20.026515 63.880220, 20.026517 63.880220, 20.026519 63.880220, 20.026520 63.880220, 20.026521 63.880221, 20.026522 63.880221, 20.026513 63.880223))"^^geo:wktLiteral .
 
-ns2:b1984fb3-ca88-4453-8fa3-b782d735052c_geom a <http://www.opengis.net/ont/sf#Polygon>,
+ns2:b1984fb3-ca88-4453-8fa3-b782d735052c_geom a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
@@ -3955,7 +3962,7 @@ ns2:b7b8283e-fd64-4b1f-b6e3-81a71091b63a_geom a <http://www.opengis.net/ont/sf#P
     void:inDataset ns2:FAIRyland_LOD ;
     geo:asWKT "POLYGON((20.026518 63.880208, 20.026518 63.880209, 20.026517 63.880208, 20.026515 63.880208, 20.026514 63.880207, 20.026514 63.880206, 20.026516 63.880206, 20.026518 63.880206, 20.026520 63.880206, 20.026521 63.880207, 20.026518 63.880208))"^^geo:wktLiteral .
 
-ns2:b7ee573a-bf90-4f57-b159-39e1fc2822a8_geom a <http://www.opengis.net/ont/sf#Polygon>,
+ns2:b7ee573a-bf90-4f57-b159-39e1fc2822a8_geom a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
@@ -4053,7 +4060,7 @@ ns2:c62d6ed4-30ab-402b-ba2e-c432aaa0d53b_geom a <http://www.opengis.net/ont/sf#P
     void:inDataset ns2:FAIRyland_LOD ;
     geo:asWKT "POLYGON((20.026171 63.880098, 20.026042 63.880064, 20.026099 63.880026, 20.026211 63.879959, 20.026335 63.879884, 20.026377 63.879861, 20.026418 63.879878, 20.026391 63.879891, 20.026100 63.880061, 20.026148 63.880074, 20.026189 63.880086, 20.026171 63.880098))"^^geo:wktLiteral .
 
-ns2:c7c46dd9-6977-4662-86fa-7bd465591b65_geom a <http://www.opengis.net/ont/sf#Polygon>,
+ns2:c7c46dd9-6977-4662-86fa-7bd465591b65_geom a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
@@ -4137,35 +4144,35 @@ ns2:d46e1360-2fe2-43a6-80fc-892d3d2881c1_geom a <http://www.opengis.net/ont/sf#P
     void:inDataset ns2:FAIRyland_LOD ;
     geo:asWKT "POLYGON((20.026631 63.880161, 20.026629 63.880161, 20.026627 63.880160, 20.026626 63.880160, 20.026626 63.880159, 20.026627 63.880158, 20.026628 63.880158, 20.026630 63.880159, 20.026632 63.880159, 20.026633 63.880159, 20.026631 63.880161))"^^geo:wktLiteral .
 
-ns2:d5710f70-63c7-4107-ac87-3fad0dca5830_geom a <http://www.opengis.net/ont/sf#Polygon>,
+ns2:d5710f70-63c7-4107-ac87-3fad0dca5830_geom a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns2:FAIRyland_LOD ;
     geo:asWKT "POINT(20.02664 63.880141)"^^geo:wktLiteral .
 
-ns2:dc5ba2e0-7975-466e-930f-a5469030df40_geom a <http://www.opengis.net/ont/sf#Polygon>,
+ns2:dc5ba2e0-7975-466e-930f-a5469030df40_geom a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns2:FAIRyland_LOD ;
     geo:asWKT "POINT(20.026576 63.880135)"^^geo:wktLiteral .
 
-ns2:dca0e312-48bb-4ff0-9316-fa71cdda0c9c_geom a <http://www.opengis.net/ont/sf#Polygon>,
+ns2:dca0e312-48bb-4ff0-9316-fa71cdda0c9c_geom a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns2:FAIRyland_LOD ;
     geo:asWKT "POINT(20.026494 63.880144)"^^geo:wktLiteral .
 
-ns2:ddc25136-83aa-463c-9460-c718847292e0_geom a <http://www.opengis.net/ont/sf#Polygon>,
+ns2:ddc25136-83aa-463c-9460-c718847292e0_geom a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns2:FAIRyland_LOD ;
     geo:asWKT "POINT(20.026559 63.880133)"^^geo:wktLiteral .
 
-ns2:de109b58-0791-4eb7-9fff-d536f15297af_geom a <http://www.opengis.net/ont/sf#Polygon>,
+ns2:de109b58-0791-4eb7-9fff-d536f15297af_geom a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
@@ -4228,7 +4235,7 @@ ns2:e9b6f78c-acb3-44a8-a83d-5230ac8adfb8_geom a <http://www.opengis.net/ont/sf#P
     void:inDataset ns2:FAIRyland_LOD ;
     geo:asWKT "POLYGON((20.026402 63.880148, 20.026404 63.880149, 20.026405 63.880149, 20.026405 63.880150, 20.026405 63.880151, 20.026403 63.880151, 20.026401 63.880151, 20.026399 63.880151, 20.026397 63.880151, 20.026395 63.880151, 20.026393 63.880150, 20.026391 63.880150, 20.026389 63.880150, 20.026387 63.880150, 20.026385 63.880151, 20.026384 63.880150, 20.026382 63.880150, 20.026381 63.880150, 20.026379 63.880149, 20.026377 63.880149, 20.026376 63.880149, 20.026374 63.880148, 20.026372 63.880148, 20.026371 63.880147, 20.026369 63.880147, 20.026369 63.880146, 20.026369 63.880145, 20.026369 63.880144, 20.026370 63.880143, 20.026371 63.880143, 20.026371 63.880142, 20.026372 63.880141, 20.026372 63.880140, 20.026373 63.880139, 20.026373 63.880138, 20.026374 63.880137, 20.026376 63.880137, 20.026377 63.880136, 20.026379 63.880136, 20.026381 63.880136, 20.026382 63.880136, 20.026384 63.880137, 20.026385 63.880137, 20.026387 63.880137, 20.026389 63.880137, 20.026391 63.880137, 20.026392 63.880138, 20.026394 63.880138, 20.026394 63.880139, 20.026393 63.880140, 20.026393 63.880141, 20.026392 63.880142, 20.026393 63.880143, 20.026394 63.880143, 20.026395 63.880144, 20.026396 63.880145, 20.026396 63.880145, 20.026395 63.880146, 20.026395 63.880147, 20.026396 63.880147, 20.026398 63.880148, 20.026399 63.880148, 20.026401 63.880149, 20.026402 63.880148))"^^geo:wktLiteral .
 
-ns2:ea530a2d-219a-4b12-a8b4-4cf7ca09b6b1_geom a <http://www.opengis.net/ont/sf#Polygon>,
+ns2:ea530a2d-219a-4b12-a8b4-4cf7ca09b6b1_geom a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
@@ -4249,7 +4256,7 @@ ns2:ec69643d-e636-443f-95a0-bb55b9614841_geom a <http://www.opengis.net/ont/sf#P
     void:inDataset ns2:FAIRyland_LOD ;
     geo:asWKT "POLYGON((20.026366 63.880188, 20.026366 63.880189, 20.026367 63.880190, 20.026366 63.880190, 20.026365 63.880190, 20.026363 63.880190, 20.026363 63.880189, 20.026363 63.880188, 20.026365 63.880188, 20.026366 63.880188))"^^geo:wktLiteral .
 
-ns2:eec807e9-47d0-4801-a3f8-017c818a99e7_geom a <http://www.opengis.net/ont/sf#Polygon>,
+ns2:eec807e9-47d0-4801-a3f8-017c818a99e7_geom a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
@@ -4263,7 +4270,7 @@ ns2:f148606b-a850-4d16-a627-606fb8ee5577_geom a <http://www.opengis.net/ont/sf#P
     void:inDataset ns2:FAIRyland_LOD ;
     geo:asWKT "POLYGON((20.026406 63.880136, 20.026406 63.880137, 20.026405 63.880137, 20.026403 63.880137, 20.026402 63.880137, 20.026401 63.880136, 20.026400 63.880135, 20.026400 63.880135, 20.026400 63.880134, 20.026403 63.880133, 20.026405 63.880133, 20.026406 63.880134, 20.026407 63.880134, 20.026406 63.880136))"^^geo:wktLiteral .
 
-ns2:f4c616a4-3188-45f4-ad66-878498003c20_geom a <http://www.opengis.net/ont/sf#Polygon>,
+ns2:f4c616a4-3188-45f4-ad66-878498003c20_geom a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
@@ -4277,7 +4284,7 @@ ns2:f533c183-22fb-43cf-9bd1-265caaa661a0_geom a <http://www.opengis.net/ont/sf#P
     void:inDataset ns2:FAIRyland_LOD ;
     geo:asWKT "POLYGON((20.026558 63.880169, 20.026559 63.880170, 20.026559 63.880170, 20.026558 63.880171, 20.026556 63.880171, 20.026554 63.880171, 20.026554 63.880170, 20.026553 63.880170, 20.026553 63.880169, 20.026553 63.880168, 20.026554 63.880168, 20.026556 63.880167, 20.026557 63.880168, 20.026558 63.880169))"^^geo:wktLiteral .
 
-ns2:fab26445-cb25-492a-8d8a-47f31706a753_geom a <http://www.opengis.net/ont/sf#Polygon>,
+ns2:fab26445-cb25-492a-8d8a-47f31706a753_geom a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
@@ -4298,7 +4305,7 @@ ns2:fd8fe6ba-e13a-4ef3-9047-626fc45be9e2_geom a <http://www.opengis.net/ont/sf#P
     void:inDataset ns2:FAIRyland_LOD ;
     geo:asWKT "POLYGON((20.025100 63.879159, 20.025171 63.879161, 20.025164 63.879134, 20.025131 63.879117, 20.025107 63.879131, 20.025096 63.879137, 20.025096 63.879138, 20.025085 63.879145, 20.025086 63.879153, 20.025100 63.879159))"^^geo:wktLiteral .
 
-ns2:fdf099f7-869f-499e-80c3-00c91f0a4d35_geom a <http://www.opengis.net/ont/sf#Polygon>,
+ns2:fdf099f7-869f-499e-80c3-00c91f0a4d35_geom a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
@@ -4339,13 +4346,13 @@ ns2:FAIRyland_LOD a void:Dataset,
     ns3:averageSubjectIRILength 73 ;
     ns3:datatypes 3 ;
     ns3:distinctBlankNodes 0 ;
-    ns3:distinctIRIReferences 997 ;
-    ns3:distinctLiterals 350 ;
-    ns3:distinctRDFNodes 1347 ;
+    ns3:distinctIRIReferences 999 ;
+    ns3:distinctLiterals 351 ;
+    ns3:distinctRDFNodes 1350 ;
     ns3:languages 1 ;
     ns3:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
-    dcterms:modified "2025-10-26T18:23:15"^^xsd:dateTime ;
+    dcterms:modified "2025-10-26T18:37:03"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -4373,6 +4380,7 @@ ns2:FAIRyland_LOD a void:Dataset,
         ns2:FAIRyland_LOD_Minion,
         ns2:FAIRyland_LOD_MultiPolygon,
         ns2:FAIRyland_LOD_PlanarCoordinateSystem,
+        ns2:FAIRyland_LOD_Point,
         ns2:FAIRyland_LOD_Polygon,
         ns2:FAIRyland_LOD_SpatialObject,
         ns2:FAIRyland_LOD_SpatialObjectCollection,
@@ -4381,11 +4389,11 @@ ns2:FAIRyland_LOD a void:Dataset,
         ns2:FAIRyland_LOD_Street,
         ns2:FAIRyland_LOD_TimePeriod,
         ns2:FAIRyland_LOD_Trench ;
-    void:classes 27 ;
+    void:classes 28 ;
     void:dataDump <https://Research-Squirrel-Engineers.github.io/FAIRyland//index.ttl> ;
-    void:distinctObjects 575 ;
-    void:distinctSubjects 387 ;
-    void:entities 361 ;
+    void:distinctObjects 576 ;
+    void:distinctSubjects 388 ;
+    void:entities 362 ;
     void:feature <http://www.w3.org/ns/formats/RDFa>,
         <http://www.w3.org/ns/formats/Turtle> ;
     void:properties 35 ;
@@ -4423,7 +4431,7 @@ ns2:FAIRyland_LOD a void:Dataset,
         ns2:FAIRyland_LOD_unit_auth_code,
         ns2:FAIRyland_LOD_unit_code,
         ns2:FAIRyland_LOD_unit_conversion_factor ;
-    void:triples 2581 ;
+    void:triples 2584 ;
     void:uriSpace "http://www.github.com/sparqlunicorn#"^^xsd:string ;
     void:vocabulary ns3:,
         dcam:,
