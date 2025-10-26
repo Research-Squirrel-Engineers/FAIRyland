@@ -1373,7 +1373,7 @@ var tree={
             },
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 1,
-              "http://www.opengis.net/ont/sf#Polygon": 1
+              "http://www.opengis.net/ont/sf#MultiPolygon": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
@@ -1385,10 +1385,6 @@ var tree={
             "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": {
               "instancecount": 1,
               "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench": 1
-            },
-            "https://github.com/Research-Squirrel-Engineers/FAIRyland/timeperiod": {
-              "instancecount": 1,
-              "https://github.com/Research-Squirrel-Engineers/FAIRyland/TimePeriod": 1
             }
           },
           "from": {
@@ -1398,7 +1394,7 @@ var tree={
             }
           }
         },
-        "instancecount": 10
+        "instancecount": 9
       },
       {
         "id": "http://www.github.com/sparqlunicorn#3a55458f-5c2f-4368-9a03-384f6377e301",
@@ -1469,10 +1465,6 @@ var tree={
             "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": {
               "instancecount": 1,
               "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench": 1
-            },
-            "https://github.com/Research-Squirrel-Engineers/FAIRyland/timeperiod": {
-              "instancecount": 1,
-              "https://github.com/Research-Squirrel-Engineers/FAIRyland/TimePeriod": 1
             }
           },
           "from": {
@@ -1482,7 +1474,7 @@ var tree={
             }
           }
         },
-        "instancecount": 11
+        "instancecount": 10
       },
       {
         "id": "http://www.github.com/sparqlunicorn#4db030c2-2331-4dad-b17c-da023bceff9f",
@@ -2893,7 +2885,7 @@ var tree={
           "from": {
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 0,
-              "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion": 1
+              "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
@@ -3151,13 +3143,13 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 1,
-              "https://github.com/Research-Squirrel-Engineers/FAIRyland/AllenKey": 1
+              "instancecount": 4,
+              "https://github.com/Research-Squirrel-Engineers/FAIRyland/Kangaroo": 4
             }
           },
           "from": {}
         },
-        "instancecount": 5
+        "instancecount": 8
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
@@ -3199,13 +3191,13 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 4,
-              "http://www.w3.org/2002/07/owl#DatatypeProperty": 4
+              "instancecount": 1,
+              "http://www.w3.org/2002/07/owl#Class": 1
             }
           },
           "from": {}
         },
-        "instancecount": 8
+        "instancecount": 5
       },
       {
         "id": "http://www.github.com/sparqlunicorn#Polygon_collection",
