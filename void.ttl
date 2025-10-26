@@ -716,19 +716,19 @@ skos: a voaf:Vocabulary ;
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD> a void:Dataset,
         adms:Asset ;
     rdfs:label "FAIRyland_LOD"@en ;
-    vext:averageLiteralLength 157 ;
+    vext:averageLiteralLength 137 ;
     vext:averageObjectIRILength 62 ;
     vext:averagePropertyIRILength 44 ;
     vext:averageSubjectIRILength 73 ;
     vext:datatypes 3 ;
     vext:distinctBlankNodes 0 ;
-    vext:distinctIRIReferences 1018 ;
-    vext:distinctLiterals 371 ;
-    vext:distinctRDFNodes 1389 ;
+    vext:distinctIRIReferences 997 ;
+    vext:distinctLiterals 350 ;
+    vext:distinctRDFNodes 1347 ;
     vext:languages 1 ;
     vext:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
-    dcterms:modified "2025-10-24T21:58:36"^^xsd:dateTime ;
+    dcterms:modified "2025-10-26T18:19:05"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -766,7 +766,7 @@ skos: a voaf:Vocabulary ;
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_Trench> ;
     void:classes 27 ;
     void:dataDump <https://Research-Squirrel-Engineers.github.io/FAIRyland//index.ttl> ;
-    void:distinctObjects 596 ;
+    void:distinctObjects 575 ;
     void:distinctSubjects 387 ;
     void:entities 361 ;
     void:feature <http://www.w3.org/ns/formats/RDFa>,
