@@ -41,7 +41,7 @@ FAIR = FAIRYLAND_IRI
 
 # ------------------------ Hilfsfunktionen ------------------------
 def normalise_polygon(text: str) -> str:
-    """Normalisiere 'Polygon (' -> 'POLYGON('"""
+    """Normalisiere 'Polygon (' -> 'POLYGON(' (Spaces vor '(' werden entfernt)."""
     return re.sub(r"(?i)\bpolygon\s*\(", "POLYGON(", text)
 
 
@@ -305,6 +305,35 @@ for geom, _, lit in list(g.triples((None, GEO_asWKT2, None))):
                 rounded_polygons += 1
 
 print(f"• POLYGON-Koordinaten auf 6 Dezimalstellen gerundet: {rounded_polygons}")
+
+# ------------------------ 6) Geometrietyp (sf:) an WKT anpassen ------------------------
+# Falls ein Geometrieknoten WKT "POINT(...)" hat, setze rdf:type auf sf:Point (entferne ggf. sf:Polygon)
+SF_IRI = (
+    next((str(ns) for prefix, ns in g.namespaces() if prefix == "sf"), None)
+    or "http://www.opengis.net/ont/sf#"
+)
+GEO_IRI3 = (
+    next((str(ns) for prefix, ns in g.namespaces() if prefix == "geo"), None)
+    or "http://www.opengis.net/ont/geosparql#"
+)
+SF_Point = URIRef(SF_IRI + "Point")
+SF_Polygon = URIRef(SF_IRI + "Polygon")
+GEO_asWKT3 = URIRef(GEO_IRI3 + "asWKT")
+
+adjusted_types = 0
+for geom, _, lit in list(g.triples((None, GEO_asWKT3, None))):
+    if isinstance(lit, Literal):
+        txt = str(lit).lstrip().upper()
+        if txt.startswith("POINT("):
+            # altes sf:Polygon entfernen (falls vorhanden)
+            if (geom, RDF.type, SF_Polygon) in g:
+                g.remove((geom, RDF.type, SF_Polygon))
+            # sf:Point setzen (falls fehlt)
+            if (geom, RDF.type, SF_Point) not in g:
+                g.add((geom, RDF.type, SF_Point))
+                adjusted_types += 1
+
+print(f"• Geometrietypen angepasst (POINT -> sf:Point): {adjusted_types}")
 
 # --- Datei speichern ---
 g.serialize(destination=str(out_path), format="turtle")
