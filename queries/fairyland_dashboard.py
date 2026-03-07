@@ -1,22 +1,31 @@
 """
-FAIRyland Dashboard for CAA Poster
-===================================
+FAIRyland SPARQL Dashboard Visualization
+=========================================
 
-This script creates ONLY the Summary Dashboard visualization and exports
-the 4 essential SPARQL queries used in the dashboard.
+This script creates a comprehensive summary dashboard from the FAIRyland RDF dataset.
+It demonstrates SPARQL queries for archaeological data and generates publication-ready
+visualizations.
 
-Perfect for poster presentations!
+The dashboard includes:
+- Feature type inventory (filtered and cleaned)
+- Stratigraphic sequence distribution (log scale)
+- Spatial distribution by excavation trench
+- Preservation state analysis (Kötbullar)
 
 Dataset: ../lod/fairyland.ttl
-Author: Florian Thiery
-Context: CAA International 2025 - "Cultural Heritage in FAIRyland? How to LODify Geodata in QGIS"
+Author: Florian Thiery, Research Squirrel Engineers
+License: CC-BY 4.0
+Project: https://github.com/Research-Squirrel-Engineers/FAIRyland
+
+Requirements:
+    pip install rdflib pandas matplotlib --break-system-packages
 
 Usage:
     python fairyland_dashboard.py
 
 Output:
-    - fairyland_summary_dashboard.jpg (high-res for poster)
-    - dashboard_queries.md (formatted queries for poster text)
+    - fairyland_summary_dashboard.jpg (high-resolution visualization)
+    - dashboard_queries.md (SPARQL query documentation)
 """
 
 import rdflib
@@ -26,13 +35,13 @@ import matplotlib.pyplot as plt
 import os
 
 # ============================================================================
-# CONFIGURATION
+# SPARQL QUERIES
 # ============================================================================
 
 DASHBOARD_QUERIES = {
     "query1_feature_inventory": {
         "title": "Feature Type Inventory",
-        "position": "Top-Left Panel",
+        "description": "Count archaeological features by type",
         "sparql": """PREFIX fairyland: <https://github.com/Research-Squirrel-Engineers/FAIRyland/>
 
 SELECT ?type (COUNT(?feature) AS ?count)
@@ -42,11 +51,10 @@ WHERE {
 }
 GROUP BY ?type
 ORDER BY DESC(?count)""",
-        "description": "What types of features were found in FAIRyland?",
     },
     "query2_koetbullar": {
-        "title": "Kötbullar Preservation State",
-        "position": "Bottom-Right Panel",
+        "title": "Kötbullar Preservation Analysis",
+        "description": "Analyze preservation state of archaeological features",
         "sparql": """PREFIX fairyland: <https://github.com/Research-Squirrel-Engineers/FAIRyland/>
 PREFIX suni: <http://www.github.com/sparqlunicorn#>
 
@@ -57,11 +65,10 @@ WHERE {
 }
 GROUP BY ?condition
 ORDER BY DESC(?count)""",
-        "description": "What is the preservation state of petrified kangaroo droppings?",
     },
     "query3_stratigraphy": {
-        "title": "Stratigraphic Sequence",
-        "position": "Top-Right Panel",
+        "title": "Stratigraphic Distribution",
+        "description": "Distribution of features across time periods",
         "sparql": """PREFIX suni: <http://www.github.com/sparqlunicorn#>
 
 SELECT ?period (COUNT(?feature) AS ?count)
@@ -70,11 +77,10 @@ WHERE {
 }
 GROUP BY ?period
 ORDER BY ?period""",
-        "description": "How are features distributed across Minion Period phases?",
     },
     "query4_trench": {
         "title": "Spatial Distribution",
-        "position": "Bottom-Left Panel",
+        "description": "Feature counts by excavation trench",
         "sparql": """PREFIX suni: <http://www.github.com/sparqlunicorn#>
 
 SELECT ?trench (COUNT(?feature) AS ?count)
@@ -83,19 +89,26 @@ WHERE {
 }
 GROUP BY ?trench
 ORDER BY DESC(?count)""",
-        "description": "Which excavation trenches yielded the most finds?",
     },
 }
 
 # ============================================================================
-# LOAD DATA
+# DATA LOADING
 # ============================================================================
 
 
 def load_fairyland_graph():
-    """Load the FAIRyland RDF graph."""
+    """
+    Load the FAIRyland RDF dataset from Turtle format.
+
+    Returns:
+        rdflib.Graph: Loaded RDF graph
+
+    Raises:
+        FileNotFoundError: If fairyland.ttl cannot be found
+    """
     print("=" * 70)
-    print("FAIRyland Dashboard Generator for CAA Poster".center(70))
+    print("FAIRyland Dashboard Visualization".center(70))
     print("=" * 70)
     print()
 
@@ -110,7 +123,9 @@ def load_fairyland_graph():
         if os.path.exists(ttl_path_alt):
             ttl_path = ttl_path_alt
         else:
-            raise FileNotFoundError(f"Could not find fairyland.ttl")
+            raise FileNotFoundError(
+                "Could not find fairyland.ttl in expected locations"
+            )
 
     print(f"Loading: {ttl_path}")
     g.parse(ttl_path, format="turtle")
@@ -120,13 +135,21 @@ def load_fairyland_graph():
 
 
 # ============================================================================
-# EXECUTE DASHBOARD QUERIES
+# QUERY EXECUTION
 # ============================================================================
 
 
 def execute_dashboard_queries(g):
-    """Execute the 4 dashboard queries and return results."""
-    print("Executing Dashboard Queries...")
+    """
+    Execute all dashboard SPARQL queries and return results.
+
+    Args:
+        g (rdflib.Graph): RDF graph to query
+
+    Returns:
+        dict: Dictionary containing DataFrames for each query result
+    """
+    print("Executing SPARQL Queries...")
     print("-" * 70)
 
     results = {}
@@ -143,7 +166,7 @@ def execute_dashboard_queries(g):
     print(f"  Found {len(df1)} feature types")
 
     # Query 2: Kötbullar Condition
-    print("→ Query 2: Kötbullar Preservation")
+    print("→ Query 2: Preservation Analysis")
     df2 = pd.DataFrame(
         g.query(DASHBOARD_QUERIES["query2_koetbullar"]["sparql"]),
         columns=["condition", "count"],
@@ -151,7 +174,7 @@ def execute_dashboard_queries(g):
     df2["condition"] = df2["condition"].apply(lambda x: str(x) if x else "intact")
     df2["count"] = df2["count"].astype(int)
     results["koetbullar"] = df2
-    print(f"  Total Kötbullar: {df2['count'].sum()}")
+    print(f"  Total features analyzed: {df2['count'].sum()}")
 
     # Query 3: Stratigraphy
     print("→ Query 3: Stratigraphic Distribution")
@@ -178,24 +201,36 @@ def execute_dashboard_queries(g):
 
 
 # ============================================================================
-# CREATE SUMMARY DASHBOARD (WITH ALL FIXES!)
+# VISUALIZATION
 # ============================================================================
 
 
-def create_poster_dashboard(results, out_dir):
-    """Create high-resolution dashboard for poster with all visual fixes applied."""
-    print("Creating High-Resolution Dashboard for Poster...")
+def create_dashboard(results, out_dir):
+    """
+    Create comprehensive 2x2 dashboard visualization.
+
+    Features:
+    - Filtered feature inventory (excludes metadata types)
+    - Logarithmic scale for stratigraphic data (handles wide value ranges)
+    - Explicit axis positioning to avoid matplotlib label conflicts
+    - High-resolution output (300 DPI)
+
+    Args:
+        results (dict): Query results from execute_dashboard_queries()
+        out_dir (str): Output directory path
+    """
+    print("Creating Dashboard Visualization...")
     print("-" * 70)
 
-    fig = plt.figure(figsize=(20, 12))  # Extra large for poster
+    fig = plt.figure(figsize=(20, 12))
     gs = fig.add_gridspec(2, 2, hspace=0.35, wspace=0.3)
 
     # ========================================================================
-    # TOP LEFT: Feature Inventory (FILTER OUT TimePeriod & Trench!)
+    # Panel 1: Feature Type Inventory
     # ========================================================================
     ax1 = fig.add_subplot(gs[0, 0])
 
-    # FIX 1: Filter out TimePeriod and Trench - they're not real features!
+    # Filter out metadata types (TimePeriod, Trench) - keep only actual features
     df_filtered = results["inventory"][
         ~results["inventory"]["type"].isin(["TimePeriod", "Trench"])
     ]
@@ -214,15 +249,15 @@ def create_poster_dashboard(results, out_dir):
     ax1.grid(axis="y", alpha=0.3, linestyle="--")
 
     # ========================================================================
-    # TOP RIGHT: Stratigraphy (LOG SCALE for better visibility!)
+    # Panel 2: Stratigraphic Sequence (with logarithmic scale)
     # ========================================================================
     ax2 = fig.add_subplot(gs[0, 1])
 
-    # FIX 2: Use LOG SCALE to show both large and small values clearly
+    # Sort by count for better readability
     df_strat_sorted = results["stratigraphy"].sort_values("count", ascending=True)
     colors2 = plt.cm.Set3(range(len(df_strat_sorted)))
 
-    # Use POSITIONS for bars instead of string labels
+    # Use explicit y-positions to avoid matplotlib label artifacts
     y_positions = range(len(df_strat_sorted))
     bars2 = ax2.barh(
         y_positions,
@@ -232,30 +267,25 @@ def create_poster_dashboard(results, out_dir):
         linewidth=1.5,
     )
 
-    # CRITICAL: Set y-tick labels EXPLICITLY to avoid numeric offsets
+    # Set labels explicitly
     ax2.set_yticks(y_positions)
     ax2.set_yticklabels(df_strat_sorted["period"], fontsize=12)
 
     ax2.set_title("Stratigraphic Sequence", fontsize=15, fontweight="bold", pad=10)
-    ax2.set_xlabel("Number of Features", fontweight="bold", fontsize=13)
+    ax2.set_xlabel("Number of Features (log scale)", fontweight="bold", fontsize=13)
 
-    # CRITICAL: Set logarithmic scale on X-axis
+    # Logarithmic scale for wide value ranges (1 to 164)
     ax2.set_xscale("log")
-
-    ax2.grid(
-        axis="x", alpha=0.3, linestyle="--", which="both"
-    )  # Show both major and minor grid
-
-    # NO value labels - log scale is self-explanatory!
+    ax2.grid(axis="x", alpha=0.3, linestyle="--", which="both")
 
     # ========================================================================
-    # BOTTOM LEFT: Trench Distribution (FIX LABELS!)
+    # Panel 3: Spatial Distribution by Trench
     # ========================================================================
     ax3 = fig.add_subplot(gs[1, 0])
 
     colors3 = ["#8dd3c7", "#fb8072"]
 
-    # Create bars with POSITIONS not labels
+    # Use explicit x-positions to avoid matplotlib label artifacts
     x_positions = range(len(results["trench"]))
     bars3 = ax3.bar(
         x_positions,
@@ -265,7 +295,7 @@ def create_poster_dashboard(results, out_dir):
         linewidth=1.5,
     )
 
-    # CRITICAL: Set x-tick labels EXPLICITLY to avoid "Ikea Land0.8" issue
+    # Set labels explicitly
     ax3.set_xticks(x_positions)
     ax3.set_xticklabels(results["trench"]["trench"], fontsize=12)
 
@@ -276,7 +306,7 @@ def create_poster_dashboard(results, out_dir):
     ax3.grid(axis="y", alpha=0.3, linestyle="--")
 
     # ========================================================================
-    # BOTTOM RIGHT: Kötbullar Condition
+    # Panel 4: Preservation State (Pie Chart)
     # ========================================================================
     ax4 = fig.add_subplot(gs[1, 1])
 
@@ -298,7 +328,9 @@ def create_poster_dashboard(results, out_dir):
         autotext.set_fontweight("bold")
         autotext.set_fontsize(12)
 
-    # Overall title
+    # ========================================================================
+    # Save
+    # ========================================================================
     fig.suptitle(
         "FAIRyland Archaeological Dataset - Summary Dashboard",
         fontsize=20,
@@ -306,7 +338,6 @@ def create_poster_dashboard(results, out_dir):
         y=0.98,
     )
 
-    # Save high-resolution version
     output_path = os.path.join(out_dir, "fairyland_summary_dashboard.jpg")
     plt.savefig(output_path, dpi=300, format="jpg", bbox_inches="tight")
     print(f"✓ Saved: {output_path}")
@@ -314,30 +345,37 @@ def create_poster_dashboard(results, out_dir):
 
 
 # ============================================================================
-# EXPORT QUERIES AS MARKDOWN
+# DOCUMENTATION EXPORT
 # ============================================================================
 
 
-def export_queries_markdown(out_dir):
-    """Export dashboard queries as formatted markdown for poster."""
-    print("Exporting SPARQL Queries for Poster...")
+def export_query_documentation(out_dir):
+    """
+    Export SPARQL queries as formatted markdown documentation.
+
+    Args:
+        out_dir (str): Output directory path
+    """
+    print("Exporting Query Documentation...")
     print("-" * 70)
 
     md_content = """# FAIRyland Dashboard SPARQL Queries
+
+This document contains the SPARQL queries used to generate the dashboard visualization.
 
 """
 
     for i, (key, query_info) in enumerate(DASHBOARD_QUERIES.items(), 1):
         md_content += f"""## Query {i}: {query_info['title']}
 
-**Dashboard Position:** {query_info['position']}  
-**Question:** {query_info['description']}
+**Description:** {query_info['description']}
 
 ```sparql
 {query_info['sparql']}
 ```
 
-**Result:** This query generates the data for the {query_info['position'].lower()} of the dashboard.
+---
+
 """
 
     output_path = os.path.join(out_dir, "dashboard_queries.md")
@@ -348,44 +386,40 @@ def export_queries_markdown(out_dir):
 
 
 # ============================================================================
-# MAIN
+# MAIN EXECUTION
 # ============================================================================
 
 
 def main():
-    # Setup
+    """Main execution function."""
+    # Setup output directory
     script_dir = os.path.dirname(os.path.abspath(__file__))
     out_dir = os.path.join(script_dir, "out")
     os.makedirs(out_dir, exist_ok=True)
 
-    # Load data
+    # Load RDF data
     g = load_fairyland_graph()
 
-    # Execute queries
+    # Execute SPARQL queries
     results = execute_dashboard_queries(g)
 
-    # Create dashboard
-    create_poster_dashboard(results, out_dir)
+    # Create visualization
+    create_dashboard(results, out_dir)
 
-    # Export query documentation
-    export_queries_markdown(out_dir)
+    # Export documentation
+    export_query_documentation(out_dir)
 
+    # Summary
     print()
     print("=" * 70)
-    print("✓ Poster Dashboard Creation Complete!".center(70))
+    print("✓ Dashboard Generation Complete".center(70))
     print("=" * 70)
     print()
-    print("Created files:")
-    print(f"  → fairyland_summary_dashboard.jpg  (high-res for poster)")
-    print(f"  → dashboard_queries.md             (formatted queries)")
+    print("Output files:")
+    print(f"  → fairyland_summary_dashboard.jpg  (300 DPI visualization)")
+    print(f"  → dashboard_queries.md             (SPARQL documentation)")
     print()
-    print(f"Output directory: {out_dir}")
-    print()
-    print("Fixes applied:")
-    print("  ✓ TimePeriod & Trench filtered out from Feature Inventory")
-    print("  ✓ Stratigraphic Sequence now uses vertical bars (clearer!)")
-    print("  ✓ Y-axis labels simplified (Count instead of Number of Features)")
-    print("  ✓ Value labels added to all bar charts")
+    print(f"Directory: {out_dir}")
     print()
 
 

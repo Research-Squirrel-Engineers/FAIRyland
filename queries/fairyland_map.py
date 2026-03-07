@@ -1,17 +1,35 @@
 #!/usr/bin/env python3
 """
-================================================================================
-FAIRyland Poster Map - Single High-Quality Visualization
-================================================================================
-Creates ONE beautiful map for the CAA International poster showing:
-- Archaeological features (color-coded by type)
-- Street network (pink dashed lines)
-- Craters (orange highlights)
-- OpenStreetMap basemap with terrain context
+FAIRyland Spatial Visualization
+================================
 
-Author: Research Squirrel Engineers
-Date: 2026-03-07
-================================================================================
+This script creates a comprehensive spatial visualization of the FAIRyland
+archaeological dataset by combining RDF/Linked Data with geospatial analysis.
+
+The visualization includes:
+- Archaeological features (color-coded by type)
+- Street network (highlighted infrastructure)
+- Special features (craters)
+- OpenStreetMap basemap for geographic context
+
+Dataset: ../lod/fairyland.ttl
+Author: Florian Thiery, Research Squirrel Engineers
+License: CC-BY 4.0
+Project: https://github.com/Research-Squirrel-Engineers/FAIRyland
+
+Requirements:
+    pip install rdflib pandas geopandas contextily shapely matplotlib --break-system-packages
+
+Usage:
+    python fairyland_map.py
+
+Output:
+    - fairyland_poster_map.jpg (high-resolution spatial visualization)
+
+Technical Details:
+    - CRS: EPSG:4326 (WGS84) → EPSG:3857 (Web Mercator)
+    - Basemap: OpenStreetMap via contextily
+    - Resolution: 300 DPI
 """
 
 import os
@@ -26,7 +44,11 @@ import contextily as ctx
 from matplotlib.patches import Patch
 from matplotlib.lines import Line2D
 
-# Define namespaces
+# ============================================================================
+# CONFIGURATION
+# ============================================================================
+
+# RDF Namespaces
 FAIRYLAND = Namespace("https://github.com/Research-Squirrel-Engineers/FAIRyland/")
 SUNI = Namespace("http://www.github.com/sparqlunicorn#")
 GEO = Namespace("http://www.opengis.net/ont/geosparql#")
@@ -40,22 +62,28 @@ out_dir = os.path.join(script_dir, "out")
 # Create output directory
 os.makedirs(out_dir, exist_ok=True)
 
-print("=" * 70)
-print("       FAIRyland Poster Map - High-Quality Visualization")
-print("=" * 70)
+# ============================================================================
+# DATA LOADING
+# ============================================================================
 
-# Load RDF data
-print("Loading FAIRyland dataset...")
+print("=" * 70)
+print("FAIRyland Spatial Visualization".center(70))
+print("=" * 70)
+print()
+
+print("Loading RDF dataset...")
 g = Graph()
 g.parse(ttl_path, format="turtle")
 print(f"✓ Loaded {len(g)} triples")
+print()
 
 # ============================================================================
-# SPARQL QUERIES
+# SPARQL QUERIES FOR SPATIAL DATA
 # ============================================================================
 
-# Query 1: Streets
-print("Querying features...")
+print("Querying spatial features...")
+
+# Query 1: Street Network
 street_query = """
 PREFIX fairyland: <https://github.com/Research-Squirrel-Engineers/FAIRyland/>
 PREFIX suni: <http://www.github.com/sparqlunicorn#>
@@ -84,7 +112,7 @@ for row in g.query(street_query):
 
 print(f"  → Streets: {len(streets)}")
 
-# Query 2: Craters
+# Query 2: Crater Features
 crater_query = """
 PREFIX suni: <http://www.github.com/sparqlunicorn#>
 PREFIX geo: <http://www.opengis.net/ont/geosparql#>
@@ -108,7 +136,7 @@ for row in g.query(crater_query):
 
 print(f"  → Craters: {len(craters)}")
 
-# Query 3: Archaeological features
+# Query 3: Archaeological Features
 arch_query = """
 PREFIX suni: <http://www.github.com/sparqlunicorn#>
 PREFIX geo: <http://www.opengis.net/ont/geosparql#>
@@ -132,6 +160,7 @@ for row in g.query(arch_query):
         wkt_str = str(row.wkt)
         if "POLYGON" in wkt_str.upper():
             try:
+                # Convert polygon to centroid for point-based visualization
                 geom = wkt.loads(wkt_str)
                 centroid = geom.centroid
                 features.append(
@@ -150,19 +179,22 @@ for row in g.query(arch_query):
                 continue
 
 print(f"  → Archaeological features: {len(features)}")
+print()
 
 # ============================================================================
-# Create GeoDataFrames
+# GEODATA PREPARATION
 # ============================================================================
-print("Creating geodata...")
 
-# Archaeological features
+print("Creating GeoDataFrames...")
+
+# Archaeological features (point data from polygon centroids)
 df = pd.DataFrame(features)
 geometry = [Point(xy) for xy in zip(df["lon"], df["lat"])]
 gdf = gpd.GeoDataFrame(df, geometry=geometry, crs="EPSG:4326")
-gdf_mercator = gdf.to_crs("EPSG:3857")
+gdf_mercator = gdf.to_crs("EPSG:3857")  # Web Mercator for contextily
 
-# Streets
+# Street network (line data)
+street_gdf_mercator = None
 if streets:
     street_geometries = []
     for s in streets:
@@ -172,14 +204,16 @@ if streets:
         except:
             pass
 
-    street_gdf = gpd.GeoDataFrame(
-        streets[: len(street_geometries)], geometry=street_geometries, crs="EPSG:4326"
-    )
-    street_gdf_mercator = street_gdf.to_crs("EPSG:3857")
-else:
-    street_gdf_mercator = None
+    if street_geometries:
+        street_gdf = gpd.GeoDataFrame(
+            streets[: len(street_geometries)],
+            geometry=street_geometries,
+            crs="EPSG:4326",
+        )
+        street_gdf_mercator = street_gdf.to_crs("EPSG:3857")
 
-# Craters
+# Crater features (point data from polygon centroids)
+crater_gdf_mercator = None
 if craters:
     crater_geometries = []
     crater_data = []
@@ -192,27 +226,27 @@ if craters:
         except:
             pass
 
-    crater_gdf = gpd.GeoDataFrame(
-        crater_data[: len(crater_geometries)],
-        geometry=crater_geometries,
-        crs="EPSG:4326",
-    )
-    crater_gdf_mercator = crater_gdf.to_crs("EPSG:3857")
-else:
-    crater_gdf_mercator = None
+    if crater_geometries:
+        crater_gdf = gpd.GeoDataFrame(
+            crater_data[: len(crater_geometries)],
+            geometry=crater_geometries,
+            crs="EPSG:4326",
+        )
+        crater_gdf_mercator = crater_gdf.to_crs("EPSG:3857")
 
-print("✓ Geodata ready")
+print("✓ GeoDataFrames created")
 print()
 
 # ============================================================================
-# CREATE THE POSTER MAP
+# VISUALIZATION
 # ============================================================================
-print("Creating poster map...")
 
-# Landscape format for better poster layout
+print("Creating spatial visualization...")
+
+# Figure setup (landscape orientation)
 fig, ax = plt.subplots(figsize=(18, 12))
 
-# Set extent with padding
+# Set map extent with padding
 minx, miny, maxx, maxy = gdf_mercator.total_bounds
 x_range = maxx - minx
 y_range = maxy - miny
@@ -229,18 +263,18 @@ ctx.add_basemap(
     alpha=1.0,
 )
 
-# Layer 1: Streets (with glow effect)
+# Layer 1: Street Network (with glow effect for visibility)
 if street_gdf_mercator is not None and len(street_gdf_mercator) > 0:
     # Outer glow (white halo)
     street_gdf_mercator.plot(
         ax=ax, color="white", linewidth=7, linestyle="--", alpha=0.6, zorder=4
     )
-    # Main street line (magenta/pink)
+    # Main street line
     street_gdf_mercator.plot(
         ax=ax, color="#FF1493", linewidth=5, linestyle="--", alpha=0.95, zorder=5
     )
 
-# Layer 2: Craters (with glow)
+# Layer 2: Crater Features (with glow effect)
 if crater_gdf_mercator is not None and len(crater_gdf_mercator) > 0:
     # Glow effect
     crater_gdf_mercator.plot(
@@ -257,7 +291,7 @@ if crater_gdf_mercator is not None and len(crater_gdf_mercator) > 0:
         zorder=15,
     )
 
-# Layer 3: Archaeological features (color-coded by type)
+# Layer 3: Archaeological Features (color-coded by type)
 unique_types = gdf["type"].unique()
 colors = plt.cm.Set3.colors[: len(unique_types)]
 type_colors = {ftype: colors[idx] for idx, ftype in enumerate(unique_types)}
@@ -266,9 +300,9 @@ patches = []
 for ftype, color in type_colors.items():
     type_data = gdf_mercator[gdf_mercator["type"] == ftype]
     if ftype.lower() == "crater":
-        continue  # Already plotted separately
+        continue  # Already plotted as separate layer
 
-    # Drop shadow (slight offset for depth)
+    # Drop shadow (depth effect)
     type_data.plot(
         ax=ax, color="black", markersize=145, alpha=0.35, edgecolor="none", zorder=9
     )
@@ -292,7 +326,7 @@ for ftype, color in type_colors.items():
         )
     )
 
-# Build complete legend
+# Build legend
 legend_elements = patches + [
     Line2D(
         [0],
@@ -317,10 +351,10 @@ legend_elements = patches + [
     ),
 ]
 
-# Remove axes
+# Map styling
 ax.set_axis_off()
 
-# North arrow (top right) - ONLY orientation element
+# North arrow
 ax.annotate(
     "N",
     xy=(0.97, 0.97),
@@ -333,7 +367,7 @@ ax.annotate(
     arrowprops=dict(arrowstyle="->", lw=3.5, color="black"),
 )
 
-# Legend (bottom right, on map) - ONLY data explanation
+# Legend (positioned on map)
 plt.legend(
     handles=legend_elements,
     title="Features & Context",
@@ -347,21 +381,31 @@ plt.legend(
     bbox_to_anchor=(0.98, 0.02),
 )
 
-# Save high-resolution map
+# Save high-resolution output
 output_path = os.path.join(out_dir, "fairyland_poster_map.jpg")
 plt.savefig(output_path, dpi=300, format="jpg", bbox_inches="tight")
 print(f"✓ Saved: {output_path}")
 plt.close()
 
+# ============================================================================
+# SUMMARY
+# ============================================================================
+
 print()
 print("=" * 70)
-print("                   ✓ Poster map created successfully!")
+print("✓ Spatial Visualization Complete".center(70))
 print("=" * 70)
-print(f"Output: {output_path}")
-print(f"\nMap features:")
-print(f"  → Archaeological finds: {len(gdf)} (color-coded)")
-print(f"  → Streets: {len(streets)} (pink dashed)")
-print(f"  → Craters: {len(craters)} (orange highlighted)")
-print(f"  → Basemap: OpenStreetMap (terrain & buildings)")
-print(f"  → Resolution: 300 DPI (print-ready)")
+print()
+print("Output:")
+print(f"  → {output_path}")
+print()
+print("Dataset statistics:")
+print(f"  → Archaeological features: {len(gdf)} (color-coded by type)")
+print(f"  → Street segments: {len(streets)}")
+print(f"  → Crater features: {len(craters)}")
+print()
+print("Visualization details:")
+print(f"  → Coordinate system: EPSG:4326 → EPSG:3857")
+print(f"  → Basemap: OpenStreetMap")
+print(f"  → Resolution: 300 DPI")
 print()
