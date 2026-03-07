@@ -1373,7 +1373,7 @@ var tree={
             },
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 1,
-              "http://www.opengis.net/ont/sf#MultiPolygon": 1
+              "http://www.opengis.net/ont/sf#Polygon": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
@@ -2598,7 +2598,7 @@ var tree={
           "from": {
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 0,
-              "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion": 1
+              "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
@@ -3182,13 +3182,13 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 7,
-              "https://github.com/Research-Squirrel-Engineers/FAIRyland/Street": 7
+              "instancecount": 18,
+              "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion": 18
             }
           },
           "from": {}
         },
-        "instancecount": 11
+        "instancecount": 22
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
@@ -3278,13 +3278,13 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 2,
-              "http://www.opengis.net/ont/sf#MultiPolygon": 2
+              "instancecount": 128,
+              "http://www.opengis.net/ont/sf#Polygon": 128
             }
           },
           "from": {}
         },
-        "instancecount": 6
+        "instancecount": 132
       },
       {
         "id": "http://www.github.com/sparqlunicorn#nonns_Feature.html",
