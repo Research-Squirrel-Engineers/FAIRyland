@@ -1,5 +1,7 @@
 # FAIRyland: A playful dataset for teaching Linked Open Data in archaeology
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18901447.svg)](https://doi.org/10.5281/zenodo.18901447)
+
 ![LegendComic](TheLegendOfFAIRyland.png)
 
 ## Once upon a time in FAIRyland...
@@ -119,7 +121,7 @@ If you use FAIRyland in your research or teaching, please cite:
   year = {2026},
   publisher = {GitHub},
   url = {https://github.com/Research-Squirrel-Engineers/FAIRyland},
-  doi = {10.5281/zenodo.XXXXXXX}
+  doi = {10.5281/zenodo.18901447}
 }
 ```
 
