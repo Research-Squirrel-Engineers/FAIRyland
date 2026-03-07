@@ -2,6 +2,8 @@
 
 > *A playful archaeological dataset for teaching Linked Open Data, SPARQL, and FAIR principles*
 
+![LegendComic](TheLegendOfFAIRyland.png)
+
 ## Once upon a time in FAIRyland...
 
 ...somewhere in the misty lands north of the Baltic, during the fabled **Minion Period** (ca. 3000-2000 BCE), a fiery rock fell from the heavens. When it struck the ground, the earth shook, carving a glittering crater that would later become the heart of a curious civilisation. The locals called it simply the **Impact** — and around it, life began to hum with yellow energy.
