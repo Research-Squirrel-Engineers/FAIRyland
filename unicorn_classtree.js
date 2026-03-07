@@ -1003,8 +1003,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.github.com/sparqlunicorn#Name": {
               "instancecount": 1
@@ -1020,7 +1020,7 @@ var tree={
             },
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 1,
-              "http://www.opengis.net/ont/sf#Polygon": 1
+              "http://www.opengis.net/ont/sf#Point": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
@@ -1178,8 +1178,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.github.com/sparqlunicorn#Condition": {
               "instancecount": 1
@@ -1258,8 +1258,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.github.com/sparqlunicorn#Name": {
               "instancecount": 1
@@ -1356,8 +1356,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.github.com/sparqlunicorn#Name": {
               "instancecount": 1
@@ -1373,7 +1373,7 @@ var tree={
             },
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 1,
-              "http://www.opengis.net/ont/sf#MultiPolygon": 1
+              "http://www.opengis.net/ont/sf#Polygon": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
@@ -1433,8 +1433,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.github.com/sparqlunicorn#Condition": {
               "instancecount": 1
@@ -1465,10 +1465,6 @@ var tree={
             "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": {
               "instancecount": 1,
               "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench": 1
-            },
-            "https://github.com/Research-Squirrel-Engineers/FAIRyland/timeperiod": {
-              "instancecount": 1,
-              "https://github.com/Research-Squirrel-Engineers/FAIRyland/TimePeriod": 1
             }
           },
           "from": {
@@ -1478,7 +1474,7 @@ var tree={
             }
           }
         },
-        "instancecount": 11
+        "instancecount": 10
       },
       {
         "id": "http://www.github.com/sparqlunicorn#4db030c2-2331-4dad-b17c-da023bceff9f",
@@ -1503,8 +1499,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.github.com/sparqlunicorn#Name": {
               "instancecount": 1
@@ -1559,8 +1555,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.github.com/sparqlunicorn#Name": {
               "instancecount": 1
@@ -2581,8 +2577,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.opengis.net/ont/geosparql#asWKT": {
               "instancecount": 1
@@ -2915,8 +2911,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.opengis.net/ont/geosparql#asWKT": {
               "instancecount": 1
@@ -2961,8 +2957,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.opengis.net/ont/geosparql#asWKT": {
               "instancecount": 1
@@ -3169,8 +3165,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
@@ -3217,8 +3213,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
@@ -3265,8 +3261,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
@@ -3275,13 +3271,13 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 42,
-              "http://www.opengis.net/ont/sf#Point": 42
+              "instancecount": 2,
+              "http://www.opengis.net/ont/sf#MultiPolygon": 2
             }
           },
           "from": {}
         },
-        "instancecount": 46
+        "instancecount": 6
       },
       {
         "id": "http://www.github.com/sparqlunicorn#nonns_Feature.html",
@@ -3292,8 +3288,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
