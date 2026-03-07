@@ -1,6 +1,6 @@
-# FAIRyland
+# FAIRyland: A playful dataset for teaching Linked Open Data in archaeology
 
-> *A playful archaeological dataset for teaching Linked Open Data, SPARQL, and FAIR principles*
+![LegendComic](TheLegendOfFAIRyland.png)
 
 ## Once upon a time in FAIRyland...
 
@@ -128,8 +128,7 @@ If you use FAIRyland in your research or teaching, please cite:
 ## License
 
 - **Code & Scripts**: MIT License
-- **Data & Documentation**: CC-BY 4.0
-- **Ontology**: CC0 1.0
+- **Data & Documentation**: CC BY 4.0
 
 ---
 
@@ -137,8 +136,8 @@ If you use FAIRyland in your research or teaching, please cite:
 
 **Research Squirrel Engineers**
 - Florian Thiery
-- Thibault Danthine
-- Luna Watkins Alpino
+- Brigit Danthine
+- Nadine Alpino
 
 Powered by:
 - [SPARQLing Unicorn QGIS Plugin](https://github.com/sparqlunicorn/sparqlunicornGoesGIS)
