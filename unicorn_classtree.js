@@ -1198,7 +1198,7 @@ var tree={
             },
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 1,
-              "http://www.opengis.net/ont/sf#Polygon": 1
+              "http://www.opengis.net/ont/sf#Point": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
@@ -1210,10 +1210,6 @@ var tree={
             "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": {
               "instancecount": 1,
               "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench": 1
-            },
-            "https://github.com/Research-Squirrel-Engineers/FAIRyland/timeperiod": {
-              "instancecount": 1,
-              "https://github.com/Research-Squirrel-Engineers/FAIRyland/TimePeriod": 1
             }
           },
           "from": {
@@ -1223,7 +1219,7 @@ var tree={
             }
           }
         },
-        "instancecount": 11
+        "instancecount": 10
       },
       {
         "id": "http://www.github.com/sparqlunicorn#0b12b1c6-4f43-4635-9437-2eccad89860a",
@@ -1389,10 +1385,6 @@ var tree={
             "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": {
               "instancecount": 1,
               "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench": 1
-            },
-            "https://github.com/Research-Squirrel-Engineers/FAIRyland/timeperiod": {
-              "instancecount": 1,
-              "https://github.com/Research-Squirrel-Engineers/FAIRyland/TimePeriod": 1
             }
           },
           "from": {
@@ -1402,7 +1394,7 @@ var tree={
             }
           }
         },
-        "instancecount": 10
+        "instancecount": 9
       },
       {
         "id": "http://www.github.com/sparqlunicorn#3a55458f-5c2f-4368-9a03-384f6377e301",
@@ -3183,13 +3175,13 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 136,
-              "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar": 136
+              "instancecount": 7,
+              "https://github.com/Research-Squirrel-Engineers/FAIRyland/Street": 7
             }
           },
           "from": {}
         },
-        "instancecount": 140
+        "instancecount": 11
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
@@ -3279,13 +3271,13 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 128,
-              "http://www.opengis.net/ont/sf#Polygon": 128
+              "instancecount": 42,
+              "http://www.opengis.net/ont/sf#Point": 42
             }
           },
           "from": {}
         },
-        "instancecount": 132
+        "instancecount": 46
       },
       {
         "id": "http://www.github.com/sparqlunicorn#nonns_Feature.html",
