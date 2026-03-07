@@ -2598,7 +2598,7 @@ var tree={
           "from": {
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 0,
-              "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar": 1
+              "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
@@ -3182,13 +3182,13 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 18,
-              "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion": 18
+              "instancecount": 7,
+              "https://github.com/Research-Squirrel-Engineers/FAIRyland/Street": 7
             }
           },
           "from": {}
         },
-        "instancecount": 22
+        "instancecount": 11
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
@@ -3278,13 +3278,13 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 128,
-              "http://www.opengis.net/ont/sf#Polygon": 128
+              "instancecount": 2,
+              "http://www.opengis.net/ont/sf#MultiPolygon": 2
             }
           },
           "from": {}
         },
-        "instancecount": 132
+        "instancecount": 6
       },
       {
         "id": "http://www.github.com/sparqlunicorn#nonns_Feature.html",
