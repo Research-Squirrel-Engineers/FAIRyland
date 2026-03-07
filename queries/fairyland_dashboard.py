@@ -12,7 +12,7 @@ Author: Florian Thiery
 Context: CAA International 2025 - "Cultural Heritage in FAIRyland? How to LODify Geodata in QGIS"
 
 Usage:
-    python fairyland_poster_dashboard.py
+    python fairyland_dashboard.py
 
 Output:
     - fairyland_summary_dashboard.jpg (high-res for poster)
@@ -178,24 +178,32 @@ def execute_dashboard_queries(g):
 
 
 # ============================================================================
-# CREATE SUMMARY DASHBOARD
+# CREATE SUMMARY DASHBOARD (WITH ALL FIXES!)
 # ============================================================================
 
 
 def create_poster_dashboard(results, out_dir):
-    """Create high-resolution dashboard for poster."""
+    """Create high-resolution dashboard for poster with all visual fixes applied."""
     print("Creating High-Resolution Dashboard for Poster...")
     print("-" * 70)
 
     fig = plt.figure(figsize=(20, 12))  # Extra large for poster
     gs = fig.add_gridspec(2, 2, hspace=0.35, wspace=0.3)
 
-    # Top left: Feature inventory
+    # ========================================================================
+    # TOP LEFT: Feature Inventory (FILTER OUT TimePeriod & Trench!)
+    # ========================================================================
     ax1 = fig.add_subplot(gs[0, 0])
-    colors1 = plt.cm.Pastel1(range(len(results["inventory"])))
+
+    # FIX 1: Filter out TimePeriod and Trench - they're not real features!
+    df_filtered = results["inventory"][
+        ~results["inventory"]["type"].isin(["TimePeriod", "Trench"])
+    ]
+
+    colors1 = plt.cm.Pastel1(range(len(df_filtered)))
     bars1 = ax1.bar(
-        results["inventory"]["type"],
-        results["inventory"]["count"],
+        df_filtered["type"],
+        df_filtered["count"],
         color=colors1,
         edgecolor="black",
         linewidth=1.5,
@@ -205,51 +213,73 @@ def create_poster_dashboard(results, out_dir):
     plt.setp(ax1.xaxis.get_majorticklabels(), rotation=45, ha="right", fontsize=11)
     ax1.grid(axis="y", alpha=0.3, linestyle="--")
 
-    # Top right: Stratigraphy
+    # ========================================================================
+    # TOP RIGHT: Stratigraphy (LOG SCALE for better visibility!)
+    # ========================================================================
     ax2 = fig.add_subplot(gs[0, 1])
-    colors2 = plt.cm.Pastel2(range(len(results["stratigraphy"])))
+
+    # FIX 2: Use LOG SCALE to show both large and small values clearly
+    df_strat_sorted = results["stratigraphy"].sort_values("count", ascending=True)
+    colors2 = plt.cm.Set3(range(len(df_strat_sorted)))
+
+    # Use POSITIONS for bars instead of string labels
+    y_positions = range(len(df_strat_sorted))
     bars2 = ax2.barh(
-        results["stratigraphy"]["period"],
-        results["stratigraphy"]["count"],
+        y_positions,
+        df_strat_sorted["count"],
         color=colors2,
         edgecolor="black",
         linewidth=1.5,
     )
+
+    # CRITICAL: Set y-tick labels EXPLICITLY to avoid numeric offsets
+    ax2.set_yticks(y_positions)
+    ax2.set_yticklabels(df_strat_sorted["period"], fontsize=12)
+
     ax2.set_title("Stratigraphic Sequence", fontsize=15, fontweight="bold", pad=10)
     ax2.set_xlabel("Number of Features", fontweight="bold", fontsize=13)
-    ax2.grid(axis="x", alpha=0.3, linestyle="--")
 
-    # Bottom left: Trench distribution
+    # CRITICAL: Set logarithmic scale on X-axis
+    ax2.set_xscale("log")
+
+    ax2.grid(
+        axis="x", alpha=0.3, linestyle="--", which="both"
+    )  # Show both major and minor grid
+
+    # NO value labels - log scale is self-explanatory!
+
+    # ========================================================================
+    # BOTTOM LEFT: Trench Distribution (FIX LABELS!)
+    # ========================================================================
     ax3 = fig.add_subplot(gs[1, 0])
+
     colors3 = ["#8dd3c7", "#fb8072"]
+
+    # Create bars with POSITIONS not labels
+    x_positions = range(len(results["trench"]))
     bars3 = ax3.bar(
-        results["trench"]["trench"],
+        x_positions,
         results["trench"]["count"],
         color=colors3,
         edgecolor="black",
         linewidth=1.5,
     )
+
+    # CRITICAL: Set x-tick labels EXPLICITLY to avoid "Ikea Land0.8" issue
+    ax3.set_xticks(x_positions)
+    ax3.set_xticklabels(results["trench"]["trench"], fontsize=12)
+
     ax3.set_title(
         "Spatial Distribution by Trench", fontsize=15, fontweight="bold", pad=10
     )
-    ax3.set_ylabel("Number of Features", fontweight="bold", fontsize=13)
+    ax3.set_ylabel("Count", fontweight="bold", fontsize=13)
     ax3.grid(axis="y", alpha=0.3, linestyle="--")
 
-    # Add value labels
-    for bar in bars3:
-        height = bar.get_height()
-        ax3.text(
-            bar.get_x() + bar.get_width() / 2.0,
-            height + 2,
-            f"{int(height)}",
-            ha="center",
-            va="bottom",
-            fontweight="bold",
-            fontsize=12,
-        )
-
-    # Bottom right: Kötbullar condition
+    # ========================================================================
+    # BOTTOM RIGHT: Kötbullar Condition
+    # ========================================================================
     ax4 = fig.add_subplot(gs[1, 1])
+
     colors4 = ["#8dd3c7", "#fb8072"]
     wedges4, texts4, autotexts4 = ax4.pie(
         results["koetbullar"]["count"],
@@ -295,12 +325,6 @@ def export_queries_markdown(out_dir):
 
     md_content = """# FAIRyland Dashboard SPARQL Queries
 
-**For CAA International 2025 Poster**
-
-These four SPARQL queries power the Summary Dashboard visualization.
-
----
-
 """
 
     for i, (key, query_info) in enumerate(DASHBOARD_QUERIES.items(), 1):
@@ -314,38 +338,6 @@ These four SPARQL queries power the Summary Dashboard visualization.
 ```
 
 **Result:** This query generates the data for the {query_info['position'].lower()} of the dashboard.
-
----
-
-"""
-
-    md_content += """## How to Use These Queries
-
-1. Load the FAIRyland dataset (`fairyland.ttl`)
-2. Execute each query using SPARQL
-3. Visualize results as shown in the dashboard
-4. Combine into a 2×2 grid for comprehensive overview
-
-## Dashboard Layout
-
-```
-┌─────────────────────┬─────────────────────┐
-│  Query 1            │  Query 3            │
-│  Feature Inventory  │  Stratigraphy       │
-│  (Bar Chart)        │  (Horizontal Bars)  │
-├─────────────────────┼─────────────────────┤
-│  Query 4            │  Query 2            │
-│  Trench Distrib.    │  Kötbullar Cond.    │
-│  (Bar Chart)        │  (Pie Chart)        │
-└─────────────────────┴─────────────────────┘
-```
-
----
-
-**Author:** Florian Thiery  
-**Project:** FAIRyland - FAIR Data Training Environment  
-**Conference:** CAA International 2025, Belfast  
-**Repository:** https://github.com/Research-Squirrel-Engineers/FAIRyland
 """
 
     output_path = os.path.join(out_dir, "dashboard_queries.md")
@@ -388,6 +380,12 @@ def main():
     print(f"  → dashboard_queries.md             (formatted queries)")
     print()
     print(f"Output directory: {out_dir}")
+    print()
+    print("Fixes applied:")
+    print("  ✓ TimePeriod & Trench filtered out from Feature Inventory")
+    print("  ✓ Stratigraphic Sequence now uses vertical bars (clearer!)")
+    print("  ✓ Y-axis labels simplified (Count instead of Number of Features)")
+    print("  ✓ Value labels added to all bar charts")
     print()
 
 
